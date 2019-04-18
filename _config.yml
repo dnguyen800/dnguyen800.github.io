@@ -1,14 +1,15 @@
 # Site settings
-title: Editorial
-subtitle: by HTML5 UP
-email: youremailaddress@gmail.com
-description: A FREE AND FULLY RESPONSIVE SITE TEMPLATE
-baseurl: "/editorial-jekyll-theme" # the subpath of your site, e.g. /blog
+title: Dwinnn Speaks
+subtitle: by Dan Nguyen
+email: dwinnnspeaks@gmail.com
+description: "test"
+baseurl: # the subpath of your site, e.g. /blog
+#baseurl:
 url: "" # the base hostname & protocol for your site
 author:
 street_address: 1234 Somewhere Road
-city: Nashville
-state: TN
+city: San Jose
+state: CA
 zip_code: 55555
 country: United States of America
 phone: (716) 555-5555
@@ -16,14 +17,33 @@ phone: (716) 555-5555
 # Social settings
 500px_url:
 facebook_url:
-github_url:
-gitlab_url: https://gitlab.com/u/andrewbanchich
-googleplus_url: https://plus.google.com/u/0/+AndrewBanchich
-instagram_url: https://instagram.com
-linkedin_url: https://www.linkedin.com/in/andrew-banchich-a4ba1195
+github_url: https://github.com/dnguyen800
+gitlab_url: 
+googleplus_url:
+instagram_url: 
+linkedin_url: https://www.linkedin.com/in/dwinnn
 pinterest_url:
 slack_url:
-twitter_url: https://twitter.com/andrewbanchich
+twitter_url: 
+email_url: mailto:dwinnnspeaks@gmail.com
+youtube_url: https://www.youtube.com/channel/UC1O-WwXbjHTKVT_j--r7MRQ
 
 # Build settings
 markdown: kramdown
+
+# Dan's changes
+# To build css customizations from _sass directory
+sass:
+    sass_dir: _sass
+
+collections:
+  category:
+    output: true
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: category
+    values:
+      layout: "category"
