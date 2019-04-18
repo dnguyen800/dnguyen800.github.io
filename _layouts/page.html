@@ -39,17 +39,7 @@
 					<div style="background-color: #f4f4f4; padding-left: 5px;">
 					  <span class="icon fa-camera-retro" style="font-size: small;"> : <a href="{{ page.image_url }}">{{ page.image_credit }}</a></span>					  
 				    </div>
-					
-					<!-- Categories -->
-					<div style="background-color: #f4f4f4; padding-left: 5px;">
-					  <strong>Categories</strong> 
-                    <!--  {% assign sortedCategories = page.categories | sort %} -->
-                      {% for category in page.categories %}
-                        <span class="icon fa-angle-right">						
-						  <a href="category/{{ category }}" style="text-decoration: none">{{ category }}</a>
-                        </span>
-                      {% endfor %}					
-					</div>
+
 				  
 					<!-- Competitors -->
 				  {% if page.competitors %}
@@ -62,7 +52,32 @@
                 {{ content }}
 				
 
-           
+					<!-- Related Posts section -->
+					<hr class="major" />
+					<section>
+						<header class="major">
+							<h3>Related Posts</h3>
+						</header>
+						<div class="posts">
+						{% assign relatedCount = 0 %}		
+						{% for firstCategory in page.categories %}						
+                            {% for related in site.categories[firstCategory] %}						
+							    {% unless page.permalink == related.permalink or relatedCount == 3 %}
+							    	{% assign relatedCount = relatedCount | plus: 1 %}
+							        <article>
+										<div class="article-image" style='background-image: url("assets/images/grid-ws2/{{ related.short_title }}.jpg");'>
+											<div class="overlay"><a href="{{ related.url }}">
+												<h2>{{ related.title }}</h2></a>
+											</div>
+										</div>
+										<p>{{ related.excerpt }}</p>
+							        </article>							
+							    {% endunless %}							
+						    {% endfor %}	
+						{% endfor %}
+						</div>
+					</section>
+				</section>                
 			
             </div>
           </div>
