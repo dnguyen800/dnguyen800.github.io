@@ -3,7 +3,6 @@ title: Security
 short_title: security
 layout: static
 tag: security
-permalink: "/category/security"
 ---
 
 <!-- Home Automation Topic Boxes -->

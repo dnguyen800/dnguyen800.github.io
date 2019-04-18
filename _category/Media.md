@@ -1,7 +1,6 @@
 ---
 title: Media
 tag: media
-permalink: "/category/media"
 layout: static
 ---
 

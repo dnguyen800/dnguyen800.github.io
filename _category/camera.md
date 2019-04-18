@@ -2,7 +2,6 @@
 title: Camera
 tag: camera
 layout: static
-permalink: "/category/camera"
 ---
 
 <!-- Home Automation Categories -->

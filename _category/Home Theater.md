@@ -2,7 +2,6 @@
 title: Home Theater
 layout: static
 tag: home_theater
-permalink: "/category/Home Theater"
 ---
 
 <!-- Home Automation Categories -->

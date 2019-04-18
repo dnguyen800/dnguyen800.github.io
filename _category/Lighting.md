@@ -2,7 +2,6 @@
 title: Lighting
 tag: lighting
 layout: static
-permalink: "/category/lighting"
 ---
 
 <!-- Home Automation Categories -->

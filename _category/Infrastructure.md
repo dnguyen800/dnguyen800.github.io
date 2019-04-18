@@ -2,7 +2,6 @@
 title: Infrastructure
 layout: static
 tag: infrastructure
-permalink: "/category/infrastructure"
 ---
 <header class="major">
 	   <h1>{{ page.title }}</h1>
