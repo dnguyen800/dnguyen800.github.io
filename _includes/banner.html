@@ -2,16 +2,28 @@
   <section id="banner">
     <div class="content">
       <header>
-        <h1>Hi, I’m Editorial<br />
-        by HTML5 UP</h1>
-        <p>A free and fully responsive site template</p>
+        <h1>Welcome.</h1>
+        <p>This site is about 
+	  <strong><a href="{{ '/category/Home%20Automation' | absolute_url }}">home automation</a></strong>, <strong><a href="{{ '/travel' | absolute_url }}">travel</a></strong>, and anything else I find interesting.</p>
       </header>
-      <p>Aenean ornare velit lacus, ac varius enim ullamcorper eu. Proin aliquam facilisis ante interdum congue. Integer mollis, nisl amet convallis, porttitor magna ullamcorper, amet egestas mauris. Ut magna finibus nisi nec lacinia. Nam maximus erat id euismod egestas. Pellentesque sapien ac quam. Lorem ipsum dolor sit nullam.</p>
+  	  <p><strong>To build a complete smart home, nearly every device needs to talk to each other.</strong> 
+	  I found a set of products that does just that.</p>
+
+	  <p><strong>I have personally tested each product to see how well they integrate.</strong> Some are great, while others just work. 
+	  I'll continue to update my recommendations as new products are released.</p>
+	  
+	  <p>The content on this site is my own personal, and independent opinion.</p>
       <ul class="actions">
-        <li><a href="#" class="button big">Learn More</a></li>
+        <li>
+		  <a href="{{ '/category/Home%20Automation' | absolute_url }}" class="button small">Home Automation</a>
+		  <a href="{{ '/travel' | absolute_url }}" class="button small">Travel</a>
+		  <a href="{{ '/photography' | absolute_url }}" class="button small">Works</a>
+		  <a href="{{ '/about' | absolute_url }}" class="button small">About</a>
+		  
+		</li>		
       </ul>
     </div>
     <span class="image object">
-      <img src="assets/images/pic10.jpg" alt="" />
+      <img src="assets/images/front-page/laptop.jpg" alt="" />
     </span>
   </section>

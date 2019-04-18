@@ -1,6 +1,42 @@
 <!-- Scripts -->
-  <script src="{{ 'assets/js/jquery.min.js' | absolute_url }}"></script>
+  
+  <script src="{{ 'assets/js/jquery.min.js' | absolute_url }}"></script> 
   <script src="{{ 'assets/js/skel.min.js' | absolute_url }}"></script>
   <script src="{{ 'assets/js/util.js' | absolute_url }}"></script>
   <!--[if lte IE 8]><script src="{{ 'assets/js/ie/respond.min.js' | absolute_url }}"></script><![endif]-->
   <script src="{{ 'assets/js/main.js' | absolute_url }}"></script>
+  
+<!-- Magnific Popup core JS file -->
+  <script src="{{ 'assets/js/jquery.magnific-popup.js' | absolute_url }}"></script>
+  <script>
+      $(document).ready(function() {
+        $('.parent-container').magnificPopup({
+          delegate: 'a', // child items selector, by clicking on it popup will open
+          type: 'image'
+  // other options
+        });
+		
+      });
+	  
+  </script>
+  <script type="text/javascript">
+      $(document).ready(function() {
+        $('.popup-gallery').magnificPopup({
+          delegate: 'a',
+          type: 'image',
+          tLoading: 'Loading image #%curr%...',
+          mainClass: 'mfp-img-mobile',
+          gallery: {
+            enabled: true,
+            navigateByImgClick: true,
+            preload: [0,1] // Will preload 0 - before current, and 1 after the current image
+          },
+          image: {
+            tError: '<a href="%url%">The image #%curr%</a> could not be loaded.',
+            titleSrc: function(item) {
+              return item.el.attr('title') + '<small>by Dan Nguyen</small>';
+            }
+          }
+        });
+      });
+    </script>

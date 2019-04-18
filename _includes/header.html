@@ -1,6 +1,6 @@
 <!-- Header -->
   <header id="header">
-    <a href="{{ '' | absolute_url }}" class="logo"><strong>{{ site.title }}</strong> {{ site.subtitle }}</a>
+    <a href="{{ 'index.html' | absolute_url }}" class="logo"><strong>{{ site.title }}</strong> {{ site.subtitle }}</a>
     <ul class="icons">
       {% if site.twitter_url %}
       <li><a href="{{ site.twitter_url }}" class="icon fa-twitter" target="_blank"><span class="label">Twitter</span></a></li>
@@ -10,7 +10,10 @@
       {% endif %}
       {% if site.facebook_url %}
       <li><a href="{{ site.facebook_url }}" class="icon fa-facebook" target="_blank"><span class="label">Facebook</span></a></li>
-      {% endif %}
+      {% endif %} 
+      {% if site.youtube_url %}
+      <li><a href="{{ site.youtube_url }}" class="icon fa-youtube" target="_blank"><span class="label">Youtube</span></a></li>
+      {% endif %}	  	  
       {% if site.instagram_url %}
       <li><a href="{{ site.instagram_url }}" class="icon fa-instagram" target="_blank"><span class="label">Instagram</span></a></li>
       {% endif %}
@@ -31,6 +34,9 @@
       {% endif %}
       {% if site.linkedin_url %}
       <li><a href="{{ site.linkedin_url }}" class="icon fa-linkedin" target="_blank"><span class="label">LinkedIn</span></a></li>
+      {% endif %}
+      {% if site.email_url %}
+      <li><a href="{{ site.email_url }}" class="icon fa-envelope-o" target="_blank"><span class="label">E-mail</span></a></li>
       {% endif %}
     </ul>
   </header>
