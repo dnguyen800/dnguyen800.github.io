@@ -21,7 +21,7 @@
 
                 <!-- Content -->
                 <section>
-                	<header class="main">
+
 				  {% if page.image %}
 					<!-- Hero image and title -->
 				    <div class="hero" style='color: white; height: 500px; background-image: url("{{ page.image | absolute_url }}");'>
@@ -33,7 +33,7 @@
 				  {% else %}
 				        <h1>{{ page.title }}</h1>
                   {% endif %}					
-                	</header>					
+				
 					
 					<!-- Photo Credit -->
 					<div style="background-color: #f4f4f4; padding-left: 5px;">
@@ -44,8 +44,8 @@
 
 					<div style="background-color: #f4f4f4; padding-left: 5px;">					
 						Categories
-						{% for ffirstCategory in page.categories %}										
-						> {{ ffirstCategory }}
+						{% for firstCategory in page.categories %}										
+						> <a href="/category/{{ firstCategory }}"> {{ firstCategory }}</a>
 						{% endfor %}
 						</div>
   
