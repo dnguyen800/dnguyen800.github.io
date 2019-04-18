@@ -41,6 +41,18 @@
 					  <span class="icon fa-camera-retro" style="font-size: small;"> : <a href="{{ page.image_url }}">{{ page.image_credit }}</a></span>	
 				  {% endif %}	
 				    </div>
+					
+					<!-- Categories -->
+					<div style="background-color: #f4f4f4; padding-left: 5px;"><strong>Categories</strong> 
+                      {% assign sortedCategories = page.categories | sort %}
+                      {% for category in sortedCategories %}
+                        <span class="icon fa-angle-right">						
+						  <a href="category/{{ category }}" style="text-decoration: none">{{ category }}</a>
+                        </span>
+                      {% endfor %}					
+					</div>
+                  {% endif %}
+				  
 					<!-- Competitors -->
 				  {% if page.competitors %}
 				    <div style="background-color: #f4f4f4; padding-left: 5px;"><strong>Competitors in this space: </strong> 
