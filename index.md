@@ -2,96 +2,54 @@
 layout: default
 ---
 
-<!-- Section -->
+<!-- Hobbies -->
+
 <section>
 	<header class="major">
-		<h2>Erat lacinia</h2>
+		<h2>Hobbies</h2>
 	</header>
 	<div class="features">
 		<article>
-			<span class="icon fa-diamond"></span>
+			<span class="icon fa-home"></span>
 			<div class="content">
-				<h3>Portitor ullamcorper</h3>
-				<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
+				<h3><a href="{{ 'home-automation.html' | absolute_url }}">Home Automation</a></h3>
+				<p>I wanted to see what was possible with home automation in 2019, so I came back to discuss some exciting new technologies you may not have realized are available today.</p>
 			</div>
 		</article>
 		<article>
-			<span class="icon fa-paper-plane"></span>
+			<span class="icon fa-globe"></span>
 			<div class="content">
-				<h3>Sapien veroeros</h3>
-				<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
-			</div>
+				<h3><a href="{{ 'travel.html' | absolute_url }}">Travel</a></h3>
+				<p>I was fortunate enough to take time off and travel around parts of the world. I have some routes and tips to share for those who are planning their  next long-term adventure.</p>
+			</div>		  
 		</article>
 		<article>
-			<span class="icon fa-rocket"></span>
+			<span class="icon fa-camera-retro"></span>
 			<div class="content">
-				<h3>Quam lorem ipsum</h3>
-				<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
-			</div>
-		</article>
-		<article>
-			<span class="icon fa-signal"></span>
-			<div class="content">
-				<h3>Sed magna finibus</h3>
-				<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
-			</div>
+				<h3><a href="{{ 'photography.html' | absolute_url }}">Photography</a></h3>
+				<p>I'm not a photographer, but I took a few nice photos during my travels. Here is a curated selection of said photos.</p>
+			</div>		  
 		</article>
 	</div>
 </section>
 
-<!-- Section -->
+<!--  -->
+<!-- Latest Updates -->
+
 <section>
 	<header class="major">
-		<h2>Ipsum sed dolor</h2>
+		<h2>Latest Updates</h2>
 	</header>
 	<div class="posts">
+	{% for post in site.posts limit:3 %}
 		<article>
-			<a href="#" class="image"><img src="assets/images/pic01.jpg" alt="" /></a>
-			<h3>Interdum aenean</h3>
-			<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
-			<ul class="actions">
-				<li><a href="#" class="button">More</a></li>
-			</ul>
+			<div class="article-image" style='background-image: url("{{ site.baseurl }}/assets/images/grid-ws2/{{ post.short_title }}.jpg");'>
+				<div class="overlay"><a href="{{ site.baseurl }}{{ post.url }}">
+					<h2>{{ post.title }}</h2></a>
+				</div>
+			</div>
+			<p>{{ post.update }}</p>
 		</article>
-		<article>
-			<a href="#" class="image"><img src="assets/images/pic02.jpg" alt="" /></a>
-			<h3>Nulla amet dolore</h3>
-			<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
-			<ul class="actions">
-				<li><a href="#" class="button">More</a></li>
-			</ul>
-		</article>
-		<article>
-			<a href="#" class="image"><img src="assets/images/pic03.jpg" alt="" /></a>
-			<h3>Tempus ullamcorper</h3>
-			<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
-			<ul class="actions">
-				<li><a href="#" class="button">More</a></li>
-			</ul>
-		</article>
-		<article>
-			<a href="#" class="image"><img src="assets/images/pic04.jpg" alt="" /></a>
-			<h3>Sed etiam facilis</h3>
-			<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
-			<ul class="actions">
-				<li><a href="#" class="button">More</a></li>
-			</ul>
-		</article>
-		<article>
-			<a href="#" class="image"><img src="assets/images/pic05.jpg" alt="" /></a>
-			<h3>Feugiat lorem aenean</h3>
-			<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
-			<ul class="actions">
-				<li><a href="#" class="button">More</a></li>
-			</ul>
-		</article>
-		<article>
-			<a href="#" class="image"><img src="assets/images/pic06.jpg" alt="" /></a>
-			<h3>Amet varius aliquam</h3>
-			<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
-			<ul class="actions">
-				<li><a href="#" class="button">More</a></li>
-			</ul>
-		</article>
+    {% endfor %}	
 	</div>
 </section>
