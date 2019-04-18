@@ -42,16 +42,13 @@
 
 					<!-- Categories section -->
 
-					<div style="background-color: #f4f4f4; padding-left: 5px;">
-					  <strong>Categories</strong> 
-                    <!--  {% assign sortedCategories = page.categories | sort %} -->
-                      {% for cat in page.categories %}
-                        <span class="icon fa-angle-right">						
-						  <a href="category/{{ cat }}" style="text-decoration: none">{{ cat }}</a>
-                        </span>
-                      {% endfor %}					
-					</div>  
-
+					<div style="background-color: #f4f4f4; padding-left: 5px;">					
+						Categories
+						{% for ffirstCategory in page.categories %}										
+						> {{ ffirstCategory }}
+						{% endfor %}
+						</div>
+  
 
 					
 					<!-- Competitors -->
@@ -90,6 +87,7 @@
 						{% endfor %}
 						</div>
 					</section>
+					
 				</section>                
 			
             </div>
