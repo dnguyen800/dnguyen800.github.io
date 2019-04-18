@@ -26,21 +26,21 @@ __Not everything is perfect, but the solution I have is good enough to recommend
 	<div class="posts">
 		<article>
 			<span class="image object" style="width: 20vw;" >
-			  <img src="{{ site.baseurl }}/assets/images/front-page/diy-skill.jpg" alt="" style="width: 100%; " />
+			  <img src="{{ '/assets/images/other/diy-skill.jpg' | absolute_url }}" alt="" style="width: 100%; " />
 			</span>
 			<h3>A DIY Skill Level</h3>
 			<p>Not everyone aspires to be an electrician, and neither do I. My product recommendations are for do-it-yourself hobbyists with little to no professional experience in electrical work, but want to learn. To give an example of skill level needed, I can mount a TV on the wall but I would not wire an outlet without an electrician’s help.</p>
 		</article>
 		<article>
 			<span class="image object" style="width: 20vw;" >
-			  <img src="{{ site.baseurl }}/assets/images/front-page/music.jpg" style="width: 100%; " />
+			  <img src="{{ '/assets/images/other/music.jpg' | absolute_url }}" style="width: 100%; " />
 			</span>
 			<h3>Music at my convenience</h3>
 			<p>I wanted a way to enjoy my digitized music collection (over 200 CDs!) and stream music throughout the house — and I’m happy to report that this is easily achievable with Chromecast Built-in speakers and the multi-room audio feature. Using smart speakers meant sacrificing audio fidelity, but that was my only choice in order to stay within budget. It’s been really nostalgic to rediscover old favorite songs from the past two decades back. I love it!</p>
 		</article>
 		<article>
 			<span class="image object" style="width: 20vw;" >
-			  <img src="{{ site.baseurl }}/assets/images/front-page/home-assistant.png" style="width: 100%; " />
+			  <img src="{{ '/assets/images/other/home-assistant.png' | absolute_url }}"  style="width: 100%; " />
 			</span>
 			<h3>A simple setup unless I really want a feature</h3>
 			<p>I value my time and sanity, so I stuck with consumer products like those from Google and Nest. There are cons to using cloud-dependent products, but I haven’t found any comparable products that are easy to set up and access remotely. I also wanted a nice user interface to highlight the smart home capabilities, so I set up a <a href="https://www.home-assistant.io">Home Assistant instance</a> to serve as a dashboard. Man, what a time sink it turned out to be, but Home Assistant is arguably the coolest part of my smart home. </p>
@@ -48,7 +48,7 @@ __Not everything is perfect, but the solution I have is good enough to recommend
 
 		<article>
 			<span class="image object" style="width: 20vw;" >
-			  <img src="{{ site.baseurl }}/assets/images/front-page/budget.jpg" style="width: 100%; " />
+			  <img src=" {{ '/assets/images/other/budget.jpg' | absolute_url }}" style="width: 100%; " />
 			  </span>
 			<h3>A Reasonable Budget</h3>
 			<p>I favor reliability over cheaper prices, especially if it means saving time and headaches. Starting with a budget of $1,000 is enough to cover the infrastructure purchases and a few aspects of the smart home. $3,000 should be enough to cover everything except extravagant items like the Google Home Max, and iPads.</p>
@@ -72,7 +72,7 @@ If you worry about your products becoming outdated, you will never start buildin
 <!-- Home Automation Categories -->
 
 <section>
-	<a href="{{ site.baseurl }}/category/Infrastructure">
+	<a href="/category/Infrastructure">
       <header class="major">
 	   <h2>Infrastructure</h2>
 	  </header>
@@ -80,8 +80,8 @@ If you worry about your products becoming outdated, you will never start buildin
 <div class="posts">
 {% for post in site.categories['Infrastructure'] %}
 	<article>
-	  <div class="article-image" style='background-image: url("{{ site.baseurl }}/assets/images/grid-ws2/{{ post.short_title }}.jpg");'>
-			<div class="overlay"><a href="{{ site.baseurl }}{{ post.url }}">
+	  <div class="article-image" style='background-image: url(" {{ absolute_url }}");'>
+			<div class="overlay"><a href="{{ post.url }}">
 			  <h2>{{ post.title }}</h2></a>
 			</div>
 	  </div>
@@ -92,15 +92,15 @@ If you worry about your products becoming outdated, you will never start buildin
 </section>
 
 <section>
-	<a href="{{ site.baseurl }}/category/Media">
+	<a href="/category/Media">
 	<header class="major">
 		<h2>Media</h2>
 	</header></a>
 <div class="posts">
 {% for post in site.categories['Media'] %}
    <article>
-	  <div class="article-image" style='background-image: url("{{ site.baseurl }}/assets/images/grid-ws2/{{ post.short_title }}.jpg");'>
-			<div class="overlay"><a href="{{ site.baseurl }}{{ post.url }}">
+	  <div class="article-image" style='background-image: url("/assets/images/grid-ws2/{{ post.short_title }}.jpg");'>
+			<div class="overlay"><a href="{{ post.url }}">
 			  <h2>{{ post.title }}</h2></a>
 			</div>
 	  </div>
@@ -111,14 +111,14 @@ If you worry about your products becoming outdated, you will never start buildin
 </section>
 
 <section>
-	<a href="{{ site.baseurl }}/category/Security"><header class="major">
+	<a href="/category/Security"><header class="major">
 		<h2>Security</h2>
 	</header></a>
 <div class="posts">
 {% for post in site.categories['Security'] %}
    <article>
-	  <div class="article-image" style='background-image: url("{{ site.baseurl }}/assets/images/grid-ws2/{{ post.short_title }}.jpg");'>
-			<div class="overlay"><a href="{{ site.baseurl }}{{ post.url }}">
+	  <div class="article-image" style='background-image: url("/assets/images/grid-ws2/{{ post.short_title }}.jpg");'>
+			<div class="overlay"><a href="{{ post.url }}">
 			  <h2>{{ post.title }}</h2></a>
 			</div>
 	  </div>
@@ -129,14 +129,14 @@ If you worry about your products becoming outdated, you will never start buildin
 </section>
 
 <section>
-	<a href="{{ site.baseurl }}/category/Lighting"><header class="major">
+	<a href="/category/Lighting"><header class="major">
 		<h2>Lighting</h2>
 	</header></a>
 <div class="posts">
 {% for post in site.categories['Lighting'] %}
    <article>
-	  <div class="article-image" style='background-image: url("{{ site.baseurl }}/assets/images/grid-ws2/{{ post.short_title }}.jpg");'>
-			<div class="overlay"><a href="{{ site.baseurl }}{{ post.url }}">
+	  <div class="article-image" style='background-image: url("/assets/images/grid-ws2/{{ post.short_title }}.jpg");'>
+			<div class="overlay"><a href="{{ post.url }}">
 			  <h2>{{ post.title }}</h2></a>
 			</div>
 	  </div>
@@ -147,14 +147,14 @@ If you worry about your products becoming outdated, you will never start buildin
 </section>
 
 <section>
-	<a href="{{ site.baseurl }}/category/Gadgets"><header class="major">
+	<a href="/category/Gadgets"><header class="major">
 		<h2>Gadgets</h2>
 	</header></a>
 <div class="posts">
 {% for post in site.categories['Gadgets'] %}
    <article>
-	  <div class="article-image" style='background-image: url("{{ site.baseurl }}/assets/images/grid-ws2/{{ post.short_title }}.jpg");'>
-			<div class="overlay"><a href="{{ site.baseurl }}{{ post.url }}">
+	  <div class="article-image" style='background-image: url("/assets/images/grid-ws2/{{ post.short_title }}.jpg");'>
+			<div class="overlay"><a href="{{ post.url }}">
 			  <h2>{{ post.title }}</h2></a>
 			</div>
 	  </div>

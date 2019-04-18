@@ -8,7 +8,7 @@ permalink: "/category/sensor"
 <!-- Home Automation Categories -->
 
 <section>
-	<a href="{{ site.baseurl }}/category/{{ page.title }}">
+	<a href="/category/{{ page.title }}">
       <header class="major">
 	   <h2>{{ page.title }} Categories</h2>
 	  </header>
@@ -16,8 +16,8 @@ permalink: "/category/sensor"
 <div class="posts">
 {% for post in site.categories['Sensor'] %}
 	<article>
-	  <div class="article-image" style='background-image: url("{{ site.baseurl }}/assets/images/grid-ws2/{{ post.short_title }}.jpg");'>
-			<div class="overlay"><a href="{{ site.baseurl }}{{ post.url }}">
+	  <div class="article-image" style='background-image: url("/assets/images/grid-ws2/{{ post.short_title }}.jpg");'>
+			<div class="overlay"><a href="{{ post.url }}">
 			  <h2>{{ post.title }}</h2></a>
 			</div>
 	  </div>
