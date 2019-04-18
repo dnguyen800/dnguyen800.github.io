@@ -3,7 +3,7 @@ title: Dwinnn Speaks
 subtitle: by Dan Nguyen
 email: dwinnnspeaks@gmail.com
 description: "test"
-baseurl: # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 #baseurl:
 url: "" # the base hostname & protocol for your site
 author:
