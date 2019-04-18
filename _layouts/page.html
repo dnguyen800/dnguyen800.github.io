@@ -22,16 +22,73 @@
                 <!-- Content -->
                 <section>
                 	<header class="main">
-                		<h1>{{ page.title }}</h1>
+				  {% if page.image %}
+				  {% else %}
+				        <h1>{{ page.title }}</h1>
+                  {% endif %}				  				  				                 		
                 	</header>
 
+					<!-- Hero image and title -->
                   {% if page.image %}
-                	<span class="image main"><img src="{{ page.image | absolute_url }}" alt="" /></span>
+				    <div class="hero" style='color: white; height: 500px; background-image: url("{{ page.image | absolute_url }}");'>
+                      <div class="hero__content" >
+                        <h1 style="padding-left: 1vw; background-image: linear-gradient(135deg, rgba(0, 0, 0, .6), rgba(0, 0, 0, .0));">{{ page.title }}</h1>
+                        <p style="padding-left: 1vw; background-image: linear-gradient(135deg, rgba(0, 0, 0 , .6), rgba(0, 0, 0, .0));">{{ page.excerpt }}</p>
+                      </div>
+					</div>
+					<!-- Photo Credit -->
+					<div style="background-color: #f4f4f4; padding-left: 5px;">
+					  <span class="icon fa-camera-retro" style="font-size: small;"> : <a href="{{ page.image_url }}">{{ page.image_credit }}</a></span>	
+					</div>
+					<!-- Categories -->
+					<div style="background-color: #f4f4f4; padding-left: 5px;"><strong>Categories</strong> 
+                      {% assign sortedCategories = page.categories | sort %}
+                      {% for category in sortedCategories %}
+                        <span class="icon fa-angle-right">						
+						  <a href="{{ site.baseurl }}/category/{{ category }}" style="text-decoration: none">{{ category }}</a>
+                        </span>
+                      {% endfor %}					
+					</div>
                   {% endif %}
-
+					<!-- Competitors -->
+				  {% if page.competitors %}
+				    <div style="background-color: #f4f4f4; padding-left: 5px;"><strong>Competitors in this space: </strong> 
+					{{ page.competitors }}
+					</div>
+				  {% endif %}
+				    <p></p>
+					
                 {{ content }}
+				
+					<!-- Related Posts section -->
+					<hr class="major" />
+					<section>
+						<header class="major">
+							<h3>Related Posts</h3>
+						</header>
+						<div class="posts">
+						{% assign relatedCount = 0 %}		
+						{% for firstCategory in page.categories %}						
+                            {% for related in site.categories[firstCategory] %}						
+							    {% unless page.permalink == related.permalink or relatedCount == 3 %}
+							    	{% assign relatedCount = relatedCount | plus: 1 %}
+							        <article>
+										<div class="article-image" style='background-image: url("{{ site.baseurl }}/assets/images/grid-ws2/{{ related.short_title }}.jpg");'>
+											<div class="overlay"><a href="{{ site.baseurl }}{{ related.url }}">
+												<h2>{{ related.title }}</h2></a>
+											</div>
+										</div>
+										<p>{{ related.excerpt }}</p>
+							        </article>							
+							    {% endunless %}							
+						    {% endfor %}	
+						{% endfor %}
+						</div>
+					</section>
+				</section>
 
-              </div>
+			
+            </div>
           </div>
 
           {% include sidebar.html %}
@@ -40,6 +97,7 @@
 
       {% include footer.html %}
 
+	  
 </body>
 
 </html>
