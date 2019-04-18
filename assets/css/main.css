@@ -2542,6 +2542,100 @@
 			display: none;
 		}
 
+/* Figure Added by Dan Nguyen */		
+
+    figure.align-center { width: 75%; text-align: center; font-size: smaller; text-indent: 0; padding: 0.5em; display: block; margin-right: auto; margin-left: auto; }			    
+	figure.align-center img { width: 100%; display: block; margin-right: auto; margin-left: auto; border-radius: 0.375em; border: 0;}
+    figure.align-center figcaption { text-align: center; font-style: italic; }
+
+    figure.align-left { width: 25%; text-align: center; font-size: smaller; text-indent: 0; padding: 1em; display: block; float: left; }			    
+	figure.align-left img { width: 100%; border-radius: 0.375em; border: 0; }
+    figure.align-left figcaption { text-align: center; font-style: italic; }
+
+    figure.align-right { width: 40%; text-align: center; font-size: smaller; text-indent: 0; padding: 1em; display: block; float: right; }			    
+	figure.align-right img { width: 100%; border-radius: 0.375em; border: 0; }
+    figure.align-right figcaption { text-align: center; font-style: italic; }	
+	
+	figure.fourthtest { max-width: 442px; }
+    figure.fourthtest img { width: 100%; display: block;  margin-left: auto; margin-right: auto; border-radius: 0.375em; border: 0; }
+	figure.fourthtest figcaption { text-align: center; font-size: smaller; }
+	
+    figure.fourth { float: left; width: 25%; text-align: center; font-size: smaller; text-indent: 0; border: thin silver solid; padding: 0.5em; }
+    figure.fourth img { width: 100% }
+    figure.half { float: left; width: 50%; text-align: center; font-size: smaller; text-indent: 0; border: thin silver solid; padding: 0.5em; }
+    figure.half img { width: 100% }
+    figure.third { float: left; width: 33%; text-align: center; font-size: smaller; text-indent: 0; border: thin silver solid; padding: 0.5em;  }	
+    figure.third img { width: 100%; border-radius: 0.375em; border: 0; }
+	
+	
+/* Youtube video by Dan Nguyen */	
+    .container {
+        position: relative;
+        width: 50%;
+        height: 0;
+        padding-bottom: 36.25%;
+		margin-right: auto; 
+		margin-left: auto;
+    }
+	
+    .video {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+	
+/*  Added by Dan Nguyen, from TeXt theme */
+
+    p.success { padding: 0.5rem 1rem; background-color: rgba(82, 196, 26, 0.1); border: 1px solid #52c41a; border-radius: 0.4rem; }
+    p.info { padding: 0.5rem 1rem; background-color: rgba(24, 144, 255, 0.1); border: 1px solid #1890ff; border-radius: 0.4rem; }
+    p.warning { padding: 0.5rem 1rem; background-color: rgba(250, 140, 22, 0.1); border: 1px solid #fa8c16; border-radius: 0.4rem; }
+    p.error { padding: 0.5rem 1rem; background-color: rgba(245, 34, 45, 0.1); border: 1px solid #f5222d; border-radius: 0.4rem; }
+
+
+
+	
+
+/* Hero added by Dan Nguyen, from TeXT theme */
+
+    .hero { color:white; background-position: 50% 50%; display: -webkit-box; display: -webkit-flex; display: -moz-flex; display: -ms-flexbox; display: flex; -webkit-box-direction: normal; -webkit-box-orient: vertical; -webkit-flex-direction: column; -moz-flex-direction: column; -ms-flex-direction: column; flex-direction: column; -webkit-box-pack: center; -ms-flex-pack: center; -webkit-justify-content: center; -moz-justify-content: center; justify-content: center; background-size: cover; }
+    .hero h1 { font-size: 3.5rem; color:white;}
+    .hero h2 { font-size: 2.5rem; color:white;}
+    .hero h3 { font-size: 2rem; color:white;}
+    .hero h4 { font-size: 1.75rem; color:white;}
+    .hero h5 { font-size: 1.5rem; color:white;}
+    .hero h6 { font-size: 1.5rem; color:white;}
+    .hero p { font-size: 1.5rem; color:white;}
+	.hero img { display: block; margin: 0 0 3em 0; width: 100%; }
+    @media (max-width: 1023px) { .hero h1 { font-size: 3rem; }
+      .hero h2 { font-size: 2rem; }
+      .hero h3 { font-size: 1.75rem; }
+      .hero h4 { font-size: 1.5rem; }
+      .hero h5 { font-size: 1.25rem; }
+      .hero h6 { font-size: 1.25rem; }
+      .hero p { font-size: 1.25rem; } }
+    @media (max-width: 499px) { .hero h1 { font-size: 2rem; }
+      .hero h2 { font-size: 1.5rem; }
+      .hero h3 { font-size: 1.35rem; }
+      .hero h4 { font-size: 1.15rem; }
+      .hero h5 { font-size: 1rem; }
+      .hero h6 { font-size: 1rem; }
+      .hero p { font-size: 1rem; } }
+
+    .hero--center { text-align: center; }
+
+    .hero--top { text-align: left; margin: 0.25rem 0.25rem; }
+
+    .hero__content { margin: 3rem; }
+    @media (max-width: 1023px) { .hero__content { margin: 3rem 1.5rem; } }
+    @media (max-width: 499px) { .hero__content { margin: 1.5rem 1rem; } }
+
+    .heros > .hero { margin: 3rem; }
+    @media (max-width: 1023px) { .heros > .hero { margin: 1rem; } }
+    @media (max-width: 499px) { .heros > .hero { margin: 0.5rem 0; } }	
+	
+	
 /* Image */
 
 	.image {
@@ -2586,6 +2680,33 @@
 				width: 100%;
 			}
 
+		.image.logo {
+			display: block;
+			margin: 0 0 0 0;
+			max-width: 15vw;
+			min-width: 1vw;
+		    margin-left: auto;
+            margin-right: auto;
+		}
+	
+			
+		.image.dan-left {
+			max-width: 25%;
+			float: left;
+			padding: 0 1.5em 1em 0;
+			top: 0.25em;
+			
+		}
+		
+			.image.dan-left img {
+				width: 100%;
+		        border-radius: 0.375em;
+		        border: 0;
+			}		
+
+		
+
+			
 		.image.main {
 			display: block;
 			margin: 0 0 3em 0;
@@ -3272,6 +3393,24 @@
 
 		}
 
+
+/* Fade Overlay added by Dan Nguyen from VangelTso Halve theme*/
+    .overlay {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      height: 220px;
+      width: 100%;
+	  border-radius: 0.375em; 
+      opacity: 1;
+      transition: .5s ease;
+	  align-items: center;
+	  justify-content: center;
+	  background-image: linear-gradient(135deg, rgba(0, 0, 0, .7), rgba(0, 0, 0, .2));
+    }
+		
 /* Posts */
 
 	.posts {
@@ -3327,6 +3466,40 @@
 				margin-bottom: 0;
 			}
 
+			/* Dan's additions for article-image */
+			
+			.posts article .article-image {
+				display: flex;
+				background-repeat: no-repeat;
+				background-position: center center;
+				height: 220px;
+				border-radius: 0.375em; 
+				border: 0;
+				align-items: center;
+				justify-content: center;
+				-webkit-transition: background 0.2s linear;
+                -moz-transition: background 0.2s linear;
+                -ms-transition: background 0.2s linear;
+                -o-transition: background 0.2s linear;
+                transition: background 0.2s linear;
+			}
+
+			.posts article .article-image:hover .overlay {
+                opacity: 0;
+            }
+			
+
+			.posts article .article-image .overlay h2 {
+                color: white;
+				position: absolute;
+				top: 50%;
+                left: 50%;
+	  		    -webkit-transform: translate(-50%, -50%);
+                -ms-transform: translate(-50%, -50%);
+                transform: translate(-50%, -50%);
+				text-align: center;						    
+			}
+			
 			.posts article .image {
 				display: block;
 				margin: 0 0 2em 0;
@@ -4062,3 +4235,6 @@
 			margin-top: 0;
 			padding-top: 0;
 		}
+		
+		
+/* Magnific Popup */
