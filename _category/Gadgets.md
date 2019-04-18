@@ -2,7 +2,6 @@
 title: Gadgets
 layout: static
 tag: gadgets
-permalink: "/category/gadgets"
 ---
 
 <!-- Home Automation Categories -->
