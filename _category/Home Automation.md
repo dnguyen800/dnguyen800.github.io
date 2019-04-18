@@ -80,7 +80,7 @@ If you worry about your products becoming outdated, you will never start buildin
 <div class="posts">
 {% for post in site.categories['Infrastructure'] %}
 	<article>
-	  <div class="article-image" style='background-image: url(" {{ absolute_url }}");'>
+	  <div class="article-image" style='background-image: url("/assets/images/grid-ws2/{{ post.short_title }}.jpg");'>
 			<div class="overlay"><a href="{{ post.url }}">
 			  <h2>{{ post.title }}</h2></a>
 			</div>

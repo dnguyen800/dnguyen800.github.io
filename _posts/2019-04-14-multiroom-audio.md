@@ -5,7 +5,7 @@ short_title: multiroom-audio
 excerpt: Previously a wired-only and costly solution, multi-room audio is now available for music lovers with modest budgets.
 permalink: /multiroom-audio
 competitors: "Google Home/Chromecast, Amazon Echo, Sonos One, Apple Homepod, Denon Heos, and wired solutions"
-image: assets/images/overlay/multiroom-audio.jpg
+image: assets/images/overlay-ws/multiroom-audio.jpg
 image_credit: Dan Nguyen
 categories: 
     - "Music"
