@@ -31,16 +31,17 @@ This website is free of advertisements--I'm not here to make a living off my sit
       <p>I am an avid learner of technology, and for the most part, everything I've learned is self-taught. Exploring home automation has given me the opportunity to learn a new set of skills such as Python and Javascript programming, Liquid templating, and become more familiar with OS and server management (Linux, Docker), website design (CSS/HTML), and network security.  I've contributed Python components and Javascript-based UI cards to the Home Assistant open-source community, which you can find on my <a href="{{ site.github_url }}">Github page</a>.</p>
       <p class="box"><b>OTHER INTERESTS:</b> Traveling, cooking, 3D modeling (architecture), drawing, cinema</p>      
     </div>
-    <span class="image object" style="width:30%; text-align: center">
+    
+    <span class="image right" style="width:30%; text-align: center">
       <img src="assets/images/front-page/about2.jpg" alt="" />
       <ul class="icons">
       <li><a href="{{ site.youtube_url }}" class="icon fa-youtube" target="_blank"><span class="label">Youtube</span></a></li>	
       <li><a href="{{ site.github_url }}" class="icon fa-github" target="_blank"><span class="label">GitHub</span></a></li>
       <li><a href="{{ site.linkedin_url }}" class="icon fa-linkedin" target="_blank"><span class="label">LinkedIn</span></a></li>
       <li><a href="{{ site.email_url }}" class="icon fa-envelope-o" target="_blank"><span class="label">E-Mail</span></a></li>      
-      <li><a href="{{ site.email_url }}" style="font-size: smaller;">dwinnnspeaks@gmail.com</a></li>
       </ul>
     </span>
+    
   </section>
 
 <hr class="minor" />
