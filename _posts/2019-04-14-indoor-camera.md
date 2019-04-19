@@ -5,7 +5,7 @@ short_title: indoor-camera
 excerpt: With a security camera, you are one step closer to being a paranoid old man.
 competitors: "Nest, Ring, Wyze, Arlo, Blink, Laview, D-Link, Hikvision, Xiaomi, Simplisafe, Abode, Canary"
 permalink: /indoor-camera
-image: assets/images/overlay-ws/cameras.png
+image: assets/images/overlay-ws/indoor-camera.jpg
 image_credit: Warner Bros.
 categories: 
     - "Camera"

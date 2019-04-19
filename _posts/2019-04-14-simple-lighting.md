@@ -4,7 +4,7 @@ title: Simple Lighting
 short_title: simple-lighting
 excerpt: Not all lighting has to be smart and these solutions prove it.
 permalink: /simple-lighting
-image: assets/images/overlay/simple-lighting.jpg
+image: assets/images/overlay-ws/simple-lighting.jpg
 image_credit: Dan Nguyen
 categories: 
     - "Lighting"

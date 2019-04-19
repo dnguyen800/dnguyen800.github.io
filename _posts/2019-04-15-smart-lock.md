@@ -6,7 +6,7 @@ excerpt: You'll never be locked out of the house again with a smart lock, unless
 competitors: "August, Schlage, Next x Yale"
 update: "<strong>April 16, 2019:</strong> Added review of the August smart lock."
 permalink: /smart-lock
-image: assets/images/overlay/smart-lock.jpg
+image: assets/images/overlay-ws/smart-lock.jpg
 image_credit: Dan Nguyen
 categories: 
     - "Security"
