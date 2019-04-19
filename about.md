@@ -32,7 +32,7 @@ This website is free of advertisements--I'm not here to make a living off my sit
       <p class="box"><b>OTHER INTERESTS:</b> Traveling, cooking, 3D modeling (architecture), drawing, cinema</p>      
     </div>
     
-    <span class="image right" style="width:30%; text-align: center">
+    <figure class="image right" style="max-width: 30%; text-align: center; font-size: smaller; text-indent: 0; padding: 1em; display: block; float: right;">
       <img src="assets/images/front-page/about2.jpg" alt="" />
       <ul class="icons">
       <li><a href="{{ site.youtube_url }}" class="icon fa-youtube" target="_blank"><span class="label">Youtube</span></a></li>	
@@ -40,7 +40,7 @@ This website is free of advertisements--I'm not here to make a living off my sit
       <li><a href="{{ site.linkedin_url }}" class="icon fa-linkedin" target="_blank"><span class="label">LinkedIn</span></a></li>
       <li><a href="{{ site.email_url }}" class="icon fa-envelope-o" target="_blank"><span class="label">E-Mail</span></a></li>      
       </ul>
-    </span>
+    </figure>
     
   </section>
 

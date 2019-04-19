@@ -26,25 +26,28 @@ __Not everything is perfect, but the solution I have is good enough to recommend
 	<div class="posts">
 		<article>
 		  <img  class="article-image" src="{{ '/assets/images/other/diy-skill.jpg' | absolute_url }}" alt="" />
+			  <br>
 			  <h3>A DIY Skill Level</h3>
 			<p>Not everyone aspires to be an electrician, and neither do I. My product recommendations are for do-it-yourself hobbyists with little to no professional experience in electrical work, but want to learn. To give an example of skill level needed, I can mount a TV on the wall but I would not wire an outlet without an electrician’s help.</p>
 		</article>
 		<article>
 		  <img  class="article-image" src="{{ '/assets/images/other/music.jpg' | absolute_url }}" alt="" />
+			  <br>
 			  <h3>Music at my convenience</h3>
 			<p>I wanted a way to enjoy my digitized music collection (over 200 CDs!) and stream music throughout the house — and I’m happy to report that this is easily achievable with Chromecast Built-in speakers and the multi-room audio feature. Using smart speakers meant sacrificing audio fidelity, but that was my only choice in order to stay within budget. It’s been really nostalgic to rediscover old favorite songs from the past two decades back. I love it!</p>
 		</article>		
 		<article>
 		  <img  class="article-image" src="{{ '/assets/images/other/home-assistant.png' | absolute_url }}" alt="" />
+			  <br>
 			  <h3>A simple setup unless I really want a feature</h3>
 			<p>I value my time and sanity, so I stuck with consumer products like those from Google and Nest. There are cons to using cloud-dependent products, but I haven’t found any comparable products that are easy to set up and access remotely. I also wanted a nice user interface to highlight the smart home capabilities, so I set up a <a href="https://www.home-assistant.io">Home Assistant instance</a> to serve as a dashboard. Man, what a time sink it turned out to be, but Home Assistant is arguably the coolest part of my smart home. </p>
 		</article>			
 		<article>
 		  <img  class="article-image" src=" {{ '/assets/images/other/budget.jpg' | absolute_url }}" alt="" />
+			  <br>
 			  <h3>A Reasonable Budget</h3>
 			<p>I favor reliability over cheaper prices, especially if it means saving time and headaches. Starting with a budget of $1,000 is enough to cover the infrastructure purchases and a few aspects of the smart home. $3,000 should be enough to cover everything except extravagant items like the Google Home Max, and iPads.</p>
-		</article>			
-		
+		</article>					
 	</div>
 </section>
 
