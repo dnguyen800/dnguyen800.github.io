@@ -71,7 +71,7 @@ I’ve believe there are three categories I cover that will fit most people’s 
 
 
 <figure class="align-center">
- <img src="assets\images\other\diy-security.jpg" alt="" />
+ <a class="image-link" href="assets\images\other\diy-security.jpg" ><img src="assets\images\other\diy-security.jpg" alt="" /></a>
  <figcaption>
 I wall-mounted a tablet where the alarm keypad used to be. Easy to do with less risk compared to directly wiring the tablet to a power source.
  </figcaption>
@@ -237,5 +237,3 @@ Google Assistant integration exists to arm the system. Disarming through voice c
         <p>Ring is the best home security system -- it is the most affordable security system available and has most, if not all the key features that consumers need. Glass break sensors aren’t available with Ring, but using the new Alexa Guard feature with current-generation Amazon Echos can replicate that ability. Professional 24/7 monitoring starts at $10/month, which is the lowest price in the market.</p>
     </div>   
 </div>
-
-<p></p>

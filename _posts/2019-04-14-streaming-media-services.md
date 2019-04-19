@@ -68,7 +68,7 @@ I do want to acknowledge my music listening past (including the good and bad art
 **For streaming music, Spotify is, without a doubt, the best offering not only for its catalog of music but because it is the most openly supported music platform out there.** Spotify works with voice assistants, web browsers, Android, iOS, and Amazon platforms—not many music services can make that claim.  Even open-source platforms like Home Assistant and Volumio can access the Spotify API to control playback like the official app.  For the music lover, the playlist curation and personalized music recommendations are so precise that Spotify can find a song I love from an artist or album I don’t like. 
 
 <figure class="align-center">
- <img src="assets\images\other\spotify-desktop.jpg" />
+ <a class="image-link" href="assets\images\other\spotify-desktop.jpg" ><img src="assets\images\other\spotify-desktop.jpg" /></a>
  <figcaption>
 A view of the Spotify desktop app for Windows.
  </figcaption>
@@ -139,7 +139,7 @@ Voice control works really well. I can ask to play a particular song, artist or 
 You will be surprised how hard it is to get a Spotify-like music experience for your local music. I tried open-source music players like Volumio, Mopidy, and PiMusicbox, but those tend to miss critical features—like a good search function or artist biographies—that keep it as a bare-bones app. It is amazing how the underlying parts (media scrapers, search, file support) of Plex work together to make a cohesive experience.
 
 <figure class="align-center">
- <img src="assets\images\other\plex-app02.jpg" alt="" />
+ <a class="image-link" href="assets\images\other\plex-app02.jpg" ><img src="assets\images\other\plex-app02.jpg" alt="" /></a>
  <figcaption>
 Artist biographies in Plex. It’s fun to read about your favorite artists. Plex also shows similar artists, popular tracks—just like Spotify.
  </figcaption>
@@ -159,7 +159,7 @@ Music players don’t integrate with SmartThings—that’s expected by now. Hom
 Voice control is more difficult to get working on Google Assistant, though I think Amazon Alexa has an official integration with Plex. Getting Assistant to work requires installing a Hass.io add-on called [Phlex](https://github.com/hassio-addons/addon-phlex/blob/v1.0.0/README.md) and [Cast.bundle](https://github.com/d8ahazard/Cast.bundle). It would take some time to install and test it, so I couldn't do it at the time of this writing.
 
 <figure class="align-center">
- <img src="assets\images\other\jriver-app.jpg" alt="" />
+ <a class="image-link" href="assets\images\other\jriver-app.jpg" ><img src="assets\images\other\jriver-app.jpg" alt="" /></a>
  <figcaption>
 Jriver Media Center has an extensible set of tools to clean up metadata and cover art.
  </figcaption>
@@ -315,7 +315,7 @@ Voice commands with Google Assistant work really well on Youtube TV (naturally),
 <i>Youtube TV also has a generous family sharing option, allowing up to five additional members to have their own Youtube TV account, with three simultaneous streams each. There are certain limitations, like members can switch families only once a year, you can’t join more than one family. and members should be within a geographic range (unconfirmed as to the range).</i></p>
 
 <figure class="align-center">
- <img src="assets\images\other\youtube-tv.png" alt="" />
+ <a class="image-link" href="assets\images\other\youtube-tv.png" ><img src="assets\images\other\youtube-tv.png" alt="" /></a>
  <figcaption>
  The Youtube TV app on Android.
  </figcaption>

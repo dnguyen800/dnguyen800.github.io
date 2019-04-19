@@ -28,7 +28,7 @@ categories:
 Tilt sensors operate differently than door/contact sensors in that it is made of a single piece (versus two pieces for door sensors) and detects movement through gravity and acceleration. It’s easier to understand with the picture below.
 
 <figure class="align-center" style="width:60%;">
- <img src="assets\images\other\tilt-sensor.png" alt="" />
+ <a class="image-link" href="assets\images\other\tilt-sensor.png" ><img src="assets\images\other\tilt-sensor.png" /></a>
  <figcaption>
 How a tilt sensor works. <strong>| randomnerdtutorials.com </strong>
  </figcaption>
@@ -65,10 +65,10 @@ A tilt sensor for the garage door wouldn’t be necessary if Chamberlain allowed
 <hr class="minor" />
 
 <figure class="align-left">
-          <img src="assets\images\product-photo\monoprice-tilt.jpg" alt=""/>
-        <figcaption>
+ <img src="assets\images\product-photo\monoprice-tilt.jpg" alt=""/>
+   <figcaption>
           The Monoprice tilt sensor <strong>| Monoprice</strong>
-        </figcaption>
+   </figcaption>
 </figure>
 
 ## Monoprice Z-Wave Plus Acceleration Sensor

@@ -85,7 +85,7 @@ There is a **Home/away Assist** feature on the Nest app, but I found it doesn’
 An option to store recorded videos locally will likely never come, as every company loves subscription revenue. Power-over-ethernet (PoE) is not an option for this particular camera either. It’s either wireless or nothing with the Nest doorbell.
 
 <figure class="align-center" style="width:50%;">
- <img src="assets\images\other\nest-doorbell.jpg" alt="" />
+ <a class="image-link" href="assets\images\other\nest-doorbell.jpg" ><img src="assets\images\other\nest-doorbell.jpg" alt="" /></a>
  <figcaption>
 The hole is quite big and can’t be covered up by the camera alone. Nest doesn't provide a wall plate.
  </figcaption>

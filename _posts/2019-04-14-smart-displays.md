@@ -80,7 +80,7 @@ So when the display was first released in August 2018, Netflix and several other
 I initially had Wi-Fi connection issues where I would have to run the Google Home setup process again, but I learned the root cause of the issue was with the refurbished TP-Link Onhub router I used. Once I replaced it with a Google Wifi point, I no longer had any trouble streaming videos or maintaining a consistent connection on the display.
 
 <figure class="align-center" style="max-width:442px;" >
- <img src="assets\images\other\lenovo-smart-display-app.png" alt="" />
+ <a class="image-link" href="assets\images\other\lenovo-smart-display-app.png" ><img src="assets\images\other\lenovo-smart-display-app.png" alt="" /></a>
  <figcaption>
 Searching for recipes through Google will pop up the 'Send to Display' button.
  </figcaption>
@@ -95,7 +95,7 @@ The display is a fully functional Chromecast and is automatically detected in Ho
 For controlling lights, the display cannot access the Home Assistant UI, but can indirectly control the lights through Google Assistant, which will bring up the screen below:
 
 <figure class="align-center">
- <img src="assets\images\other\smart_display-lenovo-photo01.jpg" />
+ <a class="image-link" href="assets\images\other\smart_display-lenovo-photo01.jpg" ><img src="assets\images\other\smart_display-lenovo-photo01.jpg" /></a>
  <figcaption>
 An example of light control with the display. You first must use your voice to control the light for this menu to appear.<strong> | Lenovo</strong> 
 </figcaption>

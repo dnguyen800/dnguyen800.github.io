@@ -2593,7 +2593,7 @@
     p.warning { padding: 0.5rem 1rem; background-color: rgba(250, 140, 22, 0.1); border: 1px solid #fa8c16; border-radius: 0.4rem; }
     p.error { padding: 0.5rem 1rem; background-color: rgba(245, 34, 45, 0.1); border: 1px solid #f5222d; border-radius: 0.4rem; }
 
-
+    .image-link { text-decoration: none; }
 
 	
 

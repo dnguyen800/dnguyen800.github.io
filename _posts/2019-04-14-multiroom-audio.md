@@ -76,7 +76,7 @@ Is that the price to pay for compatibility? Unfortunately, yes. I’m able to li
 After setting up  the speakers in the Google Home app, create a speaker group in the Google Home app and that’s it--you can access your speaker group in Spotify, Plex, or anything else that supports Chromecast speakers.
 
 <figure class="align-center">
- <img src="assets\images\other\chromecast-setup.png" />
+ <a class="image-link" href="assets\images\other\chromecast-setup.png" ><img src="assets\images\other\chromecast-setup.png" /></a>
  <figcaption>
 The Chromecast/Google Home setup process.
  </figcaption>

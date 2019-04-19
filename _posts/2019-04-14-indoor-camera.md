@@ -78,7 +78,7 @@ The Nest Indoor Camera. <strong>|  Google</strong>
 The value of Nest cameras is in its ease of setup and use. There are many issues I have using cheaper cameras—wireless range, connection dropouts, unreliable cloud servers—but I haven’t run into any of those issues with Nest. Once you have the camera plugged in and the Nest app installed, everything works reasonably well out of the box. The Nest app is also lightning fast at loading live and recorded footage—it takes under 10 seconds to load the app, authenticate and access my cameras. I’ll leave it to users to decide whether the improved experience is worth the premium price of Nest products.
 
 <figure class="align-center">
- <img src="assets\images\other\nest_aware.png" alt="" />
+ <a class="image-link" href="assets\images\other\nest_aware.png" ><img src="assets\images\other\nest_aware.png" alt="" /></a>
  <figcaption>
 The new pricing for Nest Aware monthly plans.
  </figcaption>

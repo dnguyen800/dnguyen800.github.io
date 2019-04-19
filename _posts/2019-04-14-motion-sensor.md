@@ -116,7 +116,7 @@ Pairing in Home Assistant is messy, as the sensor adds motion and ambient light 
       <p><strong>I continue to buy GE Z-Wave Plus Motion Sensors for its excellent range and USB power, but since it’s no longer being sold at retailers, I can’t recommend it.</strong> I sometimes find deals on eBay for under $30, which is a fair price as the sensor isn’t perfect (poor battery life and limited mounting options come to mind). These sensors are great in high traffic and large areas, but only if you can power the sensors with a USB cable.</p>
 
        <figure class="align-center" style="width: 50%;">
-       <img src="assets\images\other\motion-sensor-range.jpg" alt="" />
+       <a class="image-link" href="assets\images\other\motion-sensor-range.jpg" ><img src="assets\images\other\motion-sensor-range.jpg" alt="" /></a>
        <figcaption>
           The detection range for most motion sensors. <strong>| GE</strong>
        </figcaption>
@@ -153,7 +153,7 @@ Pairing in Home Assistant is messy, as the sensor adds motion and ambient light 
 <h4>Installation and Smart Home Integration</h4>
 <p>If you integrate the Ecobee thermostat with Smartthings or Home Assistant, then these sensors are automatically added to your setup. </p>
    </div>
-   
+
    
 
 </div>

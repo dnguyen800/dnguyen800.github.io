@@ -96,7 +96,7 @@ In my solution, __SmartThings__ is the reliable one __(I know, debatable)__ that
 One of the major selling points for me (and a problem for others) with SmartThings is that most features can work remotely out of the box--I get notifications on my phone when something is happening in the house and can remotely control the lights while away. Home Assistant and Hubitat can't do this so easily as SmartThings, though I expect new developments in 2019 from Home Assistant Cloud in the future.
 
 <figure class="align-center">
- <img src="assets\images\other\smartthings-app.jpg" alt=""/>
+ <a class="image-link" href="assets\images\other\smartthings-app.jpg" ><img src="assets\images\other\smartthings-app.jpg" alt=""/></a>
  <figcaption>
 The SmartThings Classic UI in tablet mode.
  </figcaption>
@@ -111,7 +111,7 @@ But that’s about all that SmartThings can do well. There is no product roadmap
 I've also noticed that SmartThings notifications can be delayed when using the latest Android OS—as much as 15 minutes! There is no way I can use SmartThings as a security system with these delays. I’m only keeping the hub around until I get Home Assistant running stable.
 
 <figure class="align-center">
- <img src="assets\images\other\homeassistant-02.jpg" alt="" />
+ <a class="image-link" href="assets\images\other\homeassistant-02.jpg" ><img src="assets\images\other\homeassistant-02.jpg" alt="" /></a>
  <figcaption>
 The Home Assistant web interface. It tooks months of learning to get it to this state.
  </figcaption>
@@ -145,7 +145,7 @@ Home Assistant is necessary to do media automations that can show off the home t
 
 
 <figure class="align-center">
- <img src="assets\images\other\homeassistant-media.jpg" alt="" />
+ <a class="image-link" href="assets\images\other\homeassistant-media.jpg" ><img src="assets\images\other\homeassistant-media.jpg" alt="" /></a>
  <figcaption>
 A media-focused Home Assistant dashboard I created.
  </figcaption>

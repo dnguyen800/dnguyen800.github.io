@@ -36,7 +36,7 @@ A smart lock adds convenience but also risks. If you do end up getting a smart l
 - Someone gains unauthorized access to SmartThings or Home Assistant (through a security vulnerability, or improperly exposing instance to the internet) and can control the lock.
 
 <figure class="align-center" style="width: 50%;">
- <img src="assets\images\other\august-install.jpg" />
+ <a class="image-link" href="assets\images\other\august-install.jpg" ><img src="assets\images\other\august-install.jpg" /></a>
  <figcaption>
 Removing the latch of a single bolt lock.<strong>| August</strong>
  </figcaption>
@@ -90,7 +90,7 @@ All smart locks require some disassembly of the current lock, so renters will ne
 **August locks only work on single bolt locks.** I wasn’t familiar with the term, but luckily August has a nice illustration (see below) to explain the difference.
 
 <figure class="align-center" style="width: 50%;">
- <img src="assets\images\other\august-compatibility.png" />
+ <a class="image-link" href="assets\images\other\august-compatibility.png" ><img src="assets\images\other\august-compatibility.png" /></a>
  <figcaption>
 August locks can only be installed on single bolt doors. <strong>| August</strong>
  </figcaption>

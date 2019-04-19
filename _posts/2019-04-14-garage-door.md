@@ -76,7 +76,7 @@ When designing automations using garage openers and presence sensors, I recommen
 The MyQ app has most of the features I would expect. You can set up notifications to alert you when a garage door is opened, or if a garage has been open for more than a number of minutes. Chamberlain finally added the ability to share access with multiple users, so I no longer have to share an account with my roommate. There is no home/away assist feature that automatically opens and closes the garage door -- it is probably too much liability for Chamberlain to have that feature, if it behaves improperly. 
 
 <figure class="align-center" style="width:35%;" >
- <img src="assets\images\product-photo\myq.png"  />
+ <a class="image-link" href="assets\images\product-photo\myq.png" ><img src="assets\images\product-photo\myq.png"  /></a>
  <figcaption>
 The older version of the MyQ gateway (CIGBU-P) that can be found for cheap, around $35.
  </figcaption>

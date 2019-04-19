@@ -70,7 +70,7 @@ When testing voice control with lighting, I realized that the naming convention 
 **If you are an Android user, it makes sense to stick with Google Assistant because of its tight integration with the Android OS, ever-expanding features and device compatibility.**  Google is ahead of the pack with its very useful Google Home app, which also has a streamlined UI that can be displayed on a tablet or phone. It is slowly replacing the functions of my SmartThings hub, though it still can’t perform any real automations that utilize sensors. One feature I love is using the **``Good Morning``** Google Routine and tying it to my phone’s alarm app. I’ve been waiting for something like that for ages!
 
 <figure class="align-center">
- <img src="assets\images\other\google_home_app.png" alt="" />
+ <a class="image-link" href="assets\images\other\google_home_app.png" ><img src="assets\images\other\google_home_app.png" alt="" /></a>
  <figcaption>
    A view of the Google Home app.
  </figcaption>
@@ -90,7 +90,7 @@ By assigning the light and Google Home speaker locations to their proper rooms, 
 Google and Amazon continue to add new features at a rapid pace, making it a futile effort for me to do any detailed comparison between the two. One area where Google lacks is integration with video services like Hulu, Playstation Vue, and Prime Video. With Google, you can say **``Play Castlevania on Netflix``**, but not **``play The Good Place on Hulu.``** To my surprise, Amazon Alexa is much better at voice control, supporting deeper voice integration with Netflix, Hulu, Playstation Vue, Prime Video, and other smaller channels. Voice control in media services is not a deal breaker for me since it doesn’t work on most of the apps I use anyways. 
 
 <figure class="align-center">
- <img src="assets\images\other\google-media-integration.png" alt="" />
+ <a class="image-link" href="assets\images\other\google-media-integration.png" ><img src="assets\images\other\google-media-integration.png" alt="" /></a>
  <figcaption>
    The list of services that support deeper voice control with Google Assistant and Chromecast.
  </figcaption>

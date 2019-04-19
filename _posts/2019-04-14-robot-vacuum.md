@@ -3,7 +3,10 @@ layout: page
 title: Robot Vacuums
 short_title: robot-vacuum
 excerpt: "I don't own a robot vacuum, but I do know you need one with cameras or lasers for accurate vacuuming."
+permalink: /robot-vacuum
 image: assets/images/overlay-ws/robot-vacuum.jpg
+image_credit: Rock'n Roll Monkey via Unsplash
+image_url: https://unsplash.com/@rocknrollmonkey
 categories: 
     - "Gadgets"
     - "Home Automation"
