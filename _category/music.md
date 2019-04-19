@@ -2,7 +2,6 @@
 title: Music
 layout: static
 tag: music
-permalink: "/category/music"
 ---
 
 <!-- Home Automation Categories -->
