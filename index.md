@@ -12,7 +12,7 @@ layout: default
 		<article>
 			<span class="icon fa-home"></span>
 			<div class="content">
-				<h3><a href="{{ 'home-automation.html' | absolute_url }}">Home Automation</a></h3>
+				<h3><a href="{{ '/category/Home%20Automation' | absolute_url }}">Home Automation</a></h3>
 				<p>I wanted to see what was possible with home automation in 2019, so I came back to discuss some exciting new technologies you may not have realized are available today.</p>
 			</div>
 		</article>
