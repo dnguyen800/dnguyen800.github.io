@@ -75,7 +75,7 @@ Even if the display doesn't get any new features in the future, I do like the ex
 
 So when the display was first released in August 2018, Netflix and several other Chromecast functions didn't work. Then a few months later, Netflix was supported. But now (as of April 2019), they removed support again. Netflix is notoriously picky/political about supporting casting modes -- they recently removed Apple Airplay support as Apple is encroaching on their territory with Apple TV+. It's a shame as every other Chromecast-supported app works, and it makes me question the value of my pricey Netflix subscription.
 
-60 frames-per-second content from Youtube is playable, but there is a stutter every few seconds. It's noticeable when watching sports games or videogame playthroughs, but is fine with everything else.
+60 frames-per-second content from Youtube is playable, but sometimes there is a stutter every few seconds. It doesn't happen on every video, but it's noticeable when watching sports games or videogame playthroughs, but is fine with everything else. Maybe my internet bandwidth speed is the problem.
 
 I initially had Wi-Fi connection issues where I would have to run the Google Home setup process again, but I learned the root cause of the issue was with the refurbished TP-Link Onhub router I used. Once I replaced it with a Google Wifi point, I no longer had any trouble streaming videos or maintaining a consistent connection on the display.
 
@@ -85,8 +85,16 @@ I initially had Wi-Fi connection issues where I would have to run the Google Hom
 Searching for recipes through Google will pop up the 'Send to Display' button.
  </figcaption>
 </figure>
-
 I bought this display with the intention to use as a cooking assistant--mainly for setting timers, doing unit conversions, and reading recipes out loud, but it wasn't very good at the latter. Imagine saying **``Okay Google, next step``** for each recipe step--it gets tiring, fast. Recipes from less popular blog sites aren't available to cast to the display, and I have no other way to load my private collection of recipes. As a kitchen assistant, it could definitely be improved, but it's unlikely we will see any more improvements from Google or Lenovo.
+
+
+
+Other nitpicky issues I've noticed:
+
+- Casting is not available from:
+  - Netflix
+  - Google Chrome browser tab (the workaround to cast unsupported video platforms)
+- 
 
 
 ### Installation and Smart Home Integration

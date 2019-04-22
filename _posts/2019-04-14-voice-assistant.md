@@ -87,7 +87,9 @@ By assigning the light and Google Home speaker locations to their proper rooms, 
 - **``Turn off the lights upstairs``** will turn off a group of lights titled “Upstairs” or any lights with the word “upstairs” in their name. The group must be defined in Home Assistant or SmartThings (as a scene) if lights in this group are already assigned to rooms in the Google Home app.
 
 ### The Problems
-Google and Amazon continue to add new features at a rapid pace, making it a futile effort for me to do any detailed comparison between the two. One area where Google lacks is integration with video services like Hulu, Playstation Vue, and Prime Video. With Google, you can say **``Play Castlevania on Netflix``**, but not **``play The Good Place on Hulu.``** To my surprise, Amazon Alexa is much better at voice control, supporting deeper voice integration with Netflix, Hulu, Playstation Vue, Prime Video, and other smaller channels. Voice control in media services is not a deal breaker for me since it doesn’t work on most of the apps I use anyways. 
+Google and Amazon continue to add new features at a rapid pace, making it a futile effort for me to do any detailed comparison between the two. One area where Google lacks is integration with video services like Hulu, Playstation Vue, and Prime Video. Using a Google Home speaker, you can say **``Play Castlevania on Netflix``**, but not **``play The Good Place on Hulu``** on a Chromecast. To my surprise, Amazon Alexa is much better at voice control, supporting deeper voice integration with Netflix, Hulu, Playstation Vue, Prime Video, and other smaller channels. Voice control in media services is not a deal breaker for me since it doesn’t work on most of the apps I use anyways. 
+
+
 
 <figure class="align-center">
  <a class="image-link" href="assets\images\other\google-media-integration.png" ><img src="assets\images\other\google-media-integration.png" alt="" /></a>
@@ -95,6 +97,9 @@ Google and Amazon continue to add new features at a rapid pace, making it a futi
    The list of services that support deeper voice control with Google Assistant and Chromecast.
  </figcaption>
 </figure>
+After testing Google Assistant with an LG TV, I've learned there is a ~ discrepancy on ~integration between Google Assistant and media devices ~. There is deeper voice integration with more apps using Google Assistant and LG TV, but not with Chromecast. So I can say `play The Good Place on Hulu` and it works on an LG TV. ~. In the Google Home app settings, you can configure the `Default TV` setting for each Google Home speaker, but the LG TV is not available to select.
+
+
 
 Google Assistant is directly integrated into the home screen of phones running the latest stock Android, yet my phone still has trouble responding to the **``OK Google``** phrase, even when the phone is charging or on the home screen where Google Assistant is active. I was expecting better integration than this, but I understand phones can’t always be listening. That would be creepy anyway.
 

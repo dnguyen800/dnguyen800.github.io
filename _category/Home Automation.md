@@ -14,7 +14,7 @@ Over the past year, I delved into one of my emerging interests—home automation
 
 After fitting three homes with an array of sensors, tablets, speakers, lights and other gadgets, I have to admit that the small conveniences gained with home automation add up to something meaningful. I can listen to my music synchronized in every room in the house, cast a Youtube video from my phone to the TV while the mood lighting automatically kicks in, and control all my devices from a tablet. When it works, the house truly feels integrated and I feel at peace and can enjoy living in a cool space. 
 
-__Not everything is perfect, but the solution I have is good enough to recommend for beginners.__ What you will find here is a collection of unbiased advice and recommendations on each aspect of the smart home, and an honest opinion on what smart homes are capable of with today’s technology.
+__Not every device is perfectly integrated, but the smart home solution I have is good enough to recommend for beginners.__ What you will find here is a collection of unbiased advice and recommendations on each aspect of the smart home, and an honest opinion on what smart homes are capable of with today’s technology. This site is different in that every device listed here can integrate in some way to the home automation hub, voice assistant, and I review the quality of the integration.
 
 <!-- Section Break -->
 <hr class="minor" />
@@ -40,7 +40,7 @@ __Not everything is perfect, but the solution I have is good enough to recommend
 		  <img  class="article-image" src="{{ '/assets/images/other/home-assistant.png' | absolute_url }}" alt="" />
 			  <br>
 			  <h3>A simple setup unless I really want a feature</h3>
-			<p>I value my time and sanity, so I stuck with consumer products like those from Google and Nest. There are cons to using cloud-dependent products, but I haven’t found any comparable products that are easy to set up and access remotely. I also wanted a nice user interface to highlight the smart home capabilities, so I set up a <a href="https://www.home-assistant.io">Home Assistant instance</a> to serve as a dashboard. Man, what a time sink it turned out to be, but Home Assistant is arguably the coolest part of my smart home. </p>
+			<p>I value my time and sanity, so I stuck with consumer products like those from Google and Nest. There are cons to using cloud-dependent products, but I haven’t found any comparable products that are easy to set up and access remotely. I also wanted a nice user interface to highlight the smart home capabilities, so I set up a <a href="https://www.home-assistant.io">Home Assistant instance</a> to serve as a dashboard. It has been a huge time sink, but Home Assistant is unarguably the most impressive part of my smart home. </p>
 		</article>			
 		<article>
 		  <img  class="article-image" src=" {{ '/assets/images/other/budget.jpg' | absolute_url }}" alt="" />

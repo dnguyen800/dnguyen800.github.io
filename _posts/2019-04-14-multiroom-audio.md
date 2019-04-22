@@ -61,12 +61,14 @@ App support can be very limited, depending on what company you choose. At the ve
 
 **With a wide selection of reasonably priced compatible AV receivers, speakers and soundbars to choose from, I recommend using any highly rated Chromecast built-in speaker in your home.** If you already have a good pair of speakers, then connect a Chromecast Audio (discontinued as of Jan 2019) to it. There are so many combinations of Chromecasts you can use—even the Chromecast TV dongles work with multi-room audio now, allowing you to leverage your existing TV, receiver and soundbars.  Any speaker that supports Chromecast Built-in will have the same easy setup experience and compatibility with apps that support Chromecast. 
 
+It's also very easy to let guests in your home play music to Chromecast speakers. As long as guests are connected to the same network as the speakers, any Chromecast-supported app should detect the speakers and allow casting. The last time I checked (around January 2019), Amazon Echo speakers do not support any form of casting outside of the Amazon user who registered the Echo. You can still use voice commands to play Spotify, but you can't select a song from the Spotify app and cast to the Echo speaker.
+
 The main selling point of Chromecast is the number of apps that support it. Where else can you find multi-room audio support for a nearly dead music service like SoundCloud? Chromecast is the only solution I’ve found that can stream multi-room audio from Plex for local music. Last I checked, Amazon Echo and Sonos support Plex but for individual speakers only.
 
 
 ### The Problems
 
-I’ve found Chromecast to be a more frustrating user experience than Amazon Echo—music playback can take a few seconds to start, or not start at all until I force close and re-open the Spotify app. When you're performing a lot of actions in a short period of time (for example, trying to stop and restart playback of a video because of an error), it only makes things worse. This issue happens on both iOS and Android Spotify and Youtube apps quite often, so I think it is a problem Chromecast itself. Luckily, I haven't had any troubles getting music to play using voice control.
+I’ve found Chromecast to be a more frustrating user experience than Amazon Echo—music playback can take a few seconds to start, or not start at all until I force close and re-open the Spotify app. When you're performing a lot of actions in a short period of time (for example, trying to stop and restart playback of a Youtube video because of an error), it only makes things worse. This issue happens on both iOS and Android Spotify and Youtube apps quite often, so I think it is a problem Chromecast itself. Luckily, I haven't had any troubles getting music to play using voice control.
 
 Is that the price to pay for compatibility? Unfortunately, yes. I’m able to live with that trade-off for more supported music apps, but it is one of the biggest annoyances with this setup.  
 

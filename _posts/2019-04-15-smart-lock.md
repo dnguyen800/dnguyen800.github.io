@@ -4,7 +4,7 @@ title: Smart Locks
 short_title: smart-lock
 excerpt: You'll never be locked out of the house again with a smart lock, unless you forget your phone. Then that's all on you.
 competitors: "August, Schlage, Next x Yale"
-update: "<strong>April 16, 2019:</strong> Added review of the August smart lock."
+update: "<strong>April 15, 2019:</strong> Added review of the August smart lock."
 permalink: /smart-lock
 image: assets/images/overlay-ws/smart-lock.jpg
 image_credit: Dan Nguyen
