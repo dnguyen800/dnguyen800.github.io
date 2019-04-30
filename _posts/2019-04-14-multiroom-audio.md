@@ -22,9 +22,9 @@ categories:
 
 ## What you need to know
 
-Multi-room audio is the ability to play music synchronized with speakers placed around the house to achieve the effect of music following you around the house. It works really well and is one of my favorite uses in a smart home.  By using the Wi-Fi network that is already in your house, it is possible to connect wireless smart speakers together~. I'm not sure why it took so long to get it working, but I'm glad I can now have this feature in a rented apartment or house. 
+Multi-room audio is the ability to play music synchronized with speakers placed around the house to achieve the effect of music following you around the house. It works really well and is one of my favorite uses in a smart home.  By using the Wi-Fi network that is already in your house, it is possible to connect wireless smart speakers together. I'm not sure why it took so long to get the technology working, but I'm glad I can now have this feature in a rented apartment or house. 
 
-App support can be very limited, depending on what company you choose. At the very least, Spotify is supported on all multi-room audio formats.
+App support for multi-room audio can be very limited, depending on what company you choose (Google, Amazon, Sonos). At least Spotify is supported on all multi-room audio formats.
 
 
 ### Considerations before choosing multi-room audio speakers
@@ -35,19 +35,18 @@ App support can be very limited, depending on what company you choose. At the ve
 
 ### What you get with multi-room audio speakers
 
-
 <ul class="alt">
 	<li>Synchronized music in every room.</li>
 	<li>Continue the music playing from your car to the house.</li>
-	<li>Start playing multi-room music using your voice or music app.</li>
-	<li>Depending on your choice, works with most major music apps.</li>	
+	<li>Start playing multi-room music using your voice or mobile app.</li>
+	<li>Depending on your choice (Google, Amazon, Sonos), works with most major music apps.</li>	
 </ul>
 
 
 ### Recommended Reading
 
 <ul class="alt">
-  <li><strong>Affiliate Link:</strong> Purchase the <a href="https://amzn.to/2L8SHXt">Vizio 2.1 sound bar</a>, <a href="https://amzn.to/2XWn1Gt">Sonos One</a> or < a href="https://amzn.to/2WcI1Zf">Amazon Echo 2nd Gen</a> from Amazon</li>
+  <li><strong>Affiliate Link:</strong> Purchase the <a href="https://amzn.to/2L8SHXt">Vizio 2.1 sound bar</a>, <a href="https://amzn.to/2XWn1Gt">Sonos One</a> or <a href="https://amzn.to/2WcI1Zf">Amazon Echo 2nd Gen</a> from Amazon</li>
   <li>Purchase the <a href="https://www.bestbuy.com/site/insignia-voice-smart-portable-bluetooth-speaker-and-alarm-clock-with-google-assistant-gray-black/5865906.p?skuId=5865906">Insignia Large speaker with Google Assistant</a></li>
   <li>Slickdeals.net sales of the <a href="https://slickdeals.net/newsearch.php?searchin=first&forumchoice%5B%5D=9&forumchoice%5B%5D=44&forumchoice%5B%5D=25&forumchoice%5B%5D=30&q=insignia+speaker+google+assistant&r=1">Insignia speakers</a></li>
   <li>Wirecutter review of the <a href="https://thewirecutter.com/reviews/best-soundbar/#budget-pick-vizio-sb3651-e6">Vizio Smartcast Soundbar</a></li>
@@ -62,14 +61,14 @@ App support can be very limited, depending on what company you choose. At the ve
 
 **With a wide selection of reasonably priced compatible AV receivers, speakers and soundbars to choose from, I recommend using any highly rated Chromecast built-in speaker in your home.** If you already have a good pair of speakers, then connect a Chromecast Audio (discontinued as of Jan 2019) to it. There are so many combinations of Chromecasts you can use—even the Chromecast TV dongles work with multi-room audio now, allowing you to leverage your existing TV, receiver and soundbars.  Any speaker that supports Chromecast Built-in will have the same easy setup experience and compatibility with apps that support Chromecast. 
 
-It's also very easy to let guests in your home play music to Chromecast speakers. As long as guests are connected to the same network as the speakers, any Chromecast-supported app should detect the speakers and allow casting. The last time I checked (around January 2019), Amazon Echo speakers do not support any form of casting outside of the Amazon user who registered the Echo. You can still use voice commands to play Spotify, but you can't select a song from the Spotify app and cast to the Echo speaker.
+It's also very easy to let guests play music to Chromecast speakers. As long as the guests are connected to the same Wi-Fi network as the speakers, any Chromecast-supported app should detect the speakers and allow casting. The last time I checked (around January 2019), Amazon Echo speakers do not support any form of casting outside of the Amazon user who registered the Echo. You can still use voice commands to play Spotify, but you can't select a song from the Spotify app and cast to the Echo speaker.
 
-The main selling point of Chromecast is the number of apps that support it. Where else can you find multi-room audio support for a nearly dead music service like SoundCloud? Chromecast is the only solution I’ve found that can stream multi-room audio from Plex for local music. Last I checked, Amazon Echo and Sonos support Plex but for individual speakers only.
+The main selling point of Chromecast is the number of apps that support it. Where else can you find multi-room audio support for a nearly dead music service like SoundCloud? Chromecast is the only solution I’ve found that can stream multi-room audio from Plex for local music. Amazon Echo and Sonos support Plex but for individual speakers only.
 
 
 ### The Problems
 
-I’ve found Chromecast to be a more frustrating user experience than Amazon Echo—music playback can take a few seconds to start, or not start at all until I force close and re-open the Spotify app. When you're performing a lot of actions in a short period of time (for example, trying to stop and restart playback of a Youtube video because of an error), it only makes things worse. This issue happens on both iOS and Android Spotify and Youtube apps quite often, so I think it is a problem Chromecast itself. Luckily, I haven't had any troubles getting music to play using voice control.
+I’ve found Chromecast to be a more frustrating user experience than Amazon Echo—music playback can take a few seconds to start, or not start at all until I force close and re-open the Spotify app. When you're performing a lot of actions in a short period of time (e.g. stopping and restarting a Youtube video because of an error), it only makes things worse. This issue happens on both iOS and Android Spotify and Youtube apps quite often, so I think it is a problem Chromecast itself. Luckily, I haven't had any troubles getting music to play using voice control.
 
 Is that the price to pay for compatibility? Unfortunately, yes. I’m able to live with that trade-off for more supported music apps, but it is one of the biggest annoyances with this setup.  
 
@@ -85,7 +84,7 @@ The Chromecast/Google Home setup process.
  </figcaption>
 </figure>
 
-Home Assistant detects individual Chromecast speakers and speaker groups if the ``Discovery`` component is enabled. I use the ``Universal Media Player component`` to combine all speakers and groups into one Home Assistant entity and show the music currently playing. 
+Home Assistant detects individual Chromecast speakers and speaker groups if the [**``Discovery``**](https://www.home-assistant.io/components/discovery/) component is enabled. I use the [**``Universal Media Player``**](https://www.home-assistant.io/components/universal/) component to combine all speakers and groups into one Home Assistant entity and show the music currently playing. 
 
 One small quirk I found is that if you want send a broadcast message to all speakers using Home Assistant, you must use a Home Assistant group, not a Google group. As long as you are not constantly renaming your speakers in Google Home, this shouldn't be a problem. 
 
@@ -144,7 +143,7 @@ Voice control with Google Assistant works great with Spotify. Mention the name o
        </figcaption>
        </figure>
 	  <h2>Insignia Large Speaker with Google Assistant</h2>
-      <p><strong>For those who want multi-room audio without breaking the bank, the <a href="https://www.bestbuy.com/site/insignia-voice-smart-portable-bluetooth-speaker-and-alarm-clock-with-google-assistant-gray-black/5865906.p?skuId=5865906">Insignia Large Speaker with Google Assistant</a> from Best Buy is a good value when it goes on sale for $35.</strong>  It sounds slightly better than the Google Home speakers, and has a few nifty features like a battery that lasts for three hours, and a LED display to show the time and temperature. I was able to outfit my home with these speakers for under $200! This is more of a brag than recommendation since the sale is over, but do check Slickdeals periodically if it appears again. There is one big problem with these speakers, which I will go into detail below.
+      <p><strong>For those who want multi-room audio without breaking the bank, the <a href="https://www.bestbuy.com/site/insignia-voice-smart-portable-bluetooth-speaker-and-alarm-clock-with-google-assistant-gray-black/5865906.p?skuId=5865906">Insignia Large Speaker with Google Assistant</a> from Best Buy is a good value when it goes on sale for $35.</strong>  It sounds slightly better than the Google Home speakers, and has a few nifty features like a battery that lasts for three hours, and a LED display to show the time and temperature. I was able to outfit my home with these speakers for under $200! This is more of a brag than recommendation since the sale is over, but do check [Slickdeals](https://slickdeals.net/newsearch.php?searchin=first&forumchoice%5B%5D=9&forumchoice%5B%5D=44&forumchoice%5B%5D=25&forumchoice%5B%5D=30&q=insignia+speaker+google+assistant&r=1) periodically if it appears again. There is one big problem with these speakers, which I will go into detail below.
       </p>
 <h3>The Problems</h3>
 <p>I’ve tested these speakers thoroughly for months now, and they’re great, except for one significant issue. The sound cuts off when playing low-sounding music — it’s especially noticeable on classical, piano, or acoustic songs. The problem fades away by increasing the volume, but listening to classical volume at high volume is a bit of an oxymoron. Firmware updates haven’t resolved the issue yet in the past year, so it’s likely to be a hardware issue that may never be resolved. That is unfortunate because I am a big fan of these speakers.
@@ -167,7 +166,7 @@ Voice control with Google Assistant works great with Spotify. Mention the name o
 		<h2>Vizio Smartcast Sound Bar</h2>
 		<p><strong>For Chromecast Built-in sound bars, the <a href="https://amzn.to/2L8SHXt">Vizio Smartcast sound bars</a> are considered the best value.</strong> <a href="(https://thewirecutter.com/reviews/best-soundbar/#budget-pick-vizio-sb3651-e6">The Wirecutter</a> recommends them for the best mix of performance, connectivity, features, and price in the budget category. The problems I had with the Insignia speakers are fixed here--there is support for auxiliary (3.5mm, headphone jack, whatever you call it) inputs, optical, analog, and HDMI, so every device can be hooked up to it. I personally have not tested this sound bar, but I have tried previous versions of Vizio sound bars and I was always happy with the value.</p>
 
-<p>I tested another soundbar, the <a href="https://www.amazon.com/Polk-Audio-MagniFi-Theater-System/dp/B01LW76AKC/ref=sr_1_3?ie=UTF8&qid=1546626122&sr=8-3&keywords=polk+magnifi+mini">Polk Magnifi Mini</a>, and found the Chromecast integration working as expected, but the trade-off of sound quality for the smaller size and price was not worth it. For the cost of the Mini (a 2.1 set), you could get the Vizio 5.1 sound bar set.</p>
+<p>I tested another soundbar, the <a href="https://amzn.to/2V6cxqX">Polk Magnifi Mini</a>, and found the Chromecast integration working as expected, but the trade-off of sound quality for the smaller size and price was not worth it. For the cost of the Mini (a 2.1 set), you could get the Vizio 5.1 sound bar set.</p>
   </div>
 </div>
 
