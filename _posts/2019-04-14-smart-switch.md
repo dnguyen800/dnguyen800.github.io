@@ -24,9 +24,9 @@ categories:
 
 ## What you need to know
 
-Smart light switches are the ideal lighting solution in every home. Replacing one light switch connected to six light bulbs is cheaper than replacing with six smart bulbs. Smart switches function physically like regular switches, with the added benefit of being controlled remotely through voice, app, or automation.  It’s too bad that I’m a renter, otherwise, I would have smart switches everywhere. 
+Smart light switches are the ideal lighting solution in every home. Replacing one light switch connected to six light bulbs is cheaper than replacing six smart bulbs. Smart switches function physically like regular switches, with the added benefit of being controlled remotely through voice, app, or automation.  It’s too bad that I’m a renter, otherwise, I would have smart switches everywhere. 
 
-Most wireless light switches use Z-Wave Plus, but some use Wi-Fi or other technology. I wouldn’t use Wi-Fi switches unless I trust that the company will be around in the next ten years. That is why I’m comfortable recommending the Lutron Caseta brand, mainly because the company makes good products and has been around for decades.  
+Most wireless light switches use Z-Wave Plus, but some use Wi-Fi or another technology. I wouldn’t use Wi-Fi switches unless I trust that the company will be around in the next ten years. That is why I’m comfortable recommending the Lutron Caseta brand, mainly because the company makes good products and has been around for ages.  
 
 <figure class="align-center" style="width: 50%;" >
  <img src="assets\images\other\switch-install.jpg" />
@@ -35,7 +35,7 @@ This Z-Wave switch was a difficult install—there was literally no room left to
  </figcaption>
 </figure>
 
-Smart switches, especially Z-Wave switches, are difficult **(and potentially dangerous)** to install for DIYers like me. They are bulky—leaving little room in the already tiny electrical box to fit the switch and its wires. Z-Wave switches also require identification of the line (hot), load, traveler, neutral and ground wires, as each wire must be connected with its designated screw on the switch. A regular single-pole light switch install is much simpler—as long as you connect the line and load wires to any of the two black wires, as well as the ground wire, the switch will work.
+Smart switches, especially Z-Wave switches, are difficult **(and potentially dangerous)** to install for DIYers like me. They are bulky—leaving little room in the already tiny electrical box to fit the switch and its wires. Z-Wave switches also require identification of the line (hot), load, traveler, neutral and ground wires, as each wire must be connected with its designated screw on the switch. A regular single-pole light switch install is much simpler—as long as you connect the line and load wires to any of the two black wires on the switch, as well as the ground wire, the switch will work.
 
 <div class="row">
 	<!-- Break -->
@@ -88,7 +88,7 @@ There are more things I haven’t mentioned that can go wrong. It’s not easy, 
 ### What you get with a smart light switch
 
 <ul class="alt">
-  <li>Gives you the ability to remotely control lights using voice, app, or automation. </li>
+  <li>Gives you the ability to remotely control light fixtures using voice, app, or automation. </li>
   <li>Design automations that control lighting at different brightness levels. I set brightness levels to 10% for any automations that run between midnight and sunrise.</li>
   <li>Vacation mode lighting. Write an automation that turns the lights on and off to simulate activity.</li>
 </ul>
@@ -97,10 +97,10 @@ There are more things I haven’t mentioned that can go wrong. It’s not easy, 
 ### Recommended Reading
 
 <ul class="alt">
-  <li><strong>Affiliate link:</strong> Purchase the <a href="https://amzn.to/2IOU3Vr">Lutron Caseta hub</a> or <a href="https://amzn.to/2OUDk3h">Leviton Decora switch</a> on Amazon</li>
+  <li><strong>Affiliate link:</strong> Purchase the <a href="https://amzn.to/2IOU3Vr">Lutron Caseta starter kit (switch and hub)</a> or <a href="https://amzn.to/2OUDk3h">Leviton Decora switch</a> on Amazon</li>
   <li> Connect Leviton Decora switch to <a href="https://community.smartthings.com/t/release-leviton-decora-z-wave-plus-dimmers-dz6hd-dz1kd/89700">SmartThings with custom device handler</a> and Home Assistant using this Hass.io <a href="https://github.com/hassio-addons/addon-lutron-cert">add-on</a>.</li>
   <li>Lutron Lamp Dimmers can be used as range extenders. Only one extender per system, according to the <a href="https://www.casetawireless.com/faqs">Caseta FAQ</a>.</li>
-  <li>Lutron Caseta 3-way Switch Installation Tips: Youtube <a href="https://www.youtube.com/watch?time_continue=2&v=rBhRWNtQki0">demonstration</a> and PDF <a href="https://www.casetawireless.com/documents/0301710a_caseta%20advanced%20inst.pdf">guide</a>
+  <li>Lutron Caseta 3-way Switch Installation Tips: Youtube <a href="https://www.youtube.com/watch?time_continue=2&v=rBhRWNtQki0">demonstration</a> and PDF <a href="https://www.casetawireless.com/documents/0301710a_caseta%20advanced%20inst.pdf">guide</a></li>
 </ul>
 
 <!-- Product Review section -->

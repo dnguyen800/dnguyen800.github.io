@@ -2,7 +2,7 @@
 layout: page
 title: Light Strips
 short_title: light-strip
-excerpt: Light strips are great, until they burn your house down. (I'm kidding, sort of)
+excerpt: Light strips are great, until they burn your house down (I'm kidding, sort of).
 competitors: "Philips Hue, Sylvania Lightify, Yeelight"
 update:  "<strong>April 16, 2019:</strong> Added review of the Sylvania OSRAM SMART+ Light Strip."
 permalink: /light-strip
@@ -48,18 +48,17 @@ There are a plethora of cheaper wireless light strips on Amazon, but there is on
 
 <ul class="alt">
   <li><strong>Light strip placement must be near an AC outlet.</strong></li>
-  <li><strong>The length of light strip**--do you need to cut the strip to fit?</strong></li>
-  <li><strong>Cutting, splitting and extending light strips will require accessories from Litcessory (Amazon seller).</strong></li>
+  <li><strong>The length of light strip</strong>--do you need to cut the strip to fit?</li>
+  <li><strong>Cutting, splitting and extending Hue light strips will require accessories from Litcessory (Amazon seller).</strong></li>
 </ul>
 
 
 ### What you get with a light strip
 
 <ul class="alt">
-  <li>Stylish lighting, controlled by automations.</li>
+  <li>Stylish lighting controlled by automations.</li>
   <li> Gentle lighting to use in the dark.</li>
-  <li>Bias lighting for the TV.</li>
-
+  <li>Bias lighting for the TV or computer monitor.</li>
 </ul>
 
 ### Recommended Reading
@@ -100,15 +99,15 @@ You only get one or two chances to properly mount the light strip using the incl
 ### Installation and Smart Home Integration
 Connecting light strips to the Hue bridge is a simple process I won’t go into detail here. The bridge supports every home automation hub and voice assistant out there. I would guess that it is the most widely supported hub out there, and every aspect of Hue lights is controllable in each of the integrations.
 
-If you’re looking for a way to turn on the light by touch, then I would suggest using the Philips Hue remote. It comes with a wall plate if you want to mount the remote like a light switch.  You can even use a Logitech Harmony hub and remote to control the Hue light strip since there is a Hue integration for that.
+If you’re looking for a way to turn on the light by touch, then I would suggest using the [Philips Hue remote](https://amzn.to/2ZMiuYT). It comes with a wall plate if you want to mount the remote like a light switch.  You can even use a [Logitech Harmony hub and remote](https://amzn.to/2XYEUEB) to control the Hue light strip since there is a Hue integration for that.
 
 <div class="row">
 	<!-- Break -->
 	<div class="6u 12u$(medium)">
 	  <figure class="fourthtest">
-        <img src="assets/images/integrations/blank.png" />
+        <img src="assets/images/integrations/na.png" />
         <figcaption>
-          <strong>Home Assistant: Great</strong><br>One button press on the Hue bridge to pair!
+          <strong>Home Assistant: Great</strong><br>One button press on the Hue bridge to pair the lightstrip!
         </figcaption>
       </figure>
 	</div>
@@ -134,9 +133,9 @@ If you’re looking for a way to turn on the light by touch, then I would sugges
 	</div>
 	<div class="6u 12u$(medium)">
       <figure class="fourthtest">
-       <img src="assets/images/integrations/blank.png"  />
+       <img src="assets/images/integrations/na.png"  />
        <figcaption>
-         <strong>Hue App: Great</strong><br>I never use it but it's there.
+         <strong>Hue App: Great</strong><br>I never use the Hue app but it works.
        </figcaption>
       </figure>
 	</div>
@@ -164,7 +163,7 @@ If you’re looking for a way to turn on the light by touch, then I would sugges
         <figcaption> SMART+ Kit | Sylvania</figcaption>
       </figure>
     	<h3>Osram Sylvania Lightify</h3>
-    	<p>After having a good experience using Sylvania OSRAM bulbs, I bought the [Sylvania light strips](https://amzn.to/2J5Wv9h). However, the Amazon reviews are a little worrying—several reviewers noted their strips died after one year. Is it worth paying $40 for a potential one-year  lifespan?</p>
-    	<p>I bought two sets of light strips for $22 each, but I'm a little disappointed at the brightness level of these strips. The max brightness is a little weaker compared to Philips Hue lightstrips; I can't even tell if they are on in the daylight. I do like that the strip comes in three pieces, so I can line up the strips vertically or horizontally with an extension like this <a href="https://amzn.to/2XSVzJD">Kabenjee extension</a>. I would use Philips Hue lightstrips on the TV, but using Lightify strips for a computer monitor, desk or shelf would work fine.</p>
+    	<p>After having a good experience using Sylvania OSRAM bulbs, I bought the <a href="https://amzn.to/2J5Wv9h">Sylvania light strips</a>. However, the Amazon reviews are a little worrying—several reviewers noted their strips died after one year. Is it worth paying $40 for a potential one-year  lifespan?</p>
+    	<p>I bought two sets of light strips for $22 each, but I'm a little disappointed at the brightness level of these strips. The build quality is noticeably worse and the max brightness is a little weaker compared to Philips Hue lightstrips; I can't even tell if they are on in the daylight. I do like that the strip comes in three pieces, so I can line up the strips vertically or horizontally with an extension like this <a href="https://amzn.to/2XSVzJD">Kabenjee extension</a>. I would use Philips Hue lightstrips on the TV, but using Lightify strips for a computer monitor, desk or shelf would work fine.</p>
     </div>
 </div>

@@ -31,33 +31,33 @@ Besides helping with forgetfulness, there are other useful ways to use a connect
 
 ### Security considerations
 
-Before getting into details of garage door automations, it is important to emphasize security and potential exposures when adding a smart garage opener. You are adding an Internet-dependent device (unless you use a local Z-Wave controller) that can remotely open a door to your home. It’s possible that the Chamberlain IT admin abuses his privileges and accesses your account, or a hackerexploits vulnerabilities in the garage opener app to gain physical access to your home.  It is good to have preventative and detective measures in place to reduce these risks. Segregating network devices using VLANs, remove old or unnecessary devices from the network, disabling router settings like UPNP, and updating device firmware are some practices I suggest, though it’s better to do your own research as best practices and threats continue to change.
+Before getting into details of garage door automations, it is important to emphasize security and potential exposures when adding a smart garage opener. You are adding an Internet-dependent device (unless you use a local Z-Wave controller) that can remotely open a door to your home. It’s possible that the Chamberlain IT admin abuses his privileges and accesses your account, or a hacker exploits vulnerabilities in the garage opener app to gain physical access to your home.  It is good to have preventative and detective measures in place to reduce these risks. Segregating network devices using VLANs, remove old or unnecessary devices from the network, disabling router settings like UPNP, and updating device firmware are some practices I suggest, though it’s better to do your own research as best practices and threats continue to change.
 
-When designing automations using garage openers and presence sensors, I recommend to keep it simple and use app notifications that notify when entering/exiting an area, instead of automations that automatically open and close the door without intervention. Presence sensors are not always timely, meaning it could take several minutes before the sensor detects you are away and closes the garage. Sometimes it only takes a few minutes for someone to break into your home and it would be much easier with a poorly designed automation.
+When designing automations using garage openers and presence sensors, I recommend to keep it simple and use app notifications that notify when entering/exiting an area, instead of automations that automatically open and close the door without intervention. Presence sensors are not always predictable or timely, meaning it could take several minutes before the sensor detects you are away and closes the garage. Sometimes it only takes a few minutes for someone to break into your home and it would be much easier with a poorly designed automation.
 
 ### Considerations before buying a smart garage opener
 
 <ul class="alt">
   <li><strong>Consider the security risks added to the benefits gained.</strong> Is it worth it? Do you have other mitigating controls?</li>
-  <li><strong>Check if your garage door is compatible with a smart opener.</strong> Chamberlain and Liftmaster garage doors work with MyQ. Genie works with the Aladdin device; other garage doors can use GoControl Z-Wave Opener or Garagemate.</li>
+  <li><strong>Check if your garage door is compatible with a smart opener.</strong> Chamberlain, Liftmaster, and some Genie and Craftsman garage doors work with MyQ. Other garage doors can use GoControl Z-Wave Opener or Garagemate.</li>
 </ul>
 
 ### What you get with a smart garage opener
 
 <ul class="alt">
-  <li>An unlimited supply of garage remotes.</li>
-  <li>Grant and revoke access to household members easily through the MyQ app.</li>
+  <li>A garage remote on every phone you own.</li>
+  <li>Grant and revoke garage door access to household members easily through the MyQ app.</li>
   <li>Setup voice and mobile app notifications if the garage is open for a period of time, while away, etc.</li>
-  <li>Use Google Assistant to open the garage door.</li>
-  <li>Open/close garage from a car that is connected to your phone.</li>
-  <li>If you lock yourself out but have your phone, then open the garage!</li>
+  <li>Use a voiec assistant to open the garage door.</li>
+  <li>Open or close the garage from your car (assuming your phone is connected to your car and voice assistant is set up).</li>
+  <li>If you lock yourself out but have your phone with you, then you can open the garage!</li>
 </ul>
 
 ### Recommended Reading
 <ul class="alt">
   <li><strong>Affiliate link:</strong> Purchase the <a href="https://amzn.to/2Uxu8qH">MyQ hub</a> on Amazon</li>
   <li> Connect MyQ to <a href="https://community.smartthings.com/t/release-myq-lite-door-and-lamp-control-for-liftmaster-chamberlain/49150">SmartThings with custom device handler</a> and <a href="https://www.home-assistant.io/components/myq/">Home Assistant component</a>.</li>
-  <li>MyQ garage <a href="https://support.chamberlaingroup.com/s/article/List-of-compatible-garage-door-openers-for-MyQ-Garage-1484145635905">compatibility list</a>. Surprisingly, it works with some Craftsman and Genie garage doors.
+  <li>MyQ garage <a href="https://support.chamberlaingroup.com/s/article/List-of-compatible-garage-door-openers-for-MyQ-Garage-1484145635905">compatibility list</a>. Surprisingly, it works with some Craftsman and Genie garage doors.</li>
 </ul>
 
 <!-- Product Review section -->
@@ -72,9 +72,9 @@ When designing automations using garage openers and presence sensors, I recommen
 
 ## Chamberlain MyQ
 
-**With few reliable options to choose from, the [MyQ Smart Garage Hub](https://amzn.to/2IQIn4u) is your best option if you have a compatible Chamberlain, Liftmaster, Craftsman or Genie garage.**  MyQ doesn’t earn my full recommendation because of their nickel-and-dime practices of charging money for basic features like voice assistant. Other than that, the MyQ hub and mobile app works as expected and is easy to install. MyQ is a Chamberlain product, so it works with the majority of Chamberlain and Liftmaster garages commonly found in the U.S.
+**With few reliable options to choose from, the [MyQ Smart Garage Hub](https://amzn.to/2IQIn4u) is your best option if you have a compatible Chamberlain, Liftmaster, Craftsman or Genie garage.**  MyQ doesn’t earn my full recommendation because of their nickel-and-dime practices of charging money for basic features like voice assistant, but other than that, the MyQ hub and mobile app works as expected and is easy to install. MyQ is a Chamberlain product, so it works with the majority of Chamberlain and Liftmaster garages commonly found in the U.S.
 
-The MyQ app has most of the features I would expect. You can set up notifications to alert you when a garage door is opened, or if a garage has been open for more than a number of minutes. Chamberlain finally added the ability to share access with multiple users, so I no longer have to share an account with my roommate. There is no home/away assist feature that automatically opens and closes the garage door -- it is probably too much liability for Chamberlain to have that feature, if it behaves improperly. 
+The MyQ app has most of the features I would expect. You can set up notifications to alert you when a garage door is opened, or if a garage has been open for more than a number of minutes. Chamberlain finally added the ability to share access with multiple users, so I no longer have to share an account with my roommate. There is no **home/away assist** feature that automatically opens and closes the garage door -- it is probably too much liability for Chamberlain to have that feature if it behaves improperly. 
 
 <figure class="align-center" style="width:35%;" >
  <a class="image-link" href="assets\images\product-photo\myq.png" ><img src="assets\images\product-photo\myq.png"  /></a>
@@ -88,7 +88,7 @@ The current model sold today is the **MyQ Smart Garage Door Opener/Hub (MYQ-G030
 
 ### The Problems
 
-MyQ relies on an internet connection and MyQ servers to function, which opens up additional security risks. We don't know how secure the app is, or how Chamberlain monitors administrator access. The official integration of MyQ with services like IFTTT, Alexa and Google Assistant requires a $5/month subscription to MyQ. I use unofficial integrations as a loophole to the fee, but Chamberlain could shut it down at any time.
+The MyQ device relies on an internet connection and MyQ servers to function, which opens up additional security risks. We don't know how secure the app is, or how Chamberlain monitors administrator access. The official integration of MyQ with services like IFTTT, Alexa and Google Assistant requires a $5/month subscription to MyQ. I use unofficial integrations as a loophole to the fee, but Chamberlain could shut it down at any time.
 
 If you connect a MyQ account that has only guest access to garage doors, then you will not be able to access those doors in SmartThings or Home Assistant. As the guest account is a new feature in MyQ, it's possible the integrations will be updated to support it, but that hasn't happened yet.
 
@@ -96,9 +96,9 @@ If you connect a MyQ account that has only guest access to garage doors, then yo
 
 The MyQ app guides you through the physical and software installation of the hub.  Place the MyQ hub near the garage opener, press the **``Learn``** button on the garage opener, and then follow instructions on MyQ app.
 
-The official app recently added the ability to add members to a home and give access. Now you don't have to share one account to open the garage.
+The MyQ app was recently updated to add guest access to a home. Now you don't have to share one user account to open the garage. Users with guest access cannot use their accounts in the SmartThings and Home Assistant integrations though--the main MyQ account needs to be used.
 
-Unofficial MyQ integrations with SmartThings and Home Assistant exist but could stop working if MyQ changes how it handles communications. For SmartThings, an additional [tilt sensor](tilt-sensor) is needed to work properly with the custom device handler. For Home Assistant, you only need to enter your credentials for access (which is slightly concerning).  It works with voice assistants that are paired with SmartThings and Home Assistant. 
+Unofficial MyQ integrations with [SmartThings](https://community.smartthings.com/t/release-myq-lite-door-and-lamp-control-for-liftmaster-chamberlain/49150) and [Home Assistant](https://www.home-assistant.io/components/myq/) exist but could stop working if MyQ changes how it handles communications. For SmartThings, an additional [tilt sensor](tilt-sensor) is needed to work properly with the custom device handler. For Home Assistant, you only need to enter your credentials for access (which is slightly concerning).  It works with voice assistants that are paired with SmartThings and Home Assistant. 
 
 
 <div class="row">
@@ -107,7 +107,7 @@ Unofficial MyQ integrations with SmartThings and Home Assistant exist but could 
 	  <figure class="fourthtest">
         <img src="assets/images/integrations/myq-ha.png" />
         <figcaption>
-          <strong>Home Assistant: Good</strong><br>Requires saving MyQ credentials in HA configuration, which is a bit concerning. 
+          <strong>Home Assistant: Good</strong><br>Requires saving plaintext MyQ credentials in HA configuration, which is a bit concerning. 
         </figcaption>
       </figure>
 	</div>
@@ -115,7 +115,7 @@ Unofficial MyQ integrations with SmartThings and Home Assistant exist but could 
       <figure class="fourthtest">
        <img src="assets/images/integrations/google-home.png" />
        <figcaption>
-         <strong>Voice: Okay</strong><br>Pair MyQ with Smartthings with ST device handler to avoid paying Chamberlain's monthly fee.
+         <strong>Voice: Okay</strong><br>Pair MyQ with Smartthings with ST device handler to avoid paying Chamberlain's monthly fee. Works as expected.
        </figcaption>
       </figure>
 	</div>

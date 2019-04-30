@@ -68,7 +68,7 @@ There are many home automation hubs to choose from that perform similar function
 
 
 <ul class="alt">
-  <li><strong>Affiliate link:</strong> Purchase a <a href="https://amzn.to/2IZoKqm">SmartThings hub</a>, <a href="https://amzn.to/2I2GbXc">Raspberry Pi 3B+</a>, or <a href="https://amzn.to/2I4KyRI">Asus Tinkerboard S</a> from Amazon</li>
+  <li><strong>Affiliate link:</strong> Purchase a <a href="https://amzn.to/2IZoKqm">SmartThings hub</a>, <a href="https://amzn.to/2I2GbXc">Raspberry Pi 3B+</a>, <a href="https://amzn.to/2DH8G95">GoControl Z-Wave/Zigbee USB device (for Home Assistant)</a>, or <a href="https://amzn.to/2I4KyRI">Asus Tinkerboard S</a> from Amazon</li>
   <li><a href="https://graph-na04-useast2.api.smartthings.com/ide/apps">Developer portal</a> for SmartThings. This is where you add custom device handlers.</li>
   <li>Subreddits for <a href="https://www.reddit.com/r/homeassistant/">/homeassistant/</a> and <a href="https://www.reddit.com/r/SmartThings/">/smartThings/</a></li>
   <li><a href="https://wiki.webcore.co/">WebCoRE for SmartThings</a> lets users build complex automations. The tool is almost as easy as writing English, though it has some bugs.</li>

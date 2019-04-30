@@ -26,7 +26,7 @@ categories:
 
 ## Philips Dawn-to-Dusk Light bulb
 
-**Dawn-to-dusk light bulbs like this [Philips Light bulb](https://amzn.to/2IZZP65) work  great as porch lights and don’t use a smart hub.** In my experience, the lights were on when I checked at sunset and off during the daytime. Light bulbs with built-in motion sensors, like the **[Sengled PAR38 with Motion Sensor](https://amzn.to/2Y1Hzh1)** may work better if you only need the light to turn on when someone is present. Just make sure the rather large bulb **``(PAR38)``** will fit in your light fixture.
+**Dawn-to-dusk light bulbs like this [Philips Light bulb](https://amzn.to/2IZZP65) work  great as porch lights and don’t require a home automation hub.** In my experience, the lights were on when I checked at sunset and off during the daytime. Light bulbs with built-in motion sensors, like the **[Sengled PAR38 with Motion Sensor](https://amzn.to/2Y1Hzh1)** may work better if you only need the light to turn on when someone is present. Just make sure the rather large bulb **``(PAR38)``** will fit in your light fixture.
 
 Further promoting the case for regular bulbs, some smart bulbs are not meant to be installed outside due to temperature limits, but these dawn-to-dusk bulbs work just fine outdoors.
 

@@ -36,7 +36,7 @@ I’m still a renter, so I use smart bulbs around the house. Smart bulbs remain 
 
 <ul class="alt">
   <li><strong>Smart bulbs won’t respond if its power is cut off by the light switch.</strong></li>
-  <li><strong>Most smart bulbs on sale are Zigbee or Wi-Fi.</strong> I’ve never seen a Z-Wave bulb on sale.</li>
+  <li><strong>Most smart bulbs on sale are Zigbee or Wi-Fi.</strong> I’ve never seen an affordable Z-Wave bulb before.</li>
 </ul>
 
 ### What you get with a smart bulb
@@ -86,9 +86,9 @@ Philips Hue bulbs require the Hue bridge because it uses a different profile of 
 
 ### Using Hue bulbs without the Hue Bridge
 
-It’s possible to flash Hue bulbs to standard Zigbee ZHA bulbs using a Python script called **``Hue Thief``**, but I don’t recommend it because of the difficulty in getting it to work and factory resetting bulbs. To begin the process, you need to purchase a Zigbee USB radio, like the **``GoControl HUSBZB-1``**, which is redundant if you already have a SmartThings or Hubitat device. Following my tutorial may not work for everyone, as indicated on the forum.
+It’s possible to flash Hue bulbs to standard Zigbee ZHA bulbs using a Python script called [**``Hue Thief``**](https://community.home-assistant.io/t/hue-thief-and-hass-io/48420/10), but I don’t recommend it because of the difficulty in getting it to work and factory resetting bulbs. To begin the process, you need to purchase a Zigbee USB radio, like the [**``GoControl HUSBZB-1``**](https://amzn.to/2DH8G95), which is redundant if you already have a SmartThings or Hubitat device. Following my tutorial may not work for everyone, as indicated on the forum.
 
-I’ve had issues with flashed Hue lights unpairing from my network and I haven’t found a solution yet, because there isn’t a normal way for the Hue light to enter exclusion mode! I hear it’s possible to factory reset Hue Thief bubs using a **Philips dimmer remote**, as described here. This seems like a better alternative but I didn’t want to spend another $25 to find out.
+I’ve had issues with flashed Hue lights unpairing from my network and I haven’t found a solution yet, because there isn’t a normal way for the Hue light to enter exclusion mode! I hear it’s possible to factory reset Philips Hue bulbs using a [**Philips dimmer remote**](https://amzn.to/2DDMZac), as described [here](https://github.com/mozilla-iot/wiki/wiki/HOWTO:-Factory-reset-a-Hue-bulb). This seems like a better alternative but I didn’t want to spend another $25 to find out.
 
 ### Installation and Smart Home Integration
 

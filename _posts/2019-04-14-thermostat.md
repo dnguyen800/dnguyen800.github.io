@@ -56,11 +56,10 @@ Smart thermostats like Nest and Ecobee regularly go on sale so it’s easy to sn
 ### Recommended Reading
 
 <ul class="alt">
-  <li><strong>Affiliate link:</strong> Purchase the <a href="https://amzn.to/2D2Ap3Y">Nest thermostat</a> or <a href="https://amzn.to/2uPujPG">Ecobee</a> on Amazon</li>
   <li>Thermostat Compatibility Checker for <a href="https://nest.com/works/">Nest</a> and <a href="https://www.ecobee.com/compatibility/">Ecobee</a></li>
   <li>Integrate the Nest thermostat with <a href="https://community.smartthings.com/t/release-nst-manager-v5-0/83228">SmartThings with custom device handler</a> and <a href="https://www.home-assistant.io/components/nest/">Home Assistant component</a></li>
   <li>Integrate Ecobee thermostat with <a href="https://support.smartthings.com/hc/en-us/articles/208005686-How-to-connect-ecobee-thermostats">SmartThings</a> and <a href="https://www.home-assistant.io/components/ecobee/">Home Assistant</a></li>
-  <li><strong>Affiliate Link:</strong> Purchase the <a href="https://amzn.to/2PBEAJ2">Nest thermostat</a> or <a href="https://amzn.to/2PEvN9d">Ecobee3</a> from Amazon</li>
+  <li><strong>Affiliate Link:</strong> Purchase the <a href="https://amzn.to/2PBEAJ2">Nest thermostat</a> or <a href="https://amzn.to/2PEvN9d">Ecobee "3</a> from Amazon</li>
 </ul>
 
 
@@ -82,15 +81,15 @@ Honestly, there is not much to rave or complain about -- the Nest is what you ex
 
 ### The Problems
 
-There aren't any major problems with Nest, but the **Home/Away Assist** feature can be very slow to detect presence changes. I've compared Nest times to actual times and have seen hour-long gaps in detection. I've also arrived home to see that the Nest cameras remained on (should be off when someone is home) and the thermostat not adjusted. If you want to come home to a warm house, the most reliable way is to use the Nest app before heading home.
+There aren't any major problems with Nest, but the **Home/Away Assist** feature can be very slow to detect presence changes. I've compared Nest times to actual times (tracked with Home Assistant) and have seen hour-long gaps in detection. I've also arrived home to see that the Nest cameras remained on (should be off when someone is home) and the thermostat not adjusted. If you want to come home to a warm house, the most reliable way is to use the Nest app before heading home.
 
 ### Installation and Smart Home Integration
 
-Physical installation is not difficult, but you need to use the <a href="https://nest.com/works/">Nest compatibility checker</a> if your home’s existing wiring is compatible. I had to call tech support once because there were more wires in my existing installation than what was covered in the installation guide. Physical installation requires some basic do-it-yourself **DIY** skills like drilling holes and basic electrical wiring.
+Physical installation is not difficult, but you need to use the [Nest compatibility checker]("https://nest.com/works/) if your home’s existing wiring is compatible. I had to call tech support once because there were more wires in my existing installation than what was covered in the installation guide. Physical installation requires some basic do-it-yourself **DIY** skills like drilling holes and handling of electrical wires.
 
 Nest thermostats come with a wall plate to cover the gaping hole left by the previous thermostat. How nice!
 
-Connecting the Nest to SmartThings uses an unofficial SmartApp called [NST Manager](https://community.smartthings.com/t/release-nst-manager-v5-0/83228). It's not difficult to set up, but requires creating a Nest developer account, using the SmartThings developer portal to add a SmartApp. As an unofficial integration, it's quite impressive to have the thermostat and  cameras working in SmartThings. Kudos to the team.
+Connecting the Nest to SmartThings uses an unofficial SmartApp called [NST Manager](https://community.smartthings.com/t/release-nst-manager-v5-0/83228). It's not difficult to set up, but requires creating a Nest developer account and using the SmartThings developer portal to add a SmartApp. As an unofficial integration, it's quite impressive to have the thermostat and Nest cameras working in SmartThings. Kudos to the community for imp
 
 The **Home/Away Assist** feature on the Nest app is not timely, so the other option you have is to use voice control, say, in the car driving home, to warm up the house before you arrive. 
 
@@ -165,13 +164,13 @@ I haven't encountered any major problems to note. Once, the Ecobee/SmartThings i
 
 ### Installation and Smart Home Integration
 
-The installation process is just as easy as Nest--all steps are covered in the app. Labels are included for the thermostat wires. There is a compatibility checker section on the Ecobee app to guide Physical installation requires some basic do-it-yourself **DIY** skills like drilling holes and basic electrical wiring.
+The physical installation process is just as easy as Nest--all steps are covered in the mobile app, with instructional videos. Labels are included for you to properly label the existing thermostat wires . There is a compatibility checker section on the Ecobee app to confirm if your home supports the Ecobee. Physical installation requires some basic do-it-yourself **DIY** skills like drilling holes and basic electrical wiring.
 
 Connecting the occupancy sensors to the Ecobee is incredibly easy. Just remove the tape from the battery and the thermostat will detect the sensor and confirm with you to add to your home.
 
-Ecobee is officially supported by SmartThings and integrates easily using a SmartThings SmartApp. Integrating with Home Assistant requires a developer account, which is free.
+Ecobee is officially supported by SmartThings and integrates easily using a SmartThings SmartApp. Integrating with Home Assistant using the [Ecobee](https://www.home-assistant.io/components/ecobee/) component requires an Ecobee developer account, which is free, and the API key that comes with it.
 
-Comes with a wall plate to hide the hole or any visible wires.
+Like the Nest, the Ecobee comes with a wall plate to hide the hole or any visible wires from the previous installation.
 
 
 <div class="row">
@@ -180,8 +179,7 @@ Comes with a wall plate to hide the hole or any visible wires.
 	  <figure class="fourthtest">
         <img src="assets/images/integrations/ecobee-ha.png" />
         <figcaption>
-          <strong>Home Assistant: Good</strong><br>Create a developer account and add to your config. Looks great!
-        </figcaption>
+          <strong>Home Assistant: Good</strong><br>Requires an Ecobee developer account, then add the API key to the HA config. Has full functionality in HA.        </figcaption>
       </figure>
 	</div>
 	<div class="6u 12u$(medium)">
