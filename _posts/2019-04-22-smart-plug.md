@@ -195,7 +195,7 @@ The Monoprice plug pairs to SmartThings and Home Assistant like any Z-Wave devic
       <figure class="fourthtest">
       <img src="assets/images/integrations/monoprice-plug-st.png" />
       <figcaption>
-      <strong>SmartThings: Good</strong><br>Easily pairs as a generic Z-Wave plug.
+      <strong>SmartThings: Good</strong><br>Easily pairs as a generic Z-Wave plug. Also monitors energy usage.
       </figcaption>
       </figure>
 	</div>
