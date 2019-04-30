@@ -60,6 +60,7 @@ Smart thermostats like Nest and Ecobee regularly go on sale so it’s easy to sn
   <li>Thermostat Compatibility Checker for <a href="https://nest.com/works/">Nest</a> and <a href="https://www.ecobee.com/compatibility/">Ecobee</a></li>
   <li>Integrate the Nest thermostat with <a href="https://community.smartthings.com/t/release-nst-manager-v5-0/83228">SmartThings with custom device handler</a> and <a href="https://www.home-assistant.io/components/nest/">Home Assistant component</a></li>
   <li>Integrate Ecobee thermostat with <a href="https://support.smartthings.com/hc/en-us/articles/208005686-How-to-connect-ecobee-thermostats">SmartThings</a> and <a href="https://www.home-assistant.io/components/ecobee/">Home Assistant</a></li>
+  <li><strong>Affiliate Link:</strong> Purchase the <a href="https://amzn.to/2PBEAJ2">Nest thermostat</a> or <a href="https://amzn.to/2PEvN9d">Ecobee3</a> from Amazon</li>
 </ul>
 
 
@@ -75,7 +76,7 @@ Smart thermostats like Nest and Ecobee regularly go on sale so it’s easy to sn
 
 ## Nest Thermostats
 
-**I recommend any smart thermostat currently on sale, which is usually the Nest E. It has all important features of the Nest 3rd Gen, but regularly goes on sale for $130 or less.** Get the Nest 3rd Gen for $180 if you want a nicer looking, metal finish on your thermostat. Ecobees are just as good as Nest, so there is no wrong choice here.
+**I recommend any smart thermostat currently on sale, which is usually the Nest E. It has all important features of the [Nest 3rd Gen](https://amzn.to/2ILXmg4), but regularly goes on sale for $130 or less.** Get the Nest 3rd Gen for $180 if you want a nicer looking, metal finish on your thermostat. Ecobees are just as good as Nest, so there is no wrong choice here.
 
 Honestly, there is not much to rave or complain about -- the Nest is what you expect out of a smart thermostat. The Nest app is straightforward to use, and according to [this security study](https://www.tomsguide.com/us/smart-home-leaky-apps,news-29319.html) of smart home apps, Nest is one of the few apps that encrypts communication between the thermostat and Nest app, even when on the same local network. 
 
@@ -154,7 +155,7 @@ Very rarely do I need to change the temperature, so home automation integration 
 
 I have a confession to make: I only purchased the Ecobee instead of Nest because it was currently on sale. I read comparison articles but didn't find many notable differences between the two, so I went ahead and bought it for my friend. 
 
-**And lo and behold, the Ecobee is just as good as the Nest but it is better in a few ways.** It officially supports SmartThings and is easy to set up. The Ecobee also includes room sensors, which can also act as really slow room occupancy sensors. In a large house where temperature varies greatly, I can see this being useful, but not a must-have. 
+**And lo and behold, the [Ecobee](https://amzn.to/2PEvN9d) is just as good as the Nest but it is better in a few ways.** It officially supports SmartThings and is easy to set up. The Ecobee also includes room sensors, which can also act as really slow room occupancy sensors. In a large house where temperature varies greatly, I can see this being useful, but not a must-have. 
 
 Both the Ecobee 3 and Ecobee 4 are still available for sale. The only difference I noted was the inclusion of Amazon Alexa on the Ecobee 4, which I found to be a useless feature. The location of my thermostats are in low traffic areas (hallways, stairs), and there was rarely a time when I needed Alexa to do something while standing in the hallway. If I do, I end up yelling and the wrong Echo speaker picks up my request. So I'm still unsure why I paid extra money for this feature.
 

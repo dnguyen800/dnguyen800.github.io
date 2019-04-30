@@ -6,7 +6,7 @@ layout: default
 
 <section>
 	<header class="major">
-		<h2>Hobbies</h2>
+		<h2>Topics</h2>
 	</header>
 	<div class="features">
 		<article>

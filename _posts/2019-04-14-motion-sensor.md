@@ -52,6 +52,8 @@ I’ve tested a few motion sensors and I found a few that I like. All of them ha
 
 <ul class="alt">
   <li><strong>Affiliate link:</strong> Purchase the <a href="https://amzn.to/2ImGlID">Dome Z-Wave Plus motion sensor</a> on Amazon</li>
+  <li>Purchase the <a href="https://www.thesmartesthouse.com/products/zooz-z-wave-plus-motion-sensor-zse18-with-magnetic-base-battery-or-usb-power">Zooz ZSE18 motion sensor</a> from The Smartest House</li>
+  <li> Find the <a href="https://www.ebay.com/sch/i.html?_from=R40&_trksid=m570.l1313&_nkw=ge+z-wave+motion+sensor&_sacat=0&LH_TitleDesc=0&_osacat=0&_odkw=ge+z-wave+motion">GE Z-Wave Plus motion sensor</a> on eBay</li>
   <li>Amazon search for <a href="https://www.amazon.com/s?k=z-wave+motion+sensor&ref=nb_sb_noss_2">Z-Wave motion sensors</a>.</li>
   <li>Connect the Dome Z-Wave motion sensor to SmartThings with this <a href="https://community.smartthings.com/t/release-dome-motion-sensor-official/78092">device handler</a>.</li>
 </ul>
@@ -67,7 +69,7 @@ I’ve tested a few motion sensors and I found a few that I like. All of them ha
 
 ## Dome Home Automation Z-Wave Plus (DMMS1) sensor
 
-**My first motion sensor was the Dome Home Automation Z-Wave Plus ``(DMMS1)`` sensor, and I can say it is the most reliable motion sensor I used and repurchased over the years.** I use them in stairways, hallways, entrances—mainly low to medium traffic areas where I absolutely need the light to turn on. Walking down the stairs in the dark shouldn’t happen in a smart home and Dome motion sensors haven’t failed me in this regard.
+**My first motion sensor was the [Dome Home Automation Z-Wave Plus](https://amzn.to/2ImGlID) sensor ``(DMMS1)``, and I can say it is the most reliable motion sensor I used and repurchased over the years.** I use them in stairways, hallways, entrances—mainly low to medium traffic areas where I absolutely need the light to turn on. Walking down the stairs in the dark shouldn’t happen in a smart home and Dome motion sensors haven’t failed me in this regard.
 
 The detection range is better than most sensors, with objects reliably detected at 30 feet, and even further using higher sensitivities (and likely more false positives). In the living room, I use one sensor to detect someone entering from the opposite end of the room—about 30 feet. 
 
@@ -95,7 +97,7 @@ Pairing in Home Assistant is messy, as the sensor adds motion and ambient light 
         <figcaption>The ZSE18 sensor. <strong>| Zooz</strong></figcaption>
       </figure>
       <h3>Zooz Z-Wave Plus Motion Sensor (ZSE18)</h3>
-      <p>If a sensor only works 90% of the time, is it worth buying? <strong>The Zooz Z-Wave Plus Motion Sensor (ZSE18) is one of the cheapest motion sensors on the market ($20-23) but after testing for months and running into several issues, I can’t recommend these for any use.</strong>  With a reduced range (around 15-20ft) and less than 100% reliability, I can’t use the sensor in areas where I absolutely need the light to turn on, so I relegated it to less critical areas like the bedroom or office. If I could return them, I would and purchase some reliable sensors instead.</p>
+      <p>If a sensor only works 90% of the time, is it worth buying? <strong>The <a href="https://www.thesmartesthouse.com/products/zooz-z-wave-plus-motion-sensor-zse18-with-magnetic-base-battery-or-usb-power">Zooz Z-Wave Plus Motion Sensor</a> (ZSE18) is one of the cheapest motion sensors on the market ($20-23) but after testing for months and running into several issues, I can’t recommend these for any use.</strong>  With a reduced range (around 15-20ft) and less than 100% reliability, I can’t use the sensor in areas where I absolutely need the light to turn on, so I relegated it to less critical areas like the bedroom or office. If I could return them, I would and purchase some reliable sensors instead.</p>
 
 <p>Out of all that I’ve tested, this sensor’s design is my favorite. It uses a magnetic base like the Dome sensors, but has the micro-USB port accessible from the outside of the case. This lets me position the sensor in a way that doesn’t create tension on the cable and keep the sensor steady. </p>
 
@@ -113,7 +115,7 @@ Pairing in Home Assistant is messy, as the sensor adds motion and ambient light 
         <figcaption> GE motion sensor | GE</figcaption>
       </figure>
       <h3>GE Z-Wave Plus Motion Sensors</h3>
-      <p><strong>I continue to buy GE Z-Wave Plus Motion Sensors for its excellent range and USB power, but since it’s no longer being sold at retailers, I can’t recommend it.</strong> I sometimes find deals on eBay for under $30, which is a fair price as the sensor isn’t perfect (poor battery life and limited mounting options come to mind). These sensors are great in high traffic and large areas, but only if you can power the sensors with a USB cable.</p>
+      <p><strong>I continue to buy <a href="https://www.ebay.com/sch/i.html?_from=R40&_trksid=m570.l1313&_nkw=ge+z-wave+motion+sensor&_sacat=0&LH_TitleDesc=0&_osacat=0&_odkw=ge+z-wave+motion">GE Z-Wave Plus Motion Sensors</a> for its excellent range and USB power, but since it’s no longer being sold at retailers, I can’t recommend it.</strong> I sometimes find deals on eBay for under $30, which is a fair price as the sensor isn’t perfect (poor battery life and limited mounting options come to mind). These sensors are great in high traffic and large areas, but only if you can power the sensors with a USB cable.</p>
 
        <figure class="align-center" style="width: 50%;">
        <a class="image-link" href="assets\images\other\motion-sensor-range.jpg" ><img src="assets\images\other\motion-sensor-range.jpg" alt="" /></a>
@@ -135,7 +137,7 @@ Pairing in Home Assistant is messy, as the sensor adds motion and ambient light 
         </figcaption>
         </figure>
     	<h3>BeSense Ceiling Motion Sensor</h3>
-    	<p>The BeSense ceiling motion sensor is a new sensor on the market that caught my eye on Amazon. I haven’t tested it, but the good reviews, use of AA batteries and affordable price made me curious. It is a ceiling sensor so it is best used in small rooms, hallways, and condos where the ceiling isn’t so high. If I ever buy it, I’ll report my findings here. </p>
+    	<p>The <a href="https://amzn.to/2GKbwLr">BeSense ceiling motion sensor</a> is a new sensor on the market that caught my eye on Amazon. I haven’t tested it, but the good reviews, use of AA batteries and affordable price made me curious. It is a ceiling sensor so it is best used in small rooms, hallways, and condos where the ceiling isn’t so high. If I ever buy it, I’ll report my findings here. </p>
     </div>
    <div class="6u 12u$(small)">
       <figure class="align-left">
@@ -143,7 +145,7 @@ Pairing in Home Assistant is messy, as the sensor adds motion and ambient light 
         <figcaption>Ecobee temp sensors. | Ecobee</figcaption>
       </figure>
       <h3>Ecobee Sensors</h3>
-      <p><strong>Ecobee thermostats come with room sensors that monitor temperature, but did you know that it can also be used as a motion sensor?</strong> I would never buy purchase Ecobee sensors as dedicated motion sensors, but they are nice to have as secondary sensors to confirm if a room is truly empty.</p>
+      <p><strong>Ecobee thermostats come with room sensors that monitor temperature, but did you know that it can also be used as a motion sensor?</strong> I would never buy purchase <a href="https://amzn.to/2PDNrK2">Ecobee sensors</a> as dedicated motion sensors, but they are nice to have as secondary sensors to confirm if a room is truly empty.</p>
 
 <p>Some important info about the sensors: they can be used only if you have an Ecobee thermostat installed as it uses a proprietary method to communicate. The sensor’s battery can last for over a year using a single CR2032 battery—the same ones used in most car key fobs. </p>
 

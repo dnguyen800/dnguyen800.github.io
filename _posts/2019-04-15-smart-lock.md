@@ -85,7 +85,7 @@ All smart locks require some disassembly of the current lock, so renters will ne
 
 ## August Locks
 
-**If you want to try out a smart lock but don’t own a home, then August locks might be the solution for you.** Keep in mind that some disassembly of the current lock is required, so it is your responsibility to follow the rental agreements. August locks only require replacement of the thumb latch, so the lock replacement is unnoticeable from the outside and your (and landlord’s) existing keys will continue to work. I recommend the August Lock Pro for its **``Z-Wave support``**, so you can avoid using the poorly-reviewed August app and Connect Wi-Fi Bridge.
+**If you want to try out a smart lock but don’t own a home, then the [August Lock Pro](https://amzn.to/2WRHjjX) might be the solution for you.** Keep in mind that some disassembly of the current lock is required, so it is your responsibility to follow the rental agreements. August locks only require replacement of the thumb latch, so the lock replacement is unnoticeable from the outside and your (and landlord’s) existing keys will continue to work. I recommend the August Lock Pro for its **``Z-Wave support``**, so you can avoid using the poorly-reviewed August app and Connect Wi-Fi Bridge.
 
 **August locks only work on single bolt locks.** I wasn’t familiar with the term, but luckily August has a nice illustration (see below) to explain the difference.
 
@@ -169,7 +169,7 @@ Google Assistant is supported through the August Connect bridge or by associatio
 
 ## Schlage Keypad Locks
 
-Schlage Keypad Locks can offer most of the conveniences of a smart lock, but avoids certain risks and is slightly cheaper. A four-digit code is all that’s needed to unlock, and you have the multiple key codes available for guests. It’s inconvenient to revoke access by changing the keycode, but that is a problem most people will rarely deal with.
+[Schlage Keypad Locks](https://amzn.to/2IURotF) can offer most of the conveniences of a smart lock, but avoids certain risks and is slightly cheaper. A four-digit code is all that’s needed to unlock, and you have the multiple key codes available for guests. It’s inconvenient to revoke access by changing the keycode, but that is a problem most people will rarely deal with.
 
 You don’t have to worry about remotely locking the door, as the door always locks when closed. You lose the ability to receive notifications when the door is unlocked, but that can be replaced with a camera or door sensor.
 

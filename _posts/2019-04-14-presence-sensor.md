@@ -65,7 +65,7 @@ It took some time to find a capable presence sensor that was timely enough to up
 
 ## Nmap
 
-Nmap is a network scanning tool that has many uses, though at a basic level it scans the network for connected devices. In Home Assistant, we repurpose the Nmap component as a device tracker: it scans the network for my phone (which is on the Wi-Fi network) and updates device status to ‘home’ if online, and ‘away’ if offline. **I like Nmap as it is a simple, non-intrusive service that doesn’t require installing an app, and doesn’t track location any further than the house.** That makes it easy to convince my roommates to use it as they don’t have to do anything on their phones, other than take their phones when they leave the house.
+[Nmap](https://www.home-assistant.io/components/nmap_tracker/) is a network scanning tool that has many uses, though at a basic level it scans the network for connected devices. In Home Assistant, we repurpose the Nmap component as a device tracker: it scans the network for my phone (which is on the Wi-Fi network) and updates device status to ‘home’ if online, and ‘away’ if offline. **I like Nmap as it is a simple, non-intrusive service that doesn’t require installing an app, and doesn’t track location any further than the house.** That makes it easy to convince my roommates to use it as they don’t have to do anything on their phones, other than take their phones when they leave the house.
 
 I have one goal with these device trackers, which is to update location status before I reach the door. This lets me unlock the door or open the garage door right as I arrive. In my testing, results have been very positive. Status changes happen in less than a minute. Nmap is fast enough to detect when I’m in the garage and about to head to the door. 
 
@@ -75,9 +75,7 @@ There are a few things you should know before using nmap. Tracking from away to 
 
 Nmap’s accuracy is dependent on a strong Wi-Fi network that can reach just outside your garage or front door. Using a Wi-Fi mesh system or a powerful network router makes this a non-issue, but if you your phone doesn't connect to the Wi-Fi by the time you reach the front door or garage, then **nmap** won't work for you.
 
-Nmap's accuracy also varies by phone, at least with the few Android phones I've tested. I~ On all phones I've tested, there were a few instances where~ switched to "not home" for one second. THat's why I would not create any automations that automatically unlock a door based on presence detection.
-
-Some on the HA forums are having issues, where the nmap is kicking devices off the network. ANyone with aggressive battery saver ~ may find that nmap doesn't detect on the wifi network anymore. If you're not in the Wi-Fi network, then nmap won't detect it.
+Nmap's accuracy also varies by smartphone, at least with the few Android phones I've tested. On all the phones I've tested, there were a few instances where the Nmap tracker switched to **``not home``** for one minute. The issue repeated so often that I needed to increase the **``home interval``** which is the number of minutes Nmap will not scan this device, assuming it is home, in order to preserve the device battery. With these types of issues, I would not create any automations that automatically unlock a door based on presence detection.
 
 ### Installation and Smart Home Integration
 
@@ -102,7 +100,7 @@ The **``Nmap``** component is available on Home Assistant only, but the configur
 
 ## Life360
 
-Life360 is probably the next best choice, though it is just a bit too slow at updating location to be used for something like unlocking the door. I've set larger geofences so detection could happen faster, but it still failed. I've sat in my car on the driveway, looking at my phone, waiting for an update. The update didn't happen until I opened the app.
+[Life360](https://www.life360.com/) is probably the next best choice, though it is just a bit too slow at updating location to be used for something like unlocking the door. I've set larger geofences so detection could happen faster, but it still failed. I've sat in my car on the driveway, looking at my phone, waiting for an update. The update didn't happen until I opened the app.
 
 Life360 can be used as a presence sensor in both SmartThings and Home Assistant, though there is more delay with SmartThings.
 

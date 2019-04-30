@@ -47,9 +47,9 @@ There are a plethora of cheaper wireless light strips on Amazon, but there is on
 ### Considerations before purchasing a light strip
 
 <ul class="alt">
-  <li><b>Light strip placement must be near an AC outlet.</b></li>
-  <li><b>The length of light strip**--do you need to cut the strip to fit?</b></li>
-  <li><b>Cutting, splitting and extending light strips will require accessories from Litcessory (Amazon seller).</b></li>
+  <li><strong>Light strip placement must be near an AC outlet.</strong></li>
+  <li><strong>The length of light strip**--do you need to cut the strip to fit?</strong></li>
+  <li><strong>Cutting, splitting and extending light strips will require accessories from Litcessory (Amazon seller).</strong></li>
 </ul>
 
 
@@ -65,7 +65,7 @@ There are a plethora of cheaper wireless light strips on Amazon, but there is on
 ### Recommended Reading
 
 <ul class="alt">
-  <li><b>Affiliate link:</b> Purchase the <a href="https://amzn.to/2WOFaFv">Phlips Hue Light Strip Plus</a> on Amazon</li>
+  <li><strong>Affiliate link:</strong> Purchase the <a href="https://amzn.to/2WOFaFv">Philips Hue Light Strip Plus</a>, <a href="https://amzn.to/2INwyw5">Play Light Bar</a>, or <a href="https://amzn.to/2J5Wv9h">Osram Lightify strips</a> on Amazon</li>
   <li>The <a href="http://www.screenbloom.com/">Screenbloom app</a> or <a href="https://www2.meethue.com/en-us/entertainment/hue-sync">Hue Sync app</a> for Philips Hue</li>
 </ul>
 
@@ -75,13 +75,13 @@ There are a plethora of cheaper wireless light strips on Amazon, but there is on
 <figure class="align-left">
   <img src="assets\images\product-photo\philips-hue-lightstrip.jpg" alt=""/>
   <figcaption>
-    <b>The Light Strip Plus. |  Philips</b>
+    <strong>The Light Strip Plus. |  Philips</strong>
   </figcaption>
 </figure>
 
 ## Philips Hue Light Strip Plus
 
-**If you are looking for professional-level lighting for your cabinets or TV, then the Philip Light Strip Plus is a good but expensive choice, though it is worth the extra money for safe and reliable smart lighting.** Like with all Philips Hue products I’ve used, I’m happy with the quality light strips and the integration with basically all home automation hubs and voice assistants.
+**If you are looking for professional-level lighting for your cabinets or TV, then the [Philip Light Strip Plus](https://amzn.to/2PzEEJ8) is a good but expensive choice, though it is worth the extra money for safe and reliable smart lighting.** Like with all Philips Hue products I’ve used, I’m happy with the quality light strips and the integration with basically all home automation hubs and voice assistants.
 
 The fade effect is present on light strips and the transition looks beautiful on a TV. See the video below.
 
@@ -108,7 +108,7 @@ If you’re looking for a way to turn on the light by touch, then I would sugges
 	  <figure class="fourthtest">
         <img src="assets/images/integrations/blank.png" />
         <figcaption>
-          <b>Home Assistant: Great</b><br>One button press on the Hue bridge to pair!
+          <strong>Home Assistant: Great</strong><br>One button press on the Hue bridge to pair!
         </figcaption>
       </figure>
 	</div>
@@ -116,7 +116,7 @@ If you’re looking for a way to turn on the light by touch, then I would sugges
       <figure class="fourthtest">
        <img src="assets/images/integrations/google-home.png" />
        <figcaption>
-         <b>Voice: Great</b><br>Works great
+         <strong>Voice: Great</strong><br>Works great
        </figcaption>
       </figure>
 	</div>
@@ -128,7 +128,7 @@ If you’re looking for a way to turn on the light by touch, then I would sugges
       <figure class="fourthtest">
       <img src="assets/images/integrations/philips-lightstrip-st.png" />
       <figcaption>
-      <b>SmartThings: Great</b><br> Easily connects to SmartThings with the Hue hub.
+      <strong>SmartThings: Great</strong><br> Easily connects to SmartThings with the Hue hub.
       </figcaption>
       </figure>
 	</div>
@@ -136,7 +136,7 @@ If you’re looking for a way to turn on the light by touch, then I would sugges
       <figure class="fourthtest">
        <img src="assets/images/integrations/blank.png"  />
        <figcaption>
-         <b>Hue App: Great</b><br>I never use it but it's there.
+         <strong>Hue App: Great</strong><br>I never use it but it's there.
        </figcaption>
       </figure>
 	</div>
@@ -156,7 +156,7 @@ If you’re looking for a way to turn on the light by touch, then I would sugges
         <figcaption> Playbar | Philips</figcaption>
       </figure>
       <h3>Philips Hue Play Light Bar</h3>
-      <p>The new Philips Hue Play Light Bar is a better choice for TV bias lighting as it is more portable but unfortunately costs even more than a light strip. All Philips Hue lighting products offer the same compatibility with SmartThings, Home Assistant and everything else out there, so I expect these to behave just as well.</p>
+      <p>The new <a href="https://amzn.to/2INwyw5">Philips Hue Play Light Bar</a> is a better choice for TV bias lighting as it is more portable but unfortunately costs even more than a light strip. All Philips Hue lighting products offer the same compatibility with SmartThings, Home Assistant and everything else out there, so I expect these to behave just as well.</p>
     </div>
     <div class="6u$ 12u$(small)">
       <figure class="align-left">
@@ -164,7 +164,7 @@ If you’re looking for a way to turn on the light by touch, then I would sugges
         <figcaption> SMART+ Kit | Sylvania</figcaption>
       </figure>
     	<h3>Osram Sylvania Lightify</h3>
-    	<p>After having a good experience using Sylvania OSRAM bulbs, I tried the Sylvania light strips. However, the Amazon reviews are a little worrying—several reviewers noted their strips died after one year. Is it worth paying $40 for a potential one-year  lifespan?</p>
-    	<p>I bought two sets of light strips for $22 each, but I'm a little disappointed at the brightness level of these strips. The max brightness is still less than 30% of the brightness of Philips Hue lightstrips; I can't even tell if they are on in the daylight. I'm disappointed and can't recommend these unless you buy them at $22 and don't use for TV lighting.</p>
+    	<p>After having a good experience using Sylvania OSRAM bulbs, I bought the [Sylvania light strips](https://amzn.to/2J5Wv9h). However, the Amazon reviews are a little worrying—several reviewers noted their strips died after one year. Is it worth paying $40 for a potential one-year  lifespan?</p>
+    	<p>I bought two sets of light strips for $22 each, but I'm a little disappointed at the brightness level of these strips. The max brightness is a little weaker compared to Philips Hue lightstrips; I can't even tell if they are on in the daylight. I do like that the strip comes in three pieces, so I can line up the strips vertically or horizontally with an extension like this <a href="https://amzn.to/2XSVzJD">Kabenjee extension</a>. I would use Philips Hue lightstrips on the TV, but using Lightify strips for a computer monitor, desk or shelf would work fine.</p>
     </div>
 </div>

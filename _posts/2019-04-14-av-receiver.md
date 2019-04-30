@@ -60,6 +60,7 @@ A friend recently asked for AV receiver recommendations, which made me realize h
 <ul class="alt">
   <li>Digital Trends article about <a href="https://www.digitaltrends.com/home-theater/hdmi-arc-explained-works-care/">HDMI CEC, ARC, and eARC</a></li>
   <li>Home Assistant Components for <a href="https://www.home-assistant.io/components/onkyo/">Onkyo</a> and <a href="https://www.home-assistant.io/components/pioneer/">Pioneer</a></li>
+  <li>Find AV receivers on sale at <a href="https://slickdeals.net/newsearch.php?forumchoice%5B%5D=4&forumchoice%5B%5D=9&forumchoice%5B%5D=10&forumchoice%5B%5D=13&forumchoice%5B%5D=25&forumchoice%5B%5D=30&forumchoice%5B%5D=38&forumchoice%5B%5D=39&forumchoice%5B%5D=41&forumchoice%5B%5D=44&forumchoice%5B%5D=53&forumchoice%5B%5D=54&forumchoice%5B%5D=71&q=av+receiver&firstonly=1">Slickdeals</a></li>
 </ul>
 
 <!-- Product Review section -->

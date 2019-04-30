@@ -17,7 +17,7 @@ Based on my terrible experience, I created this website to :
 - Help newcomers understand the possibilities of home automation (it's more than voice commands)
 - Share my integrated home automation solution to show what works and what doesn't
 
-This website is free of advertisements--I'm not here to make a living off my site, but to share interesting or helpful information. The content on this site is my own personal, and independent opinion. All products listed were purchased by me unless otherwise stated. I added affiliate links, though the links do not influence my opinion in any way.
+This website is free of advertisements--I'm not here to make a living off my site, but to share interesting or helpful information. The content on this site is my own personal, and independent opinion. All products listed were purchased by me unless otherwise stated. I added Amazon affiliate links, though the links do not influence my opinion in any way.
 
 <hr class="minor" />
 
@@ -31,7 +31,7 @@ This website is free of advertisements--I'm not here to make a living off my sit
       <p>I am an avid learner of technology, and for the most part, everything I've learned is self-taught. Exploring home automation has given me the opportunity to learn a new set of skills such as Python and Javascript programming, Liquid templating, and become more familiar with OS and server management (Linux, Docker), website design (CSS/HTML), and network security.  I've contributed Python components and Javascript-based UI cards to the Home Assistant open-source community, which you can find on my <a href="{{ site.github_url }}">Github page</a>.</p>
       <p class="box"><b>OTHER INTERESTS:</b> Traveling, cooking, 3D modeling (architecture), drawing, cinema</p>      
     </div>
-    
+
     <figure class="image right" style="max-width: 30%; text-align: center; font-size: smaller; text-indent: 0; padding: 1em; display: block; float: right;">
       <img src="assets/images/front-page/about2.jpg" alt="" />
       <ul class="icons">
@@ -41,7 +41,7 @@ This website is free of advertisements--I'm not here to make a living off my sit
       <li><a href="{{ site.email_url }}" class="icon fa-envelope-o" target="_blank"><span class="label">E-Mail</span></a></li>      
       </ul>
     </figure>
-    
+
   </section>
 
 <hr class="minor" />

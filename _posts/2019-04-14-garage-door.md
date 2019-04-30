@@ -57,6 +57,7 @@ When designing automations using garage openers and presence sensors, I recommen
 <ul class="alt">
   <li><strong>Affiliate link:</strong> Purchase the <a href="https://amzn.to/2Uxu8qH">MyQ hub</a> on Amazon</li>
   <li> Connect MyQ to <a href="https://community.smartthings.com/t/release-myq-lite-door-and-lamp-control-for-liftmaster-chamberlain/49150">SmartThings with custom device handler</a> and <a href="https://www.home-assistant.io/components/myq/">Home Assistant component</a>.</li>
+  <li>MyQ garage <a href="https://support.chamberlaingroup.com/s/article/List-of-compatible-garage-door-openers-for-MyQ-Garage-1484145635905">compatibility list</a>. Surprisingly, it works with some Craftsman and Genie garage doors.
 </ul>
 
 <!-- Product Review section -->
@@ -71,7 +72,7 @@ When designing automations using garage openers and presence sensors, I recommen
 
 ## Chamberlain MyQ
 
-**With few reliable options to choose from, the MyQ Smart Garage Hub is your best option if you have a compatible Chamberlain or Liftmaster garage.**  MyQ doesn’t earn my full recommendation because of their nickel-and-dime practices of charging money for basic features like voice assistant. Other than that, the MyQ hub and mobile app works as expected and is easy to install. MyQ is a Chamberlain product, so it works with the majority of Chamberlain and Liftmaster garages commonly found in the U.S.
+**With few reliable options to choose from, the [MyQ Smart Garage Hub](https://amzn.to/2IQIn4u) is your best option if you have a compatible Chamberlain, Liftmaster, Craftsman or Genie garage.**  MyQ doesn’t earn my full recommendation because of their nickel-and-dime practices of charging money for basic features like voice assistant. Other than that, the MyQ hub and mobile app works as expected and is easy to install. MyQ is a Chamberlain product, so it works with the majority of Chamberlain and Liftmaster garages commonly found in the U.S.
 
 The MyQ app has most of the features I would expect. You can set up notifications to alert you when a garage door is opened, or if a garage has been open for more than a number of minutes. Chamberlain finally added the ability to share access with multiple users, so I no longer have to share an account with my roommate. There is no home/away assist feature that automatically opens and closes the garage door -- it is probably too much liability for Chamberlain to have that feature, if it behaves improperly. 
 

@@ -65,7 +65,7 @@ I do want to acknowledge my music listening past (including the good and bad art
 
 ## Spotify
 
-**For streaming music, Spotify is, without a doubt, the best offering not only for its catalog of music but because it is the most openly supported music platform out there.** Spotify works with voice assistants, web browsers, Android, iOS, and Amazon platforms—not many music services can make that claim.  Even open-source platforms like Home Assistant and Volumio can access the Spotify API to control playback like the official app.  For the music lover, the playlist curation and personalized music recommendations are so precise that Spotify can find a song I love from an artist or album I don’t like. 
+**For streaming music, [Spotify](https://www.spotify.com/) is, without a doubt, the best offering not only for its catalog of music but because it is the most openly supported music platform out there.** Spotify works with voice assistants, web browsers, Android, iOS, and Amazon platforms—not many music services can make that claim.  Even open-source platforms like Home Assistant and Volumio can access the Spotify API to control playback like the official app.  For the music lover, the playlist curation and personalized music recommendations are so precise that Spotify can find a song I love from an artist or album I don’t like. 
 
 <figure class="align-center">
  <a class="image-link" href="assets\images\other\spotify-desktop.jpg" ><img src="assets\images\other\spotify-desktop.jpg" /></a>
@@ -134,7 +134,7 @@ Voice control works really well. I can ask to play a particular song, artist or 
 
 ## Plex
 
-**For local music, Plex is the best (and free!) app that can organize your music collection and offers the same functionality as popular music apps like Spotify.**  Plex is accessible on web browsers, Xbox One, Playstation 4, Android, iOS, and Amazon platforms, and even remote access to your music isn’t too hard to set up. Chromecast multi-room audio is supported with Plex, but unfortunately, Amazon, Sonos  and Apple’s multi-room audio solutions do not work yet. It sounds like I’m describing Spotify as Plex comes close to providing the same user-friendly experience, which is important to making music playback as easy as possible.
+**For local music, [Plex](http://plex.tv/) is the best (and free!) app that can organize your music collection and offers the same functionality as popular music apps like Spotify.**  Plex is accessible on web browsers, Xbox One, Playstation 4, Android, iOS, and Amazon platforms, and even remote access to your music isn’t too hard to set up. Chromecast multi-room audio is supported with Plex, but unfortunately, Amazon, Sonos  and Apple’s multi-room audio solutions do not work yet. It sounds like I’m describing Spotify as Plex comes close to providing the same user-friendly experience, which is important to making music playback as easy as possible.
 
 You will be surprised how hard it is to get a Spotify-like music experience for your local music. I tried open-source music players like Volumio, Mopidy, and PiMusicbox, but those tend to miss critical features—like a good search function or artist biographies—that keep it as a bare-bones app. It is amazing how the underlying parts (media scrapers, search, file support) of Plex work together to make a cohesive experience.
 
@@ -221,7 +221,7 @@ Before using Plex, I recommend cleaning up your music collection first. That mea
         <figcaption></figcaption>
       </figure>
       <h3>Google Play Music</h3>
-      <p>Google Play Music was my alternate method of playing my local music collection, but unfortunately it will be <a href="https://arstechnica.com/gadgets/2018/05/youtube-music-will-replace-google-play-music-but-wont-kill-user-uploads/">replaced by Youtube Music</a>. It's not technically playing music locally, as I first needed to upload my 80-gigabyte music collection to Google's servers and sync it thereafter. A Google Play agent application exists to monitor folders and upload new tracks. </p>
+      <p><a href="https://play.google.com/music">Google Play Music</a> was my alternate method of playing my local music collection, but unfortunately it will be <a href="https://arstechnica.com/gadgets/2018/05/youtube-music-will-replace-google-play-music-but-wont-kill-user-uploads/">replaced by Youtube Music</a>. It's not technically playing music locally, as I first needed to upload my 80-gigabyte music collection to Google's servers and sync it thereafter. A Google Play agent application exists to monitor folders and upload new tracks. </p>
 
 <p>The Google Play Music mobile app works, though navigation is annoying as the app is constantly pointing you towards radio stations and some form of paid music subscription.</p>
 
@@ -235,13 +235,13 @@ Before using Plex, I recommend cleaning up your music collection first. That mea
         </figcaption>
         </figure>
     	<h3>Volumio</h3>
-    	<p>Volumio is a well polished, open-source music player with a big emphasis onHi-Fi audio, but lacks convenient features I needed. It is easy to flash a Volumio image onto an SD card. The default skin is very nice, and there's a Spotify plugin available to access Spotify music and local music in one interface. Chromecast support isn't available, though not impossible if someone were to create a plug-in.</p>
+    	<p><a href="https://volumio.org/">Volumio</a> is a well polished, open-source music player with a big emphasis onHi-Fi audio, but lacks convenient features I needed. It is easy to flash a Volumio image onto an SD card. The default skin is very nice, and there's a Spotify plugin available to access Spotify music and local music in one interface. Chromecast support isn't available, though not impossible if someone were to create a plug-in.</p>
 
 <p>Volumio's navigation is pretty basic. There aren't any artist biographies, related music or artists -- it's not that fun to browse through music in Volumio as it only displays artist, album, and song names. At least a Volumio mobile app exists and looks professional. Home Assistant integration with Volumio exists and works well, though I'm not sure if the album cover art displays in Home Assistant.</p>
 
 <p>Volumio didn't fit my needs, but I still think it's a solid application that might be useful for others who want a high fidelity music solution in their smart home.</p>
-    </div>
-    <div class="6u$ 12u$(small)">
+   </div>
+   <div class="6u$ 12u$(small)">
         <figure class="align-left">
           <img src="assets\images\logo\mopidy.png" alt=""/>
         <figcaption>
@@ -249,7 +249,7 @@ Before using Plex, I recommend cleaning up your music collection first. That mea
         </figcaption>
         </figure>
     	<h3>Mopidy</h3>
-    	<p>I used Mopidy for some time before realizing Plex does everything I needed, but better. Out-of-the-box, Mopidy looks barebones but after adding the <a href="https://github.com/mopidy/mopidy-spotify">Spotify plugin</a> and the <a href="https://github.com/jaedb/Iris">Iris theme</a>, it looks like a professional music player.</p>
+    	<p>I used <a href="https://www.mopidy.com/">Mopidy</a> for some time before realizing Plex does everything I needed, but better. Out-of-the-box, Mopidy looks barebones but after adding the <a href="https://github.com/mopidy/mopidy-spotify">Spotify plugin</a> and the <a href="https://github.com/jaedb/Iris">Iris theme</a>, it looks like a professional music player.</p>
 
 <p>There is a way to stream from Mopidy to Chromecast speakers, but the method I used added a 5-second delay before playback, reduced sound quality, and issues skipping songs, or playing a new song. Basically, Mopidy is streaming live audio output to an Ogg Vorbis file, and you send the URL of the file to the Chromecast to play. I followed a <a href="https://www.vittoriomonaco.de/home-automation-part-7.html">tutorial</a> by Vittorio Monaco to figure this out.</p>
 
@@ -306,7 +306,7 @@ There are a growing number of video streaming services that offer live local TV 
 
 ## Youtube TV
 
-**I've been using Youtube TV for months and it provides a solid TV viewing experience as well as some useful smart home features, like advanced voice control with Google Assistant.**  Like any good streaming service, Youtube TV supports playback on web browsers, Chromecast, Roku, Apple TV, and most new TVs (2016 models or later). Streaming starts within seconds without any noticeable lag or dropouts, even when watching live sports (which plays at 60fps). The experience convinced me that streaming live TV doesn’t have to suck, unlike my experience with Sling TV.
+**I've been using [Youtube TV](https://tv.youtube.com/) for months and it provides a solid TV viewing experience as well as some useful smart home features, like advanced voice control with Google Assistant.**  Like any good streaming service, Youtube TV supports playback on web browsers, Chromecast, Roku, Apple TV, and most new TVs (2016 models or later). Streaming starts within seconds without any noticeable lag or dropouts, even when watching live sports (which plays at 60fps). The experience convinced me that streaming live TV doesn’t have to suck, unlike my experience with Sling TV.
 
 Voice commands with Google Assistant work really well on Youtube TV (naturally), but only when using Chromecast. Saying “play the latest episode of Conan” works as expected on my Chromecast Ultra, but not on Roku. The most I can do with my voice is to say “open Youtube TV on Roku,” which is not all that useful.
 
@@ -382,7 +382,7 @@ Secondly, finding and favoriting TV shows should be easy, but the app separates 
         <figcaption></figcaption>
       </figure>
       <h3>HD Homerun</h3>
-      <p>I bought and tested an HDHomerun Connect tuner and it was a good experience overall, but I've learned that I do not watch live television, besides sports games. With the additional cost for DVR features ($40 annual Plex Pass and available USB hard drive), I decided to go with Youtube TV instead.</p>
+      <p>I bought and tested an <a href="https://amzn.to/2GLj6VZ">HDHomerun Connect</a> tuner and it was a good experience overall, but I've learned that I do not watch live television, besides sports games. With the additional cost for DVR features ($40 annual Plex Pass and available USB hard drive), I decided to go with Youtube TV instead.</p>
 
       <p>I always had trouble detecting TV channels using my small flat antenna, but the HDHomerun has the best tuner for antennas, in my experience. I used a small flat antenna, mounted it on the wall in the second floor, and the HDHomerun picked up every channel, even the distant ones from 50 miles away. In my 10+ years of fiddling with antennas, I have never been able to get all major TV channels with a small antenna, except with HDHomerun.</p>
       
@@ -398,7 +398,7 @@ Secondly, finding and favoriting TV shows should be easy, but the app separates 
         <figcaption></figcaption>
       </figure>
       <h3>Sling TV</h3>
-      <p>I tested Sling TV and made an effort to migrate to it years ago but decided it wasn't worth the money. I couldn't rely on it to stream live sports games reliably, as the video stream would time out or have buffering issues. The lack of DVR and poor on-demand selection made it easy to say no to Sling TV. I don't think the service is much better now, from the comments I read on Slickdeals and the FireTV subreddit.</p>
+      <p>I tested <a href="https://www.sling.com/">Sling TV</a> and made an effort to migrate to it years ago but decided it wasn't worth the money. I couldn't rely on it to stream live sports games reliably, as the video stream would time out or have buffering issues. The lack of DVR and poor on-demand selection made it easy to say no to Sling TV. I don't think the service is much better now, from the comments I read on Slickdeals and the FireTV subreddit.</p>
    </div>
 </div>
 

@@ -50,7 +50,7 @@ I have my recommendation of contact sensors listed below, but there are plenty o
 ### Recommended Reading
 
 <ul class="alt">
-  <li>Purchase the <a href="https://www.monoprice.com/product?p_id=24259">Monoprice door sensors</a> on Monoprice</li>
+  <li>Purchase the <a href="https://www.monoprice.com/product?p_id=24259">Monoprice door sensors</a> on Monoprice and Konnected board from <a href="https://konnected.io/">Konnected.io</a></li>
   <li><b>Affiliate link:</b> Purchase the <a href="https://amzn.to/2Uup2f2">Visonic door sensor</a> on Amazon</li>
   <li> SmartThings custom device handlers for <a href="https://community.smartthings.com/t/release-dome-door-sensor-official/76321">Dome door sensors</a></li>
 </ul>
@@ -67,7 +67,7 @@ I have my recommendation of contact sensors listed below, but there are plenty o
 
 ## Dome Z-Wave Plus Door Sensors (DMWD1) 
 
-I was able to snag the Dome Z-Wave Plus Door Sensors (DMWD1) during a sale from domeha.com and it was a good purchase at the time. **But no matter how good the Dome DMWD1 sensor is, the irregular battery size is a huge drawback as no one wants to buy a pair of batteries for one device.** Heck, it even uses a different battery size than the Dome motion sensor (CR123A)! I prefer a lower cost than smaller sensor size, and I would have not purchased this if I had paid more attention to the battery size.
+I was able to snag the [Dome Z-Wave Plus Door Sensors](https://amzn.to/2VAdveH) (DMWD1) during a sale from domeha.com and it was a good purchase at the time. **But no matter how good the Dome DMWD1 sensor is, the irregular battery size is a huge drawback as no one wants to buy a pair of batteries for one device.** Heck, it even uses a different battery size than the Dome motion sensor (CR123A)! I prefer a lower cost than smaller sensor size, and I would have not purchased this if I had paid more attention to the battery size.
 
 ### The Problems
 
@@ -111,7 +111,7 @@ I used these sensors with SmartThings and a [custom device handler by user @krla
 
 ## Monoprice Z-Wave Plus Door Sensors (No Logo)
 
-**The Monoprice Z-Wave Plus Door Sensors are a bit pricey, but they work as advertised and are a great way to use my spare AAA batteries.** The sensors won’t win any awards for design—these are the bulkiest door sensors I have and can be an eyesore. If you’re looking for hidden sensors, then look into Monoprice’s recessed sensors. Make sure not to buy the **``Stitch``** version (Monoprice’s new line of WiFi-based smart devices) as they are not compatible with any of the home automation hubs.
+**The [Monoprice Z-Wave Plus Door Sensors](https://www.monoprice.com/product?p_id=24259) are a bit pricey, but they work as advertised and are a great way to use my spare AAA batteries.** The sensors won’t win any awards for design—these are the bulkiest door sensors I have and can be an eyesore. If you’re looking for hidden sensors, then look into Monoprice’s recessed sensors. Make sure not to buy the **``Stitch``** version (Monoprice’s new line of WiFi-based smart devices) as they are not compatible with any of the home automation hubs.
 
 For $20, I was expecting a low-profile sensor, but the sensors are reliable at least and that is the most important aspect in a connected device.
 
@@ -154,12 +154,12 @@ Pairing the sensors is straightforward in SmartThings and Home Assistant so I wo
 
 ## Visonic Door Sensor (MCT-340E) 
 
-**I bought the Visonic Door Sensor (MCT-340E) on a whim because they were so cheap ($10), but the small profile, popular battery size (CR2032), and reliability convinced me that this would make a solid budget recommendation.** The sensor also monitors temperature, though I have never received an accurate reading. If you don’t have any issues with your Zigbee network, then I would recommend giving these sensors a try.
+**I bought the[ Visonic Door Sensor](https://amzn.to/2PyMgvq) (MCT-340E) on a whim because they were so cheap ($10), but the small profile, popular battery size (CR2032), and reliability convinced me that this would make a solid budget recommendation.** The sensor also monitors temperature, though I have never received an accurate reading. If you don’t have any issues with your Zigbee network, then I would recommend giving these sensors a try.
 
 I have a Wi-Fi mesh network and a small Zigbee network of smart bulbs—both operating on the 2.4ghz frequency—but haven’t run into any connection issues. I would worry about connectivity in a much larger home, but for medium-sized homes and condos, range is not going to be a concern.
 
 <p class="box">
-<i>The sensor is $5 cheaper at mydigitaldiscount.com, where I originally bought it for $10.</i></p>
+<i>The sensor is $5 cheaper at <a href="https://www.mydigitaldiscount.com/visonic-mct-340-e-wireless-door-window-temperature-sensor-2.4ghz-zigbee-now-works-natively-with-samsung-smartthings-hub/">mydigitaldiscount.com</a>, where I originally bought it for $10.</i></p>
 
 ### Installation and Smart Home Integration
 
@@ -177,7 +177,7 @@ Pairing these sensors with Home Assistant can get a little messy as it creates m
 
 ## Konnected
 
-If you already have wired sensors installed from a security system in your home, you should check out the Konnected board, which can reuse those sensors with home automation hubs like SmartThings, Home Assistant and Hubitat. I installed one at a friend’s house and was able to connect four door sensors, a siren, a piezo buzzer, and used the 12V port to power a wall-mounted tablet. Be warned that it is a product with bugs—I spent two days trying to figure out an issue that was eventually resolved with a firmware update.
+If you already have wired sensors installed from a security system in your home, you should check out the [Konnected board](https://konnected.io/), which can reuse those sensors with home automation hubs like SmartThings, Home Assistant and Hubitat. I installed one at a friend’s house and was able to connect four door sensors, a siren, a piezo buzzer, and used the 12V port to power a wall-mounted tablet. Be warned that it is a product with bugs—I spent two days trying to figure out an issue that was eventually resolved with a firmware update.
 
 The cost of a Konnected module ($89) is high, but when you factor in the cost of purchasing wireless sensors at $20-30 each, then the module pays for itself with five wired sensors. I also like the fact that I can use a Honeywell wired siren with Konnected because it’s much louder and effective at scaring off intruders than any wireless siren I’ve tried.
 

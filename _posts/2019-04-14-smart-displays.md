@@ -65,7 +65,7 @@ For the right price, I would still prefer a smart display than a dedicated table
 
 ## Lenovo Smart Display 10” with Google Assistant
 
-**The Lenovo Smart Display was the first Google Assistant-powered smart display to be released, but with Google's recent pivot of Android Things platform, the future of the display looks grim.** Despite having some useful features like **``Chromecast Built-in``**, a quality display, speaker and microphones, web app support is limited and unlikely to come in the future. No developer is going to work on a platform for smart displays only when there are other platforms supporting a wider variety of devices.
+**The [Lenovo Smart Display](https://www.bestbuy.com/site/lenovo-10-smart-display-with-google-assistant-white-front-bamboo-back/6267024.p?skuId=6267024) was the first Google Assistant-powered smart display to be released, but with Google's recent pivot of Android Things platform, the future of the display looks grim.** Despite having some useful features like **``Chromecast Built-in``**, a quality display, speaker and microphones, web app support is limited and unlikely to come in the future. No developer is going to work on a platform for smart displays only when there are other platforms supporting a wider variety of devices.
 
 There have been some fire sales going on for this 10” display—selling for as low as $75, which is an excellent deal for a very nice digital photo frame and decent speakers. As long as you expect the Lenovo display to be a voice assistant and not much more, then the price is a steal for a fully functional Chromecast and Google Home speaker.  
 

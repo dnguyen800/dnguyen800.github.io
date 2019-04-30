@@ -30,7 +30,7 @@ App support can be very limited, depending on what company you choose. At the ve
 ### Considerations before choosing multi-room audio speakers
 
 <ul class="alt">
-	<li><b>Research app compatibility with multi-room audio before buying.</b> Chromecast supports the most services. Amazon Echo and Sonos doesn’t support Plex for local music.</li>
+	<li><strong>Research app compatibility with multi-room audio before buying.</strong> Chromecast supports the most services. Amazon Echo and Sonos doesn’t support Plex for local music.</li>
 </ul>
 
 ### What you get with multi-room audio speakers
@@ -47,9 +47,10 @@ App support can be very limited, depending on what company you choose. At the ve
 ### Recommended Reading
 
 <ul class="alt">
-	<li>Purchase the <a href="https://www.bestbuy.com/site/insignia-voice-smart-portable-bluetooth-speaker-and-alarm-clock-with-google-assistant-gray-black/5865906.p?skuId=5865906">Insignia Large speaker with Google Assistant</a></li>
-	<li>Slickdeals.net sales of the <a href="https://slickdeals.net/newsearch.php?searchin=first&forumchoice%5B%5D=9&forumchoice%5B%5D=44&forumchoice%5B%5D=25&forumchoice%5B%5D=30&q=insignia+speaker+google+assistant&r=1">Insignia speakers</a></li>
-	<li>Wirecutter review of the <a href="https://thewirecutter.com/reviews/best-soundbar/#budget-pick-vizio-sb3651-e6">Vizio Smartcast Soundbar</a></li>
+  <li><strong>Affiliate Link:</strong> Purchase the <a href="https://amzn.to/2L8SHXt">Vizio 2.1 sound bar</a>, <a href="https://amzn.to/2XWn1Gt">Sonos One</a> or < a href="https://amzn.to/2WcI1Zf">Amazon Echo 2nd Gen</a> from Amazon</li>
+  <li>Purchase the <a href="https://www.bestbuy.com/site/insignia-voice-smart-portable-bluetooth-speaker-and-alarm-clock-with-google-assistant-gray-black/5865906.p?skuId=5865906">Insignia Large speaker with Google Assistant</a></li>
+  <li>Slickdeals.net sales of the <a href="https://slickdeals.net/newsearch.php?searchin=first&forumchoice%5B%5D=9&forumchoice%5B%5D=44&forumchoice%5B%5D=25&forumchoice%5B%5D=30&q=insignia+speaker+google+assistant&r=1">Insignia speakers</a></li>
+  <li>Wirecutter review of the <a href="https://thewirecutter.com/reviews/best-soundbar/#budget-pick-vizio-sb3651-e6">Vizio Smartcast Soundbar</a></li>
 </ul>
 
 <!-- Product Review section -->
@@ -96,7 +97,7 @@ Voice control with Google Assistant works great with Spotify. Mention the name o
 	  <figure class="fourthtest">
         <img src="assets/images/integrations/chromecast-ha.png" />
         <figcaption>
-          <b>Home Assistant: Great</b><br>  Autodetects speakers and displays media info like so.
+          <strong>Home Assistant: Great</strong><br>  Autodetects speakers and displays media info like so.
         </figcaption>
       </figure>
 	</div>
@@ -104,7 +105,7 @@ Voice control with Google Assistant works great with Spotify. Mention the name o
       <figure class="fourthtest">
        <img src="assets/images/integrations/google-home.png" />
        <figcaption>
-         <b>Voice: Great</b><br> Say "Hey Google, play Spotify on "speaker group" and it works.
+         <strong>Voice: Great</strong><br> Say "Hey Google, play Spotify on "speaker group" and it works.
        </figcaption>
       </figure>
 	</div>
@@ -116,7 +117,7 @@ Voice control with Google Assistant works great with Spotify. Mention the name o
       <figure class="fourthtest">
       <img src="assets/images/integrations/chromecast-spotify.png"  />
       <figcaption>
-      <b>Spotify: Okay</b><br> Sometimes need to force close the app to work.
+      <strong>Spotify: Okay</strong><br> Sometimes need to force close the app to work.
       </figcaption>
       </figure>
 	</div>
@@ -124,7 +125,7 @@ Voice control with Google Assistant works great with Spotify. Mention the name o
       <figure class="fourthtest">
        <img src="assets/images/integrations/chromecast-app.png"  />
        <figcaption>
-         <b>Native App: Good</b><br> Control settings, volume and media playback from the app.
+         <strong>Native App: Good</strong><br> Control settings, volume and media playback from the app.
        </figcaption>
       </figure>
 	</div>
@@ -139,11 +140,11 @@ Voice control with Google Assistant works great with Spotify. Mention the name o
       <figure class="align-left">
        <img src="assets\images\product-photo\insignia-speaker.png" alt=""/>
        <figcaption>
-         The large version of the Insignia speaker. <b>|  Best Buy</b>
+         The large version of the Insignia speaker. <strong>|  Best Buy</strong>
        </figcaption>
        </figure>
 	  <h2>Insignia Large Speaker with Google Assistant</h2>
-      <p><b>For those who want multi-room audio without breaking the bank, the Insignia Large Speaker with Google Assistant from Best Buy is a good value when it goes on sale for $35.</b>  It sounds slightly better than the Google Home speakers, and has a few nifty features like a battery that lasts for three hours, and a LED display to show the time and temperature. I was able to outfit my home with these speakers for under $200! This is more of a brag than recommendation since the sale is over, but do check Slickdeals periodically if it appears again. There is one big problem with these speakers, which I will go into detail below.
+      <p><strong>For those who want multi-room audio without breaking the bank, the <a href="https://www.bestbuy.com/site/insignia-voice-smart-portable-bluetooth-speaker-and-alarm-clock-with-google-assistant-gray-black/5865906.p?skuId=5865906">Insignia Large Speaker with Google Assistant</a> from Best Buy is a good value when it goes on sale for $35.</strong>  It sounds slightly better than the Google Home speakers, and has a few nifty features like a battery that lasts for three hours, and a LED display to show the time and temperature. I was able to outfit my home with these speakers for under $200! This is more of a brag than recommendation since the sale is over, but do check Slickdeals periodically if it appears again. There is one big problem with these speakers, which I will go into detail below.
       </p>
 <h3>The Problems</h3>
 <p>I’ve tested these speakers thoroughly for months now, and they’re great, except for one significant issue. The sound cuts off when playing low-sounding music — it’s especially noticeable on classical, piano, or acoustic songs. The problem fades away by increasing the volume, but listening to classical volume at high volume is a bit of an oxymoron. Firmware updates haven’t resolved the issue yet in the past year, so it’s likely to be a hardware issue that may never be resolved. That is unfortunate because I am a big fan of these speakers.
@@ -160,11 +161,11 @@ Voice control with Google Assistant works great with Spotify. Mention the name o
 	    <figure class="align-left">
           <img src="assets\images\product-photo\vizio-soundbar.jpg" alt=""/>
         <figcaption>
-          Vizio's entry-level 2.1 sound bar. <b>|  Vizio</b>
+          Vizio's entry-level 2.1 sound bar. <strong>|  Vizio</strong>
         </figcaption>
         </figure>
 		<h2>Vizio Smartcast Sound Bar</h2>
-		<p><b>For Chromecast Built-in sound bars, the Vizio Smartcast sound bars are considered the best value.</b> <a href="(https://thewirecutter.com/reviews/best-soundbar/#budget-pick-vizio-sb3651-e6">The Wirecutter</a> recommends them for the best mix of performance, connectivity, features, and price in the budget category. The problems I had with the Insignia speakers are fixed here--there is support for auxiliary (3.5mm, headphone jack, whatever you call it) inputs, optical, analog, and HDMI, so every device can be hooked up to it. I personally have not tested this sound bar, but I have tried previous versions of Vizio sound bars and I was always happy with the value.</p>
+		<p><strong>For Chromecast Built-in sound bars, the <a href="https://amzn.to/2L8SHXt">Vizio Smartcast sound bars</a> are considered the best value.</strong> <a href="(https://thewirecutter.com/reviews/best-soundbar/#budget-pick-vizio-sb3651-e6">The Wirecutter</a> recommends them for the best mix of performance, connectivity, features, and price in the budget category. The problems I had with the Insignia speakers are fixed here--there is support for auxiliary (3.5mm, headphone jack, whatever you call it) inputs, optical, analog, and HDMI, so every device can be hooked up to it. I personally have not tested this sound bar, but I have tried previous versions of Vizio sound bars and I was always happy with the value.</p>
 
 <p>I tested another soundbar, the <a href="https://www.amazon.com/Polk-Audio-MagniFi-Theater-System/dp/B01LW76AKC/ref=sr_1_3?ie=UTF8&qid=1546626122&sr=8-3&keywords=polk+magnifi+mini">Polk Magnifi Mini</a>, and found the Chromecast integration working as expected, but the trade-off of sound quality for the smaller size and price was not worth it. For the cost of the Mini (a 2.1 set), you could get the Vizio 5.1 sound bar set.</p>
   </div>
@@ -180,21 +181,21 @@ Voice control with Google Assistant works great with Spotify. Mention the name o
 	    <figure class="align-left">
           <img src="assets\images\product-photo\sonos-one.jpg" alt=""/>
         <figcaption>
-          The Sonos One. <b>|  Sonos</b>
+          The Sonos One. <strong>|  Sonos</strong>
         </figcaption>
         </figure>
 		<h3>Sonos</h3>
-		<p>I don’t own any Sonos products because I’m happy (for now) with my cheap Chromecast Built-in speakers, but if I were willing to spend over $1,000 then I would look into getting Sonos One speakers and a sound bar for my setup. The sound quality is likely better than Chromecast speakers and Amazon Echo, though the voice assistant function is either bad or non-existent. Check out Amazon reviews to get an idea of the complaints. I'm going to assume that Sonos makes a good speaker but a terrible voice assistant, which that may be acceptable to those who don’t want a speaker listening in at all times.</p>
+		<p>I don’t own any <a href="https://amzn.to/2XWn1Gt">Sonos products</a> because I’m happy (for now) with my cheap Chromecast Built-in speakers, but if I were willing to spend over $1,000 then I would look into getting Sonos One speakers and a sound bar for my setup. The sound quality is likely better than Chromecast speakers and Amazon Echo, though the voice assistant function is either bad or non-existent. Check out Amazon reviews to get an idea of the complaints. I'm going to assume that Sonos makes a good speaker but a terrible voice assistant, which that may be acceptable to those who don’t want a speaker listening in at all times.</p>
 	</div>
 	<div class="6u$ 12u$(small)">
 	    <figure class="align-left">
           <img src="assets\images\product-photo\amazon-echo-1st.jpg" alt=""/>
         <figcaption>
-          The Amazon Echo. <b>|  Amazon</b>
+          The Amazon Echo. <strong>|  Amazon</strong>
         </figcaption>
         </figure>
 		<h3>Amazon Echo</h3>
-		<p>I think Amazon Echo's multi-room music feature is much more reliable than Chromecast, but it only works with a few services: Spotify, Amazon Music Unlimited, TuneIn, iHeartRadio and Pandora. Support for Spotify took some time to complete--support was announced on August 2017, but wasn't rolled out until December 2017.  Another downside to Amazon's implementation is that Amazon Echo speakers are locked to one Amazon & Spotify account and don't allow casting from guests.  When I visited my friend's house, I couldn't cast music from my phone to the Echo speaker because of this issue. Voice control works, but I prefer having more options.  
+		<p>I think <a href="https://amzn.to/2WcI1Zf">Amazon Echo's</a> multi-room music feature is much more reliable than Chromecast, but it only works with a few services: Spotify, Amazon Music Unlimited, TuneIn, iHeartRadio and Pandora. Support for Spotify took some time to complete--support was announced on August 2017, but wasn't rolled out until December 2017.  Another downside to Amazon's implementation is that Amazon Echo speakers are locked to one Amazon & Spotify account and don't allow casting from guests.  When I visited my friend's house, I couldn't cast music from my phone to the Echo speaker because of this issue. Voice control works, but I prefer having more options.  
 
 Amazon's multi-room audio solution doesn't support Plex for local music, so I couldn't use it with my solution. </p>
   </div>

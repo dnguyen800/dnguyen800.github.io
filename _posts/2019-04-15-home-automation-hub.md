@@ -68,7 +68,7 @@ There are many home automation hubs to choose from that perform similar function
 
 
 <ul class="alt">
-  <li>Affiliate links: Purchase a <a href="https://amzn.to/2I0NTBi">SmartThings hub</a>, <a href="https://amzn.to/2I2GbXc">Raspberry Pi 3B+</a>, or <a href="https://amzn.to/2I4KyRI">Asus Tinkerboard S</a> from Amazon</li>
+  <li><strong>Affiliate link:</strong> Purchase a <a href="https://amzn.to/2IZoKqm">SmartThings hub</a>, <a href="https://amzn.to/2I2GbXc">Raspberry Pi 3B+</a>, or <a href="https://amzn.to/2I4KyRI">Asus Tinkerboard S</a> from Amazon</li>
   <li><a href="https://graph-na04-useast2.api.smartthings.com/ide/apps">Developer portal</a> for SmartThings</li>
   <li>Subreddits for <a href="https://www.reddit.com/r/homeassistant/">/homeassistant/</a> and <a href="https://www.reddit.com/r/SmartThings/">/smartThings/</a></li>
   <li><a href="https://wiki.webcore.co/">WebCoRE for SmartThings</a> lets users build complex automations. The tool is almost as easy as writing English, though it has some bugs.</li>
@@ -89,7 +89,7 @@ There are many home automation hubs to choose from that perform similar function
 
 ## Samsung SmartThings and Home Assistant
 
-**Using Samsung SmartThings and Home Assistant together provides the functionality I need to do a proper media-focused smart home, but I hope to remove SmartThings eventually.** I first started off using SmartThings, then tried Home Assistant, and eventually decided to use both hubs together to leverage their strengths and mitigate weaknesses. 
+**Using [Samsung SmartThings](https://amzn.to/2IZoKqm) and Home Assistant together provides the functionality I need to do a proper media-focused smart home, but I hope to remove SmartThings eventually.** I first started off using SmartThings, then tried Home Assistant, and eventually decided to use both hubs together to leverage their strengths and mitigate weaknesses. 
 
 In my solution, __SmartThings__ is the reliable one __(I know, debatable)__ that handles communications between most devices and performs basic light automations. I can pair door and motion sensors, the Philips Hue hub, MyQ garage door opener, Ecobee thermostat and Google Assistant to SmartThings easily enough. 
 
@@ -126,7 +126,7 @@ I can't get into the details of installing SmartThings, but there are a ton of o
 - Adding a Z-Wave or Zigbee device in SmartThings means putting the device in inclusion mode (usually pressing a physical button on the device multiple times), then pressing the **+** button in the SmartThings app to pair. See this [tutorial](https://www.androidcentral.com/how-add-new-smart-devices-your-smartthings-hub) for images. You should bring the device as close as possible (around 10ft) to the SmartThings hub when pairing.
 - Get familiar with the [SmartThings IDE](https://graph.api.smartthings.com/) to install custom SmartApps, device handlers, and troubleshoot issues.
 
-__Speaking of Home Assistant, it is an amazing, unstable platform that I use for its slick UI, hundreds of integrations, and advanced media automations.__ It is open source and can be run on cheap hardware like a Raspberry Pi 3B+, but nothing slower than that. Though not every integration is easy to set up, Home Assistant works with the latest and greatest products--from TVs and AV receivers to robot vacuums, lights, and homemade hardware. Without Home Assistant, I would have given up on home automation altogether, after being disappointed by SmartThings’ inability to do anything I would consider “smart.”
+__Speaking of Home Assistant, it is an amazing, unstable platform that I use for its slick UI, hundreds of integrations, and advanced media automations.__ It is open source and can be run on cheap hardware like a [Raspberry Pi 3B+](https://amzn.to/2YRzixh), but nothing slower than that. Though not every integration is easy to set up, Home Assistant works with the latest and greatest products--from TVs and AV receivers to robot vacuums, lights, and homemade hardware. Without Home Assistant, I would have given up on home automation altogether, after being disappointed by SmartThings’ inability to do anything I would consider “smart.”
 
 I could continue to explain why Home Assistant is great, but it's easier to try out the [demo](https://demo.home-assistant.io/#/lovelace/0) yourself. Or watch this video I made:
 
@@ -189,7 +189,7 @@ For Android phones with Google Play installed, I found that the easiest method t
 
 ### Hubitat 
 
-I’ve been looking into a new Smartthings competitor called **Hubitat**. In-depth reviews aren’t common for Hubitat, but I gather it is a better version of SmartThings, but missing a few things like a proper mobile app and support for some cloud-based services like Lutron Caseta. I decided against ordering Hubitat as it didn’t support the standard Lutron Caseta bridge, which I currently use at my house. There also aren't any Hass.io add-ons or integrations to connect with Home Assistant so I wouldn't be able to use it with my Hass.io instance.
+I’ve been looking into a new Smartthings competitor called **[Hubitat](https://amzn.to/2XWjOqy)**. In-depth reviews aren’t common for Hubitat, but I gather it is a better version of SmartThings, but missing a few things like a proper mobile app and support for some cloud-based services like Lutron Caseta. I decided against ordering Hubitat as it didn’t support the standard Lutron Caseta bridge, which I currently use at my house. There also aren't any Hass.io add-ons or integrations to connect with Home Assistant so I wouldn't be able to use it with my Hass.io instance.
 
 
 

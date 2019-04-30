@@ -60,6 +60,7 @@ Installation of doorbell cameras requires more planning, particularly with wired
 
 <ul class="alt">
   <li>The Wirecutter's recommendation for<a href="https://thewirecutter.com/reviews/best-smart-doorbell-camera/"> best smart doorbell camera</a>.</li>
+  <li>Purchase the Nest Hello from <a href="https://www.bestbuy.com/site/nest-hello-smart-wi-fi-video-doorbell/6172796.p?skuId=6172796">Bestbuy</a></li>
   <li><b>Affiliate link:</b> Purchase the <a href="https://amzn.to/2I2RiQ3">Elago wallplate for Nest Hello camera</a> on Amazon.</li>
   <li><a href="https://nest.com/works/">Nest Compatibility Checker</a></li>
 </ul>
@@ -76,7 +77,7 @@ The Nest Hello camera. <b>|  Google</b>
 
 ## Nest Hello
 
-**My personal experience with the Nest Hello camera is that it is reliable at sending timely notifications, but the monthly fee is required to get any real use out of it.** Monthly fees can add up quickly, but with Nest's new $5/month plan, I think it's worth paying for reliability. Wi-Fi cloud cameras have a lot of potential points of failure (poor Wi-Fi performance, slow upload speed, crap servers) but Nest gets most of it right. I've read about too many problems with the Ring Doorbell Pro to give it a try, but I usually hear good things about Nest's doorbell camera.  I recommend it for the continuous recording, timely alerts, and a reliable mobile app. Alerts are sent to my phone within seconds, and recordings are available within a minute or two of the event. Viewing live footage takes only a few seconds too. Did I mention how quick it is to view an alert? That is really important.
+**My personal experience with the [Nest Hell](https://www.bestbuy.com/site/nest-hello-smart-wi-fi-video-doorbell/6172796.p?skuId=6172796) camera is that it is reliable at sending timely notifications, but the monthly fee is required to get any real use out of it.** Monthly fees can add up quickly, but with Nest's new $5/month plan, I think it's worth paying for reliability. Wi-Fi cloud cameras have a lot of potential points of failure (poor Wi-Fi performance, slow upload speed, crap servers) but Nest gets most of it right. I've read about too many problems with the Ring Doorbell Pro to give it a try, but I usually hear good things about Nest's doorbell camera.  I recommend it for the continuous recording, timely alerts, and a reliable mobile app. Alerts are sent to my phone within seconds, and recordings are available within a minute or two of the event. Viewing live footage takes only a few seconds too. Did I mention how quick it is to view an alert? That is really important.
 
 ### The Problems
 

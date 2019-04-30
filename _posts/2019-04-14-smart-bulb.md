@@ -53,6 +53,7 @@ I’m still a renter, so I use smart bulbs around the house. Smart bulbs remain 
 <ul class="alt">
   <li>Slickdeals sales on <a href="https://slickdeals.net/newsearch.php?forumchoice%5B%5D=4&forumchoice%5B%5D=9&forumchoice%5B%5D=10&forumchoice%5B%5D=13&forumchoice%5B%5D=25&forumchoice%5B%5D=30&forumchoice%5B%5D=38&forumchoice%5B%5D=39&forumchoice%5B%5D=41&forumchoice%5B%5D=44&forumchoice%5B%5D=53&forumchoice%5B%5D=54&forumchoice%5B%5D=71&q=philips+hue&firstonly=1">Philips Hue bulbs</a></li>
   <li>Convert a Philip Hue light bulb (or any Zigbee bulb) to a standard Zigbee bulb using the <a href="https://github.com/mozilla-iot/wiki/wiki/HOWTO:-Factory-reset-a-Hue-bulb">Philips Hue dimmer remote</a> or the <a href="https://community.home-assistant.io/t/hue-thief-and-hass-io/48420/10">Hue Thief script</a>.</li>
+  <li><strong>Affiliate Link:</strong> Purchase the <a href="https://amzn.to/2J2Olyx">Philips Hue Starter Kit</a>, <a href="https://amzn.to/2J4G5y0">TP-Link Kasa Wi-Fi bulb</a>, <a href="https://amzn.to/2ILVvb6">Sylvania Osram Lightify bulbs</a> or <a href="https://amzn.to/2XYqep3">Sengled Element Classic bulbs</a> on Amazon</li>
 </ul>
 
 
@@ -68,7 +69,7 @@ I’m still a renter, so I use smart bulbs around the house. Smart bulbs remain 
 
 ## Philips Hue
 
-**If you don’t mind using adding yet another hub to the network and paying a slight premium, then the Philips Hue series of light bulbs offers consistently high-quality smart bulbs that are always available on the market.** Those on a budget don’t need to go with Philips Hue, but it’ll take more research to get a high-quality bulb like Philips Hue.  I’ve tried other smart bulbs that range from average to just as good as Philips Hue, but those I would recommend are no longer available on the market. I recommend Philips Hue because I know they are good and available on Amazon.
+**If you don’t mind using adding yet another hub to the network and paying a slight premium, then the [Philips Hue](https://amzn.to/2J2Olyx) series of light bulbs offers consistently high-quality smart bulbs that are always available on the market.** Those on a budget don’t need to go with Philips Hue, but it’ll take more research to get a high-quality bulb like Philips Hue.  I’ve tried other smart bulbs that range from average to just as good as Philips Hue, but those I would recommend are no longer available on the market. I recommend Philips Hue because I know they are good and available on Amazon.
 
 The Philips Hue bulbs pair well with the Hue light strips that make up my media center lighting. Watching the living room lights fade out as the TV light strips brightens is a very cool transition that easily impresses folks. If you’re not particular about the fade effect or color accuracy, then any cheap Zigbee bulb under $10 should work for you.
 
@@ -147,7 +148,7 @@ Compatibility is not an issue as Philips Hue supports nearly every home automati
         <figcaption> Kasa bulbs <strong>| TP-Link</strong></figcaption>
       </figure>
       <h3>TP-Link LB230 Kasa Wifi </h3>
-      <p><strong>While the TP-Link Kasa LB230 Wifi bulbs are quite good -- they respond quickly and are compatible with Home Assistant and Google Assistant -- I still don’t recommend buying Wi-Fi bulbs due to potential compatibility and security issues.</strong>  SmartThings integration using a custom device handler is dependent on an internet connection to TP-Link servers, which can go offline in the future. The Kasa app is also insecure according to this <a href="https://www.tomsguide.com/us/smart-home-leaky-apps,news-29319.html">study</a>, so I would expect the bulb (which is on your personal network) has potential vulnerabilities too. If TP-Link were to go offline, only Home Assistant would be able to use the bulbs via local communication.  </p>
+      <p><strong>While the <a href="https://amzn.to/2J4G5y0">TP-Link Kasa LB230 Wifi bulbs</a> are quite good -- they respond quickly and are compatible with Home Assistant and Google Assistant -- I still don’t recommend buying Wi-Fi bulbs due to potential compatibility and security issues.</strong>  SmartThings integration using a custom device handler is dependent on an internet connection to TP-Link servers, which can go offline in the future. The Kasa app is also insecure according to this <a href="https://www.tomsguide.com/us/smart-home-leaky-apps,news-29319.html">study</a>, so I would expect the bulb (which is on your personal network) has potential vulnerabilities too. If TP-Link were to go offline, only Home Assistant would be able to use the bulbs via local communication.  </p>
     </div>
     <div class="6u$ 12u$(small)">
 	    <figure class="align-left">
@@ -157,7 +158,7 @@ Compatibility is not an issue as Philips Hue supports nearly every home automati
         </figcaption>
         </figure>
     	<h3>Osram Sylvania Lightify</h3>
-    	<p><strong>The Sylvania Osram Lightify Bulbs are the perfect smart bulbs for your home automation hub -- I would buy more of these if they were still available.</strong> They are Zigbee bulbs and pair with SmartThings easily, responds instantly and has a fade effect like Hue bulbs. During the last sale found on Slickdeals, the colored bulbs could be found for $10-15, which is the lowest price for colored bulbs I have ever seen. The only reason I would not buy this is if the Zigbee network is unreliable in your home.</p>
+    	<p><strong>The <a href="https://amzn.to/2ILVvb6">Sylvania Osram Lightify Bulbs</a> are the perfect smart bulbs for your home automation hub -- I would buy more of these if they were still available.</strong> They are Zigbee bulbs and pair with SmartThings easily, responds instantly and has a fade effect like Hue bulbs. During the last sale found on Slickdeals, the colored bulbs could be found for $10-15, which is the lowest price for colored bulbs I have ever seen. The only reason I would not buy this is if the Zigbee network is unreliable in your home.</p>
     </div>
 
     <div class="6u$ 12u$(small)">
@@ -168,7 +169,7 @@ Compatibility is not an issue as Philips Hue supports nearly every home automati
         </figcaption>
         </figure>
     	<h3>Sengled Element Classic</h3>
-    	<p><strong>At $7 each, the Sengled Element Classic bulbs (BR30 and A19 sizes) are the cheapest functioning Zigbee bulbs I could find, though it lacks nice-to-have features like the fade effect.</strong> Though that is not a big deal if you plan on sticking these lights in the garage or some unnoticeable place.  These bulbs are Zigbee and I haven't had any problems with pairing or disconnections, so at least they are reliable. I miss the Hue fade effect though, and would gladly pay a few more dollars for a nicer bulb than the Sengled Element. </p>
+    	<p><strong>At $7 each, the <a href="https://amzn.to/2XYqep3">Sengled Element Classic bulbs</a> (BR30 and A19 sizes) are the cheapest functioning Zigbee bulbs I could find, though it lacks nice-to-have features like the fade effect.</strong> Though that is not a big deal if you plan on sticking these lights in the garage or some unnoticeable place.  These bulbs are Zigbee and I haven't had any problems with pairing or disconnections, so at least they are reliable. I miss the Hue fade effect though, and would gladly pay a few more dollars for a nicer bulb than the Sengled Element. </p>
     </div>
 
 </div>

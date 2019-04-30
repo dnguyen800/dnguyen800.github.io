@@ -97,9 +97,10 @@ There are more things I haven’t mentioned that can go wrong. It’s not easy, 
 ### Recommended Reading
 
 <ul class="alt">
-  <li><strong>Affiliate link:</strong> Purchase the <a href="https://amzn.to/2TWfe9m">Lutron Caseta hub</a> or <a href="https://amzn.to/2OUDk3h">Leviton Decora switch</a> on Amazon</li>
-  <li> Connect Leviton Decora switch to <a href="https://community.smartthings.com/t/release-leviton-decora-z-wave-plus-dimmers-dz6hd-dz1kd/89700">SmartThings with custom device handler</a>.</li>
+  <li><strong>Affiliate link:</strong> Purchase the <a href="https://amzn.to/2IOU3Vr">Lutron Caseta hub</a> or <a href="https://amzn.to/2OUDk3h">Leviton Decora switch</a> on Amazon</li>
+  <li> Connect Leviton Decora switch to <a href="https://community.smartthings.com/t/release-leviton-decora-z-wave-plus-dimmers-dz6hd-dz1kd/89700">SmartThings with custom device handler</a> and Home Assistant using this Hass.io <a href="https://github.com/hassio-addons/addon-lutron-cert">add-on</a>.</li>
   <li>Lutron Lamp Dimmers can be used as range extenders. Only one extender per system, according to the <a href="https://www.casetawireless.com/faqs">Caseta FAQ</a>.</li>
+  <li>Lutron Caseta 3-way Switch Installation Tips: Youtube <a href="https://www.youtube.com/watch?time_continue=2&v=rBhRWNtQki0">demonstration</a> and PDF <a href="https://www.casetawireless.com/documents/0301710a_caseta%20advanced%20inst.pdf">guide</a>
 </ul>
 
 <!-- Product Review section -->
@@ -114,7 +115,7 @@ There are more things I haven’t mentioned that can go wrong. It’s not easy, 
 
 ## Lutron Caseta
 
-**For a safe and hassle-free installation, I highly recommend Lutron Caseta switches.** Adding yet another hub to your smart home goes against my advice, but the simplicity of installation, lack of neutral wire requirement, and its overall reliability make this the only smart switch I can recommend for DIYers to install without professional help. The cost of a starter kit seems high, but know that you can use the included Lutron Pico remote as an auxiliary switch in a 3-way switch, which will keep the price in line with other smart switches.
+**For a safe and hassle-free installation, I highly recommend [Lutron Caseta](https://amzn.to/2IOU3Vr) switches.** Adding yet another hub to your smart home goes against my advice, but the simplicity of installation, lack of neutral wire requirement, and its overall reliability make this the only smart switch I can recommend for DIYers to install without professional help. The cost of a starter kit seems high, but know that you can use the included Lutron Pico remote as an auxiliary switch in a 3-way switch, which will keep the price in line with other smart switches.
 
 I was surprised at the number of official integrations are supported by Lutron Caseta. SmartThings, Home Assistant, Google Assistant, and Amazon Alexa can be connected with a few clicks in an app. Even though the Caseta bridge and SmartThings are using the internet instead of local communication, I didn’t notice any significant delay when turning on the light. Hubitat is also “supported,” but requires the more expensive Lutron SmartBridge Pro for local communication. I became aware of this recently and had to decide against purchasing Hubitat as I didn’t want to buy yet another $120 to gain nothing meaningful in return. 
 
@@ -126,18 +127,18 @@ I’m not a fan of the look of the Caseta switch and Pico remotes. I like the ro
 
 ### Installation and Smart Home Integration
 
-Out of all the products listed here, light switches are the most difficult to install, except for Lutron Caseta switches -- it is as easy as installing a regular light switch. You want to know why? Here's why:
+Out of all the products listed here, smart light switches are the most difficult to install, except for Lutron Caseta switches. It is as easy as installing a regular light switch. You want to know why? Here's why:
 
-- The size of a Caseta switch is only slightly larger than a regular switch. 
+- The size of a Caseta switch is only slightly larger than a regular light switch. 
 - A neutral wire isn’t required to power the switch. 
 - There is no need to identify load and line wires (unless it is a 3-way switch) to install. 
 - Special auxiliary switches specifically for a 3-way switch configuration are not needed either.
 
-For 3-way switches, the recommended installation is to reverse the 3-way wiring back to a single-pole setup and use a Pico remote as the auxiliary switch. On the outside, it functions and looks like a regular light switch.
+For 3-way switches, the recommended installation is to reverse the 3-way wiring back to a single-pole setup and use a Pico remote as the auxiliary switch. Lutron has a video demonstration on [Youtube](https://www.youtube.com/watch?time_continue=2&v=rBhRWNtQki0). On the outside, the remote functions and looks like a regular Lutron switch.
 
-If you need to extend the range of the Lutron Caseta smart bridge, you can purchase the <a href="https://amzn.to/2FWbpvA">Lutron Lamp Dimmer</a>, which can also control a floor lamp!
+If you need to extend the range of the Lutron Caseta smart bridge, you can purchase the <a href="https://amzn.to/2FWbpvA">Lutron Lamp Dimmer</a>, which can also control a floor lamp, including the dimness!
 
-Connecting Lutron Caseta to SmartThings is easy, but connecting to Home Assistant is more difficult due to the need to create an authentication certificate with Lutron, but a Hass.io add-on exists to automate this task.  Once this certificate is created, you never have to touch the Lutron configuration again. Any new switches are automatically added in Home Assistant.
+Connecting Lutron Caseta to SmartThings is easy, but connecting to Home Assistant is more difficult due to the need to create an authentication certificate with Lutron, but a [Hass.io add-on](https://github.com/hassio-addons/addon-lutron-cert) exists to automate this task.  Once the certificate is created, you never have to touch the Lutron configuration again. Any new switches are automatically added in Home Assistant.
 
 <div class="row">
 	<!-- Break -->
@@ -145,7 +146,7 @@ Connecting Lutron Caseta to SmartThings is easy, but connecting to Home Assistan
 	  <figure class="fourthtest">
         <img src="assets/images/integrations/lutron-ha-02.png" />
         <figcaption>
-          <strong>Home Assistant: Good</strong><br>Requires Hass.io add-on to to create authentication certificate. After that, works great
+          <strong>Home Assistant: Good</strong><br>Requires Hass.io add-on to to create authentication certificate. After that, works great.
         </figcaption>
       </figure>
 	</div>
@@ -153,7 +154,7 @@ Connecting Lutron Caseta to SmartThings is easy, but connecting to Home Assistan
       <figure class="fourthtest">
        <img src="assets/images/integrations/google-home.png" />
        <figcaption>
-         <strong>Voice: Great</strong><br>Official Google Home integration exists, or use HA.
+         <strong>Voice: Great</strong><br>Official Google Home integration exists works with Lutron, or connect with Home Assistant.
        </figcaption>
       </figure>
 	</div>
@@ -173,7 +174,7 @@ Connecting Lutron Caseta to SmartThings is easy, but connecting to Home Assistan
       <figure class="fourthtest">
        <img src="assets/images/integrations/lutron-app-02.jpg" />
        <figcaption>
-         <strong>Lutron App: Good</strong><br>Standard controls like the Hue app. Setting schedules is useful for vacation-mode lighting.
+         <strong>Lutron App: Good</strong><br>Features standard lighting controls like the Hue app. Setting schedules is useful for vacation-mode lighting.
        </figcaption>
       </figure>
 	</div>
@@ -191,7 +192,7 @@ Connecting Lutron Caseta to SmartThings is easy, but connecting to Home Assistan
 
 ## Leviton Decora Z-Wave Plus Dimmer Switches
 
-When I first started planning my smart home purchases, I was adamant on sticking with Z-Wave devices to create the most robust Z-Wave network. That led me to the Leviton Decora Z-Wave Plus Dimmer Switches, which I purchased and installed at a friend’s house. **The Leviton Decora Z-Wave switches (DZ6HD) have been performing solidly for the past year, but the painful installation process and the neutral wire requirement make it difficult to recommend when there are better options like the Lutron Caseta switches.** If you don’t mind a challenge and your home is outfitted with neutral wire, then give these a shot.
+When I first started planning my smart home purchases, I was adamant on sticking with Z-Wave devices to create the most robust Z-Wave network. That led me to the [Leviton Decora Z-Wave Plus Dimmer Switches](https://amzn.to/2OUDk3h), which I purchased and installed at a friend’s house. **The Leviton Decora Z-Wave switches (DZ6HD) have been performing solidly for the past year, but the painful installation process and the neutral wire requirement make it difficult to recommend when there are better options like the Lutron Caseta switches.** If you don’t mind a challenge and your home is outfitted with neutral wire, then give these a shot.
 
 Issues with Z-Wave devices are not uncommon from the forums I read, but I’ve had no such problem with the dozen Leviton Decora switches. The switch doubles as a Z-Wave signal repeater, which makes these perfect in a large house (3,000 sq. ft or greater). I also like the rocker-style switch design compared to the Lutron Caseta look. 
 
