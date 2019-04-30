@@ -14,7 +14,7 @@ Over the past year, I delved into one of my emerging interests—home automation
 
 After fitting three homes with an array of sensors, tablets, speakers, lights and other gadgets, I have to admit that the small conveniences gained with home automation add up to something meaningful. I can listen to my music synchronized in every room in the house, cast a Youtube video from my phone to the TV while the mood lighting automatically kicks in, and control all my devices from a tablet. When it works, the house truly feels integrated and I feel at peace and can enjoy living in a cool space. 
 
-__Not every device is perfectly integrated, but the smart home solution I have is good enough to recommend for beginners.__ What you will find here is a collection of unbiased advice and recommendations on each aspect of the smart home, and an honest opinion on what smart homes are capable of with today’s technology. This site is different in that every device listed here can integrate in some way to the home automation hub, voice assistant, and I review the quality of the integration.
+__Not every device is perfectly integrated, but the smart home solution I have should be sufficient for newcomers.__ What you will find here is a collection of unbiased advice and recommendations on each aspect of the smart home, and an honest opinion on what smart homes are capable of with today’s technology. This site is different in that every device listed here can integrate in some way to the home automation hub, voice assistant, along with a review of the quality of the integration.
 
 <!-- Section Break -->
 <hr class="minor" />
@@ -58,9 +58,9 @@ __Not every device is perfectly integrated, but the smart home solution I have i
 	<h2>How easy was it to set up everything?</h2>
 </header>
 
-It wasn’t easy integrating products made by so many different vendors, but the process is much more doable today than it was  years ago. The problem with technology is that it advances so quickly, and it is inevitable that some products are no longer be supported. 
+It wasn’t easy integrating products made by so many different vendors, but the process is much more doable today than it was  years ago. The problem with technology is that it advances so quickly, and it is inevitable that some products will no longer be supported. 
 
-If you worry about your products becoming outdated, you will never start building your smart home, so don’t worry about it!
+If you worry about your products becoming outdated, then you will never start building your smart home--so don’t worry about it!
 
 <hr class="minor" />
 

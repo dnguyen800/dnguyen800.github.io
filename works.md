@@ -1,7 +1,7 @@
 ---
 layout: static
-title: Photography
-permalink: /photography
+title: Works
+permalink: /works
 
 
 
@@ -13,13 +13,14 @@ permalink: /photography
    <h3>South America</h3>    
    <div class="popup-gallery">
    
-   
+
           <a href="assets/images/photography/el-chalten.jpg" title="Wooden sculpture at El Chalten, Argentina" class="image object"><img src="assets/images/photography/el-chalten-tb.jpg" /></a>
        <a href="assets/images/photography/sa-01.jpg" title="An interesting plant at Bulnes Fort in Punta Arenas, Chile" class="image object"><img src="assets/images/photography/sa-01-tb.jpg" /></a>
        <a href="assets/images/photography/chile.jpg" title="The same interesting plant at Bulnes Fort in Punta Arenas, Chile" class="image object"><img src="assets/images/photography/chile-tb.jpg" /></a>       
-       
-       
-       
+
+
+​       
+​       
        <a href="assets/images/photography/easter-island.jpg" title="Riding around Easter Island" class="image object"><img src="assets/images/photography/easter-island-tb.jpg" /></a>       
        <a href="assets/images/photography/sa-02.jpg" title="Sunrise at the Uyuni Salt Flats in Bolivia" class="image object"><img src="assets/images/photography/sa-02-tb.jpg" /></a>
        <a href="assets/images/photography/sa-03.jpg" title="Window of a restaurant in Lima, Peru" class="image object"><img src="assets/images/photography/sa-03-tb.jpg" /></a>
@@ -35,7 +36,7 @@ permalink: /photography
        <a href="assets/images/photography/iceland-04.jpg" title="A house on a cliff, somewhere in Iceland" class="image object"><img src="assets/images/photography/iceland-04-tb.jpg" /></a>       
        <a href="assets/images/photography/iceland-03.jpg" title="Outside the City Hall in Reykjavik, Iceland" class="image object"><img src="assets/images/photography/iceland-03-tb.jpg" /></a>
        <a href="assets/images/photography/iceland-02.jpg" title="Sculpture in Iceland" class="image object"><img src="assets/images/photography/iceland-02-tb.jpg" /></a>       
- 
+
        <a href="assets/images/photography/amsterdam-01.jpg" title="Flowers found at Volendam, Netherlands" class="image object"><img src="assets/images/photography/amsterdam-01-tb.jpg" /></a>
        <a href="assets/images/photography/amsterdam-02.jpg" title="The band Lakshmi performs at Vondelpark in Amsterdam, Netherlands" class="image object"><img src="assets/images/photography/amsterdam-02-tb.jpg" /></a>       
        <a href="assets/images/photography/amsterdam-03.jpg" title="An amusing utility something in Amsterdam, Netherlands" class="image object"><img src="assets/images/photography/amsterdam-03-tb.jpg" /></a>       

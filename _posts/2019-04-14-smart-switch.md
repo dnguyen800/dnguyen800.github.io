@@ -2,7 +2,7 @@
 layout: page
 title: Smart Switches
 short_title: smart-switch
-excerpt: Though expensive and difficult to install, a smart home just isn't complete without smart switches.
+excerpt: Though expensive and difficult to install, a smart home just isn't complete without smart light switches.
 competitors: "TP-Link, GoControl, Zooz, GE/Jasco, Leviton, Lutron, Innovelli, Insteon"
 permalink: /smart-switch
 image: assets/images/overlay-ws/smart-switch.jpg

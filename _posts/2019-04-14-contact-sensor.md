@@ -2,7 +2,7 @@
 layout: page
 title: Contact Sensors
 short_title: contact-sensor
-excerpt: It tells you when your doors are open or closed, which is important, right?
+excerpt: Contact sensors tell you when your doors are open or closed--which is important, right?
 permalink: /contact-sensor
 competitors: "Dome, Monoprice, Visonic, SmartThings, Ecolink, Aeon Labs, and no-name brands."
 image: assets/images/overlay-ws/contact-sensor.jpg

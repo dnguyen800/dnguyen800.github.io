@@ -2,7 +2,7 @@
 layout: page
 title: Home Automation Hub
 short_title: home-automation-hub
-excerpt: Though Google Home is slowly replacing the home automation hub's functions, it is still necessary to perform real automations and local processing. 
+excerpt: Though Google Home is slowly replacing its functions, a home automation hub is still necessary to perform real automations and local processing. 
 permalink: /home-automation-hub
 competitors: "Home Assistant, OpenHAB, Samsung Smartthings, Hubitat, Wink, Insteon Hub, Fibaro, Almond, Vera, Abode, and many more."
 update: "<strong>April 16, 2019:</strong> Added my experience with Home Assistant Cloud."

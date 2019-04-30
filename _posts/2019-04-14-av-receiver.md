@@ -2,7 +2,7 @@
 layout: page
 title: AV Receivers
 short_title: av-receiver
-excerpt: 'Honest question: who uses more than 25% of the max volume on receivers? If you answered "yes," your neighbors must hate you.'
+excerpt: "For the few who own a receiver, you'll be happy to know they are incredibly easy to integrate into the smart home."
 permalink: /av-receiver
 competitors: "Onkyo, Pioneer, Sony, Denon, Yamaha, Marantz"
 image: assets/images/overlay-ws/av-receiver.jpg

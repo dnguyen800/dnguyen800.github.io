@@ -2,7 +2,7 @@
 layout: page
 title: Presence Sensors
 short_title: presence-sensor
-excerpt: Everyone is carrying GPS trackers on their phones, so why not leverage it for home automation?
+excerpt: Everyone is carrying GPS trackers on their phones, so why not leverage it for home automation? Enter presence sensors.
 permalink: /presence-sensor
 competitors: "SmartThings, iBeacons, Bluetooth LE devices, SmartThings, Life360, Tile, iCloud, nmap, so many more."
 image: assets/images/overlay-ws/presence-sensor.jpg

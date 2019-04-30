@@ -2,7 +2,7 @@
 layout: page
 title: Smart Bulbs
 short_title: smart-bulb
-excerpt: For the renters out there, smart bulbs are a useful (and the only) lighting option. 
+excerpt: For the renters out there, smart bulbs are a useful (and the only) smart lighting option. 
 competitors: "Philips Hue, Ikea Tradfri, Xiaomi, Sengled, Sylvania, TP-Link, Lifx, Eufy"
 permalink: /smart-bulb
 image: assets/images/overlay-ws/smart-bulb.jpg

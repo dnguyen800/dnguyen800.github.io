@@ -2,7 +2,7 @@
 layout: page
 title: Light Strips
 short_title: light-strip
-excerpt: Light strips are great, until they burn your house down.
+excerpt: Light strips are great, until they burn your house down. (I'm kidding, sort of)
 competitors: "Philips Hue, Sylvania Lightify, Yeelight"
 update:  "<strong>April 16, 2019:</strong> Added review of the Sylvania OSRAM SMART+ Light Strip."
 permalink: /light-strip

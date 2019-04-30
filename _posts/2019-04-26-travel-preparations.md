@@ -2,6 +2,7 @@
 layout: page
 title: Travel Preparations
 short_title: travel-preparations
+update: "<strong>April 28, 2019:</strong> Here are 27 steps I follow when planning for a long trip. They are all legit, I promise."
 excerpt: "27 steps I follow when planning for a long trip. They are all legit, I promise."
 permalink: /travel-preparations
 
@@ -15,9 +16,9 @@ categories:
 
 ---
 
-I try not to over-prepare for my travels because I don't want to restrict myself from changing my plans, but there are some necessary preparations to avoid ruining your trip (especially international ones).
+I try not to over-prepare for my travels so I don't restrict myself to a set itinerary, but there are some necessary preparations to avoid ruining your trip (especially international ones).
 
-This is a guide I initially wrote for myself, but thought it would useful to share with others. You'll find similar guidance on other websites, but doesn't hurt to repeat!
+This is a guide I wrote for myself initially, but I thought it would useful to share with others. You'll find similar guidance on other websites, but it doesn't hurt to repeat!
 
 ## Preparations 6 to 12 months in advance
 
@@ -25,7 +26,7 @@ This is a guide I initially wrote for myself, but thought it would useful to sha
 
 Make sure your passport is at least 9 months active before the date of your flight. If you are traveling for more than six months, you should have at least a year's worth of time before expiration. If at any time during your travels your passport is within six months of expiration, it's possible you will be denied boarding a flight. It happens, trust me.
 
-Renew your passport A.S.A.P because you cannot apply for a visa without submitting your passport.  You're also supposed to sign your passport somewhere.
+Renew your passport ASAP because you cannot apply for a visa without submitting your passport.  You're also supposed to sign your passport somewhere.
 
 <div class="box">
 	<p>Tip: You don't have to pay the $15 for a passport photo at a FedEx Office. There are plenty of mobile apps that will help you take passport-compliant photos that you can print for 50 cents at a Wal-mart or drug store. You just need a white background and a friend to help take the photo.</p>
@@ -33,7 +34,7 @@ Renew your passport A.S.A.P because you cannot apply for a visa without submitti
 
 ### 2. Identify required travel visas and apply
 
-Russia, Vietnam, Bolivia require travel visas. Some countries require registration months in advance, and others can apply upon arrival in the country. The registration time can take a few weeks, and you may need to submit your passport with the application.  I would guess all visa applications require proof of residence, so book a hostel using [Hostelworld](https://www.hostelworld.com/) and include the e-mail confirmation as part of your application.
+Russia, Vietnam, Bolivia require travel visas. Some countries require registration months in advance, and others allow for visa registrations when arriving in the country. You may also need to submit your passport with the application.  I would guess all visa applications require proof of residence, so book a hostel using [Hostelworld](https://www.hostelworld.com/) and include the e-mail confirmation as part of your application.
 
 I watched a friend apply for a Bolivian visa at the border between Chile and Bolivia, and it was an unnecessarily chaotic experience. They wanted $160 US dollars, in crisp, unbent bills, and so my friend had to ask people in line to exchange bills with him. It didn't help that the armed guards were waving their rifles and yelling at him, an unarmed foreigner. 
 
@@ -51,9 +52,9 @@ And go get your flu vaccine now if you haven't already. Why do you want to get t
 | Vaccine | Time Period / Requirements |
 |:-:|:-:|
 | Routine vaccines (measles, chickenpox, flu) | You should already have these vaccines.
-| Yellow Fever | 10 day period for full immunity |
+| Yellow Fever | Takes 10 days after injection for full immunity |
 | Hepatitis B | 2, 3 or 4 shots over 1 to 6 months |
-| Typhoid | oral doses must be refrigerated. Take |
+| Typhoid | Oral doses must be refrigerated. Takes about four doses if using Vivotif. |
 | Rabies | 3 doses: given on first day, 7 days and 21 or 28 days after Dose 1.|
 | Malaria | Get antimalarial drugs and start taking drugs as directed--usually a week before arrival, during stay, and week after leaving. |
 

@@ -2,7 +2,7 @@
 layout: page
 title: Voice Assistants
 short_title: voice-assistant
-excerpt: I yell at my voice assistant on a regular basis, but I can't deny they are convenient for turning off the lights.
+excerpt: I yell at my voice assistant on a regular basis, but I can't deny that using my voice to turn off the lights is convenient.
 competitors: "Google Assistant, Amazon Alexa, Apple Siri"
 permalink: /voice-assistant
 image: assets/images/overlay-ws/voice-assistant.jpg

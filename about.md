@@ -75,6 +75,7 @@ This site would not exist as it is today without the contributions from the Jeky
 		<h3>Images</h3>
 		<h4><a href="https://unsplash.com/">Unsplash</a></h4>
         <ul>
+          <li><a href="https://unsplash.com/@nicolegeri">Nicole Harrington</a></li>
           <li><a href="https://unsplash.com/@jeshoots">jeshoots.com</a></li>
           <li><a href="https://unsplash.com/@serumfabian">Fabian Albert</a></li>
           <li><a href="https://unsplash.com/@jenskreuter">Jens Kreuter</a></li>

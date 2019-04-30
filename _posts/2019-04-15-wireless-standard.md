@@ -24,7 +24,7 @@ categories:
 
 
 ## What you need to know
-There is yet another set of wireless standards in the smart home space that you need to be familiar with. Popular standards like Wi-Fi, Bluetooth, RF and infrared didn’t quite make the cut for smart home use, so we’re left with two newish standards: Zigbee and Z-Wave. Each has their set of advantages and disadvantages with no clear winner.
+There is yet another set of wireless standards in the smart home space that you need to be familiar with. Popular standards like Wi-Fi, Bluetooth, RF and infrared didn’t quite make the cut for smart home use, so we’re left with two new-ish standards: Zigbee and Z-Wave. Each has their set of advantages and disadvantages with no clear winner.
 
 Your hub supports most of the wireless standards (Zigbee, Z-Wave, Wi-Fi), but connected devices usually support only one of those standards. Adding to the confusion are companies like Philips, Ikea, Sengled, and Xiaomi selling their own Zigbee hubs that are compatible with their respective bulbs only. Great job segmenting the market there, people.
 
@@ -33,9 +33,9 @@ Your hub supports most of the wireless standards (Zigbee, Z-Wave, Wi-Fi), but co
 
 In the three-story home I set up, I have Zigbee light bulbs and door sensors, Z-Wave Plus motion sensors and outlets, and Lutron Caseta light switches. It was a matter of convenience, cost, and availability that I ended up using three standards, but surprisingly I have no issues with range or connectivity. I soon learned that is not always the case, especially with Zigbee network interference.
 
-In another house I outfitted with Zigbee bulbs and Z-Wave motion sensors, I crammed all my network and connected devices onto a cheap server rack. This included a Wi-Fi mesh point, network switch, laptop, USB hard drive, Raspberry Pi, and SmartThings -- basically a Wi-Fi disaster. SmartThings was working initially, but then the Zigbee network started to fail. It happened once every few weeks, then every week, and then stopped working altogether. The Z-Wave devices continued to work without any problems, so I assumed issue was Zigbee, and not necessarily SmartThings. I simply moved the SmartThings hub away from the other Wi-Fi devices and the Zigbee lights started working again.
+In another house I outfitted with Zigbee bulbs and Z-Wave motion sensors and I crammed all my network gear and connected devices onto a cheap server rack. This included a Wi-Fi mesh point, network switch, laptop, USB hard drive, Raspberry Pi, and SmartThings -- basically a Wi-Fi disaster. SmartThings was working initially, but then the Zigbee network started to fail. It happened once every few weeks, then every week, and then stopped working altogether. The Z-Wave devices continued to work without any problems, so I assumed issue was Zigbee, and not necessarily SmartThings. I simply moved the SmartThings hub away from the other Wi-Fi devices and the Zigbee lights started working again.
 
-So the lesson I learned is: Zigbee network interference is real, and varies by setup. Physically move the Zigbe hub if you run into this issue.
+So the lesson I learned is: Zigbee network interference is real, and varies by setup. Physically move the Zigbee hub if you run into this issue.
 
 In my search for deals on smart devices, I’ve noticed the following trends:
 
@@ -94,7 +94,7 @@ Z-Wave Plus should be winning the wireless smart home standard, but it’s not. 
         <figcaption></figcaption>
       </figure>
       <h3>Zigbee</h3>
-      <p>I've done testing in multiple houses, and I can confirm Zigbee network interference is real and a noticeable issue. But don't throw away your Zigbee light bulbs yet, because there is a simple solution: <i>keep your Zigbee hub at least five feet away from any router or Wi-Fi mesh point. Three meters is optimal, but five feet worked for me.</i> This is based off my personal experience fixing the Zigbee network, which used to go offline every few days.</p>
+      <p>I've done testing in multiple houses, and I can confirm Zigbee network interference is real and a noticeable issue. But don't throw away your Zigbee light bulbs yet, because there is a simple solution: <i>keep your Zigbee hub at least five feet away from any router or Wi-Fi mesh point. </i> Three meters is optimal, but five feet worked for me. This is based off my personal experience fixing the Zigbee network, which used to go offline every few days.</p>
 
       <p>The Zigbee radio, whether it is built inside SmartThings, Hubitat, or a USB device, needs to stay away from other Wi-Fi devices (especially routers or Wi-Fi mesh points) because it uses the same 2.4ghz frequency as the router (which uses 2.4ghz or 5ghz). For anyone who recently purchased the latest SmartThings or Hubitat hub, then this is not a problem as those devices have Wi-Fi built-in, but I have the older, wired SmartThings hub and had to keep it wired to the Wi-Fi mesh point. My Zigbee network was offline for days, until I figured this out.</p>
     </div>

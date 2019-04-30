@@ -2,7 +2,7 @@
 layout: page
 title: Doorbell Cameras
 short_title: doorbell-camera
-excerpt: Do you want to know when and how your package was stolen? Get a doorbell camera.
+excerpt: Do you want to know when and how your package was stolen? Then get a doorbell camera.
 permalink: /doorbell-camera
 competitors: "Nest, Ring, Securisafe, Laview"
 image: assets/images/overlay-ws/doorbell-camera.jpg
