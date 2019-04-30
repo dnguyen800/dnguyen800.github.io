@@ -21,17 +21,18 @@ permalink: /works
 
 ​       
 ​       
-       <a href="assets/images/photography/easter-island.jpg" title="Riding around Easter Island" class="image object"><img src="assets/images/photography/easter-island-tb.jpg" /></a>       
-       <a href="assets/images/photography/sa-02.jpg" title="Sunrise at the Uyuni Salt Flats in Bolivia" class="image object"><img src="assets/images/photography/sa-02-tb.jpg" /></a>
-       <a href="assets/images/photography/sa-03.jpg" title="Window of a restaurant in Lima, Peru" class="image object"><img src="assets/images/photography/sa-03-tb.jpg" /></a>
-       <a href="assets/images/photography/sa-04.jpg" title="A puppy and a...goat? in the outskirts of Lima, Peru" class="image object"><img src="assets/images/photography/sa-04-tb.jpg" /></a>        
-    </div>
+​       <a href="assets/images/photography/easter-island.jpg" title="Riding around Easter Island" class="image object"><img src="assets/images/photography/easter-island-tb.jpg" /></a>       
+​       <a href="assets/images/photography/sa-02.jpg" title="Sunrise at the Uyuni Salt Flats in Bolivia" class="image object"><img src="assets/images/photography/sa-02-tb.jpg" /></a>
+​       <a href="assets/images/photography/sa-03.jpg" title="Window of a restaurant in Lima, Peru" class="image object"><img src="assets/images/photography/sa-03-tb.jpg" /></a>
+​       <a href="assets/images/photography/sa-04.jpg" title="A puppy and a...goat? in the outskirts of Lima, Peru" class="image object"><img src="assets/images/photography/sa-04-tb.jpg" /></a>        
+​    </div>
+
+<hr class="minor" />
 
 <h3>Europe</h3>
    <div class="popup-gallery">
        <a href="assets/images/photography/iceland.jpg" title="Crosswalk sign in Iceland" class="image object"><img src="assets/images/photography/iceland-tb.jpg" /></a>
        <a href="assets/images/photography/iceland-05.jpg" title="Rock formation at Black Sand Beach in Vik, Iceland" class="image object"><img src="assets/images/photography/iceland-05-tb.jpg" /></a>   
-       <a href="assets/images/photography/europe-01.jpg" title="Rock formation at Black Sand Beach in Vik, Iceland" class="image object"><img src="assets/images/photography/europe-01-tb.jpg" /></a>
        <a href="assets/images/photography/europe-02.jpg" title="Hiking on a glacier at Vatnajokull, Iceland" class="image object"><img src="assets/images/photography/europe-02-tb.jpg" /></a>
        <a href="assets/images/photography/iceland-04.jpg" title="A house on a cliff, somewhere in Iceland" class="image object"><img src="assets/images/photography/iceland-04-tb.jpg" /></a>       
        <a href="assets/images/photography/iceland-03.jpg" title="Outside the City Hall in Reykjavik, Iceland" class="image object"><img src="assets/images/photography/iceland-03-tb.jpg" /></a>

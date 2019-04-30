@@ -26,7 +26,7 @@ categories:
 
 ## What you need to know
 
-Video game consoles have always been a part of my media center, so it would be a glaring omission if I couldn’t include them in my smart home automations. Besides playing video games, I use them as blu-ray players for those rare occasions when I revisit a favorite movie, or watch something that's not on Netflix. The Xbox One makes for a noteworthy media streaming device—even segregated apps like Youtube TV, Amazon Video are available. If I had to choose only one device connected to my TV, it would likely be a videogame console because it plays games, blu-rays, and most major apps.
+Video game consoles have always been a part of my media center, so it would be a glaring omission if I couldn’t include them in my smart home automations. Besides playing video games, I use them as blu-ray players for those rare occasions when I revisit a favorite movie, or watch something that's not on Netflix. The Xbox One makes for a noteworthy media streaming device—even segregated apps like Youtube TV and Amazon Video are available. If I had to choose only one device connected to my TV, it would likely be a videogame console because it plays games, blu-rays, and most major apps.
 
 Consoles aren’t known to be open platforms, but several clever people developed ways to connect the Xbox One and Playstation 4 consoles to Home Assistant. These are unofficial methods that Sony or Microsoft could discontinue in the future, but I’ll give it a couple of years before that happens.
 
@@ -36,7 +36,7 @@ With Home Assistant integrations, I can see the game currently playing *(see exa
 
 <ul class="alt">
   <li><strong>Only the Xbox One S and X support 4K Blu-ray.</strong> Playstation 4 Pro can play regular Blu-rays only.</li>
-  <li><strong>If you use it as a media streaming device, you should purchase a media remote or use a Logitech Harmony remote.</strong></li>
+  <li><strong>If you use a console as a media streaming device, you should purchase a media remote or use a Logitech Harmony remote.</strong></li>
   <li><strong>Consoles are slightly less convenient than media streaming devices to watch videos. It takes longer to boot up and start watching.</strong> You also lose a few features like voice control and casting. </li>
 </ul>
 
@@ -134,7 +134,7 @@ The Playstation 4 is almost six years old! <strong>|  Sony</strong>
 
 ## Sony Playstation 4
 
-**As of Home Assistant 0.89, the [Playstation 4](https://amzn.to/2VCC4rj) is supported with the same features as the Xbox One add-on.** It is even easier to authenticate using the new Home Assistant integration process, which makes this an easy recommendation if you already have a PS4. Most of the popular streaming video apps are available on PS4--even Plex! Remotely powering on the PS4 now works, so you can now use voice control for that. I’m happy that more people can use this integration and show off the game playing, and design lighting automations based on the PS4’s state.
+**As of Home Assistant 0.89, the [Playstation 4](https://amzn.to/2VCC4rj) is supported with the same features as the Xbox One add-on.** It is even easier to authenticate using the new Home Assistant integration process, which makes this an easy recommendation if you already have a PS4. Most of the popular streaming video apps are available on PS4--even Plex! Remotely powering on the PS4 now works, so you can now use voice control for that. I’m happy that more people can use this integration and show off the game currently playing, and design lighting automations based on the PS4’s state.
 
 ### Installation and Smart Home Integration
 
@@ -194,4 +194,4 @@ Video game cover art works on some but not all games.
 
 ## Nintendo Switch
 
-**No integration exists for the [Nintendo Switch](https://amzn.to/2XXjWWS) and it’s not likely to happen in the future.** If you need a method to detect if the Switch is connected to the dock, I would connect a LAN adapter to the the Switch dock and Home Assistant’s [**``nmap device tracker``**](https://www.home-assistant.io/components/nmap_tracker/) to detect the LAN adapter’s presence. Or, if the Switch uses a dedicated HDMI port and your TV and/or AV receiver is connected to Home Assistant, then create an automation that detects if that HDMI port is currently selected. I think the LAN adapter is the best method for detection though.
+**An integration does not exist for the [Nintendo Switch](https://amzn.to/2XXjWWS) and it’s not likely to happen in the future.** If you need a method to detect if the Switch is connected to the dock, I would connect a LAN adapter to the the Switch dock and Home Assistant’s [**``nmap device tracker``**](https://www.home-assistant.io/components/nmap_tracker/) to detect the LAN adapter’s presence. Or, if the Switch uses a dedicated HDMI port and your TV and/or AV receiver is connected to Home Assistant, then create an automation that detects if that HDMI port is currently selected. I think the LAN adapter is the best method for detection though.

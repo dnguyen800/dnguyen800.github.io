@@ -36,7 +36,7 @@ I do want to acknowledge my music listening past (including the good and bad art
 ### Considerations before purchasing a music subscription
 
 <ul class="alt">
-  <li>Most subscriptions offer a family plan that you can split among your household members. </li>
+  <li>Most subscriptions (like Spotify) offer a family plan that you can split among your household members. </li>
 </ul>
 
 
@@ -82,9 +82,11 @@ There are a few areas that Spotify falters: one is the lack of unofficial remixe
 
 ### Installation and Smart Home Integration
 
+Connecting Spotify to Home Assistant requires creating a free Spotify Developer account and going through the steps to create a custom app. The main data you need is the Spotify client ID and secret. Don't forget to specify the redirect URI in the Spotify developer portal, otherwise authentication won't work.  Read the [Spotify](https://www.home-assistant.io/components/spotify/) component for more details.
+
 Spotify is fully controllable in Home Assistant, though selecting a speaker source doesn’t work. I haven’t found a way to play Spotify to a Chromecast speaker using Home Assistant.
 
-Voice control works really well. I can ask to play a particular song, artist or one of my custom playlists.
+Voice control works really well. I can ask to play a particular song, artist or one of my custom playlists on Spotify.
 
 <div class="row">
 	<!-- Break -->
@@ -92,7 +94,7 @@ Voice control works really well. I can ask to play a particular song, artist or 
 	  <figure class="fourthtest">
         <img src="assets/images/integrations/spotify-ha.png" />
         <figcaption>
-          <strong>Home Assistant: Good</strong><br>Several steps requiring developer account, edit config file, browser authorization.
+          <strong>Home Assistant: Good</strong><br>Several steps requiring Spotify developer account, editing config file, and browser authorization.
         </figcaption>
       </figure>
 	</div>
@@ -120,7 +122,7 @@ Voice control works really well. I can ask to play a particular song, artist or 
       <figure class="fourthtest">
        <img src="assets/images/integrations/spotify-app.png"  />
        <figcaption>
-         <strong>Spotify App: Great</strong><br>Amazing!
+         <strong>Spotify App: Great</strong><br>Very responsive, allows offline downloads, and is a consistent experience on all platforms.!
        </figcaption>
       </figure>
 	</div>
@@ -145,12 +147,12 @@ Artist biographies in Plex. It’s fun to read about your favorite artists. Plex
  </figcaption>
 </figure>
 
-<p class="box">
-<i><strong>Here’s a tip on bypassing Plex Pass restriction when watching videos and music on the phone:</strong> normally, the Plex iOS and Android apps are time-restricted one minute without Plex Pass, but if you play the video or song to a Chromecast, the time limit is ignored.</i></p>
-
 ### The Problems
 
 You will need a server or device running 24/7 to run the Plex Media Server. An Nvidia Shield TV or a spare laptop running Windows, Mac, or Linux make for excellent Plex servers. It’s possible to run Plex Media Server on a Raspberry Pi as a [Hass.io add-on](https://community.home-assistant.io/t/community-hass-io-add-on-plex-media-server/54383), but due to the restrictions of Hass.io and Docker, you can only store music on the SD card where Home Assistant is stored. I’m sure there is a way to connect a USB drive, but I’m not familiar with Docker to do so.
+
+Playing Plex videos on your phone requires the Plex Pass, but you can cast the video to a TV or another display to bypass the time limit.
+
 
 ### Installation and Smart Home Integration
 
@@ -165,7 +167,7 @@ Jriver Media Center has an extensible set of tools to clean up metadata and cove
  </figcaption>
 </figure>
 
-Before using Plex, I recommend cleaning up your music collection first. That means converting CDs to the FLAC lossless format, fixing any low-resolution cover art, standardizing artist and album names, fixing track numbers, and renaming files and folders. It’s a one-time effort to do over the weekend, but worth it to see the result—an immaculate, organized collection that is fun to browse through. I used Jriver Media Center to handle the CD ripping, metadata scraping, and file/folder renaming. A free 30-day trial is available, which should be enough time to perform the cleanup.
+Before using Plex, I recommend cleaning up your music collection first. That means converting CDs to the FLAC lossless format, fixing any low-resolution cover art, standardizing artist and album names, fixing track numbers, and renaming files and folders. It’s a one-time effort to do over the weekend, but worth it to see the result—an immaculate, organized collection that is fun to browse through. I used [Jriver Media Center ](https://jriver.com/) to handle the CD ripping, metadata scraping, and file/folder renaming. A free 30-day trial is available, which should be enough time to perform the cleanup.
 
 
 <div class="row">
@@ -245,7 +247,7 @@ Before using Plex, I recommend cleaning up your music collection first. That mea
         <figure class="align-left">
           <img src="assets\images\logo\mopidy.png" alt=""/>
         <figcaption>
-          
+
         </figcaption>
         </figure>
     	<h3>Mopidy</h3>
@@ -281,13 +283,13 @@ There are a growing number of video streaming services that offer live local TV 
 
 <ul class="alt">
   <li><strong>Do you really need another subscription that you may not use?</strong> Consider subscribing and canceling when your TV show’s season is over.</li>
-  <li><strong>Check your internet provider’s internet speed and bandwidth caps.</strong> Your TV watching habits may disrupt another’s video gaming session or exceed bandwidth caps.</li>
+  <li><strong>Check your internet provider’s internet speed and bandwidth caps.</strong> Your TV watching habits may disrupt another’s video gaming session or exceed monthly bandwidth caps.</li>
 </ul>
 
 ### What You Get With an Internet TV Subscription
 
 <ul class="alt">
-  <li><strong>With Youtube TV, share the subscription with five others in your Google Family.</strong> You can only change families once a year, and can’t be in more than one family. Geographic restrictions also apply, though in my testing, the Bay Area region is fine.</li>
+  <li><strong>With Youtube TV, share the subscription with five others in your Google Family.</strong> You can only change families once a year, and can’t be in more than one family. Geographic restrictions also apply, though in my testing, having all members within a 50 miles range is fine.</li>
   <li><strong>Watch TV on the go with your phone, even when traveling across states.</strong> Eventually, these apps block local TV access if it detects you’ve been living in a different area for months.</li>
 </ul>
 
@@ -308,7 +310,7 @@ There are a growing number of video streaming services that offer live local TV 
 
 **I've been using [Youtube TV](https://tv.youtube.com/) for months and it provides a solid TV viewing experience as well as some useful smart home features, like advanced voice control with Google Assistant.**  Like any good streaming service, Youtube TV supports playback on web browsers, Chromecast, Roku, Apple TV, and most new TVs (2016 models or later). Streaming starts within seconds without any noticeable lag or dropouts, even when watching live sports (which plays at 60fps). The experience convinced me that streaming live TV doesn’t have to suck, unlike my experience with Sling TV.
 
-Voice commands with Google Assistant work really well on Youtube TV (naturally), but only when using Chromecast. Saying “play the latest episode of Conan” works as expected on my Chromecast Ultra, but not on Roku. The most I can do with my voice is to say “open Youtube TV on Roku,” which is not all that useful.
+Voice commands with Google Assistant work really well on Youtube TV (naturally), but only when using Chromecast. Saying **“play the latest episode of Conan”** works as expected on my Chromecast Ultra, but not on Roku. The most I can do with my voice is to say **“open Youtube TV on Roku,”** which is not all that useful.
 
 <p class="box">
 <strong>Did you know...</strong><br>
@@ -323,7 +325,7 @@ Voice commands with Google Assistant work really well on Youtube TV (naturally),
 
 ### The Problems
 
-There are some annoyances worth noting before signing up for Youtube TV. Sadly, due to the feud between Google and Amazon, Youtube TV does not work with Amazon Fire TV or tablets. Unofficial installation methods exist (like <a href="https://smartyoutubetv.github.io/">Smart Youtube TV</a>) but are likely to stop working in a few months whenever an app update is required. 
+There are some annoyances worth noting before signing up for Youtube TV. Sadly, due to the feud between Google and Amazon, Youtube TV does not work with Amazon Fire TV or tablets (though support is coming in 2019). Unofficial installation methods exist (like <a href="https://smartyoutubetv.github.io/">Smart Youtube TV</a>) but are likely to stop working in a few months whenever an app update is required. 
 
 Secondly, finding and favoriting TV shows should be easy, but the app separates on-demand and broadcast shows, meaning you can’t browse through all of FX’s catalog in one spot. In some cases, I had to search for specific TV shows, like TBS’ Miracle Workers, in order to record them. I’m not able to bookmark Mr. Robot either, at least not until after the season premiere occurs. I also noticed the selection of episodes available on demand fluctuates, much to my annoyance. Shows like **Angie Tribeca** on TBS  tends to flip between the first and second half of the latest season every few weeks.
 

@@ -39,7 +39,7 @@ The more devices you connect to the hub, the more control and data points it has
 
 **Before going out to Best Buy and buying a home automation hub, there is nothing wrong with stopping here and becoming familiar with the smart devices you have.** I think it’s a good idea to hold off because the home automation hubs I’ve tested are still not stable enough and could use a few years of development.  In the meantime, look for a sale on Smartthings or Raspberry Pi hardware if you’re willing to go further. 
 
-There are many home automation hubs to choose from that perform similar functions, but the implementation is very different for each. There is no way to know what hub is best for you unless you do the research and watch some demonstrations on Youtube. Even the Wirecutter, who previously recommended SmartThings, redacted their article about because they couldn’t agree on a recommendation. [Tom’s Guide](https://www.tomsguide.com/us/best-smart-home-hubs,review-3200.html) recommends SmartThings, but I don't think it is a thorough analysis that covers the cons. 
+There are many home automation hubs to choose from that perform similar functions, but the implementation is very different for each. There is no way to know what hub is best for you unless you do the research and watch some demonstrations on Youtube. Even the Wirecutter, who previously recommended SmartThings, redacted their article about because they couldn’t agree on a recommendation. [Tom’s Guide](https://www.tomsguide.com/us/best-smart-home-hubs,review-3200.html) recommends SmartThings, but I don't think it is a thorough analysis that covers the negatives in detail. 
 
 <!--Links Section -->
 <hr class="minor" />
@@ -47,7 +47,7 @@ There are many home automation hubs to choose from that perform similar function
 ### Considerations Before Buying a Home Automation Hub
 
 <ul class="alt">
-  <li><b>Internet reliance.</b> SmartThings is heavily reliant on an Internet connection to function. If internet connectivity is spotty in your area, consider a hub that can operate locally, like Home Assistant or Hubitat.</li>
+  <li><b>Internet reliance.</b> SmartThings is heavily reliant on an Internet connection to function. If internet connectivity is spotty in your area, consider a hub that can operate locally, like <a href="https://www.home-assistant.io/">Home Assistant</a> or <a href="https://hubitat.com/">Hubitat</a>.</li>
   <li><b>Device compatibility with the big name IoT devices</b> like thermostats, security cameras, TVs, media centers, smart assistants. Some hubs have only a few, but tested integrations. The hubs that advertise 100+ integrations are likely unofficial that can break at any time (see <a href="https://www.theverge.com/circuitbreaker/2018/12/20/18150011/logitech-harmony-hub-remote-setup-security-update-broken-third-party-local-api">Logitech Harmony breaking XMPP integration</a>) or difficult to set up. </li>
   <li><b>Sensor Compatibility.</b> Buying a Z-Wave or Zigbee sensor doesn’t guarantee that it will work with your Z-Wave compatible hub.  SmartThings and Home Assistant have the highest compatibility, but it is still a good idea to research online before buying a sensor.</li>
   <li><b>Having a mobile app for the hub</b> is important for getting notifications and remote control of your connected devices. If you don’t mind having separate apps for thermostat, lighting, then this app is not as critical.</li>
@@ -69,11 +69,11 @@ There are many home automation hubs to choose from that perform similar function
 
 <ul class="alt">
   <li><strong>Affiliate link:</strong> Purchase a <a href="https://amzn.to/2IZoKqm">SmartThings hub</a>, <a href="https://amzn.to/2I2GbXc">Raspberry Pi 3B+</a>, or <a href="https://amzn.to/2I4KyRI">Asus Tinkerboard S</a> from Amazon</li>
-  <li><a href="https://graph-na04-useast2.api.smartthings.com/ide/apps">Developer portal</a> for SmartThings</li>
+  <li><a href="https://graph-na04-useast2.api.smartthings.com/ide/apps">Developer portal</a> for SmartThings. This is where you add custom device handlers.</li>
   <li>Subreddits for <a href="https://www.reddit.com/r/homeassistant/">/homeassistant/</a> and <a href="https://www.reddit.com/r/SmartThings/">/smartThings/</a></li>
   <li><a href="https://wiki.webcore.co/">WebCoRE for SmartThings</a> lets users build complex automations. The tool is almost as easy as writing English, though it has some bugs.</li>
   <li>Get started with Home Assistant by trying out the <a href="https://demo.home-assistant.io/#/lovelace/0">live demo</a>, reading the <a href="https://www.home-assistant.io/getting-started/">instructions</a>, and reviewing <a href="https://github.com/dnguyen800/home-assistant-configuration-example">My Home Assistant configuration</a>. </li>
-  <li>Integrate SmartThings with Home Assistant easily using the integration and Home Assistant Cloud ($5/month fee)</li>
+  <li>Integrate SmartThings with Home Assistant easily using the integration and <a href="https://www.nabucasa.com/">Home Assistant Cloud</a> ($5/month fee)</li>
   <li>Avoid the $5 fee by integrating SmartThings & Home Assistant using MQTT. An outdated tutorial was <a href="https://community.home-assistant.io/t/anyone-integrated-smartthings-into-hassio-yet/25324/7">written by yours truly</a>!</li>
 </ul>
 
@@ -83,7 +83,7 @@ There are many home automation hubs to choose from that perform similar function
 <figure class="align-left">
  <img src="assets\images\logo\ha-st.png" alt=""/>
  <figcaption>
-   <b>|  Home Assistant/SmartThings</b>
+   An unholy matrimony. <b>|  Home Assistant/SmartThings</b>
  </figcaption>
 </figure>
 
@@ -106,7 +106,7 @@ The UI on the SmartThings Classic app is basic, but it works. You can create the
 
 ### SmartThings' Problems
 
-But that’s about all that SmartThings can do well. There is no product roadmap nor any interesting product developments or integrations in the past year, besides releasing a cheaper, slightly less functional hub. New official product integrations are non-existent. SmartThings would be a terrible product today if it weren't for the SmartThings community creating workarounds to make up for SmartThings' shortcomings. Several members created a new automation engine--WebCoRE--which adds the ability to create advanced automations with conditional statements but relies on an internet connection to work.
+But that’s about all that SmartThings can do well. There is no product roadmap nor any interesting product developments or integrations in the past year, besides releasing a cheaper, slightly less functional hub. New official product integrations are non-existent. SmartThings would be a terrible product today if it weren't for the SmartThings community creating workarounds to make up for SmartThings' shortcomings. Several members created a new automation engine--[WebCoRE](https://www.webcore.co/)--which adds the ability to create advanced automations with conditional statements but relies on an internet connection to work.
 
 I've also noticed that SmartThings notifications can be delayed when using the latest Android OS—as much as 15 minutes! There is no way I can use SmartThings as a security system with these delays. I’m only keeping the hub around until I get Home Assistant running stable.
 
@@ -174,7 +174,7 @@ To integrate SmartThings and Home Assistant without HA Cloud, I previously used 
 
 #### Notifications from Home Assistant
 
-The notification platform in Home Assistant is very basic and tedious to set up Every single notification needs to be manually written as an automation. If you're good at writing automation templates, then the workload is reduced, but right now, it's a mess and I don't recommend investing much time in creating notifications. Getting notifications on your phone is much easier in 2019, thanks to a few new apps.
+The notification platform in Home Assistant is very basic and tedious to set up. Every single notification needs to be manually written as an automation. If you're good at writing automation templates, then the workload is reduced, but right now, it's a mess and I don't recommend investing much time in creating notifications. Getting notifications on your phone is much easier in 2019, thanks to a few new apps.
 
 iOS phones can receive notifications after setting up the [iOS component](https://www.home-assistant.io/docs/ecosystem/ios/) and installing the Home Assistant [iOS app](https://itunes.apple.com/us/app/home-assistant-open-source-home-automation/id1099568401?mt=8). If your Home Assistant instance isn't exposed on the internet, you can still receive notifications through iCloud, but cannot respond back.
 
@@ -189,7 +189,7 @@ For Android phones with Google Play installed, I found that the easiest method t
 
 ### Hubitat 
 
-I’ve been looking into a new Smartthings competitor called **[Hubitat](https://amzn.to/2XWjOqy)**. In-depth reviews aren’t common for Hubitat, but I gather it is a better version of SmartThings, but missing a few things like a proper mobile app and support for some cloud-based services like Lutron Caseta. I decided against ordering Hubitat as it didn’t support the standard Lutron Caseta bridge, which I currently use at my house. There also aren't any Hass.io add-ons or integrations to connect with Home Assistant so I wouldn't be able to use it with my Hass.io instance.
+I’ve been looking into a new SmartThings competitor called **[Hubitat](https://amzn.to/2XWjOqy)**. In-depth reviews aren’t common for Hubitat, but I gather it is a better version of SmartThings, but missing a few things like a proper mobile app and support for some cloud-dependent devices like the Lutron Caseta bridge. I decided against ordering Hubitat as it didn’t support the standard Lutron Caseta bridge, which I currently use at my house. There also aren't any Hass.io add-ons or integrations to connect with Home Assistant so I wouldn't be able to use it with my Hass.io instance.
 
 
 

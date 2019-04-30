@@ -32,10 +32,6 @@ When you get into the details of the supported integrations with voice assistant
 When testing voice control with lighting, I realized that the naming convention of devices is important to avoid confusion. If I have a light strip named **TV**, a Chromecast called **Living Room TV**, and an Android TV in the living room, there’s going to be some confusion when saying **``turn off the TV``**. 
 
 ### Considerations before choosing a voice assistant
-> - **Test out the voice assistants yourself** by purchasing a cheap mini speaker or using the app on your phone. 
-> - **Search for keywords like “direct integration” to learn if your product supports voice assistant directly.**
-> - **Consider the privacy implications of including always-on voice assistants.** I've had a few experiences where the voice assistant turned on and respond when I am 100% certain I did not say the trigger phrase.
-
 
 <ul class="alt">
   <li><strong>Test out the voice assistants yourself</strong> by purchasing a cheap mini speaker or using the app on your phone. </li>
@@ -46,15 +42,15 @@ When testing voice control with lighting, I realized that the naming convention 
 ### What you get with a voice assistant
 
 <ul class="alt">
-  <li>A hands-free way to control your lights.</li>
+  <li>A hands-free way to control your lights, music and TV.</li>
   <li>A basic kitchen assistant for setting timers, converting units, and more.</li>
 </ul>
 
 ### Recommended Reading
 
 <ul class="alt">
-  <li>Set up Google routines tied to your alarm clock app from <a href="https://www.howtogeek.com/406742/how-to-set-up-routines-in-google-clock-on-android/">Howtogeek</a></li>
-  <li><a href="https://www.home-assistant.io/components/homekit/">The Homekit component for Home Assistant</a> opens up the Homekit platform to many unsupported devices</li>
+  <li>Set up Google routines tied to your alarm clock app from <a href="https://www.howtogeek.com/406742/how-to-set-up-routines-in-google-clock-on-android/">Howtogeek</a>.</li>
+  <li><a href="https://www.home-assistant.io/components/homekit/">The Homekit component for Home Assistant</a> opens up the Homekit platform to many unsupported devices.</li>
   <li>Set up Google Assistant with <a href="https://support.smartthings.com/hc/en-us/articles/214837343-How-to-connect-Google-Assistant-with-SmartThings">SmartThings</a>, Home Assistant  with <a href="https://www.nabucasa.com/">the easy but paid way</a> or the <a href="https://www.home-assistant.io/components/google_assistant/">manual way</a>.</li>
   <li>One Amazon exclusive feature: <a href="https://www.tomsguide.com/us/alexa-guard,news-28882.html">Alexa Guard</a> can detect alarming sounds (glass break, smoke alarm) and send you a notification.</li>
   <li>How Apple anonymizes Siri requests and personal information from <a href="https://nakedsecurity.sophos.com/2018/08/13/siri-is-listening-to-you-but-shes-not-spying-says-apple/">Naked Security by Sophos</a></li>
@@ -67,7 +63,7 @@ When testing voice control with lighting, I realized that the naming convention 
 
 ## Google Assistant
 
-**If you are an Android user, it makes sense to stick with Google Assistant because of its tight integration with the Android OS, ever-expanding features and device compatibility.**  Google is ahead of the pack with its very useful Google Home app, which also has a streamlined UI that can be displayed on a tablet or phone. It is slowly replacing the functions of my SmartThings hub, though it still can’t perform any real automations that utilize sensors. One feature I love is using the **``Good Morning``** Google Routine and tying it to my phone’s alarm app. I’ve been waiting for something like that for ages!
+**If you are an Android user, it makes sense to stick with Google Assistant because of its tight integration with the Android OS, ever-expanding features and device compatibility.**  Google is ahead of the pack with its very useful Google Home app, which has a streamlined UI that can be displayed on a tablet or phone. It is slowly replacing the functions of my SmartThings hub, though it still can’t perform any real automations that utilize sensors. One feature I love is using the **``Good Morning``** Google Routine and tying it to my phone’s alarm app. I’ve been waiting for something like that for ages!
 
 <figure class="align-center">
  <a class="image-link" href="assets\images\other\google_home_app.png" ><img src="assets\images\other\google_home_app.png" alt="" /></a>
@@ -97,9 +93,7 @@ Google and Amazon continue to add new features at a rapid pace, making it a futi
    The list of services that support deeper voice control with Google Assistant and Chromecast.
  </figcaption>
 </figure>
-After testing Google Assistant with an LG TV, I've learned there is a ~ discrepancy on ~integration between Google Assistant and media devices ~. There is deeper voice integration with more apps using Google Assistant and LG TV, but not with Chromecast. So I can say `play The Good Place on Hulu` and it works on an LG TV. ~. In the Google Home app settings, you can configure the `Default TV` setting for each Google Home speaker, but the LG TV is not available to select.
-
-
+After testing Google Assistant with an LG TV, I'ved learend that the LG TV has a deeper integration with Google Assistant than the Chromecast with apps like Hulu.  So I can say `play The Good Place on Hulu` and it works on an LG TV, but not a Chromecast. The main downside is that this only works when using the LG remote, not a Google Home speaker.
 
 Google Assistant is directly integrated into the home screen of phones running the latest stock Android, yet my phone still has trouble responding to the **``OK Google``** phrase, even when the phone is charging or on the home screen where Google Assistant is active. I was expecting better integration than this, but I understand phones can’t always be listening. That would be creepy anyway.
 

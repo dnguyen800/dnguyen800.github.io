@@ -29,7 +29,7 @@ categories:
 The new lineup of media streaming devices continues to impress every year. With more features like 4K, voice control, and HDR added into physically smaller devices, I feel like I can constantly upgrade my old TV at a cheap price. Indeed, my 2015 Vizio TV is more useful with a Roku Streaming Stick+ so I no longer have to browse through a slow, ancient web interface. 
 
 <div class="box">
-	<p><i>Though media streaming devices are capable of impressive feats, I’ve found thxat the best TV watching experience lies with a high-end smart TV like the LG OLED series.  The gyroscopic remote controls make it as easy as possible for anyone to pick up a remote and intuitively browse through the TV’s wide selection of apps. The LG OLED TVs are really impressive, if you can afford it. See the <a href="{{ 'smart-tv.html' | absolute_url }}">Smart TV Section</a> to learn more.</i></p>
+	<p><i>Though media streaming devices are capable of impressive feats, I’ve found that the best TV watching experience lies with a high-end smart TV like the LG OLED series.  The gyroscopic remote controls make it as easy as possible for anyone to pick up a remote and intuitively browse through the TV’s wide selection of apps. The LG OLED TVs are really impressive, if you can afford it. See the <a href="{{ 'smart-tv.html' | absolute_url }}">Smart TV Section</a> to learn more.</i></p>
 </div>
 
 
@@ -45,7 +45,7 @@ The new lineup of media streaming devices continues to impress every year. With 
 
 <ul class="alt">
   <li>Upgrade an outdated TV with new features like voice control, and a faster browsing experience.</li>
-  <li>Use the Roku as a ghetto universal remote with <a href="https://www.home-assistant.io/components/emulated_roku/">emulated Roku feature</a> on Home Assistant.</li>
+  <li>Use the Roku as a ghetto universal remote with <a href="https://www.home-assistant.io/components/roku/">Roku component</a> on Home Assistant.</li>
   <li>Integrated smart home automations, as nearly all devices are supported by Home Assistant.</li>
   <li>Move media streaming devices to different TVs.</li>
 </ul>
@@ -55,7 +55,7 @@ The new lineup of media streaming devices continues to impress every year. With 
 <ul class="alt">
   <li><strong>Affiliate link:</strong> Purchase the <a href="https://amzn.to/2XhNo9l">Roku Streaming Stick+</a>, or <a href="https://amzn.to/2XjoExH">Amazon Fire TV Stick 4k</a> on Amazon</li>
   <li>The Wirecutter’s Best Streaming Device <a href="https://thewirecutter.com/reviews/best-media-streamers/">Recommendation</a></li>
-  <li>The <a href="https://www.home-assistant.io/components/roku/">Roku</a> and  <a href="https://www.home-assistant.io/components/emulated_roku/">Emulated Roku</a> component for Home Assistant</li>
+  <li>The <a href="https://www.home-assistant.io/components/cast/">Chromecast</a>, <a href="https://www.home-assistant.io/components/androidtv/">Fire TV/Android TV</a>, <a href="https://www.home-assistant.io/components/roku/">Roku</a> and  <a href="https://www.home-assistant.io/components/emulated_roku/">Emulated Roku</a> components for Home Assistant</li>
 </ul>
 
 
@@ -71,11 +71,11 @@ The Roku Ultra. <strong>|  Roku</strong>
 
 ## Roku
 
-**I recently switched over to the [Roku Streaming Stick+](https://amzn.to/2XhNo9l), and agree with the Wirecutter that it is the best media streaming device available today.** It supports both Google Assistant and Amazon Alexa, as well as Youtube TV and Amazon Prime Video—all without any workarounds. Normally when you try to be a jack of all trades, you end up being good at nothing. In this case, Roku ends up being good enough for my needs, and I haven’t found anything missing besides deeper integration with voice assistants. I just hope Google and Amazon don’t take away their respective apps from Roku and create more segregated market.
+**I recently switched over to the [Roku Streaming Stick+](https://amzn.to/2XhNo9l), and agree with the Wirecutter that it is the best media streaming device available today.** It supports both Google Assistant and Amazon Alexa, as well as Youtube TV and Amazon Prime Video—all without any workarounds. Normally when you try to be a jack of all trades, you end up being good at nothing. In this case, Roku ends up being good enough for my needs, and I haven’t found anything missing besides deeper integration with voice assistants. I just hope Google and Amazon don’t take away their respective apps from Roku and create a more segregated market.
 
 I find the Roku voice search function on the remote is much more useful with the ability to search for a title through multiple apps. I never purchase TV shows or movies, so I like Roku’s search function because it highlights the free or subscription options first. Google Assistant and Alexa are officially supported, though it is limited to opening apps, powering on TV or changing volume. Voice commands aren’t as deeply integrated at the application level, compared to the Fire TV or even the Chromecast.
 
-On the premium Roku products like the **``Streaming Stick+``**, the remote includes extra nifty features like TV power and volume control buttons. This also works in tangent with HDMI ARC to control the AV receiver or soundbar volume. With this, I’m able to dump my old TV remote. Though it lacks an Input Change button, I have HDMI-CEC working so rarely do I need it.
+On the premium Roku products like the **Streaming Stick+**, the remote includes extra nifty features like TV power and volume control buttons. This also works in tandem with HDMI ARC to control the AV receiver or soundbar volume. With this, I’m able to dump my old TV remote. Though it lacks an Input Change button, I have HDMI-CEC working so rarely do I need it.
 
 There are so many subtle differences between these media devices worth noting--as bullet lists, of course. 
 
@@ -124,7 +124,7 @@ There are so many subtle differences between these media devices worth noting--a
 	  <figure class="fourthtest">
         <img src="assets/images/integrations/roku-ha.png" />
         <figcaption>
-          <strong>Home Assistant: Great</strong><br>Automatically detected in Home Assistant.
+          <strong>Home Assistant: Okay</strong><br>Automatically detected in Home Assistant. Status updates are slow, and play/pause state is not recognized.
         </figcaption>
       </figure>
 	</div>
@@ -132,7 +132,7 @@ There are so many subtle differences between these media devices worth noting--a
       <figure class="fourthtest">
        <img src="assets/images/integrations/google-home.png" />
        <figcaption>
-         <strong>Voice: Average</strong><br> Works,but no deep integration with apps like Youtube TV
+         <strong>Voice: Average</strong><br> Works,but no deep integration with apps like Youtube TV.
        </figcaption>
       </figure>
 	</div>
@@ -190,7 +190,7 @@ There are so many subtle differences between these media devices worth noting--a
 <ul class="fa-ul">
   <li><span class="fa-li" ><i class="fas fa-grin-stars"></i></span>Deep voice integration is available on Amazon Prime Video, Netflix and Hulu. Not even Chromecast has deep integration with Hulu.</li>
   <li><span class="fa-li" ><i class="fas fa-sad-tear"></i></span>Unless you are using Amazon Echo speakers, you cannot tell a nearby Google Home speaker to pause the Fire TV.</li>
-  <li><span class="fa-li" ><i class="fas fa-sad-tear"></i></span>Voice search is flaky, but so are all platforms I reviewed. I said "Play Bob's Burgers on Hulu" about five times before it registered correctly. I said it clearly, I swear.</li>
+  <li><span class="fa-li" ><i class="fas fa-sad-tear"></i></span>Voice search is flaky, but so are all platforms I reviewed. I said "Play Bob's Burgers on Hulu" about five times before it registered correctly. And I said it clearly, I swear.</li>
 </ul>
 
 ### Casting from phone to TV
@@ -209,7 +209,7 @@ There are so many subtle differences between these media devices worth noting--a
 
 ### Home Assistant Installation and Integration
 <ul class="fa-ul">
-  <li><span class="fa-li" ><i class="fas fa-grin-stars"></i></span>Connecting Amazon Fire TV to Home Assistant is easy (as of version 0.76, but takes a few steps to enable ADB debugging on Fire TV, installing ADB Hass.io add-on, enable [Android TV component](https://www.home-assistant.io/components/androidtv/)] and connecting the two.</li>
+  <li><span class="fa-li" ><i class="fas fa-grin-stars"></i></span>Connecting Amazon Fire TV to Home Assistant is easy (as of version 0.76, but takes a few steps to enable ADB debugging on Fire TV, installing ADB Hass.io add-on, enable <a href="https://www.home-assistant.io/components/androidtv/">Android TV component</a> and connecting the two.</li>
   <li><span class="fa-li" ><i class="fas fa-grin-stars"></i></span>Media state (play/pause, app, Home menu) updates and media commands respond within one second on the Fire TV and Home Assistant. </li>
   <li><span class="fa-li" ><i class="fas fa-meh"></i></span>Play/pause state is not accurately reflected on most Fire TV apps, so lighting automations cannot rely on this information. As an alternative, you can detect if a Fire TV app is open. This is likely a bug and may be fixed in the future.</li>
 </ul>
@@ -271,10 +271,11 @@ The Chromecast Ultra. <strong>| Google</strong>
 
 ## Chromecast
 
-**Even though I use [Chromecast](https://www.bestbuy.com/site/google-chromecast-ultra-4k-streaming-media-player-black/5578628.p?skuId=5578628) in my home, I find it difficult to recommend as the sole media device in your home because it lacks a TV user interface and remote.** I believe most people want a remote to browse videos, so I recommend trying a Roku, Android TV, or both Roku and Chromecast for these features. My roommates prefer to ignore the Chromecast altogether for the lack of a remote.
+**Even though I use [Chromecast](https://www.bestbuy.com/site/google-chromecast-ultra-4k-streaming-media-player-black/5578628.p?skuId=5578628) in my home, I find it difficult to recommend as the sole media device in your home because it lacks a TV user interface and remote.** I believe most people want a remote to browse videos, so I recommend trying a Roku, Fire TV, or both Roku and Chromecast for these features. My roommates prefer to ignore the Chromecast altogether for the lack of a remote.
 
 I initially liked the Chromecast because it would show video thumbnails on Home Assistant when watching Hulu and Youtube. I thought this feature worked on all apps, but further testing shows the feature doesn’t work on Netflix, Plex, or anything else. Casting from a web browser works, unlike my experiences with Miracast. 
 
+You've reached the final bullet list of this section! Enjoy.
 ### User interface
 <ul class="fa-ul">
   <li><span class="fa-li" ><i class="fas fa-sad-tear"></i></span>Chromecast doesn't have a TV interface, since browsing is done using mobile apps.</li>
@@ -282,7 +283,7 @@ I initially liked the Chromecast because it would show video thumbnails on Home 
 
 ### App support
 <ul class="fa-ul">
-  <li><span class="fa-li" ><i class="fas fa-grin-stars"></i></span>Chromecast has the highest number of supported apps. You can even cast websites using your web browser. Amazon Prime Video Chromecast support is also coming.</li>
+  <li><span class="fa-li" ><i class="fas fa-grin-stars"></i></span>Chromecast has the highest number of supported apps. You can even cast websites using your web browser. Amazon Prime Video Chromecast support is also coming in 2019.</li>
   <li><span class="fa-li" ><i class="fas fa-meh"></i></span>Beware: I've noticed odd discrepancies with support between Chromecast displays, speakers, and TV dongles. Won't go into detail here, but there isn't one type of Chromecast that supports everything.</li>
 </ul>
 
