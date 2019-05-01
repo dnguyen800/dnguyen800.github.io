@@ -4250,7 +4250,7 @@
 		-webkit-flex-wrap: wrap;
 		-ms-flex-wrap: wrap;
 		flex-wrap: wrap;
-		margin: 0 0 2em -6em;
+		margin: 0 0 2em 0em;
 		width: calc(100% + 6em);
 	}
 
@@ -4263,7 +4263,7 @@
 			-webkit-flex-shrink: 1;
 			-ms-flex-shrink: 1;
 			flex-shrink: 1;
-			margin: 0 0 1em 2em;
+			margin: 0 0 0 2em;
 			position: relative;
 			width: calc(33.33333% - 6em);
 		}
@@ -4276,7 +4276,7 @@
 			
 			.popup-gallery article .image {
 				display: block;
-				margin: 0 0 1em 0;
+				margin: 0 0 2em 0;
 			}
 
 				.popup-gallery article .image img {
