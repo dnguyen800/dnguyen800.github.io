@@ -12,9 +12,9 @@ permalink: /works
    <p>Some nice photos taken during my travels. I'll continue posting more as I look through my collection.</p>
    <h3>South America</h3>    
    <div class="popup-gallery">
-          <a href="assets/images/photography/el-chalten.jpg" title="Wooden sculpture at El Chalten, Argentina" class="image"><img src="assets/images/photography/el-chalten-tb.jpg" /></a>
-       <a href="assets/images/photography/sa-01.jpg" title="An interesting plant at Bulnes Fort in Punta Arenas, Chile" class="image"><img src="assets/images/photography/sa-01-tb.jpg" /></a>
-       <a href="assets/images/photography/chile.jpg" title="The same interesting plant at Bulnes Fort in Punta Arenas, Chile" class="image"><img src="assets/images/photography/chile-tb.jpg" /></a>       
+          <a href="assets/images/photography/el-chalten.jpg" title="Wooden sculpture at El Chalten, Argentina" class="article-image"><img src="assets/images/photography/el-chalten-tb.jpg" /></a>
+       <a href="assets/images/photography/sa-01.jpg" title="An interesting plant at Bulnes Fort in Punta Arenas, Chile" class="article-image"><img src="assets/images/photography/sa-01-tb.jpg" /></a>
+       <a href="assets/images/photography/chile.jpg" title="The same interesting plant at Bulnes Fort in Punta Arenas, Chile" class="article-image"><img src="assets/images/photography/chile-tb.jpg" /></a>       
 
 
 ​       
