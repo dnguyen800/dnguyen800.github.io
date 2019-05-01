@@ -87,18 +87,15 @@ Searching for recipes through Google will pop up the 'Send to Display' button.
 </figure>
 I bought this display with the intention to use as a cooking assistant--mainly for setting timers, doing unit conversions, and reading recipes out loud, but it wasn't very good at the latter. Imagine saying **``Okay Google, next step``** for each recipe step--it gets tiring, fast. Recipes from less popular blog sites aren't available to cast to the display, and I have no other way to load my private collection of recipes. As a kitchen assistant, it could definitely be improved, but it's unlikely we will see any more improvements from Google or Lenovo.
 
-
-
 Other nitpicky issues I've noticed:
 
-- Casting is not available from:
+- Casting to Google display is not available from:
   - Netflix
   - Google Chrome browser tab (the workaround to cast unsupported video platforms)
-- 
 
 
 ### Installation and Smart Home Integration
-The display is a fully functional Chromecast and is automatically detected in Home Assistant as such. Chromecast is the best media player integration I’ve tested so far, and that includes this display. It works with all Chromecast video and audio apps and supports Chromecast multi-room audio. I tested major video apps, but not all of them, so I can't promise every Chromecast app works on the display. When the Lenovo was originally released, multi-room audio and Netflix were not supported (but is now, after an update). I don't know the reason why, but it goes to show you that there are some smaller differences within Chromecast support.
+The display is a fully functional Chromecast and is automatically detected in Home Assistant as such. Chromecast is the best media player integration I’ve tested so far, and that includes this display. It works with all Chromecast video and audio apps and supports Chromecast multi-room audio. I tested major video apps, but not all of them, so I can't promise every Chromecast app works on the display. When the Lenovo was originally released, multi-room audio and Netflix were not supported. I don't know the reason why, but it goes to show you that there are some smaller differences within Chromecast support.
 
 For controlling lights, the display cannot access the Home Assistant UI, but can indirectly control the lights through Google Assistant, which will bring up the screen below:
 
