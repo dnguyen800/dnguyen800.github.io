@@ -115,15 +115,15 @@ Don't speak Japanese? No problem! Use American Express services to help book res
 
 ### 3. Learn the basics of the country's language
 
-If you're pressed for time, I've found that learning numbers and phrases involving greetings, getting directions, and ordering food have been the most useful for me. Words like **this**, **that**, **want**, pronouns, are helping when combining with the technique of pointing at stuff.  Basically, learn enough of the language so you can order food at a restaurant, buy goods at a store, and follow directions. You will feel like a pro when you start 
+If you're pressed for time, I've found that learning numbers and phrases involving greetings, getting directions, and ordering food have been the most useful for me. Words like **this**, **that**, **want**, **pronouns**, are helpful when combined with the technique of finger-pointing.  Basically, learn enough of the language so you can order food at a restaurant, buy goods at a store, and follow directions. You will feel like a pro when you start 
 
-As a backup measure, download the Google Translate app on your phone and any offline languages. The app works great with an internet connection, but can still work offline.
+As a backup measure, download the [Google Translate](https://play.google.com/store/apps/details?id=com.google.android.apps.translate&hl=en_US) app on your phone and any offline languages. The app works great with an internet connection, but can still work offline.
 
-I haven't had good experience learning with the Duolingo app as I need more structured lessons, but attending in-person language meetups found on [meetup.com](https://www.meetup.com/) can be fun.
+I haven't had good experience learning with the [Duolingo](https://play.google.com/store/apps/details?id=com.duolingo) app as I need more structured lessons, but attending in-person language meetups found on [meetup.com](https://www.meetup.com/) can be fun.
 
 ### 4. For extended trips, sign up for travel insurance
 
-If you're traveling for over a month, consider looking into travel insurance. I used World Nomads, per recommendation I heard from others. Didn't have to use it, luckily, but I've heard from other travelers who have had good experiences using travel insurance.
+If you're traveling for over a month, consider looking into travel insurance. I used [World Nomads](https://www.worldnomads.com/travel-insurance/), per recommendation I heard from others. I didn't have to use it, luckily, but I've heard from other travelers who have had good experiences using travel insurance.
 
 A friend had her iPad stolen on a bus, and travel insurance actually covered the replacement cost of it.
 
@@ -143,7 +143,12 @@ In Japan and Korea, you can rent a portable Wi-Fi hotspot from the airport and s
 
 ### 6. Think about donating old clothing, toys, electronics
 
-A friend I met travelling in Peru brought duffel bags of clothing, toys and games to donate to a nearby village. I thought this was such a kind gesture that I wish I thought about doing this ~/.
+Another way to donate and still travel lightly is to donate your clothing and electronics near the end of your trip. Tthe extra space saved in your luggage can be used for the souvenirs you will undoubtedly collect during your trip. 
+
+For those returning home, some international airports have stations to donate loose change--a smart idea considering you're not likely to use that change any time soon.
+
+A friend I met travelling in Peru brought duffel bags of clothing, toys and games to donate to a nearby village in the rainforest. I wasn't able to do this as I was on a long-term journey, but I'll definitely remember to do it the next time I'm travelling for a short international trip.
+
 
 ## Preparations one month before leaving
 
@@ -183,15 +188,18 @@ This is the minimum planning I always do, because I don't want to arrive late at
 
 Lodging info is a requirement on customs forms, so have it ready.
 
-### 12. Bring any leftover currency, cards from previous visits.
+### 12. Bring any leftover currency, transportation cards from previous visits
 
 This is more of a reminder for me, as I did revisit a few countries that I still held some currency.
 
 ### 13. Buy a physical copy of a book you plan to read and donate it to a hostel or shared library when you're done.
 
-Many hostels offer a space for donated books ~ and I took advantage at one of my extended stays reading ~. I also brought along one of the books I was super interested in, [Stories of Your Life and Others](https://amzn.to/2GPN9wY) by Ted Chiang ~, shared it with another traveler. I stayed in a spot in the Peruvian rainforest and found an amazing ~ comic book I read, donated graciously by an anonymous ~.
+![image](assets\images\other\book.jpg){:.image.dan-left}
 
-Really cool way to make a connection anonymously. a graphic novel Blankets by Craig Thompson
+Many hostels offer a reading space for donated books, which is a sweet way to share your favorite stories with strangers and make a connection, albeit one you will never know about. Many long-term travelers (including me) read these books during travel downtime and it is definitely appreciated.
+
+I took advantage at one of my extended stays in Peru to read an autobiographical graphic novel, [Blankets by Craig Thompson](https://amzn.to/307UKPc). Short review: it was moving, and I thank whoever donated the book. I brought along a sci-fi book I was super interested in at the time, [Stories of Your Life and Others](https://amzn.to/2GPN9wY) by Ted Chiang, that I gave to one of the hostel workers I met. I've found that books are also an easy conversation starter with strangers.
+
 
 ## One day before your flight
 
@@ -199,4 +207,6 @@ Really cool way to make a connection anonymously. a graphic novel Blankets by Cr
 
 ### 2. Don't forget your passport!
 
-### 3. Pay for an extra baggage fees online, not at the gate
+### 3. Pay for an extra baggage fees online, not at the gate.
+
+If you know you are checking in luggage, it is the cheapest to pay for the check-in fee when booking the flight. Though I have encountered instances on some smaller airlines where I was forced to pay for the check-in fee during boarding. If you don't see an option to pay in advance online, then the airline is going to rip you off.
