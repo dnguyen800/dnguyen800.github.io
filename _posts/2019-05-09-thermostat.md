@@ -3,7 +3,7 @@ layout: page
 title: Thermostats
 short_title: thermostat
 excerpt: For the few times I actually used a smart thermostat, I couldn't imagine living without one.
-update: "<strong>May 9, 2019:</strong> Google announced the end of the <strong>Works With Nest</strong> program, so its likely all integrations will cease to function on August 31, 2019. Thanks Google!"
+update: "<strong>May 9, 2019:</strong> Google announced the end of the <strong>Works With Nest</strong> program, so it is likely that all integrations will cease to function on August 31, 2019 until further notice. Super."
 competitors: "Nest, Ecobee, Honeywell, Emerson"
 permalink: /thermostat
 image: assets/images/overlay-ws/thermostat.jpg
@@ -16,7 +16,7 @@ categories:
 
 <!--more-->
 
-##### Google and Nest recently announced the end of the **Works with Nest** program, meaning all existing integrations (such as SmartThings and Home Assistant) will stop functioning on August 31, 2019. As a result, I've changed my thermostat recommendation to [Ecobee](#ecobee-thermostats) as their official API is still available for integration.
+##### Google and Nest recently announced the end of the **Works with Nest** program, meaning all existing integrations (such as SmartThings and Home Assistant) will stop functioning on August 31, 2019. As a result, I've changed my thermostat recommendation to [Ecobee](#ecobee-thermostats) as their official API is still available for SmartThings and Home Assistant integration.
 
 #### I’ve personally tested the following:
 
