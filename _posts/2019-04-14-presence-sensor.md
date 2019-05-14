@@ -34,13 +34,13 @@ It took some time to find a capable presence sensor that was timely enough to up
 
 <ul class="alt">
   <li><strong>When designing automations, make sure to test, test, and test.</strong> There are odd issues where for one millisecond, the sensor mistakenly reports you are home and opens the garage to intruders.</li>
-  <li><strong>Make sure you have consent</strong> before installing a GPS tracking app like Tile or Life360.</li>
+  <li><strong>Make sure you have consent</strong> before installing a GPS tracking app like Tile or Life360 on a person's phone.</li>
 </ul>
 
 ### What you get with a presence sensor
 
 <ul class="alt">
-  <li> Design automations using geofencing like announcements (Dan is arriving home).</li>
+  <li> Design automations using geofencing, like announcements ("Dan is arriving home").</li>
   <li>Tell the difference between someone arriving at home and opening the door, versus opening the door. </li>
 </ul>
 
@@ -48,8 +48,8 @@ It took some time to find a capable presence sensor that was timely enough to up
 ### Recommended Reading
 
 <ul class="alt">
-  <li>Life360 works with <a href="http://workswith.life360.com/">SmartThings</a></li>
-  <li>Home Assistant components for <a href="https://www.home-assistant.io/components/nmap_tracker/">nmap</a> and <a href="https://community.home-assistant.io/t/life360-device-tracker-platform/52406">Life360</a></li>
+  <li>Life360 works with <a href="http://workswith.life360.com/">SmartThings</a> and <a href="https://community.home-assistant.io/t/life360-device-tracker-platform/52406">Life360</a></li>
+  <li>Home Assistant components for <a href="https://www.home-assistant.io/components/nmap_tracker/">nmap</a></li>
 </ul>
 
 
@@ -79,16 +79,35 @@ Nmap's accuracy also varies by smartphone, at least with the few Android phones 
 
 ### Installation and Smart Home Integration
 
-The **``Nmap``** component is available on Home Assistant only, but the configuration is incredibly easy to fill out. Once a configuration is added, a Home Assistant sensor will appear:
+The **``Nmap``** component is available on Home Assistant only, but the configuration is incredibly easy to fill out in Home Assistant. The hardest part (which is still easy) is setting up a static IP address for the smartphone that will be tracked. This is done in the network router's settings and may require the phone's MAC address or local network IP address. Every router's setting is different, so use Google search for guidance.
+
+To find the IP address of your phone, first make sure it is connected to your local wireless network. On iPhone, you go to the WiFi settings, select the network you are currently connected to, and you should see the IP address like so. On Android, the process is similar, except you need to expand the "Advanced" tab after selecting the wireless network. Or you can follow this [guide](https://www.makeuseof.com/tag/find-ip-address-mobile-smartphone/).
+
 
 <div class="row">
 	<!-- Break -->
-	<div class="6u 12u$(medium)">
+	<div class="4u 12u$(medium)">
 	  <figure class="fourthtest">
-        <img src="assets\images\integrations\nmap-ha.png" />
+        <img src="assets/images/other/apple_ip_address.png" />
         <figcaption>
-          <strong>Home Assistant: Great</strong><br>  A view of the nmap component in Home Assistant.
+          IP address on iPhone. <strong>| Appuals</strong>
         </figcaption>
+      </figure>
+	</div>
+	<div class="4u 12u$(medium)">
+      <figure class="fourthtest">
+       <img src="assets/images/other/android_ip_address.png" />
+       <figcaption>
+         IP address on Android phones. <strong>| Makeuseof </strong>
+       </figcaption>
+      </figure>
+	</div>
+  <div class="4u 12u$(medium)">
+      <figure class="fourthtest">
+       <img src="assets\images\integrations\nmap-ha.png" />
+       <figcaption>
+         <strong>Home Assistant: Great</strong><br> Once the configuration is added, a Home Assistant sensor will appear like so.
+       </figcaption>
       </figure>
 	</div>
 </div>
@@ -109,12 +128,12 @@ Life360 can be used as a presence sensor in both SmartThings and Home Assistant,
 
 ## The Competition
 
-In my process of finding the right device tracker, I’ve tested a few other platforms and shared my thoughts. Unfortunately, ``nmap`` was the only one I could rely on.  At least you will know which ones to skip.
+In my process of finding the right device tracker, I’ve tested a few other platforms and shared my thoughts. Unfortunately, **``nmap``** was the only one I could rely on.  At least you will know which ones to skip.
 
-|             | Works in SmartThings | in Home Assistant | Time Accuracy      |                                                              |
+| Platform | Works in SmartThings | in Home Assistant | Time Accuracy      | Comments                                                             |
 | ----------- | -------------------- | ----------------- | ------------------ | ------------------------------------------------------------ |
 | nmap        |                      | X                 | Less than a minute | **Good:** Fast status update, no interaction with household members needed. Additional app not required.<br>**Bad**: Only useful for detecting home/away status. Requires decent Wifi router. Can drain phone battery. |
-| iCloud      |                      | X                 |                    | **Good:**<br>**Bad:** Current Home Assistant implementation requires re-authentication every two months if using two-factor auth. Requires saving iCloud password in text file. |
+| iCloud      |                      | X                 |                    | **Good:** TBD<br>**Bad:** Current Home Assistant implementation requires re-authentication every two months if using two-factor auth. Requires saving iCloud password in text file. |
 | iBeacons    |                      | X                 |                    |                                                              |
 | Life360     | X                    | X                 | 1 to 2 minutes     | **Good**: Life360 In Home Assistant, there is only one-minute delay. Can set multiple geofences for home, work, school.<br>**Bad:** Life360 in SmartThings, I’ve experience a one-hour delay. Provides too much location details. Not good enough. |
 | Tile        |                      | X                 | Terrible           | **Good:** None.<br>**Bad:** Completely inaccurate. Location update can take hours to days. Provides too much location details. |
