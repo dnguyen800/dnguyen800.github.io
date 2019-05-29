@@ -71,7 +71,7 @@ I’ve tested a few motion sensors and I found a few that I like. All of them ha
 
 **My first motion sensor was the [Dome Home Automation Z-Wave Plus](https://amzn.to/2ImGlID) sensor ``(DMMS1)``, and I can say it is the most reliable motion sensor I used and repurchased over the years.** I use them in stairways, hallways, entrances—mainly low to medium traffic areas where I absolutely need the light to turn on. Walking down the stairs in the dark shouldn’t happen in a smart home and Dome motion sensors haven’t failed me in this regard.
 
-The detection range is better than most sensors, with objects reliably detected at 30 feet, and even further using higher sensitivities (and likely more false positives). In the living room, I use one sensor to detect someone entering from the opposite end of the room—about 30 feet. 
+The detection range is better than most sensors, with objects reliably detected at 30 feet, and even further using higher sensitivities (and likely more false positives). In the living room, I use one sensor to detect someone entering from the opposite end of the room—about 30 feet. With the magnetic circular design, I can aim the sensor at any angle, which is perfect for stairways.
 
 The sensors can’t be powered by micro-USB, so I don’t use them in high-traffic areas that will drain batteries quickly. I don’t have battery life benchmarks, but in real use, I change batteries every 3 to 6 months in medium traffic areas. 
 
@@ -99,7 +99,7 @@ Pairing in Home Assistant is messy, as the sensor adds motion and ambient light 
       <h3>Zooz Z-Wave Plus Motion Sensor (ZSE18)</h3>
       <p>If a sensor only works 90% of the time, is it worth buying? <strong>The <a href="https://www.thesmartesthouse.com/products/zooz-z-wave-plus-motion-sensor-zse18-with-magnetic-base-battery-or-usb-power">Zooz Z-Wave Plus Motion Sensor</a> (ZSE18) is one of the cheapest motion sensors on the market ($20-23) but after testing for months and running into several issues, I can’t recommend these for any use.</strong>  With a reduced range (around 15-20ft) and less than 100% reliability, I can’t use the sensor in areas where I absolutely need the light to turn on, so I relegated it to less critical areas like the bedroom or office. If I could return them, I would and purchase some reliable sensors instead.</p>
 
-<p>Out of all that I’ve tested, this sensor’s design is my favorite. It uses a magnetic base like the Dome sensors, but has the micro-USB port accessible from the outside of the case. This lets me position the sensor in a way that doesn’t create tension on the cable and keep the sensor steady. </p>
+<p>Out of all that I’ve tested, this sensor’s design is my favorite. It uses a magnetic base like the Dome sensors, but has the micro-USB port accessible from the outside of the case. This lets me position the sensor in a way that doesn’t create tension on the cable and keep the sensor steady.</p>
 
 <h4>The Problems</h4>
 <p>My first batch of sensors turned out to be faulty—the default sensitivity settings were way too low to be useful in any scenario. Luckily, I received a replacement but the sensors continue to exhibit different issues. 10% of the time, the motion sensor reports active motion but remains as active indefinitely, which breaks my lighting automations and keeps the lights on. Once I walk by the sensor, it reports active motion again, though it has already been reporting active for several hours! The same issue happens with reporting inactive motion, though the issue is fixed by walking near the sensor and waking it up. My theory is that the sensor goes into sleep mode, but forgets to update status before doing so. It’s a frustrating hardware flaw that is unlikely to be fixed.</p>
@@ -115,7 +115,7 @@ Pairing in Home Assistant is messy, as the sensor adds motion and ambient light 
         <figcaption> GE motion sensor | GE</figcaption>
       </figure>
       <h3>GE Z-Wave Plus Motion Sensors</h3>
-      <p><strong>I continue to buy <a href="https://www.ebay.com/sch/i.html?_from=R40&_trksid=m570.l1313&_nkw=ge+z-wave+motion+sensor&_sacat=0&LH_TitleDesc=0&_osacat=0&_odkw=ge+z-wave+motion">GE Z-Wave Plus Motion Sensors</a> for its excellent range and USB power, but since it’s no longer being sold at retailers, I can’t recommend it.</strong> I sometimes find deals on eBay for under $30, which is a fair price as the sensor isn’t perfect (poor battery life and limited mounting options come to mind). These sensors are great in high traffic and large areas, but only if you can power the sensors with a USB cable.</p>
+      <p><strong>I continue to buy <a href="https://www.ebay.com/sch/i.html?_from=R40&_trksid=m570.l1313&_nkw=ge+z-wave+motion+sensor&_sacat=0&LH_TitleDesc=0&_osacat=0&_odkw=ge+z-wave+motion">GE Z-Wave Plus Motion Sensors</a> for its excellent range and USB power, but since it’s no longer being sold at retailers, I can’t recommend it.</strong> I sometimes find deals on eBay for under $30, which is a fair price as the sensor isn’t perfect (poor battery life and limited mounting options come to mind). These sensors are great in high traffic and medium-sized rooms, but only if you can power the sensors with a USB cable.</p>
 
        <figure class="align-center" style="width: 50%;">
        <a class="image-link" href="assets\images\other\motion-sensor-range.jpg" ><img src="assets\images\other\motion-sensor-range.jpg" alt="" /></a>
@@ -124,7 +124,9 @@ Pairing in Home Assistant is messy, as the sensor adds motion and ambient light 
        </figcaption>
        </figure>
 
-<p>I can vouch that the range is really good, around 35 to 40 feet. I use these sensors in the living room and dining room and it always detects motion as expected, whether in light or darkness. The response is not instant—I experience about a 1-2 second lag from detecting motion to turning on the light. If you’re running around the house in the dark, you will definitely beat the lights. </p>
+<p>I can vouch that the range is really good, around 35 to 40 feet. I use these sensors in the living room and dining room and it always detects motion as expected, whether in light or darkness. The response is not instant—I experience about a 1-2 second lag from detecting motion to turning on the light. If you’re running around the house in the dark, you will definitely outrun the light automations.</p>
+
+<p>This sensor works best on a level surface and can't be angled up or downwards easily, making it unsuitable for stairways.  Motion detection below the sensor's field of view is also limited, so it's best to place the sensor at a height above the waist. I think it is best used to detect presence in medium-size rooms, when placed on a shelf, side table or TV stand.</p>
 
 <h4>Installation and Smart Home Integration</h4>
 <p>Pairing in SmartThings is easy, but Home Assistant is a little more difficult as it creates five entities (though only one is useful) and spits out number values instead of an on/off value. I ended up creating a template sensor to simplify automations.</p>

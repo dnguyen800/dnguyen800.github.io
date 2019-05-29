@@ -43,7 +43,7 @@
 					<!-- Categories section -->
 
 					<div style="background-color: #f4f4f4; padding-left: 5px;">					
-						Categories
+						<strong>Categories</strong>
 						{% for firstCategory in page.categories %}										
 						> <a href="/category/{{ firstCategory }}"> {{ firstCategory }}</a>
 						{% endfor %}
@@ -51,11 +51,16 @@
   
 
 					
-					<!-- Competitors -->
+					<!-- Competitors section -->
 				  {% if page.competitors %}
-				    <div style="background-color: #f4f4f4; padding-left: 5px;"><strong>Competitors in this space: </strong> 
+				    <div style="background-color: #f4f4f4; padding-left: 5px;"><strong>Competitors in this space:</strong> 
 					{{ page.competitors }}
 					</div>
+				  {% endif %}
+					<!-- Updates section -->
+				  {% if page.update %}
+				    <div style="background-color: #f4f4f4; padding-left: 5px;">{{ page.update }}
+					</div>									
 				  {% endif %}
 				    <p></p>
 					
