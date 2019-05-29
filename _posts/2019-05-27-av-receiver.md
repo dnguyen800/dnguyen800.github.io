@@ -165,7 +165,7 @@ The official Denon mobile app no longer supports this receiver, though unofficia
 
 ### Installation and Smart Home Integration
 
-To no one's surprise, Home Assistant integration with this decade-old receiver hardly works. There are two Denon components for Home Assistant: [**``denon``**](https://www.home-assistant.io/components/denon/) and **``[**``denonavr``**](https://www.home-assistant.io/components/denonavr/). From my initial testing, only the **``denon``** component works with the AVR3808-CI receiver.
+To no one's surprise, Home Assistant integration with this decade-old receiver hardly works. There are two Denon components for Home Assistant: [**``denon``**](https://www.home-assistant.io/components/denon/) and [**``denonavr``**](https://www.home-assistant.io/components/denonavr/). From my initial testing, only the **``denon``** component works with the AVR3808-CI receiver.
 
 Home Assistant can remotely power off, change volume and inputs on the Denon receiver, but that's about it. You cannot remotely power on the receiver from the mobile app or Home Assistant. Changing inputs take a few attempts to work. Status updates such as power and input status are reflected in Home Assistant, but may take a few seconds to update. I would forget about creating any automations with the receiver and focus on getting **``HDMI-CEC``** to work properly because that is all the receiver can do reliably from a smart home perspective..
 
@@ -185,7 +185,7 @@ With limited functionality in Home Assistant, voice assistant capabilities are a
       <figure class="fourthtest">
        <img src="assets/images/integrations/google-home.png" />
        <figcaption>
-         <b>Voice: Poor</b><br> Works through Denon>>HA>>Google Assistant. Basic commands work but not necessary with HDMI-CEC.
+         <b>Voice: Poor</b><br> Works through Denon>>HA>>Google Assistant. Commands limited to what is supported in HA.
        </figcaption>
       </figure>
 	</div>
@@ -205,7 +205,7 @@ With limited functionality in Home Assistant, voice assistant capabilities are a
       <figure class="fourthtest">
        <img src="assets/images/integrations/denon-app.png"  />
        <figcaption>
-         <b>Denon App: Poor</b><br>The official mobile app does not support this receiver, but the app [AVR-Remote](https://play.google.com/store/apps/details?id=de.pskiwi.avrremote) does.
+         <b>Denon App: Poor</b><br>The official mobile app does not support this receiver, but the app <a href="https://play.google.com/store/apps/details?id=de.pskiwi.avrremote">AVR-Remote</a> does.
        </figcaption>
       </figure>
 	</div>
