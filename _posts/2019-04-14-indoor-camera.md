@@ -74,7 +74,7 @@ The Nest Indoor Camera. <strong>|  Google</strong>
 
 ## Nest Cam Indoor
 
-**If you plan to buy only one camera, then get a quality camera that supports continuous recording, like the [Nest Indoor Camera](https://amzn.to/2Vwui2h).**  Although I talk about Nest often, that doesn’t mean I recommend them to everyone. There are many similar quality cameras that offer better free storage tiers than Nest—start by checking out the [Wirecutter’s guide](https://thewirecutter.com/reviews/best-wi-fi-home-security-camera/) for other recommendations.
+**If you plan to buy only one camera, then get a quality camera that supports continuous recording, like the [Nest Indoor Camera](https://amzn.to/2Vwui2h).**  Although I talk about Nest often, that doesn’t mean I recommend them to everyone. There are many similar quality cameras that have continuous recording and offer better free storage tiers than Nest, but I chose Nest because I believe their products will be supported for a long time. For other camera recommendations, start by checking out the [Wirecutter’s guide](https://thewirecutter.com/reviews/best-wi-fi-home-security-camera/).. I think Nest is a safe choice if you are comfortable using a cloud-connected camera and already in the Google ecosystem because not many security cameras work well with Google to allow live camera feeds on Chromecast or Google smart displays.
 
 The value of Nest cameras is in its ease of setup and use. There are many issues I have using cheaper cameras—wireless range, connection dropouts, unreliable cloud servers—but I haven’t run into any of those issues with Nest. Once you have the camera plugged in and the Nest app installed, everything works reasonably well out of the box. The Nest app is also lightning fast at loading live and recorded footage—it takes under 10 seconds to load the app, authenticate and access my cameras. Whether the improved experience is worth the premium price of Nest products is up to you.
 
@@ -97,7 +97,9 @@ Nest’s motion detection algorithm also left me disappointed. I’ve received f
 
 ### Installation and Smart Home Integration
 
-Nest works well with Google Assistant, though there isn’t much need for voice control of a camera, except to broadcast messages or video feeds to a Chromecast. Home Assistant integration works with a Nest developer account, though the Nest camera feed in Home Assistant is only a still image that’s updated every few seconds. It’s better to use the Nest app for viewing live and recorded footage. Nest detection alerts can be tracked in Home Assistant, so you can pair an automation with it, like, blinking the lights when someone is at the door. I never found the need to use it though. 
+Nest works well with Google Assistant, though there isn’t much need for voice control of a camera, except to broadcast messages or live camera feeds to a Chromecast or a smart display. 
+
+Home Assistant integration works with a Nest developer account, though the Nest camera feed in Home Assistant is only a still image that’s updated every few seconds. It’s better to use the Nest app for viewing live and recorded footage. Nest detection alerts can be tracked in Home Assistant, so you can pair an automation with it, like, blinking the lights when someone is at the door. I never found the need to use it though. 
 
 
 <div class="row">
