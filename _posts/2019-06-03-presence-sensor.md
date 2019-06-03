@@ -131,11 +131,6 @@ Owntracks is a software-based device tracker application that is often recommend
 
 Initially, I didn't use Owntracks because it required my Home Assistant instance to be exposed on the internet. But now with Home Assistant Cloud [Webhooks capability](https://www.nabucasa.com/config/webhooks/), the setup is much easier, taking only minutes to install. I now recommend using Owntracks if users are okay with sharing location data from their phones, otherwise I default to Nmap.
 
-### Using Owntracks and Nmap together
-
-Owntracks 
-
-
 ### The Problems
 
 Owntracks uses GPS data for tracking, and while Owntracks was designed with [data privacy in mind](https://owntracks.org/booklet/features/security/), not everyone is willing to risk sharing that data. 
