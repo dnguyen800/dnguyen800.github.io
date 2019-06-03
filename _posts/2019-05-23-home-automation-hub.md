@@ -5,7 +5,7 @@ short_title: home-automation-hub
 excerpt: Though Google Home is slowly replacing its functions, a home automation hub is still necessary to perform real automations and local processing. 
 permalink: /home-automation-hub
 competitors: "Home Assistant, OpenHAB, Samsung Smartthings, Hubitat, Wink, Insteon Hub, Fibaro, Almond, Vera, Abode, and many more."
-update: "<strong>April 16, 2019:</strong> Added my experience with Home Assistant Cloud."
+update: "<strong>May 23, 2019:</strong> Added additional details about the SmartThings competitor, Hubitat."
 image: assets/images/overlay-ws/home-automation-hub.jpg
 image_credit: Dan Nguyen
 categories: 
@@ -189,7 +189,11 @@ For Android phones with Google Play installed, I found that the easiest method t
 
 ### Hubitat 
 
-I’ve been looking into a new SmartThings competitor called **[Hubitat](https://amzn.to/2XWjOqy)**. In-depth reviews aren’t common for Hubitat, but I gather it is a better version of SmartThings, but missing a few things like a proper mobile app and support for some cloud-dependent devices like the Lutron Caseta bridge. I decided against ordering Hubitat as it didn’t support the standard Lutron Caseta bridge, which I currently use at my house. There also aren't any Hass.io add-ons or integrations to connect with Home Assistant so I wouldn't be able to use it with my Hass.io instance.
+I’ve been looking into a smaller, new SmartThings competitor called **[Hubitat](https://amzn.to/2XWjOqy)**. In-depth reviews aren’t common for Hubitat, but I gather it is a better (and local-only) version of SmartThings, but is missing a few features like a proper mobile app, official push notifications and support for some cloud-dependent devices like the Lutron Caseta bridge. 
+
+It is constantly being updated with features by the developers and community though! The current workaround for mobile-like access is the [Hubitat dashboard](<https://community.hubitat.com/t/hubitat-dashboard-v1-documentation/1347>) and push notifications can be implemented with a separate app, called [Pushover](https://docs.hubitat.com/index.php?title=Pushover). A user recently created a Hubitat MQTT [application](<https://community.home-assistant.io/t/hubitat-integration/51534/14>) that should make the integration process between Home Assistant and Hubitat easier. It requires setting up an MQTT broker on Home Assistant, for which a Hass.io add-on is also [available](<https://www.home-assistant.io/addons/mosquitto/>).
+
+I decided against ordering a Hubitat device as it didn’t support the standard Lutron Caseta bridge, which I currently use at my house. I'll try it out, one day.
 
 
 

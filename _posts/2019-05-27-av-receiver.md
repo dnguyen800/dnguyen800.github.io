@@ -2,6 +2,7 @@
 layout: page
 title: AV Receivers
 short_title: av-receiver
+update: "<strong>May 27, 2019:</strong> Added my review of the ancient Denon AVR-3808CI receiver."
 excerpt: "For the few who own a receiver, you'll be happy to know they are incredibly easy to integrate into the smart home."
 permalink: /av-receiver
 competitors: "Onkyo, Pioneer, Sony, Denon, Yamaha, Marantz"
@@ -19,15 +20,15 @@ categories:
 #### I’ve personally tested the following:
 
 |---
-| ![](assets\images\logo\pioneer.png){:.image.logo} |  ![](assets\images\logo\onkyo.png){:.image.logo} 
-|:-:|:-:
-| **VSX-1131 (2016)** | **Onkyo TX-NR509 (2011)** 
+| ![](assets\images\logo\pioneer.png){:.image.logo} |  ![](assets\images\logo\onkyo.png){:.image.logo} | ![](assets\images\logo\denon.png){:.image.logo}
+|:-:|:-:|:-:
+| **VSX-1131 (2016)** | **Onkyo TX-NR509 (2011)** | **Denon AVR-3808CI (2007)**
 
 ## What you need to know
 
 These days, most people don’t own AV receivers and the massive speakers that accompany them. They are bulky and tend to dominate the living room space, so I usually recommend customers invest in a good sound bar for home theater quality sound. If you still want or already have a receiver, then you might as well integrate it with the rest of the smart home. Luckily, the latest AV receivers are easy to integrate into Home Assistant!
 
-There aren’t many AV receiver brands out there, which is good because it’s easier to add support to Home Assistant for the few remaining receivers out there. There is a compatibility list for some integrations, like Denon, but the only way to find out if a specific model works is to try it yourself. 
+There aren’t many AV receiver brands out there, which is good because it’s easier to add support to Home Assistant for the few remaining receivers out there. There is a compatibility list for some integrations, like [Denon](https://www.home-assistant.io/components/denonavr/), but the only way to find out if a specific model works is to try it yourself. 
 
 <p class="box">
 <i>If the AV receiver doesn’t have network capabilities, then a universal remote like the Logitech Harmony can achieve some integration but lacks features like state awareness (i.e. knowing if a device is on or off).</i></p>
@@ -39,10 +40,10 @@ A friend recently asked for AV receiver recommendations, which made me realize h
 ### Considerations before buying an AV receiver
 
 <ul class="alt">
-  <li><b>The receiver should have at least FOUR HDCP 2.2 ports,</b> which is necessary for 4K video. Not all HDMI ports on the receiver are HDCP 2.2. compatible, even the expensive receivers.</li>
-  <li><b>The receiver and TV should support HDMI ARC (Audio Return Channel) or eARC</b>, which allows the TV to send audio to the soundbar or AV receiver with a single HDMI cable. This is important if you want surround sound support when using the TV’s smart apps. </li>
+  <li><b>The receiver should have at least FOUR HDCP 2.2 ports,</b> which is necessary for 4K video at 60 frames-per-second.. Not all HDMI ports on the receiver are HDCP 2.2. compatible, even the expensive AV receivers.</li>
+  <li><b>The receiver and TV should support HDMI ARC (Audio Return Channel) or eARC</b>, which allows the TV to send audio to the soundbar or AV receiver with a single HDMI cable. This is important if you want surround sound support when using the TV’s smart apps. The alternative is to connect the TV and receiver via optical input.</li>
   <li><b>The receiver and TV should support HDMI-CEC</b>, also known as Samsung Anynet+, LG  SimpLink, and Sony Bravia Sync. CEC lets devices control the TV and AV receiver inputs automatically. It also allows the TV to automatically turn on the AV receiver.</li>
-  <li><b>HDMI cables must be rated at 18gbps to support 4K resolution at 60 frames-per-second.</b> 10gbps is not 4K. In-wall cables should be rated as CL2 to CL3. It’s a safety thing.</li>
+  <li><b>HDMI cables must be rated at 18gbps to support 4K resolution at 60 frames-per-second.</b> The most common HDMI cables are 10gbps, which is not true 4K. HDMI cables that will be going inside the wall must be rated as CL2 to CL3. It’s a <a href="https://www.lanshack.com/What-are-CL2-and-CL3-HDMI-cables.aspx">safety thing.</a></li>
   <li> Check the Home Assistant <a href="https://www.home-assistant.io/components">Component page</a> to see if your brand AVR is supported.</li>
 </ul>
 
@@ -141,3 +142,71 @@ As of 2014, Pioneer and Onkyo are effectively the same company! I tested the 201
 In the AV receiver settings, be sure to turn off any power saving mode, and enable network standby option. This is necessary for Home Assistant to remotely turn on the receiver.
 
 Pioneer's installation and smart home integration are exactly the same as the Onkyo integration, so please read that [section](#onkyo-receivers) for details.
+
+
+<!-- Competition section -->
+<hr class="minor" />
+
+<figure class="align-left">
+  <img src="assets\images\product-photo\denon-avr.jpg" alt=""/>
+  <figcaption>
+    The Denon AVR-3808CI receiver. <b>|  Crutchfield</b>
+  </figcaption>
+</figure>
+<p></p>
+
+## Denon Receivers
+
+I tested the Denon AVR-3808CI receiver (2007) which is due to it age, doesn't perform well as an integrated receiver in the smart home. It barely works with Home Assistant. I wouldn't knock Denon for not supporting a decade-old receiver--in fact, the new line of Denon HEOS AV receivers support Home Assistant, and Denon HEOS lead architect is actively [working](https://www.home-assistant.io/blog/2019/04/24/release-92/) with Home Assistant developers to integrate more features. I'm mainly reviewing this receiver for completion's sake.
+
+### The Problems
+
+The official Denon mobile app no longer supports this receiver, though unofficial apps like [AVR-Remote](https://play.google.com/store/apps/details?id=de.pskiwi.avrremote) provide some functionality. I rarelly use mobile apps anyways--what really matters is HDMI-CEC, HDMI ARC, and Home Assistant integration, which this receiver has limited support.
+
+### Installation and Smart Home Integration
+
+To no one's surprise, Home Assistant integration with this decade-old receiver hardly works. There are two Denon components for Home Assistant: [**``denon``**](https://www.home-assistant.io/components/denon/) and [**``denonavr``**](https://www.home-assistant.io/components/denonavr/). From my initial testing, only the **``denon``** component works with the AVR3808-CI receiver.
+
+Home Assistant can remotely power off, change volume and inputs on the Denon receiver, but that's about it. You cannot remotely power on the receiver from the mobile app or Home Assistant. Changing inputs take a few attempts to work. Status updates such as power and input status are reflected in Home Assistant, but may take a few seconds to update. I would forget about creating any automations with the receiver and focus on getting **``HDMI-CEC``** to work properly because that is all the receiver can do reliably from a smart home perspective..
+
+With limited functionality in Home Assistant, voice assistant capabilities are also useless here.
+
+<div class="row">
+	<!-- Break -->
+	<div class="6u 12u$(medium)">
+	  <figure class="fourthtest">
+        <img src="assets/images/integrations/denon-ha.png" />
+        <figcaption>
+          <b>Home Assistant: Poor</b><br>Only a few commands (power off, volume, change input) work.
+        </figcaption>
+      </figure>
+	</div>
+	<div class="6u 12u$(medium)">
+      <figure class="fourthtest">
+       <img src="assets/images/integrations/google-home.png" />
+       <figcaption>
+         <b>Voice: Poor</b><br> Works through Denon>>HA>>Google Assistant. Commands limited to what is supported in HA.
+       </figcaption>
+      </figure>
+	</div>
+</div>
+
+<div class="row">
+	<!-- Break -->
+	<div class="6u 12u$(medium)">
+      <figure class="fourthtest">
+      <img src="assets/images/integrations/na.png" />
+      <figcaption>
+      <b>SmartThings: None</b><br> Integration does not exist.
+      </figcaption>
+      </figure>
+	</div>
+	<div class="6u 12u$(medium)">
+      <figure class="fourthtest">
+       <img src="assets/images/integrations/denon-app.png"  />
+       <figcaption>
+         <b>Denon App: Poor</b><br>The official mobile app does not support this receiver, but the app <a href="https://play.google.com/store/apps/details?id=de.pskiwi.avrremote">AVR-Remote</a> does.
+       </figcaption>
+      </figure>
+	</div>
+</div>

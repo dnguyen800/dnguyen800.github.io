@@ -108,7 +108,7 @@ For security reasons, I don’t automatically lock the door using geolocation. I
 
 **Check if your lock is a single bolt lock, as that is the only lock type compatible with August locks.** You should also check your door area for any potential jamming from weather stripping or strike plate misalignment. If you need to nudge the door forward or wiggle the key in a certain way in order to open the door, then the August lock will have issues. I installed an August Lock Pro on the garage entry door and it took one hour two hour for a first-time install. 
 
-The Smart Lock Pro supports **``Z-Wave``**, so connecting to SmartThings was incredibly easy -- I won't explain how to do it here. Connecting to Home Assistant took several hours of researching because I had not defined a network key in my Z-Wave configuration to do secure inclusions and so the lock was detected as an unknown device. After defining a network key in the **``configuration.yaml``** and **``options.xml``**, it pairs correctly as a smart lock.
+The Smart Lock Pro supports **``Z-Wave``**, so connecting to SmartThings was incredibly easy -- I won't explain how to do it here. Connecting to Home Assistant took several hours of researching because I did not define a network key in my Z-Wave configuration to do secure inclusions and so the lock was detected as an unknown device. After defining a network key in the **``configuration.yaml``** and **``options.xml``**, it pairs correctly as a smart lock.
 
 Designing automations in Home Assistant took much more time to get it right, as I had to first find a timely and accurate presence sensor first. Read about my recommendations [here](presence-sensor.html).
 

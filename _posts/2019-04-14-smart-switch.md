@@ -29,7 +29,7 @@ Smart light switches are the ideal lighting solution in every home. Replacing on
 Most wireless light switches use Z-Wave Plus, but some use Wi-Fi or another technology. I wouldn’t use Wi-Fi switches unless I trust that the company will be around in the next ten years. That is why I’m comfortable recommending the Lutron Caseta brand, mainly because the company makes good products and has been around for ages.  
 
 <figure class="align-center" style="width: 50%;" >
- <img src="assets\images\other\switch-install.jpg" />
+ <a class="image-link" href="assets\images\other\switch-install.jpg" ><img src="assets\images\other\switch-install.jpg" /></a>
  <figcaption>
 This Z-Wave switch was a difficult install—there was literally no room left to squeeze in the switch and the four wires.
  </figcaption>
