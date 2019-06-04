@@ -133,7 +133,7 @@ Initially, I didn't use Owntracks because it required my Home Assistant instance
 
 ### The Problems
 
-Owntracks uses GPS data for tracking, and while Owntracks was designed with [data privacy in mind](https://owntracks.org/booklet/features/security/), not everyone is willing to risk sharing that data. 
+The Owntracks app needs to be installed on the user's phone to use GPS data for tracking. While Owntracks was designed with [data privacy in mind](https://owntracks.org/booklet/features/security/), not everyone is willing to risk sharing that data. 
 
 Balancing your phone's battery life and accurate location updates is difficult, but Owntracks offers various modes to suit each user's needs. I'm still testing Owntracks' various monitoring modes as described in the Owntracks [booklet](https://owntracks.org/booklet/features/location/), but Significant Location Change mode seems to work best for me.
 
