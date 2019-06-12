@@ -2,7 +2,7 @@
 layout: page
 title: AV Receivers
 short_title: av-receiver
-update: "<strong>May 27, 2019:</strong> Added my review of the ancient Denon AVR-3808CI receiver."
+update: "<strong>June 12, 2019:</strong> Added my review of the Marantz M-CR510 receiver."
 excerpt: "For the few who own a receiver, you'll be happy to know they are incredibly easy to integrate into the smart home."
 permalink: /av-receiver
 competitors: "Onkyo, Pioneer, Sony, Denon, Yamaha, Marantz"
@@ -22,7 +22,7 @@ categories:
 |---
 | ![](assets\images\logo\pioneer.png){:.image.logo} |  ![](assets\images\logo\onkyo.png){:.image.logo} | ![](assets\images\logo\denon.png){:.image.logo}
 |:-:|:-:|:-:
-| **VSX-1131 (2016)** | **Onkyo TX-NR509 (2011)** | **Denon AVR-3808CI (2007)**
+| **VSX-1131 (2016)** | **Onkyo TX-NR509 (2011)** | **Denon AVR-3808CI (2007)**<br>**Marantz M-CR510 (2013)**
 
 ## What you need to know
 
@@ -206,6 +206,68 @@ With limited functionality in Home Assistant, voice assistant capabilities are a
        <img src="assets/images/integrations/denon-app.png"  />
        <figcaption>
          <b>Denon App: Poor</b><br>The official mobile app does not support this receiver, but the app <a href="https://play.google.com/store/apps/details?id=de.pskiwi.avrremote">AVR-Remote</a> does.
+       </figcaption>
+      </figure>
+	</div>
+</div>
+
+<!-- Competition section -->
+<hr class="minor" />
+
+## Marantz Receivers
+
+I tested the Marantz M-CR510 (2013) network receiver, which uses the same Home Assistant [component](https://www.home-assistant.io/components/denonavr/) as some Denon receivers and supports the basic functions for home automation (remotely power on/off, change inputs and volume).  **If you can find a used one for cheap, the Marantz M-CR510 has enough features--like Spotify Connect, Apple Airplay, and Home Assistant support--to be useful in today's smart home, though I'd rather find a new receiver that supports Chromecast or Airplay2 in order to use multi-room audio.** I wished that this receiver could power a Chromecast Audio through the receiver's two USB ports, but the ports work only when the receiver is on. 
+
+### The Problems
+
+To support multi-room audio, I added a Chromecast Audio, which takes up one of the two available audio inputs. A Home Assistant automation can remotely turn on the receiver when the music starts playing on the Chromecas to make music playback a seamless experience.  The USB ports on the receiver cannot power any devices unless the receiver is turned on, so the Chromecast Audio is powered up by another device.
+
+The M-CR510 isn't that old (2013), but the Wi-Fi it supports is 802.11g, which is a legacy standard and may slow down other wireless devices on your network. According to this [post](https://superuser.com/questions/614298/802-11ac-mixed-with-802-11g-devices-will-this-cause-slowdowns) The performance impact may be minimal as long as you do not use the receiver to stream music directly, but it's better to use ethernet if available.
+
+For Apple users, Airplay is supported but not Airplay 2, which means no official multiroom audio support. I can't blame Marantz since the Airplay 2 standard wasn't released until 2017. To get multi-room audio with Apple devices, you need an intermediary device, like an [Airport Express](https://www.redmondpie.com/how-to-use-airport-express-as-airplay-2-adapter-with-any-speaker-system/) connected to the receiver.
+
+The official [Marantz mobile app](https://play.google.com/store/apps/details?id=com.dmholdings.marantzremoteapp) still works on the latest Android OS, but it is such an ugly and cumbersome interface that its better not to use the app.
+
+### Installation and Smart Home Integration
+
+The M-CR510 works with Home Assistant through the  [denonavr component](https://www.home-assistant.io/components/denonavr/). To remotely turn on the receiver with Home Assistant, the 'Auto-standby' feature needs to be enabled in the receiver's settings. Power, volume control and input select work in Home Assistant. State updates in Home Assistant aren't instant, but take no more than five seconds.
+
+
+<div class="row">
+	<!-- Break -->
+	<div class="6u 12u$(medium)">
+	  <figure class="fourthtest">
+        <img src="assets/images/integrations/marantz-ha.png" />
+        <figcaption>
+          <b>Home Assistant: Good</b><br>Power on, volume control, change input works, with a few seconds delay in state updates.
+        </figcaption>
+      </figure>
+	</div>
+	<div class="6u 12u$(medium)">
+      <figure class="fourthtest">
+       <img src="assets/images/integrations/google-home.png" />
+       <figcaption>
+         <b>Voice: Okay</b><br> Works through Marantz>>HA>>Google Assistant.
+       </figcaption>
+      </figure>
+	</div>
+</div>
+
+<div class="row">
+	<!-- Break -->
+	<div class="6u 12u$(medium)">
+      <figure class="fourthtest">
+      <img src="assets/images/integrations/na.png" />
+      <figcaption>
+      <b>SmartThings: None</b><br> Integration does not exist.
+      </figcaption>
+      </figure>
+	</div>
+	<div class="6u 12u$(medium)">
+      <figure class="fourthtest">
+       <img src="assets/images/integrations/marantz-app.png"  />
+       <figcaption>
+         <b>Marantz App: Okay</b><br>It works and is sufficient, but hasn't been updated in years.
        </figcaption>
       </figure>
 	</div>
