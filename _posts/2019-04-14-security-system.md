@@ -54,7 +54,7 @@ I’ve believe there are three categories I cover that will fit most people’s 
 <ul class="alt">
   <li>The Wirecutter’s recommendation for <a href="https://thewirecutter.com/reviews/the-best-home-security-system/">home security system</a></li>
   <li>Article about recent <a href="https://gizmodo.com/amazons-ring-security-cameras-may-have-let-employees-sp-1831658669">internal security breach with Ring cameras</a></li>
-  <li><strong>Affiliate Link:</strong> Purchase the <a href="https://amzn.to/2XTLVqf">Ring Alarm</a>, <a href="https://amzn.to/2XSkNIf">SmartThings</a> or <a href="https://amzn.to/2J3hSrP">Simplisafe</a> on Amazon</li>
+  <li><strong>Affiliate Link:</strong> Purchase the <a href="https://amzn.to/31v6awT">Ring Alarm</a>, <a href="https://amzn.to/2Kdlau5">SmartThings</a> or <a href="https://amzn.to/2XH8heR">Simplisafe</a> on Amazon</li>
 </ul>
 
 
@@ -65,7 +65,7 @@ I’ve believe there are three categories I cover that will fit most people’s 
 
 ## DIY Security System using SmartThings
 
-**You can use your existing [SmartThings](https://amzn.to/2XSkNIf) hub and sensors to create a simple security system with little to no additional investment, but there are several deficiencies that prevent it from being a mostly hands-off experience.**  I used the Smart Home Monitor and SHM Delay SmartApps, along with a few devices (Fire tablet, ActionTiles license, Konnected module, power converter, cables) to get a makeshift system. The amount of work I put into building and testing the system, and the annoyances I’ve yet to fix made me realize the worth of a professional security system like Ring. 
+**You can use your existing [SmartThings](https://amzn.to/2Kdlau5) hub and sensors to create a simple security system with little to no additional investment, but there are several deficiencies that prevent it from being a mostly hands-off experience.**  I used the Smart Home Monitor and SHM Delay SmartApps, along with a few devices (Fire tablet, ActionTiles license, Konnected module, power converter, cables) to get a makeshift system. The amount of work I put into building and testing the system, and the annoyances I’ve yet to fix made me realize the worth of a professional security system like Ring. 
 
 <p class="box">
 <i>The arming and disarming of a security system can be automated with a presence sensor. Please check out my section on <a href="{{ 'presence-sensor.html' | absolute_url }}">Presence Sensors</a> for more info.</i></p>
@@ -146,7 +146,7 @@ It's possible to connect the SmartThings security solution and Home Assistant to
 
 ### Simplisafe
 
-**If you don’t mind having duplicate sensors for home automation and security, then a dedicated security system is the most reliable way to securing your home.** My friend was looking for such a system, so I suggested [Simplisafe](https://amzn.to/2J3hSrP), based on the [Wirecutter’s recommendation](https://thewirecutter.com/reviews/the-best-home-security-system/). If I were to do it all over again, I’d try out Ring Alarm, but my experience with Simplisafe has been nothing but excellent—besides the expensive monitoring cost.  
+**If you don’t mind having duplicate sensors for home automation and security, then a dedicated security system is the most reliable way to securing your home.** My friend was looking for such a system, so I suggested [Simplisafe](https://amzn.to/2XH8heR), based on the [Wirecutter’s recommendation](https://thewirecutter.com/reviews/the-best-home-security-system/). If I were to do it all over again, I’d try out Ring Alarm, but my experience with Simplisafe has been nothing but excellent—besides the expensive monitoring cost.  
 
 Simplisafe offers a security camera which works as described, but isn’t useful without their $25/month monitoring service, as you don’t have access to the mobile app to view the camera feed.  Visual verification is an exclusive feature to Simplisafe that allows the monitoring center to access your camera feed and verify an intrusion, though it maybe not worth the privacy risk, especially after the recent [Ring incident](https://gizmodo.com/amazons-ring-security-cameras-may-have-let-employees-sp-1831658669). The variety of security sensors available is unmatched—you can buy an (really loud 105db) siren, key fob, keypad, panic button, glass break sensor—which aren’t available on Ring yet. 
 
@@ -233,7 +233,7 @@ Google Assistant integration exists to arm the system. Disarming through voice c
         </figcaption>
         </figure>
 		<h3>Ring Alarm</h3>
-		<p>And the wait is over! After a lawsuit from ADT that delayed the release of <a href="https://amzn.to/2XTLVqf">Ring's alarm system</a>, it is finally here. And just recently, some Home Assistant users developed a <a href="https://community.home-assistant.io/t/ring-alarm-mqtt-discovery-alarm-integration/88070"> Hass.io add-on</a> that integrates Ring's contact and motion sensors with Home Assistant. That means you can use Ring sensors for any home automation. I have trouble finding reliable Z-Wave sensors, so I would gladly go with Ring sensors.</p>
+		<p>And the wait is over! After a lawsuit from ADT that delayed the release of <a href="https://amzn.to/31v6awT">Ring's alarm system</a>, it is finally here. And just recently, some Home Assistant users developed a <a href="https://community.home-assistant.io/t/ring-alarm-mqtt-discovery-alarm-integration/88070"> Hass.io add-on</a> that integrates Ring's contact and motion sensors with Home Assistant. That means you can use Ring sensors for any home automation. I have trouble finding reliable Z-Wave sensors, so I would gladly go with Ring sensors.</p>
 
         <p>Ring is the best home security system -- it is the most affordable security system available and has most, if not all the key features that consumers need. Glass break sensors aren’t available with Ring, but using the new Alexa Guard feature with current-generation Amazon Echos can replicate that ability. Professional 24/7 monitoring starts at $10/month, which is the lowest price in the market.</p>
     </div>   

@@ -61,7 +61,7 @@ Installation of doorbell cameras requires more planning, particularly with wired
 <ul class="alt">
   <li>The Wirecutter's recommendation for<a href="https://thewirecutter.com/reviews/best-smart-doorbell-camera/"> best smart doorbell camera</a>.</li>
   <li>Purchase the Nest Hello from <a href="https://www.bestbuy.com/site/nest-hello-smart-wi-fi-video-doorbell/6172796.p?skuId=6172796">Bestbuy</a></li>
-  <li><b>Affiliate link:</b> Purchase the <a href="https://amzn.to/2I2RiQ3">Elago wallplate for Nest Hello camera</a> on Amazon.</li>
+  <li><b>Affiliate link:</b> Purchase the <a href="https://amzn.to/2MUtWiC">Elago wallplate for Nest Hello camera</a> on Amazon.</li>
   <li><a href="https://nest.com/works/">Nest Compatibility Checker</a></li>
 </ul>
 
@@ -92,7 +92,7 @@ The hole is quite big and can’t be covered up by the camera alone. Nest doesn'
  </figcaption>
 </figure>
 
-One surprising omission with the Nest Hello package is the lack of a wall plate. Without it, the doorbell area is exposed and the doorbell install looks unprofessional. To deal with this issue, I used the [Elago wall plate](https://amzn.to/2I2RiQ3) and can confirm it covers up the hole nicely. Considering that a wall plate is included with Nest thermostats, this is a surprising omission.
+One surprising omission with the Nest Hello package is the lack of a wall plate. Without it, the doorbell area is exposed and the doorbell install looks unprofessional. To deal with this issue, I used the [Elago wall plate](https://amzn.to/2MUtWiC) and can confirm it covers up the hole nicely. Considering that a wall plate is included with Nest thermostats, this is a surprising omission.
 
 ### Installation and Smart Home Integration
 The wiring is easy, though first follow the [Nest compatibility checker](https://nest.com/works/) to see if your house supports wired doorbells. The hardest part of the install is physically mounting the doorbell onto a hard surface. I had to use a hammer drill and a pair of earplugs to get the job done, and I definitely annoyed some neighbors in the process.

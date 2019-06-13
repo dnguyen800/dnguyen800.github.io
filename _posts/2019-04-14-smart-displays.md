@@ -49,7 +49,7 @@ For the right price, I would still prefer a smart display than a dedicated table
 ### Recommended reading
 
 <ul class="alt">
-  <li><strong>Affiliate link:</strong> Purchase the <a href="https://amzn.to/2YTSQ3R">Lenovo 10" Display</a> on Amazon</li>
+  <li>Purchase the <a href="https://www.walmart.com/ip/Lenovo-Smart-Display-10-with-Google-Assistant/552189414?wmlspartner=wlpa&selectedSellerId=430&adid=22222222227164824956&wl0=&wl1=g&wl2=c&wl3=278015282100&wl4=pla-464895008055&wl5=9032008&wl6=&wl7=&wl8=&wl9=pla&wl10=114233360&wl11=online&wl12=552189414&wl13=&veh=sem&gclid=Cj0KCQjwxYLoBRCxARIsAEf16-tNTm7mKVMUbkV-KwPXbTCzsrUERtpEirV50I7S93LivCDrQgg8ePwaAjxkEALw_wcB">Lenovo 10" Display</a> at Walmart.</li>
   <li><a href="https://arstechnica.com/gadgets/2019/02/android-things-is-no-longer-for-things-focuses-on-smart-speakers-and-displays/">Article</a> about Google pivoting the Android IoT platform.</li>
 </ul>
 

@@ -68,7 +68,7 @@ There are many home automation hubs to choose from that perform similar function
 
 
 <ul class="alt">
-  <li><strong>Affiliate link:</strong> Purchase a <a href="https://amzn.to/2IZoKqm">SmartThings hub</a>, <a href="https://amzn.to/2I2GbXc">Raspberry Pi 3B+</a>, <a href="https://amzn.to/2DH8G95">GoControl Z-Wave/Zigbee USB device (for Home Assistant)</a>, or <a href="https://amzn.to/2I4KyRI">Asus Tinkerboard S</a> from Amazon</li>
+  <li><strong>Affiliate link:</strong> Purchase a <a href="https://amzn.to/2IDTdsb">SmartThings hub</a>, <a href="https://amzn.to/2X798bK">Hubitat Elevation</a>, <a href="https://amzn.to/2F4RyuA">Raspberry Pi 3B+</a>, <a href="https://amzn.to/2F4Sgbe">GoControl Z-Wave/Zigbee USB device (for Home Assistant)</a>, or <a href="https://amzn.to/2IDNFxW">Asus Tinkerboard S</a> from Amazon</li>
   <li><a href="https://graph-na04-useast2.api.smartthings.com/ide/apps">Developer portal</a> for SmartThings. This is where you add custom device handlers.</li>
   <li>Subreddits for <a href="https://www.reddit.com/r/homeassistant/">/homeassistant/</a> and <a href="https://www.reddit.com/r/SmartThings/">/smartThings/</a></li>
   <li><a href="https://wiki.webcore.co/">WebCoRE for SmartThings</a> lets users build complex automations. The tool is almost as easy as writing English, though it has some bugs.</li>
@@ -89,7 +89,7 @@ There are many home automation hubs to choose from that perform similar function
 
 ## Samsung SmartThings and Home Assistant
 
-**Using [Samsung SmartThings](https://amzn.to/2IZoKqm) and Home Assistant together provides the functionality I need to do a proper media-focused smart home, but I hope to remove SmartThings eventually.** I first started off using SmartThings, then tried Home Assistant, and eventually decided to use both hubs together to leverage their strengths and mitigate weaknesses. 
+**Using [Samsung SmartThings](https://amzn.to/2IDTdsb) and Home Assistant together provides the functionality I need to do a proper media-focused smart home, but I hope to remove SmartThings eventually.** I first started off using SmartThings, then tried Home Assistant, and eventually decided to use both hubs together to leverage their strengths and mitigate weaknesses. 
 
 In my solution, __SmartThings__ is the reliable one __(I know, debatable)__ that handles communications between most devices and performs basic light automations. I can pair door and motion sensors, the Philips Hue hub, MyQ garage door opener, Ecobee thermostat and Google Assistant to SmartThings easily enough. 
 
@@ -126,7 +126,7 @@ I can't get into the details of installing SmartThings, but there are a ton of o
 - Adding a Z-Wave or Zigbee device in SmartThings means putting the device in inclusion mode (usually pressing a physical button on the device multiple times), then pressing the **+** button in the SmartThings app to pair. See this [tutorial](https://www.androidcentral.com/how-add-new-smart-devices-your-smartthings-hub) for images. You should bring the device as close as possible (around 10ft) to the SmartThings hub when pairing.
 - Get familiar with the [SmartThings IDE](https://graph.api.smartthings.com/) to install custom SmartApps, device handlers, and troubleshoot issues.
 
-__Speaking of Home Assistant, it is an amazing, unstable platform that I use for its slick UI, hundreds of integrations, and advanced media automations.__ It is open source and can be run on cheap hardware like a [Raspberry Pi 3B+](https://amzn.to/2YRzixh), but nothing slower than that. Though not every integration is easy to set up, Home Assistant works with the latest and greatest products--from TVs and AV receivers to robot vacuums, lights, and homemade hardware. Without Home Assistant, I would have given up on home automation altogether, after being disappointed by SmartThings’ inability to do anything I would consider “smart.”
+__Speaking of Home Assistant, it is an amazing, unstable platform that I use for its slick UI, hundreds of integrations, and advanced media automations.__ It is open source and can be run on cheap hardware like a [Raspberry Pi 3B+](https://amzn.to/2F4RyuA), but nothing slower than that. Though not every integration is easy to set up, Home Assistant works with the latest and greatest products--from TVs and AV receivers to robot vacuums, lights, and homemade hardware. Without Home Assistant, I would have given up on home automation altogether, after being disappointed by SmartThings’ inability to do anything I would consider “smart.”
 
 I could continue to explain why Home Assistant is great, but it's easier to try out the [demo](https://demo.home-assistant.io/#/lovelace/0) yourself. Or watch this video I made:
 
@@ -151,7 +151,7 @@ A media-focused Home Assistant dashboard I created.
  </figcaption>
 </figure>
 
-If you're still curious about Home Assistant, start off by purchasing a <a href="https://amzn.to/2YRzixh">Raspberry Pi 3B+</a> or <a href="https://amzn.to/2I4KyRI">Asus Tinkerboard S</a>, a high-endurance SD card (for rPi only) and install Hass.io (a more restricted version of Home Assistant) by following this [guide](https://www.home-assistant.io/getting-started/). If you're an IT guru and have an existing server and Docker platform ready, then you can install Home Assistant or Hass.io as a service or Docker container.
+If you're still curious about Home Assistant, start off by purchasing a <a href="https://amzn.to/2YRzixh">Raspberry Pi 3B+</a> or <a href="https://amzn.to/2IDNFxW">Asus Tinkerboard S</a>, a high-endurance SD card (for rPi only) and install Hass.io (a more restricted version of Home Assistant) by following this [guide](https://www.home-assistant.io/getting-started/). If you're an IT guru and have an existing server and Docker platform ready, then you can install Home Assistant or Hass.io as a service or Docker container.
 
 I've shared my [Home Assistant configuration](https://github.com/dnguyen800/home-assistant-configuration-example) on Github as a learning example for beginners, though it's already become outdated after only a few weeks. Still, I explain how every Lovelace card and component is used.
 
@@ -189,7 +189,7 @@ For Android phones with Google Play installed, I found that the easiest method t
 
 ### Hubitat 
 
-I’ve been looking into a smaller, new SmartThings competitor called **[Hubitat](https://amzn.to/2XWjOqy)**. In-depth reviews aren’t common for Hubitat, but I gather it is a better (and local-only) version of SmartThings, but is missing a few features like a proper mobile app, official push notifications and support for some cloud-dependent devices like the Lutron Caseta bridge. 
+I’ve been looking into a new SmartThings competitor called **[Hubitat Elevation](https://amzn.to/2X798bK)**. In-depth reviews aren’t common for Hubitat, but I gather it is a better (and local-only) version of SmartThings, but is missing a few features like a proper mobile app, official push notifications and support for some cloud-dependent devices like the Lutron Caseta bridge. 
 
 It is constantly being updated with features by the developers and community though! The current workaround for mobile-like access is the [Hubitat dashboard](<https://community.hubitat.com/t/hubitat-dashboard-v1-documentation/1347>) and push notifications can be implemented with a separate app, called [Pushover](https://docs.hubitat.com/index.php?title=Pushover). A user recently created a Hubitat MQTT [application](<https://community.home-assistant.io/t/hubitat-integration/51534/14>) that should make the integration process between Home Assistant and Hubitat easier. It requires setting up an MQTT broker on Home Assistant, for which a Hass.io add-on is also [available](<https://www.home-assistant.io/addons/mosquitto/>).
 

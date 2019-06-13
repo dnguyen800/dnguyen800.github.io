@@ -68,7 +68,7 @@ All smart locks require some disassembly of the current lock, so renters will ne
 ### Recommended Reading
 
 <ul class="alt">
-  <li><strong>Affiliate link:</strong> Purchase the <a href="https://amzn.to/2WRHjjX">August Lock Pro</a> on Amazon</li>
+  <li><strong>Affiliate link:</strong> Purchase the <a href="https://amzn.to/2Ww8a4s">August Lock Pro</a> on Amazon</li>
   <li><a href="https://community.home-assistant.io/t/august-smart-lock-pro-zwave/28654/42">Forum post</a> including tips on connecting the August Lock Pro to Home Assistant</li>
   <li>How to add Z-Wave network key in <a href="https://www.home-assistant.io/docs/z-wave/adding/">Home Assistant</a></li>
 </ul>
@@ -85,7 +85,7 @@ All smart locks require some disassembly of the current lock, so renters will ne
 
 ## August Locks
 
-**If you want to try out a smart lock but don’t own a home, then the [August Lock Pro](https://amzn.to/2WRHjjX) might be the solution for you.** Keep in mind that some disassembly of the current lock is required, so it is your responsibility to follow the rental agreements. August locks only require replacement of the thumb latch, so the lock replacement is unnoticeable from the outside and your (and landlord’s) existing keys will continue to work. I recommend the August Lock Pro for its **``Z-Wave support``**, so you can avoid using the poorly-reviewed August app and Connect Wi-Fi Bridge.
+**If you want to try out a smart lock but don’t own a home, then the [August Lock Pro](https://amzn.to/2Ww8a4s) might be the solution for you.** Keep in mind that some disassembly of the current lock is required, so it is your responsibility to follow the rental agreements. August locks only require replacement of the thumb latch, so the lock replacement is unnoticeable from the outside and your (and landlord’s) existing keys will continue to work. I recommend the August Lock Pro for its **``Z-Wave support``**, so you can avoid using the poorly-reviewed August app and Connect Wi-Fi Bridge.
 
 **August locks only work on single bolt locks.** I wasn’t familiar with the term, but luckily August has a nice illustration (see below) to explain the difference.
 

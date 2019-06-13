@@ -60,7 +60,7 @@ I don't use smart plugs in any of my setups today because they failed to automat
 ### Recommended Reading
 
 <ul class="alt">
-  <li><strong>Affiliate link:</strong> Purchase the <a href="https://amzn.to/2Iz0Xhp">Securifi Peanut Plug</a> for Zigbee networks. Can set up with any Zigbee hub, not just Almond routers.</li>
+  <li><strong>Affiliate link:</strong> Purchase the <a href="https://amzn.to/2IATR9Q">Securifi Peanut Plug</a> for Zigbee networks. Can set up with any Zigbee hub, not just Almond routers.</li>
   <li>Purchase the <a href="https://www.monoprice.com/product?p_id=35877">Monoprice Z-Wave Plus Plug</a></li>
   <li><a href="https://github.com/pakmanwg/smartthings-peanut-plug/blob/master/devicetypes/pakmanwg/peanut-plug.src/peanut-plug.groovy">SmartThings device handler</a></li>
 </ul>
@@ -78,7 +78,7 @@ I don't use smart plugs in any of my setups today because they failed to automat
 
 ## Securifi Peanut Plug
 
-**The [Securifi Peanut plug](https://amzn.to/2Iz0Xhp) is a Zigbee smart plug that's designed to work with the Securifi Almond network router, but can connect to any Zigbee hub like Home Assistant and SmartThings using a [custom device handler](https://github.com/pakmanwg/smartthings-peanut-plug/blob/master/devicetypes/pakmanwg/peanut-plug.src/peanut-plug.groovy).** You do lose one functionality when connecting to an unofficial hub--the ability to measure energy readings from the device connected to the outlet.
+**The [Securifi Peanut plug](https://amzn.to/2IATR9Q) is a Zigbee smart plug that's designed to work with the Securifi Almond network router, but can connect to any Zigbee hub like Home Assistant and SmartThings using a [custom device handler](https://github.com/pakmanwg/smartthings-peanut-plug/blob/master/devicetypes/pakmanwg/peanut-plug.src/peanut-plug.groovy).** You do lose one functionality when connecting to an unofficial hub--the ability to measure energy readings from the device connected to the outlet.
 
 I bought a Peanut plug at $10 because it was cheap and I wanted a reliable Zigbee network extender, but I have no other use for this smart plug. My floor lamps use smart bulbs and most of my devices need to be **``always-on``**.
 

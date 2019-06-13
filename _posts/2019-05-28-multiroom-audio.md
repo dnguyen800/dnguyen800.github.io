@@ -47,7 +47,7 @@ App support for multi-room audio can be very limited, depending on what company 
 ### Recommended Reading
 
 <ul class="alt">
-  <li><strong>Affiliate Link:</strong> Purchase the <a href="https://amzn.to/2L8SHXt">Vizio 2.1 sound bar</a>, <a href="https://amzn.to/2XWn1Gt">Sonos One</a> or <a href="https://amzn.to/2WcI1Zf">Amazon Echo 2nd Gen</a> from Amazon</li>
+  <li><strong>Affiliate Link:</strong> Purchase the <a href="https://amzn.to/2WDJBaA">Vizio 2.1 sound bar</a>, <a href="https://amzn.to/2KeTepO">Sonos One</a> or <a href="https://amzn.to/31ww2bI">Amazon Echo Plus 2nd Gen</a> from Amazon</li>
   <li>Purchase the <a href="https://www.bestbuy.com/site/insignia-voice-smart-portable-bluetooth-speaker-and-alarm-clock-with-google-assistant-gray-black/5865906.p?skuId=5865906">Insignia Large speaker with Google Assistant</a></li>
   <li>Slickdeals.net sales of the <a href="https://slickdeals.net/newsearch.php?searchin=first&forumchoice%5B%5D=9&forumchoice%5B%5D=44&forumchoice%5B%5D=25&forumchoice%5B%5D=30&q=insignia+speaker+google+assistant&r=1">Insignia speakers</a></li>
   <li>Wirecutter review of the <a href="https://thewirecutter.com/reviews/best-soundbar/#budget-pick-vizio-sb3651-e6">Vizio Smartcast Soundbar</a></li>
@@ -167,7 +167,7 @@ Voice control with Google Assistant works great with Spotify. Mention the name o
         </figcaption>
         </figure>
 		<h2>Vizio Smartcast Sound Bar</h2>
-		<p><strong>For Chromecast Built-in sound bars, the <a href="https://amzn.to/2L8SHXt">Vizio Smartcast sound bars</a> are considered the best value.</strong> <a href="(https://thewirecutter.com/reviews/best-soundbar/#budget-pick-vizio-sb3651-e6">The Wirecutter</a> recommends them for the best mix of performance, connectivity, features, and price in the budget category. The problems I had with the Insignia speakers are fixed here--there is support for auxiliary (3.5mm, headphone jack, whatever you call it) inputs, optical, analog, and HDMI, so every device can be hooked up to it. I personally have not tested this sound bar, but I have tried previous versions of Vizio sound bars and I was always happy with the value.</p>
+		<p><strong>For Chromecast Built-in sound bars, the <a href="https://amzn.to/2WDJBaA">Vizio Smartcast sound bars</a> are considered the best value.</strong> <a href="(https://thewirecutter.com/reviews/best-soundbar/#budget-pick-vizio-sb3651-e6">The Wirecutter</a> recommends them for the best mix of performance, connectivity, features, and price in the budget category. The problems I had with the Insignia speakers are fixed here--there is support for auxiliary (3.5mm, headphone jack, whatever you call it) inputs, optical, analog, and HDMI, so every device can be hooked up to it. I personally have not tested this sound bar, but I have tried previous versions of Vizio sound bars and I was always happy with the value.</p>
 
 <p>I tested another soundbar, the <a href="https://amzn.to/2V6cxqX">Polk Magnifi Mini</a>, and found the Chromecast integration working as expected, but the trade-off of sound quality for the smaller size and price was not worth it. For the cost of the Mini (a 2.1 set), you could get the Vizio 5.1 sound bar set.</p>
   </div>
@@ -186,7 +186,7 @@ Voice control with Google Assistant works great with Spotify. Mention the name o
 
 ## Sonos
 
-I finally had the chance to test out an old pair of Sonos Play:1 speakers, which have already been replaced by the [Sonos One](https://amzn.to/2QvW36f), but the Sonos experience and integration is pretty much the same.  **After a few days of testing, I can say that there are several things that Sonos does better than Chromecast, but I found too many odd limitations that prevent me from whole heartedly recommending Sonos.** If you can live with the limitations (read below), then go for Sonos if you have the money.
+I finally had the chance to test out an old pair of Sonos Play:1 speakers, which have already been replaced by the [Sonos One](https://amzn.to/2KeTepO), but the Sonos experience and integration is pretty much the same.  **After a few days of testing, I can say that there are several things that Sonos does better than Chromecast, but I found too many odd limitations that prevent me from whole heartedly recommending Sonos.** If you can live with the limitations (read below), then go for Sonos if you have the money.
 
 Besides better sound quality, Sonos is better than Chromecast in a few ways for me. Music playback starts within three seconds, versus the ten seconds with Chromecast. Switching to different speakers just works with Sonos, whereas Chromecast may take a few attempts to get working. I also love the fact that I can use the Spotify Windows app to cast music to Sonos speakers or headphones without skipping a beat. Lastly, I believe Sonos is the only media player that is officially supported by SmartThings. It's not a big deal, but adding Sonos to SmartThings means adding text-to-speech announcements to automations, like when someone is arriving home. The same automation can be done in Home Assistant and Chromecast, but I prefer creating automations in SmartThings as it is more reliable.
 
@@ -270,7 +270,7 @@ Sonos integrates with Google Assistant, but it is not a deep integration. Voice 
         </figcaption>
         </figure>
 		<h3>Amazon Echo</h3>
-		<p>I think <a href="https://amzn.to/2WcI1Zf">Amazon Echo's</a> multi-room music feature is much more reliable than Chromecast, but it only works with a few services: Spotify, Amazon Music Unlimited, TuneIn, iHeartRadio and Pandora. Support for Spotify took some time to complete--support was announced on August 2017, but wasn't rolled out until December 2017.  Another downside to Amazon's implementation is that Amazon Echo speakers are locked to one Amazon/Spotify account--guests cannot cast music from their phones to Amazon Echo speakers.  When I visited my friend's house, I couldn't cast music from my phone to the Echo speaker because of this issue. Voice control works to play Spotify, but then I would be potentially interrupting someone's Spotify session.</p> 
+		<p>I think <a href="https://amzn.to/31ww2bI">Amazon Echo's</a> multi-room music feature is much more reliable than Chromecast, but it only works with a few services: Spotify, Amazon Music Unlimited, TuneIn, iHeartRadio and Pandora. Support for Spotify took some time to complete--support was announced on August 2017, but wasn't rolled out until December 2017.  Another downside to Amazon's implementation is that Amazon Echo speakers are locked to one Amazon/Spotify account--guests cannot cast music from their phones to Amazon Echo speakers.  When I visited my friend's house, I couldn't cast music from my phone to the Echo speaker because of this issue. Voice control works to play Spotify, but then I would be potentially interrupting someone's Spotify session.</p> 
 
 <p>Amazon's multi-room audio solution doesn't support Plex for local music, so I couldn't use it with my solution. </p>
   </div>

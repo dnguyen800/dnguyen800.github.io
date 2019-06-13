@@ -26,7 +26,7 @@ categories:
 
 ## Philips Dawn-to-Dusk Light bulb
 
-**Dawn-to-dusk light bulbs like this [Philips Light bulb](https://amzn.to/2IZZP65) work  great as porch lights and don’t require a home automation hub.** In my experience, the lights were on when I checked at sunset and off during the daytime. Light bulbs with built-in motion sensors, like the **[Sengled PAR38 with Motion Sensor](https://amzn.to/2Y1Hzh1)** may work better if you only need the light to turn on when someone is present. Just make sure the rather large bulb **``(PAR38)``** will fit in your light fixture.
+**Dawn-to-dusk light bulbs like this [Philips Light bulb](https://amzn.to/2Kfb2Ro) work  great as porch lights and don’t require a home automation hub.** In my experience, the lights were on when I checked at sunset and off during the daytime. Light bulbs with built-in motion sensors, like the **[Sengled PAR38 with Motion Sensor](https://amzn.to/2MZ5RHR)** may work better if you only need the light to turn on when someone is present. Just make sure the rather large bulb **``(PAR38)``** will fit in your light fixture.
 
 Further promoting the case for regular bulbs, some smart bulbs are not meant to be installed outside due to temperature limits, but these dawn-to-dusk bulbs work just fine outdoors.
 
@@ -44,7 +44,7 @@ Further promoting the case for regular bulbs, some smart bulbs are not meant to 
 
 ## Lutron Maestro Vacancy Sensor Switches
 
-**For the low traffic areas such as the garage, guest bathroom, and closet, I opted for [Lutron Maestro Vacancy Sensor Switches](https://amzn.to/2J55vvI), which are simple to install, affordable, and reliable.** Because I like them so much, I always examine homes to see where these switches can be installed. Lutron has been making these switches for decades--I’ve even seen some Maestro switches in older homes and they continue to function like new. There is little reason to purchase a motion sensor and smart bulb ($40-60) if a $20 vacancy switch can achieve the same effect. 
+**For the low traffic areas such as the garage, guest bathroom, and closet, I opted for [Lutron Maestro Vacancy Sensor Switches](https://amzn.to/2XHLDTN), which are simple to install, affordable, and reliable.** Because I like them so much, I always examine homes to see where these switches can be installed. Lutron has been making these switches for decades--I’ve even seen some Maestro switches in older homes and they continue to function like new. There is little reason to purchase a motion sensor and smart bulb ($40-60) if a $20 vacancy switch can achieve the same effect. 
 
 The built-in motion sensor is very responsive and turns on the lights faster than any home automated lighting setup. Even in the darkness at 30 feet away, the switch can detect motion. Sensitivity and time length are adjustable, to suit bathrooms and closets that don’t need a high sensitivity. I have not once experienced a time when the bathroom lights turned off while I was showering. 
 

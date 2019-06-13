@@ -59,7 +59,7 @@ There is a good selection of cameras at different price ranges. My recommendatio
   <li>The Wirecutter's recommendation for <a href="https://thewirecutter.com/reviews/best-wi-fi-home-security-camera/">home security camera</a></li>
   <li>Article from Homealarmreport.com about using <a href="https://homealarmreport.com/using-wyze-cam-with-and-without-a-microsd-card/">Wyze Cam's new features</a></li>
   <li>Mozilla's <b>Privacy Not Included</b> analysis of the <a href="https://foundation.mozilla.org/en/privacynotincluded/products/wyzecam/">WyzeCam</a></li>
-  <li><strong>Affiliate Link:</strong> Purchase the <a href="https://amzn.to/2Vwui2h">Nest Indoor Camera</a> and <a href="https://amzn.to/2INEX2x">Wyze Cam v2</a> from Amazon</li>
+  <li><strong>Affiliate Link:</strong> Purchase the <a href="https://amzn.to/2XKbbj8">Nest Indoor Camera</a> and <a href="https://amzn.to/2KFtMZY">Wyze Cam v2</a> from Amazon</li>
 </ul>
 
 <!-- Product Review section -->
@@ -74,7 +74,7 @@ The Nest Indoor Camera. <strong>|  Google</strong>
 
 ## Nest Cam Indoor
 
-**If you plan to buy only one camera, then get a quality camera that supports continuous recording, like the [Nest Indoor Camera](https://amzn.to/2Vwui2h).**  Although I talk about Nest often, that doesn’t mean I recommend them to everyone. There are many similar quality cameras that have continuous recording and offer better free storage tiers than Nest, but I chose Nest because I believe their products will be supported for a long time. For other camera recommendations, start by checking out the [Wirecutter’s guide](https://thewirecutter.com/reviews/best-wi-fi-home-security-camera/).. I think Nest is a safe choice if you are comfortable using a cloud-connected camera and already in the Google ecosystem because not many security cameras work well with Google to allow live camera feeds on Chromecast or Google smart displays.
+**If you plan to buy only one camera, then get a quality camera that supports continuous recording, like the [Nest Indoor Camera](https://amzn.to/2XKbbj8).**  Although I talk about Nest often, that doesn’t mean I recommend them to everyone. There are many similar quality cameras that have continuous recording and offer better free storage tiers than Nest, but I chose Nest because I believe their products will be supported for a long time. For other camera recommendations, start by checking out the [Wirecutter’s guide](https://thewirecutter.com/reviews/best-wi-fi-home-security-camera/).. I think Nest is a safe choice if you are comfortable using a cloud-connected camera and already in the Google ecosystem because not many security cameras work well with Google to allow live camera feeds on Chromecast or Google smart displays.
 
 The value of Nest cameras is in its ease of setup and use. There are many issues I have using cheaper cameras—wireless range, connection dropouts, unreliable cloud servers—but I haven’t run into any of those issues with Nest. Once you have the camera plugged in and the Nest app installed, everything works reasonably well out of the box. The Nest app is also lightning fast at loading live and recorded footage—it takes under 10 seconds to load the app, authenticate and access my cameras. Whether the improved experience is worth the premium price of Nest products is up to you.
 
@@ -157,7 +157,7 @@ Home Assistant integration works with a Nest developer account, though the Nest 
 
 ## Wyze Cam v2
 
-**The [Wyze Cam v2](https://amzn.to/2INEX2x) continues to add great value for the price and features it offers—I think everyone should have one as a cheap, spare camera.** Originally, I had a slightly negative opinion about this camera, but the slew of new features added in 2018 like continuous and extended event recording, local storage, and RTSP make it hard not to change my mind. If Wyze ever releases a high-quality camera at an affordable price, then I am on board.
+**The [Wyze Cam v2](https://amzn.to/2KFtMZY) continues to add great value for the price and features it offers—I think everyone should have one as a cheap, spare camera.** Originally, I had a slightly negative opinion about this camera, but the slew of new features added in 2018 like continuous and extended event recording, local storage, and RTSP make it hard not to change my mind. If Wyze ever releases a high-quality camera at an affordable price, then I am on board.
 
 Despite using a cheap camera and hardware, Wyze engineers have figured out reasonable workarounds for previous issues like the max 12-second recording time, or the five minute cooldown periods between events. Viewing locally stored footage through your phone's cellular network is possible too! As long as you have a compatible micro SD card (and who doesn’t), the Wyze cam will get these features. [Homealarmreport.com](https://homealarmreport.com/using-wyze-cam-with-and-without-a-microsd-card/) offers a good, detailed breakdown of the features for those interested.
 

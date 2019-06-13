@@ -49,6 +49,7 @@ When testing voice control with lighting, I realized that the naming convention 
 ### Recommended Reading
 
 <ul class="alt">
+  <li><strong>Affiliate Link: </strong>Buy a <a href="https://store.google.com/us/product/google_home?hl=en-US">Google Home</a>, <a href="https://amzn.to/2WCTci1">Amazon Echo</a>, or <a href="https://www.apple.com/homepod/">Apple Homepod</a>.</li>
   <li>Set up Google routines tied to your alarm clock app from <a href="https://www.howtogeek.com/406742/how-to-set-up-routines-in-google-clock-on-android/">Howtogeek</a>.</li>
   <li><a href="https://www.home-assistant.io/components/homekit/">The Homekit component for Home Assistant</a> opens up the Homekit platform to many unsupported devices.</li>
   <li>Set up Google Assistant with <a href="https://support.smartthings.com/hc/en-us/articles/214837343-How-to-connect-Google-Assistant-with-SmartThings">SmartThings</a>, Home Assistant  with <a href="https://www.nabucasa.com/">the easy but paid way</a> or the <a href="https://www.home-assistant.io/components/google_assistant/">manual way</a>.</li>

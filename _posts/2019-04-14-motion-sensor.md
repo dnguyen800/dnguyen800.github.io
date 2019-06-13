@@ -51,7 +51,7 @@ I’ve tested a few motion sensors and I found a few that I like. All of them ha
 ### Recommended Reading
 
 <ul class="alt">
-  <li><strong>Affiliate link:</strong> Purchase the <a href="https://amzn.to/2ImGlID">Dome Z-Wave Plus motion sensor</a> on Amazon</li>
+  <li><strong>Affiliate link:</strong> Purchase the <a href="https://amzn.to/2WE1tgG">Dome Z-Wave Plus motion sensor</a> on Amazon</li>
   <li>Purchase the <a href="https://www.thesmartesthouse.com/products/zooz-z-wave-plus-motion-sensor-zse18-with-magnetic-base-battery-or-usb-power">Zooz ZSE18 motion sensor</a> from The Smartest House</li>
   <li> Find the <a href="https://www.ebay.com/sch/i.html?_from=R40&_trksid=m570.l1313&_nkw=ge+z-wave+motion+sensor&_sacat=0&LH_TitleDesc=0&_osacat=0&_odkw=ge+z-wave+motion">GE Z-Wave Plus motion sensor</a> on eBay</li>
   <li>Amazon search for <a href="https://www.amazon.com/s?k=z-wave+motion+sensor&ref=nb_sb_noss_2">Z-Wave motion sensors</a>.</li>
@@ -69,7 +69,7 @@ I’ve tested a few motion sensors and I found a few that I like. All of them ha
 
 ## Dome Home Automation Z-Wave Plus (DMMS1) sensor
 
-**My first motion sensor was the [Dome Home Automation Z-Wave Plus](https://amzn.to/2ImGlID) sensor ``(DMMS1)``, and I can say it is the most reliable motion sensor I used and repurchased over the years.** I use them in stairways, hallways, entrances—mainly low to medium traffic areas where I absolutely need the light to turn on. Walking down the stairs in the dark shouldn’t happen in a smart home and Dome motion sensors haven’t failed me in this regard.
+**My first motion sensor was the [Dome Home Automation Z-Wave Plus](https://amzn.to/2WE1tgG) sensor ``(DMMS1)``, and I can say it is the most reliable motion sensor I used and repurchased over the years.** I use them in stairways, hallways, entrances—mainly low to medium traffic areas where I absolutely need the light to turn on. Walking down the stairs in the dark shouldn’t happen in a smart home and Dome motion sensors haven’t failed me in this regard.
 
 The detection range is better than most sensors, with objects reliably detected at 30 feet, and even further using higher sensitivities (and likely more false positives). In the living room, I use one sensor to detect someone entering from the opposite end of the room—about 30 feet. With the magnetic circular design, I can aim the sensor at any angle, which is perfect for stairways.
 

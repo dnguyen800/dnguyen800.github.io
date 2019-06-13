@@ -53,7 +53,7 @@ The new lineup of media streaming devices continues to impress every year. With 
 ### Recommended reading
 
 <ul class="alt">
-  <li><strong>Affiliate link:</strong> Purchase the <a href="https://amzn.to/2XhNo9l">Roku Streaming Stick+</a>, or <a href="https://amzn.to/2XjoExH">Amazon Fire TV Stick 4k</a> on Amazon</li>
+  <li><strong>Affiliate link:</strong> Purchase the <a href="https://www.amazon.com/Google-H2G2-42-Chromecast-Ultra/dp/B0157OY5EA/ref=sr_1_3?keywords=google+chromecast&qid=1560377299&s=gateway&sr=8-3">Google Chromecast Ultra</a>, <a href="https://amzn.to/2X5vElj">Roku Streaming Stick+</a>, or <a href="https://amzn.to/2F9w3cm">Amazon Fire TV Stick 4k</a> on Amazon</li>
   <li>The Wirecutter’s Best Streaming Device <a href="https://thewirecutter.com/reviews/best-media-streamers/">Recommendation</a></li>
   <li>The <a href="https://www.home-assistant.io/components/cast/">Chromecast</a>, <a href="https://www.home-assistant.io/components/androidtv/">Fire TV/Android TV</a>, <a href="https://www.home-assistant.io/components/roku/">Roku</a> and  <a href="https://www.home-assistant.io/components/emulated_roku/">Emulated Roku</a> components for Home Assistant</li>
 </ul>
@@ -71,7 +71,7 @@ The Roku Ultra. <strong>|  Roku</strong>
 
 ## Roku
 
-**I recently switched over to the [Roku Streaming Stick+](https://amzn.to/2XhNo9l), and agree with the Wirecutter that it is the best media streaming device available today.** It supports both Google Assistant and Amazon Alexa, as well as Youtube TV and Amazon Prime Video—all without any workarounds. Normally when you try to be a jack of all trades, you end up being good at nothing. In this case, Roku ends up being good enough for my needs, and I haven’t found anything missing besides deeper integration with voice assistants. I just hope Google and Amazon don’t take away their respective apps from Roku and create a more segregated market.
+**I recently switched over to the [Roku Streaming Stick+](https://amzn.to/2X5vElj), and agree with the Wirecutter that it is the best media streaming device available today.** It supports both Google Assistant and Amazon Alexa, as well as Youtube TV and Amazon Prime Video—all without any workarounds. Normally when you try to be a jack of all trades, you end up being good at nothing. In this case, Roku ends up being good enough for my needs, and I haven’t found anything missing besides deeper integration with voice assistants. I just hope Google and Amazon don’t take away their respective apps from Roku and create a more segregated market.
 
 I find the Roku voice search function on the remote is much more useful with the ability to search for a title through multiple apps. I never purchase TV shows or movies, so I like Roku’s search function because it highlights the free or subscription options first. Google Assistant and Alexa are officially supported, though it is limited to opening apps, powering on TV or changing volume. Voice commands aren’t as deeply integrated at the application level, compared to the Fire TV or even the Chromecast.
 
@@ -170,7 +170,7 @@ There are so many subtle differences between these media devices worth noting--a
 
 ## Amazon Fire TV
 
-**With the feud between Amazon and Google now [over](https://arstechnica.com/gadgets/2019/04/amazon-and-google-settle-feud-bring-youtube-back-to-fire-tv-devices/) and Youtube and Youtube TV apps are coming to Fire TV in 2019, the [Amazon Fire TV Stick 4K](https://amzn.to/2J1mxKY) becomes the cheapest, high quality 4K streaming device available.** I recently purchased one for $30, and I'm happy to say that the user experience is comparable to my Roku recommendation, sans Youtube TV and a more annoying, ad-filled user interface. I still prefer Roku's cleaner interface, but the Fire TV Stick 4K is really good for the price.
+**With the feud between Amazon and Google now [over](https://arstechnica.com/gadgets/2019/04/amazon-and-google-settle-feud-bring-youtube-back-to-fire-tv-devices/) and Youtube and Youtube TV apps are coming to Fire TV in 2019, the [Amazon Fire TV Stick 4K](https://amzn.to/2F9w3cm) becomes the cheapest, high quality 4K streaming device available.** I recently purchased one for $30, and I'm happy to say that the user experience is comparable to my Roku recommendation, sans Youtube TV and a more annoying, ad-filled user interface. I still prefer Roku's cleaner interface, but the Fire TV Stick 4K is really good for the price.
 
 There are so many subtle differences between these media devices worth noting--as bullet lists, of course. 
 
@@ -271,7 +271,7 @@ The Chromecast Ultra. <strong>| Google</strong>
 
 ## Chromecast
 
-**Even though I use [Chromecast](https://www.bestbuy.com/site/google-chromecast-ultra-4k-streaming-media-player-black/5578628.p?skuId=5578628) in my home, I find it difficult to recommend as the sole media device in your home because it lacks a TV user interface and remote.** I believe most people want a remote to browse videos, so I recommend trying a Roku, Fire TV, or both Roku and Chromecast for these features. My roommates prefer to ignore the Chromecast altogether for the lack of a remote.
+**Even though I use [Chromecast](https://www.amazon.com/Google-H2G2-42-Chromecast-Ultra/dp/B0157OY5EA/ref=sr_1_3?keywords=google+chromecast&qid=1560377299&s=gateway&sr=8-3) in my home, I find it difficult to recommend as the sole media device in your home because it lacks a TV user interface and remote.** I believe most people want a remote to browse videos, so I recommend trying a Roku, Fire TV, or both Roku and Chromecast for these features. My roommates prefer to ignore the Chromecast altogether for the lack of a remote.
 
 I initially liked the Chromecast because it would show video thumbnails on Home Assistant when watching Hulu and Youtube. I thought this feature worked on all apps, but further testing shows the feature doesn’t work on Netflix, Plex, or anything else. Casting from a web browser works, unlike my experiences with Miracast. 
 
