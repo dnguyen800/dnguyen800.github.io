@@ -29,7 +29,7 @@ categories:
 The new lineup of media streaming devices continues to impress every year. With more features like 4K, voice control, and HDR added into physically smaller devices, I feel like I can constantly upgrade my old TV at a cheap price. Indeed, my 2015 Vizio TV is more useful with a Roku Streaming Stick+ so I no longer have to browse through a slow, ancient web interface. 
 
 <div class="box">
-	<p><i>Though media streaming devices are capable of impressive feats, I’ve found that the best TV watching experience lies with a high-end smart TV like the LG OLED series.  The gyroscopic remote controls make it as easy as possible for anyone to pick up a remote and intuitively browse through the TV’s wide selection of apps. The LG OLED TVs are really impressive, if you can afford it. See the <a href="{{ 'smart-tv.html' | absolute_url }}">Smart TV Section</a> to learn more.</i></p>
+	<p><i>Though media streaming devices are capable of impressive feats, I’ve found that the best TV watching experience lies with a high-end smart TV like the LG OLED series.  The gyroscopic remote controls make it as easy as possible for anyone to pick up a remote and intuitively browse through the TV’s wide selection of apps. The only downside I found is casting videos to the TV doesn't work if the TV is off. The LG OLED TVs are really impressive, if you can afford it. See the <a href="{{ 'smart-tv.html' | absolute_url }}">Smart TV Section</a> to learn more.</i></p>
 </div>
 
 
@@ -45,6 +45,7 @@ The new lineup of media streaming devices continues to impress every year. With 
 
 <ul class="alt">
   <li>Upgrade an outdated TV with new features like voice control, and a faster browsing experience.</li>
+  <li>These devices are always-on, meaning you can cast videos to them at any time. Some smart TVs don't have this feature and need to be powered on before casting.</li>
   <li>Use the Roku as a ghetto universal remote with <a href="https://www.home-assistant.io/components/roku/">Roku component</a> on Home Assistant.</li>
   <li>Integrated smart home automations, as nearly all devices are supported by Home Assistant.</li>
   <li>Move media streaming devices to different TVs.</li>

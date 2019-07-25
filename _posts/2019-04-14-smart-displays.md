@@ -40,11 +40,12 @@ For the right price, I would still prefer a smart display than a dedicated table
 
 <ul class="alt">
   <li>A dedicated voice assistant and a visual display for a photo frame, clock, weather.</li>
-  <li> A Chromecast device to cast videos and music.</li>
+  <li> A limited Chromecast device to cast videos and music.</li>
   <li>A digital photo frame that connects to Google Photos.</li>
   <li>Basic control of lighting—anything controllable with Google Assistant works here.</li>
   <li>A basic kitchen assistant/recipe display from the more popular food recipe sites.</li>
 </ul>
+
 
 ### Recommended reading
 
@@ -65,15 +66,19 @@ For the right price, I would still prefer a smart display than a dedicated table
 
 ## Lenovo Smart Display 10” with Google Assistant
 
-**The [Lenovo Smart Display](https://www.bestbuy.com/site/lenovo-10-smart-display-with-google-assistant-white-front-bamboo-back/6267024.p?skuId=6267024) was the first Google Assistant-powered smart display to be released, but with Google's recent pivot of Android Things platform, the future of the display looks grim.** Despite having some useful features like **``Chromecast Built-in``**, a quality display, speaker and microphones, web app support is limited and unlikely to come in the future. No developer is going to work on a platform for smart displays only when there are other platforms supporting a wider variety of devices.
+**The [Lenovo Smart Display](https://www.bestbuy.com/site/lenovo-10-smart-display-with-google-assistant-white-front-bamboo-back/6267024.p?skuId=6267024) was the first Google Assistant-powered smart display to be released, but with Google's recent pivot of Android Things platform, the future of the display looks grim.** Despite having some useful features like **``Chromecast Built-in``**, a quality display, speakers and microphones, web app support is limited and unlikely to come in the future. No developer is going to work on a platform for smart displays only when there are other platforms supporting a wider variety of devices.
 
 There have been some fire sales going on for this 10” display—selling for as low as $75, which is an excellent deal for a very nice digital photo frame and decent speakers. As long as you expect the Lenovo display to be a voice assistant and not much more, then the price is a steal for a fully functional Chromecast and Google Home speaker.  
 
-Even if the display doesn't get any new features in the future, I do like the existing features. Setting it up as a photo frame to display any Google Photo album is a great way to show off the beautiful 10" display. I regularly watch Youtube TV and Hulu on the display in my room as I work on this website. The microphone and speakers are of similar quality to the Google Home, which are not hi-fi at all but meet somewhere in the "good enough" category. There are times where I'm impressed the microphone heard what I said, but there are other days where I have to yell into the display.
+Even if the display doesn't get any new features in the future, I do like the existing features. Setting it up as a photo frame to display any Google Photo album is a great way to show off the beautiful 10" display. I regularly watch Youtube TV and Spotify on the display in my room as I work on this website. The microphone and speakers are of similar quality to the Google Home, which are not hi-fi at all but meet somewhere in the "good enough" category. There are times where I'm impressed the microphone heard what I said, but there are other days where I have to yell into the display.
 
 ### The Problems
 
-So when the display was first released in August 2018, Netflix and several other Chromecast functions didn't work. Then a few months later, Netflix was supported. But now (as of April 2019), they removed support again. Netflix is notoriously picky/political about supporting casting modes -- they recently removed Apple Airplay support as Apple is encroaching on their territory with Apple TV+. It's a shame as every other Chromecast-supported app works, and it makes me question the value of my pricey Netflix subscription.
+Not all Chromecast functions are available on the display. Casting the Chrome browser tab from a laptop or PC isn't available. I really loved this feature as it allowed me to broadcast virtually any playable video from my PC to a TV. It would have allowed me to use the display as a second screen for my laptop, but alas.
+
+
+
+The display doesn't work with Netflix and Hulu, though it used to work. When the display was first released in August 2018, Netflix and several other Chromecast functions didn't work. Then a few months later, Netflix was supported. But now (as of April 2019), they removed support again. Netflix is notoriously picky/political about supporting casting modes -- they recently removed Apple Airplay support as Apple is encroaching on their territory with Apple TV+. It's a shame as every other Chromecast-supported app works, and it makes me question the value of my pricey Netflix subscription.
 
 60 frames-per-second content from Youtube is playable, but sometimes there is a stutter every few seconds. It doesn't happen on every video, but it's noticeable when watching sports games or videogame playthroughs, but is fine with everything else. Maybe my internet bandwidth speed is the problem.
 
