@@ -126,9 +126,9 @@ Compatibility is not an issue as Philips Hue supports nearly every home automati
 	</div>
 	<div class="6u 12u$(medium)">
       <figure class="fourthtest">
-       <img src="assets/images/integrations/na.png"  />
+       <img src="assets/images/integrations/philips-hue-app.png"  />
        <figcaption>
-         <strong>Phlips Hue App: Good</strong><br>TBD
+         <strong>Phlips Hue App: Good</strong><br>Basic lighting and scenes functions. 
        </figcaption>
       </figure>
 	</div>

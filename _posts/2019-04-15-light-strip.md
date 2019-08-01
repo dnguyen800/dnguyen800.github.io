@@ -133,9 +133,9 @@ If you’re looking for a way to turn on the light by touch, then I would sugges
 	</div>
 	<div class="6u 12u$(medium)">
       <figure class="fourthtest">
-       <img src="assets/images/integrations/na.png"  />
+       <img src="assets/images/integrations/philips-hue-app.png"  />
        <figcaption>
-         <strong>Hue App: Great</strong><br>I never use the Hue app but it works.
+         <strong>Hue App: Good</strong><br>I never use the Hue app but it works.
        </figcaption>
       </figure>
 	</div>
