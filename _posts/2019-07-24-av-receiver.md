@@ -2,7 +2,7 @@
 layout: page
 title: AV Receivers
 short_title: av-receiver
-update: "<strong>July 24, 2019:</strong> Review: The Sony STR-DN1080 is capable, compatible with Home Assistant, and still sold at retailers today! I would get one if I needed it. "
+update: "<strong>July 24, 2019:</strong> Review: The Sony STR-DN1080 is capable, compatible with Home Assistant, and still sold at retailers today. I would get one if I needed it. "
 excerpt: "For the few who own a receiver, they will be happy to know receivers are incredibly easy to integrate into the smart home."
 permalink: /av-receiver
 competitors: "Onkyo, Pioneer, Sony, Denon, Yamaha, Marantz"

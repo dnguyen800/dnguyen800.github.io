@@ -171,7 +171,7 @@ Pairing these sensors with Home Assistant can get a little messy as it creates m
 <figure class="align-left">
        <img src="assets\images\product-photo\konnected.jpg" alt=""/>
        <figcaption>
-         <b>| Konnected</b>
+         The Konnected panel is available in 6 to 24 zone kits. <b>| Konnected</b>
        </figcaption>
 </figure>
 

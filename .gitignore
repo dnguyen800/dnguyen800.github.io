@@ -3,3 +3,4 @@ _site/
 .jekyll-metadata
 Gemfile.lock
 *.gem
+_posts/2019-06-03-presence-sensor.md

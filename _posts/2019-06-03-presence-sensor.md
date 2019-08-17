@@ -27,9 +27,9 @@ categories:
 
 ## What you need to know
 
-Presence detection is the ability to detect whether someone is in or out of a specified area, like home, at work, or school. Detection can be simple binary state (home/away) or complex (exact GPS coordinates) and usually relies on a mobile app or physical device—like a Tile tracker—to determine your location. I mainly use device trackers as another data point to enhance automations (e.g. if I arrive at home and open the door, then turn on the lights), and in a few scenarios, to unlock and lock doors. To me, a reliable device tracker is one that can detect when I am arriving home, right before I reach the door.
+Presence detection is the ability to detect whether someone is in or out of a specified area, like home, at work, or school. Presence can be represented as a binary state (home/away) or  as GPS coordinates and usually relies on a mobile app or physical device—like a Tile tracker—to determine your location. I mainly use device trackers as another data point to enhance automations (e.g. if I arrive at home and open the door, then turn on the lights), and in a few scenarios, to unlock and lock doors. To me, a reliable device tracker is one that can detect when I am arriving home, unlock the door right before I reach the door.
 
-It took some time to find a capable presence sensor that was timely enough to update before reaching the front door, but it exists!
+I haven't found the perfect presence sensor--yet. I want a non-intrusive ~.
 
 ### Considerations before adding a presence sensor
 
