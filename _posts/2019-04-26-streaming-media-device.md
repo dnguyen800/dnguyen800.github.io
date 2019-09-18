@@ -214,11 +214,11 @@ There are so many subtle differences between these media devices worth noting--a
 </ul>
 
 <div class="box">
-	<p><i>Here are some tips (for myself) when integrating Amazon Fire TV devices to Home Assistant.</p>
+	<i><p>Here are some tips (for myself) when integrating Amazon Fire TV devices to Home Assistant.</p>
     <ul><li>Make sure your PC is ADB disconnected from the Fire TV before using the ADB server add-on.</li>
 <li>Use the adb.exe file from Android Studio (located on C:\Users\Dan\AppData\Local\Android\sdk\platform-tools) to generate adb.key file. Other adb.exe files may not generate the private key.</li>
 <li>If you've tried everything and the FIre TV still doesn't connect, then in Fire TV settings Developer Options, disable ADB connection and re-enable.</li>
-</ul></i></p>
+</ul></i>
 </div>
 
 
