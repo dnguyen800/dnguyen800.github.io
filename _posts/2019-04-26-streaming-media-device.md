@@ -87,7 +87,7 @@ There are so many subtle differences between these media devices worth noting--a
 ### App support
 <ul class="fa-ul">
   <li><span class="fa-li" ><i class="fas fa-plus"></i></span>Roku is vendor-agnostic, and all major platforms are supported. Youtube, Youtube TV, Playstation Vue, Sling TV, Amazon Prime Video are all present. Don't expect Apple's streaming video service to come for a while, though.</li>
-  <li><span class="fa-li" ><i class="fas fa-plus</span>The mobile app replicates the remote, but also allows app switching, and browsing for video content, like a media service. The app also offers a cool feature where you can connect headphones to the phone and listen to the Roku audio using your phone.</li>  
+  <li><span class="fa-li" ><i class="fas fa-plus"></i></span>The mobile app replicates the remote, but also allows app switching, and browsing for video content, like a media service. The app also offers a cool feature where you can connect headphones to the phone and listen to the Roku audio using your phone.</li>  
 </ul>
 
 ### Voice Search and Control
@@ -213,12 +213,20 @@ There are so many subtle differences between these media devices worth noting--a
   <li><span class="fa-li" ><i class="fas fa-minus"></i></span>Play/pause state is not accurately reflected on most Fire TV apps, so lighting automations cannot rely on this information. As an alternative, you can detect if a Fire TV app is open. This is likely a bug and may be fixed in the future.</li>
 </ul>
 
+<div class="box">
+	<p><i>Here are some tips (for myself) when integrating Amazon Fire TV devices to Home Assistant.</p>
+    <ul><li>Make sure your PC is ADB disconnected from the Fire TV before using the ADB server add-on.</li>
+<li>Use the adb.exe file from Android Studio (located on C:\Users\Dan\AppData\Local\Android\sdk\platform-tools) to generate adb.key file. Other adb.exe files may not generate the private key.</li>
+<li>If you've tried everything and the FIre TV still doesn't connect, then in Fire TV settings Developer Options, disable ADB connection and re-enable.</li>
+</ul></i></p>
+</div>
+
 
 <div class="row">
 	<!-- Break -->
 	<div class="6u 12u$(medium)">
 	  <figure class="fourthtest">
-        <img src="assets/images/integrations/amazon-firetv4k-ha.png" />
+        <img src="assets/images/integrations/amazon-firetv4k-ha.PNG" />
         <figcaption>
           <strong>Home Assistant: Good</strong><br>Requires ADB Hass.io add-on, but easy to setup. Play/pause state is usually incorrect. Source names may be hard to decipher.
         </figcaption>
