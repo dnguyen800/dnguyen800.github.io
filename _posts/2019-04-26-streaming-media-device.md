@@ -169,13 +169,15 @@ There are so many subtle differences between these media devices worth noting--a
 
 ## Amazon Fire TV
 
-**With the feud between Amazon and Google now [over](https://arstechnica.com/gadgets/2019/04/amazon-and-google-settle-feud-bring-youtube-back-to-fire-tv-devices/) and Youtube and Youtube TV apps are coming to Fire TV in 2019, the [Amazon Fire TV Stick 4K](https://amzn.to/2F9w3cm) becomes the cheapest, high quality 4K streaming device available.** I recently purchased one for $25, and I'm happy to say that the user experience is comparable to my Roku recommendation, sans Youtube TV and a more annoying, ad-filled user interface. I still prefer Roku's cleaner interface, but the Fire TV Stick 4K is really good value for the price.
+**With the feud between Amazon and Google [over](https://arstechnica.com/gadgets/2019/04/amazon-and-google-settle-feud-bring-youtube-back-to-fire-tv-devices/) and Youtube and Youtube TV apps now available on Fire TV, the [Amazon Fire TV Stick 4K](https://amzn.to/2F9w3cm) becomes the cheapest, high quality 4K streaming device available.** I recently purchased one for $25, and I'm happy to say that the user experience is comparable to my Roku recommendation, sans Youtube TV and a more annoying, ad-filled user interface. I still prefer Roku's cleaner interface, but the Fire TV Stick 4K is a good value for the price.
 
-There are so many subtle differences between these media devices worth noting--as bullet lists, of course. 
+The worst thing about the Fire TV is the Home Assistant integration, which often breaks due to Fire TV updates. My Fire TV Stick frequently disconnects from Home Assistant (think every few seconds), making it unreliable for lighting automation. There are always people actively working on the integration, so maybe one day it will work properly.
+
+There are more subtle differences between these media devices worth noting below--as bullet lists, of course. 
 
 ### User interface
 <ul class="fa-ul">
-  <li><span class="fa-li" ><i class="fas fa-minus"></i></span>The Fire TV UI is barely acceptable with the sponsored ads and content always in your face. It takes a few additional seconds to navigate through to the content you want. </li>
+  <li><span class="fa-li" ><i class="fas fa-minus"></i></span>The Fire TV UI is barely acceptable with the sponsored ads and content that is always in your face. It takes a few additional seconds to navigate to the content you want. </li>
   <li><span class="fa-li" ><i class="fas fa-minus"></i></span>A Fire TV mobile app exists and is a fully functional remote but nothing more. You can launch apps from it too.</li>
 </ul>
 
@@ -209,15 +211,14 @@ There are so many subtle differences between these media devices worth noting--a
 ### Home Assistant Installation and Integration
 <ul class="fa-ul">
   <li><span class="fa-li" ><i class="fas fa-plus"></i></span>Media state (play/pause, app, Home menu) updates and media commands respond within one second on the Fire TV and Home Assistant. </li>
-  <li><span class="fa-li" ><i class="fas fa-minus"></i></span>Connecting Amazon Fire TV to Home Assistant is difficult compared to Roku and Chromecast. To get the component working, you must do the following: install Android Studio onto a PC, enable Developer mode and ADB debugging on the Fire TV, generate a private key by connecting to the Fire TV via ADB, copy adbkey file over to your Home Assistant instance, install and configure the ADB Hass.io add-on, add Fire TV using the <a href="https://www.home-assistant.io/components/androidtv/">Android TV component</a> to your configuration.yaml. That is about six lengthy steps compared to get it working, if you're lucky.</li>    
+  <li><span class="fa-li" ><i class="fas fa-minus"></i></span>Connecting an Amazon Fire TV to Home Assistant is very difficult compared to Roku and Chromecast. It is also unstable--the Home Assistant component breaks often and requires updates to continue working.  To get the component working, you must do the following: install Android Studio onto a PC, enable Developer mode and ADB debugging on the Fire TV, generate a private key by connecting to the Fire TV via ADB, copy adbkey file over to your Home Assistant instance, install and configure the ADB Hass.io add-on, add Fire TV using the <a href="https://www.home-assistant.io/components/androidtv/">Android TV component</a> to your configuration.yaml. That is about six lengthy steps compared to get it working, if you're lucky.</li>    
   <li><span class="fa-li" ><i class="fas fa-minus"></i></span>Play/pause state is not accurately reflected on most Fire TV apps, so lighting automations cannot rely on this information. As an alternative, you can detect if a Fire TV app is open. This is likely a bug and may be fixed in the future.</li>
 </ul>
 
 <div class="box">
 	<i><p>Here are some tips (for myself) when integrating Amazon Fire TV devices to Home Assistant.</p>
-    <ul><li>Make sure your PC is ADB disconnected from the Fire TV before using the ADB server add-on.</li>
-<li>Use the adb.exe file from Android Studio (located on C:\Users\Dan\AppData\Local\Android\sdk\platform-tools) to generate adb.key file. Other adb.exe files may not generate the private key.</li>
-<li>If you've tried everything and the FIre TV still doesn't connect, then in Fire TV settings Developer Options, disable ADB connection and re-enable.</li>
+    <ul><li>Use the latest Amazon Fire TV component by updating to the latest Home Assistant or find on the <a href="https://community.home-assistant.io/t/testers-needed-android-tv-fire-tv-key-generation/141498">forums.</a></li>
+<li>Don't use the ADB Server add-on with the component. It doesn't work well.</li>
 </ul></i>
 </div>
 
@@ -360,7 +361,6 @@ You've reached the final bullet list of this section! Enjoy.
 </div>
 
 <p></p>
-
 
 
 

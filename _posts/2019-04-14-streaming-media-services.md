@@ -50,7 +50,7 @@ I do want to acknowledge my music listening past (including the good and bad art
 
 <ul class="alt">
   <li>Home Assistant <a href="https://www.home-assistant.io/components/spotify/">Spotify</a> and <a href="https://www.home-assistant.io/components/plex/">Plex</a> components</li>
-  <li>Plex does not support <a href="https://forums.plex.tv/t/plex-stream-to-amazon-echo-groups-multiple-echo-devices-at-once/339113">multi-room audio</a> with Amazon Echo.</li>
+  <li>Plex does not support <a href="https://forums.plex.tv/t/plex-stream-to-amazon-echo-groups-multiple-echo-devices-at-once/339113">multi-room audio</a> with Amazon Echo speakers.</li>
   <li>Following the steps of the <a href="https://arstechnica.com/gadgets/2017/12/amazon-music-ends-mp3-upload-support-will-end-music-storage-service-in-2019/">Amazon Music shutdown</a>, Google Play Music will be <a href="https://arstechnica.com/gadgets/2018/05/youtube-music-will-replace-google-play-music-but-wont-kill-user-uploads/">shutting down</a> and replaced by Youtube Music.</li>
   <li>Plex Media Server <a href="https://community.home-assistant.io/t/community-hass-io-add-on-plex-media-server/54383">hass.io addon</a> if you want to run the server on a Raspberry Pi with Home Assistant. There are storage limitations as you cannot connect external devices to Hass.io.</li>
   <li>Phlex <a href="https://community.home-assistant.io/t/community-hass-io-add-on-phlex/70378">Hass.io addon</a> adds Google Assistant capabilities to Plex. Requires the <a href="https://github.com/d8ahazard/Cast.bundle">Cast.bundle</a> Plex addon to be installed.</li>
@@ -60,7 +60,6 @@ I do want to acknowledge my music listening past (including the good and bad art
 
 <!-- Product Review section -->
 <hr class="minor" />
-
 ![](assets\images\logo\spotify.png){:.image.dan-left}
 
 ## Spotify
@@ -78,15 +77,20 @@ Spotify supports all major multi-room audio formats: Chromecast Built-in, Amazon
 
 ### The Problems
 
-There are a few areas that Spotify falters: one is the lack of unofficial remixes and live sets that are somehow allowed on Youtube. The Spotify Windows app and Home Assistant cannot cast music to Chromecast speakers directly. You will need to use the mobile app, a voice assistant or web browser to do that. Amazon Echo and other speakers supporting Spotify Connect work, so this is likely an inherent limitation of Chromecast.
+There are a few areas that Spotify falters: one is the lack of unofficial remixes and live sets that are somehow allowed on Youtube. The Spotify Windows app cannot cast music to Chromecast speakers directly. You need to use the mobile app, a voice assistant or web browser to cast music. Amazon Echo and other speakers supporting Spotify Connect work on the Windows app, so this is likely an inherent limitation of Chromecast.
+
+<div class="box">
+    <p><i>With the custom <a href="https://github.com/fondberg/spotcast">Spotcast</a> component and <a href="https://github.com/custom-cards/spotify-card">Spotify-Card</a> by @fondberg, it is possible to play a Spotify playlist on an idle Chromecast speaker through Home Assistant. Personally, I use my <a href="https://github.com/dnguyen800/spotify-playlist-card">Spotify-Playlist-Card</i> to match with the Home Assistant dashboard.</p>
+</div>
+
 
 ### Installation and Smart Home Integration
 
-Connecting Spotify to Home Assistant requires creating a free Spotify Developer account and going through the steps to create a custom app. The main data you need is the Spotify client ID and secret. Don't forget to specify the redirect URI in the Spotify developer portal, otherwise authentication won't work.  Read the [Spotify](https://www.home-assistant.io/components/spotify/) component for more details.
+Connecting Spotify to Home Assistant requires a free Spotify Developer account and following the steps in the [Spotify/HA](https://www.home-assistant.io/components/spotify/) documentation to create a custom app.  Don't forget to specify the redirect URI in the Spotify developer portal, otherwise authentication won't work.
 
-Spotify is fully controllable in Home Assistant, though selecting a speaker source doesn’t work. I haven’t found a way to play Spotify to a Chromecast speaker using Home Assistant.
+Spotify is fully controllable in Home Assistant, though selecting a Chromecast speaker source doesn’t work. There is a workaround using the [Spotcast](https://github.com/fondberg/spotcast) custom component to call a specific song or playlist by Spotify URI. It's not perfect, but at least there is an option.
 
-Voice control works really well. I can ask to play a particular song, artist or one of my custom playlists on Spotify.
+Voice control through Google Assistant and Amazon Alexa works very well. I can ask to play a particular song, artist or one of my custom playlists on Spotify, though playing the right song is dependent on how well you enunciate the name.
 
 <div class="row">
 	<!-- Break -->
@@ -122,7 +126,7 @@ Voice control works really well. I can ask to play a particular song, artist or 
       <figure class="fourthtest">
        <img src="assets/images/integrations/spotify-app.png"  />
        <figcaption>
-         <strong>Spotify App: Great</strong><br>Very responsive, allows offline downloads, and is a consistent experience on all platforms.!
+         <strong>Spotify App: Great</strong><br>Very responsive, allows offline downloads, and is a consistent experience on all platforms.
        </figcaption>
       </figure>
 	</div>
@@ -131,7 +135,6 @@ Voice control works really well. I can ask to play a particular song, artist or 
 
 <!-- Product Review section -->
 <hr class="minor" />
-
 ![](assets\images\logo\plex.png){:.image.dan-left}
 
 ## Plex
@@ -149,16 +152,18 @@ Artist biographies in Plex. It’s fun to read about your favorite artists. Plex
 
 ### The Problems
 
-You will need a server or device running 24/7 to run the Plex Media Server. An Nvidia Shield TV or a spare laptop running Windows, Mac, or Linux make for excellent Plex servers. It’s possible to run Plex Media Server on a Raspberry Pi as a [Hass.io add-on](https://community.home-assistant.io/t/community-hass-io-add-on-plex-media-server/54383), but due to the restrictions of Hass.io and Docker, you can only store music on the SD card where Home Assistant is stored. I’m sure there is a way to connect a USB drive, but I’m not familiar with Docker to do so.
+You will need a server or single board computer (SBC) running 24/7 to run the Plex Media Server. An Nvidia Shield TV or a spare laptop running Windows, Mac, or Linux make for excellent Plex servers. It’s possible to run Plex Media Server on a Raspberry Pi as a [Hass.io add-on](https://community.home-assistant.io/t/community-hass-io-add-on-plex-media-server/54383), but due to the restrictions of HassOS, you can only store music on the SD card where Home Assistant is stored. 
+
+For the advanced users using Linux and Docker on a Raspberry Pi: access a mounted drive in the Plex add-on by installing the [docker-persist](https://github.com/MatchbookLab/local-persist) container, then use the [Portainer](https://github.com/hassio-addons/addon-portainer) add-on to add the drive as a persistent volume. The mount path should look something like `/media/username/usbmedia`. Modify the Plex add-on (in Portainer) and include the newly added volume. Make sure the drive is automounted on reboot, otherwise the Plex add-on cannot access the contents.
 
 Playing Plex videos on your phone requires the Plex Pass, but you can cast the video to a TV or another display to bypass the time limit.
 
 
 ### Installation and Smart Home Integration
 
-Music players don’t integrate with SmartThings—that’s expected by now. Home Assistant integrates with Plex but requires an authentication token to connect. I recommend using the temporary token outlined [here](https://forums.plex.tv/t/how-to-request-a-x-plex-token-token-for-your-app/84551) and see if that works for your needs. I don't use the Plex component since my Chromecast speakers can control playback, and Home Assistant integrates easily with Chromecast. After getting the token, any device running the Plex app is treated as a media player in Home Assistant.
+Most music players don’t integrate with SmartThings—that should be expected by now. As of Home Assistant version 0.100, a new Plex integration is added and authentication is handled via the official Plex account link feature. No more fiddling with temporary tokens outlined [here](https://forums.plex.tv/t/how-to-request-a-x-plex-token-token-for-your-app/84551)! 
 
-Voice control is more difficult to get working on Google Assistant, though I think Amazon Alexa has an official integration with Plex. Getting Assistant to work requires installing a Hass.io add-on called [Phlex](https://github.com/hassio-addons/addon-phlex/blob/v1.0.0/README.md) and [Cast.bundle](https://github.com/d8ahazard/Cast.bundle). It would take some time to install and test it, so I couldn't do it at the time of this writing.
+Voice control is more difficult to get working on Google Assistant, though I believe Amazon Alexa has an official integration with Plex. Getting Assistant to work requires installing a Hass.io add-on called [Phlex](https://github.com/hassio-addons/addon-phlex/blob/v1.0.0/README.md) and [Cast.bundle](https://github.com/d8ahazard/Cast.bundle). I was unsuccessful at installing this with the Plex Hass.io add-on, but it should work using the official Plex [Docker container](https://hub.docker.com/r/plexinc/pms-docker/).
 
 <figure class="align-center">
  <a class="image-link" href="assets\images\other\jriver-app.jpg" ><img src="assets\images\other\jriver-app.jpg" alt="" /></a>
@@ -167,7 +172,7 @@ Jriver Media Center has an extensible set of tools to clean up metadata and cove
  </figcaption>
 </figure>
 
-Before using Plex, I recommend cleaning up your music collection first. That means converting CDs to the FLAC lossless format, fixing any low-resolution cover art, standardizing artist and album names, fixing track numbers, and renaming files and folders. It’s a one-time effort to do over the weekend, but worth it to see the result—an immaculate, organized collection that is fun to browse through. I used [Jriver Media Center ](https://jriver.com/) to handle the CD ripping, metadata scraping, and file/folder renaming. A free 30-day trial is available, which should be enough time to perform the cleanup.
+Before using Plex, I recommend cleaning up your music collection first. That means converting CDs to the lossless format like FLAC, fixing any low-resolution cover art, standardizing artist and album names, fixing track numbers, and renaming files and folders. It’s a one-time effort to do over the weekend, but worth it to see the result—an immaculate, organized collection that is fun to browse through. I used [Jriver Media Center ](https://jriver.com/) to handle the CD ripping, metadata scraping, and file/folder renaming. A free 30-day trial is available, which should be enough time to perform the cleanup.
 
 
 <div class="row">
@@ -212,7 +217,6 @@ Before using Plex, I recommend cleaning up your music collection first. That mea
 
 <!-- Product Review section -->
 <hr class="minor" />
-
 ## The Competition
 
 
@@ -226,7 +230,6 @@ Before using Plex, I recommend cleaning up your music collection first. That mea
       <p><a href="https://play.google.com/music">Google Play Music</a> was my alternate method of playing my local music collection, but unfortunately it will be <a href="https://arstechnica.com/gadgets/2018/05/youtube-music-will-replace-google-play-music-but-wont-kill-user-uploads/">replaced by Youtube Music</a>. It's not technically playing music locally, as I first needed to upload my 80-gigabyte music collection to Google's servers and sync it thereafter. A Google Play agent application exists to monitor folders and upload new tracks. </p>
 
 <p>The Google Play Music mobile app works, though navigation is annoying as the app is constantly pointing you towards radio stations and some form of paid music subscription.</p>
-
 <p>There are limitations on the number of times you can download your entire collection and the number of devices you can stream your music from. Google is also replacing Google Play Music with Youtube Music, so it's likely the music storage option will go away as well. Amazon Music also canceled its local music service in 2019 so there aren't many options left besides local storage.</p>
    </div>
    <div class="6u$ 12u$(small)">
@@ -237,10 +240,9 @@ Before using Plex, I recommend cleaning up your music collection first. That mea
         </figcaption>
         </figure>
     	<h3>Volumio</h3>
-    	<p><a href="https://volumio.org/">Volumio</a> is a well polished, open-source music player with a big emphasis onHi-Fi audio, but lacks convenient features I needed. It is easy to flash a Volumio image onto an SD card. The default skin is very nice, and there's a Spotify plugin available to access Spotify music and local music in one interface. Chromecast support isn't available, though not impossible if someone were to create a plug-in.</p>
+    	<p><a href="https://volumio.org/">Volumio</a> is a well polished, open-source music player with a big emphasis on Hi-Fi audio, but lacks convenient features I needed. It is easy to flash a Volumio <a href="https://volumio.org/get-started/">image</a> onto an SD card. The default skin is very nice, and there's a Spotify plugin available to access Spotify music and local music in one interface. Chromecast support isn't available, though not impossible if someone were to create a plug-in.</p>
 
-<p>Volumio's navigation is pretty basic. There aren't any artist biographies, related music or artists -- it's not that fun to browse through music in Volumio as it only displays artist, album, and song names. At least a Volumio mobile app exists and looks professional. Home Assistant integration with Volumio exists and works well, though I'm not sure if the album cover art displays in Home Assistant.</p>
-
+<p>Volumio's navigation is pretty basic. There aren't any artist biographies, related music or artists to skim through. It's not fun browsing through music in Volumio as it only displays artist, album, and song names. At least the Volumio mobile app exists and looks professional. Home Assistant integration with Volumio exists and works well, though I'm not sure if the album cover art displays in Home Assistant.</p>
 <p>Volumio didn't fit my needs, but I still think it's a solid application that might be useful for others who want a high fidelity music solution in their smart home.</p>
    </div>
    <div class="6u$ 12u$(small)">
@@ -251,17 +253,15 @@ Before using Plex, I recommend cleaning up your music collection first. That mea
         </figcaption>
         </figure>
     	<h3>Mopidy</h3>
-    	<p>I used <a href="https://www.mopidy.com/">Mopidy</a> for some time before realizing Plex does everything I needed, but better. Out-of-the-box, Mopidy looks barebones but after adding the <a href="https://github.com/mopidy/mopidy-spotify">Spotify plugin</a> and the <a href="https://github.com/jaedb/Iris">Iris theme</a>, it looks like a professional music player.</p>
+    	<p>I used <a href="https://www.mopidy.com/">Mopidy</a> for some time before realizing Plex does everything I needed, but better. Out-of-the-box, Mopidy looks barebones but after adding the <a href="https://github.com/mopidy/mopidy-spotify">Spotify plugin</a> and the <a href="https://github.com/jaedb/Iris">Iris theme</a> by @jadeb, it looks like a professional music player app.</p>
 
 <p>There is a way to stream from Mopidy to Chromecast speakers, but the method I used added a 5-second delay before playback, reduced sound quality, and issues skipping songs, or playing a new song. Basically, Mopidy is streaming live audio output to an Ogg Vorbis file, and you send the URL of the file to the Chromecast to play. I followed a <a href="https://www.vittoriomonaco.de/home-automation-part-7.html">tutorial</a> by Vittorio Monaco to figure this out.</p>
-
 <p>For some reason, I never got the music to play through my web browser. It annoyed the heck out of me and made me give up on the platform.</p>
    </div>
 </div>
 
 <!-- Product Review section -->
 <hr class="major" />
-
 # Live TV Providers
 
 **Competitors in this space:** Youtube TV, Playstation Vue, Hulu Live, Sling TV, Philo, OTA local channels
@@ -303,7 +303,6 @@ There are a growing number of video streaming services that offer live local TV 
 
 <!-- Product Review section -->
 <hr class="minor" />
-
 ![](assets\images\logo\youtubetv.png){:.image.dan-left} 
 
 ## Youtube TV
@@ -374,7 +373,6 @@ Secondly, finding and favoriting TV shows should be easy, but the app separates 
 
 <!-- Product Review section -->
 <hr class="minor" />
-
 ## The Competition
 
 <div class="row">

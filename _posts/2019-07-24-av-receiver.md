@@ -66,11 +66,10 @@ A friend recently asked for AV receiver recommendations, which made me realize h
 
 <!-- Product Review section -->
 <hr class="major" />
-
 <figure class="align-left">
-  <img src="assets\images\product-photo\sony.png" alt=""/>
+  <img src="assets\images\product-photo\sony-strdn1080.jpg" alt=""/>
   <figcaption>
-    The Sony STR-DN1080, the current receiver to beat. <b>|  Sony</b>
+    The Sony STR-DN1080, the current receiver to beat. <strong>|  Sony</strong>
   </figcaption>
 </figure>
 
@@ -133,7 +132,6 @@ All media player functions in Home Assistant are supported, including: remote po
 
 <!-- Product Review section -->
 <hr class="major" />
-
 <figure class="align-left">
   <img src="assets\images\product-photo\onkyo.png" alt=""/>
   <figcaption>
@@ -191,7 +189,6 @@ In the AV receiver settings, be sure to turn off any power saving mode, and enab
 
 <!-- Competition section -->
 <hr class="minor" />
-
 <figure class="align-left">
   <img src="assets\images\product-photo\pioneer.png" alt=""/>
   <figcaption>
@@ -199,7 +196,6 @@ In the AV receiver settings, be sure to turn off any power saving mode, and enab
   </figcaption>
 </figure>
 <p></p>
-
 ## Pioneer Receivers
 
 As of 2014, Pioneer and Onkyo are effectively the same company! I tested the 2016 Pioneer VSX-1131 receiver and found out that it uses the [**``Onkyo Component``**](https://www.home-assistant.io/components/media_player.onkyo/) in Home Assistant, and thus provides full media control and responds instantly, just like my Onkyo receiver. Another plus is that this receiver can be powered on over Wi-Fi, which is not always true for every receiver. 
@@ -213,7 +209,6 @@ Pioneer's installation and smart home integration are exactly the same as the On
 
 <!-- Competition section -->
 <hr class="minor" />
-
 <figure class="align-left">
   <img src="assets\images\product-photo\denon-avr.jpg" alt=""/>
   <figcaption>
@@ -221,7 +216,6 @@ Pioneer's installation and smart home integration are exactly the same as the On
   </figcaption>
 </figure>
 <p></p>
-
 ## Denon Receivers
 
 I tested the Denon AVR-3808CI receiver (2007) which is due to it age, doesn't perform well as an integrated receiver in the smart home. It barely works with Home Assistant. I wouldn't knock Denon for not supporting a decade-old receiver--in fact, the new line of Denon HEOS AV receivers support Home Assistant, and Denon HEOS lead architect is actively [working](https://www.home-assistant.io/blog/2019/04/24/release-92/) with Home Assistant developers to integrate more features. I'm mainly reviewing this receiver for completion's sake.
@@ -280,7 +274,6 @@ With limited functionality in Home Assistant, voice assistant capabilities are a
 
 <!-- Competition section -->
 <hr class="minor" />
-
 ## Marantz Receivers
 
 I tested the Marantz M-CR510 (2013) network receiver, which uses the same Home Assistant [component](https://www.home-assistant.io/components/denonavr/) as some Denon receivers and supports the basic functions for home automation (remotely power on/off, change inputs and volume).  **If you can find a used one for cheap, the Marantz M-CR510 has enough features--like Spotify Connect, Apple Airplay, and Home Assistant support--to be useful in today's smart home, though I'd rather find a new receiver that supports Chromecast or Airplay2 in order to use multi-room audio.** I wished that this receiver could power a Chromecast Audio through the receiver's two USB ports, but the ports work only when the receiver is on. 

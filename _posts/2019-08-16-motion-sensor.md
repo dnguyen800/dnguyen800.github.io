@@ -2,7 +2,7 @@
 layout: page
 title: Motion Sensors
 short_title: motion-sensor
-update: "<strong>August 16, 2019:</strong> The Bosch Zigbee motion sensor is massive in size, but is cheap and it works. So buy one already!"
+update: "<strong>August 16, 2019:</strong> The Bosch Zigbee motion sensor is massive in size, but it is cheap and works. Buy one already!"
 competitors: "Dome, Zooz, Monoprice, SmartThings, Bosch, Ecolink, GE, Fibaro, Besense, Aeon Labs"
 permalink: /motion-sensor
 image: assets/images/overlay-ws/sensors.jpg
@@ -65,7 +65,6 @@ I’ve tested a few motion sensors and I found a few that I can recommend. Most 
 </ul>
 
 <hr class="major" />
-
 <figure class="align-left">
        <img src="assets\images\product-photo\dome-motion-sensor.jpg" alt=""/>
        <figcaption>
@@ -95,7 +94,6 @@ Right out of the box, Dome sensors can be paired with SmartThings and Home Assis
 Pairing in Home Assistant is messy, as the sensor adds motion and ambient light entities, and some other values I’m not sure what to do with, like **``Burglar``**, **``Alarm Level``**, and so on. Motion detected is represented as a number value, rather than a binary value, so you would need to create a [``template sensor``](https://www.home-assistant.io/components/template/) to simplify things.
 
 <hr class="major" />
-
 <figure class="align-left">
        <img src="assets\images\product-photo\bosch-motion.png" alt=""/>
        <figcaption>
@@ -126,7 +124,6 @@ The sensor works with Home Assistant (according to this [post](https://community
 
 <!-- Competition section -->
 <hr class="minor" />
-
 ## The Competition
 
 <div class="row">
@@ -139,10 +136,8 @@ The sensor works with Home Assistant (according to this [post](https://community
       <p>If a sensor only works 90% of the time, is it worth buying? <strong>The <a href="https://www.thesmartesthouse.com/products/zooz-z-wave-plus-motion-sensor-zse18-with-magnetic-base-battery-or-usb-power">Zooz Z-Wave Plus Motion Sensor</a> (ZSE18) is one of the cheapest motion sensors on the market ($20-23) but after testing for months and running into several issues, I can’t recommend these for any use.</strong>  With a reduced range (around 15-20ft) and less than 100% reliability, I can’t use the sensor in areas where I absolutely need the light to turn on, so I relegated it to less critical areas like the bedroom or office. If I could return them, I would and purchase some reliable sensors instead.</p>
 
 <p>Out of all that I’ve tested, this sensor’s design is my favorite. It uses a magnetic base like the Dome sensors, but has the micro-USB port accessible from the outside of the case. This lets me position the sensor in a way that doesn’t create tension on the cable and keep the sensor steady.</p>
-
 <h4>The Problems</h4>
 <p>My first batch of sensors turned out to be faulty—the default sensitivity settings were way too low to be useful in any scenario. Luckily, I received a replacement but the sensors continue to exhibit different issues. 10% of the time, the motion sensor reports active motion but remains as active indefinitely, which breaks my lighting automations and keeps the lights on. Once I walk by the sensor, it reports active motion again, though it has already been reporting active for several hours! The same issue happens with reporting inactive motion, though the issue is fixed by walking near the sensor and waking it up. My theory is that the sensor goes into sleep mode, but forgets to update status before doing so. It’s a frustrating hardware flaw that is unlikely to be fixed.</p>
-
 <h4>Installation and Smart Home Integration</h4>
 <p>Connecting to SmartThings is hit-or-miss for me. I’m never able to pair the sensor on the first try. I have also had to reconnect the sensor to SmartThings once a month, on average.</p>
    </div>
@@ -164,9 +159,7 @@ The sensor works with Home Assistant (according to this [post](https://community
        </figure>
 
 <p>I can vouch that the range is really good, around 35 to 40 feet. I use these sensors in the living room and dining room and it always detects motion as expected, whether in light or darkness. The response is not instant—I experience about a 1-2 second lag from detecting motion to turning on the light. If you’re running around the house in the dark, you will definitely outrun the light automations.</p>
-
 <p>This sensor works best on a level surface and can't be angled up or downwards easily, making it unsuitable for stairways.  Motion detection below the sensor's field of view is also limited, so it's best to place the sensor at a height above the waist. I think it is best used to detect presence in medium-size rooms, when placed on a shelf, side table or TV stand.</p>
-
 <h4>Installation and Smart Home Integration</h4>
 <p>Pairing in SmartThings is easy, but Home Assistant is a little more difficult as it creates five entities (though only one is useful) and spits out number values instead of an on/off value. I ended up creating a template sensor to simplify automations.</p>
    </div>
@@ -189,10 +182,8 @@ The sensor works with Home Assistant (according to this [post](https://community
       <p><strong>Ecobee thermostats come with room sensors that monitor temperature, but did you know that it can also be used as a motion sensor?</strong> I would never buy purchase <a href="https://amzn.to/2PDNrK2">Ecobee sensors</a> as dedicated motion sensors, but they are nice to have as secondary sensors to confirm if a room is truly empty.</p>
 
 <p>Some important info about the sensors: they can be used only if you have an Ecobee thermostat installed as it uses a proprietary method to communicate. The sensor’s battery can last for over a year using a single CR2032 battery—the same ones used in most car key fobs. </p>
-
 <h4>The Problems</h4>
 <p>Motion detection is not timely, at all. It takes more than several minutes to report occupancy, and an empty room. I couldn’t think of many useful automations using this as a motion sensor, except as additional confirmation that no one is present in a room. </p>
-
 <h4>Installation and Smart Home Integration</h4>
 <p>If you integrate the Ecobee thermostat with Smartthings or Home Assistant, then these sensors are automatically added to your setup. </p>
    </div>

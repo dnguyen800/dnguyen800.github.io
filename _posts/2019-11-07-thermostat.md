@@ -3,7 +3,7 @@ layout: page
 title: Thermostats
 short_title: thermostat
 excerpt: For the few times I actually used a smart thermostat, I couldn't imagine living without one.
-update: "<strong>May 9, 2019:</strong> Google announced the end of the <strong>Works With Nest</strong> program, so it is likely that all integrations will cease to function on August 31, 2019 until further notice. Super."
+update: "<strong>Nov 7, 2019:</strong> A workaround for Home Assistant was created to access Nest devices, despite Google ending the Nest Developer program."
 competitors: "Nest, Ecobee, Honeywell, Emerson"
 permalink: /thermostat
 image: assets/images/overlay-ws/thermostat.jpg
@@ -16,7 +16,7 @@ categories:
 
 <!--more-->
 
-##### Google and Nest recently announced the end of the **Works with Nest** program, meaning all existing integrations (such as SmartThings and Home Assistant) will stop functioning on August 31, 2019. As a result, I've changed my thermostat recommendation to [Ecobee](#ecobee-thermostats) as their official API is still available for SmartThings and Home Assistant integration.
+##### Google announced the end of the **Works with Nest** program, meaning all existing integrations (SmartThings and Home Assistant included) will stop functioning on August 31, 2019. As a result, I've changed my thermostat recommendation to [Ecobee](#ecobee-thermostats) as their official API is still available for SmartThings and Home Assistant integration. A workaround exists for Home Assistant using the  [Badnest](https://github.com/USA-RedDragon/badnest) custom component.
 
 #### I’ve personally tested the following:
 
@@ -68,7 +68,6 @@ Smart thermostats like Nest and Ecobee regularly go on sale so it’s easy to sn
 
 <!-- Product Review section -->
 <hr class="minor" />
-
 <figure class="align-left">
   <img src="assets\images\product-photo\ecobee-thermostat.png" alt=""/>
   <figcaption>
@@ -141,7 +140,6 @@ Like the Nest, the Ecobee comes with a wall plate to hide the hole or any visibl
 
 <!-- Product Review section -->
 <hr class="minor" />
-
 <figure class="align-left">
   <img src="assets\images\product-photo\nest-thermostat.png" alt=""/>
   <figcaption>
@@ -151,7 +149,7 @@ Like the Nest, the Ecobee comes with a wall plate to hide the hole or any visibl
 
 ## Nest Thermostats
 
-**Nest thermostats were my original recommendation, but Google announced it is ending the Developers for Nest program by August 31, 2019, which will break SmartThings and Home Assistant integration.** Though I actually never used the integration in any meaningful way, it was still nice to have indoor temperature data reported in Home Assistant. With Google's current approach to closing off its smart home ecosystem, I see no reason to continue recommending Nest when [Ecobee](#ecobee-thermostats) thermostats can do the same job. I just hope Ecobee doesn't follow the same path as Nest.
+**Nest thermostats were my original recommendation, but Google announced it is ending the Developers for Nest program by August 31, 2019, which will break SmartThings and Home Assistant integration.** Though I never used the integration in any meaningful way, it was still nice to have indoor temperature data reported in Home Assistant. With Google's current plans to close off its smart home ecosystem, I see no reason to continue recommending Nest when [Ecobee](#ecobee-thermostats) thermostats can do the same job. I just hope Ecobee doesn't follow the same path as Nest.
 
 **If you're fine controlling the thermostat through the app or voice control, then I recommend any smart thermostat currently on sale, which is usually the Nest E. It has all important features of the [Nest 3rd Gen](https://amzn.to/2IC72re), but regularly goes on sale for $130 or less.** Get the Nest 3rd Gen for $180 if you want a nicer looking, metal finish on your thermostat. Ecobees are just as good as Nest, so there is no wrong choice here.
 
@@ -159,7 +157,9 @@ Honestly, there is not much to rave or complain about -- the Nest is what you ex
 
 ### The Problems
 
-There aren't any major problems with Nest, but the **Home/Away Assist** feature can be very slow to detect presence changes. I've compared Nest times to actual times (tracked with Home Assistant) and have seen hour-long gaps in detection. I've also arrived home to see that the Nest cameras remained on (should be off when someone is home) and the thermostat not adjusted. If you want to come home to a warm house, the most reliable way is to use the Nest app before heading home.
+Google ended the **Developers for Nest** program, meaning it is not possible (through conventional ways) to control the thermostat to a home automation platform like Home Assistant or SmartThings. A workaround exists for Home Assistant using the [Badnest](https://github.com/USA-RedDragon/badnest) custom component, but it uses an unadvertised web API that could be shut down in the future.
+
+There aren't any major problems with Nest, but the **Home/Away Assist** feature can be very slow to detect changes in location. I've compared Nest times to actual times (tracked with Home Assistant) and have seen hour-long gaps in detection. I've also arrived home to see that the Nest cameras remained on (should be off when someone is home) and the thermostat not adjusted. If you want to come home to a warm house, the most reliable way is to use the Nest app before heading home.
 
 ### Installation and Smart Home Integration
 
@@ -167,13 +167,9 @@ Physical installation is not difficult, but you need to use the [Nest compatibil
 
 Nest thermostats come with a wall plate to cover the gaping hole left by the previous thermostat. How nice!
 
-**Nest integrations with SmartThings and Home Assistant will break after August 31, 2019, due to the end of the Developers for Nest program.** There may be workarounds, but functionality may be limited.
+**Nest integrations with SmartThings and Home Assistant will break after August 31, 2019, due to the end of the Developers for Nest program.** A workaround exists for Home Assistant with the [Badnest](https://github.com/USA-RedDragon/badnest) custom component, but it uses an unadvertised web API that could be shut down in the future.
 
-Connecting the Nest to SmartThings uses an unofficial SmartApp called [NST Manager](https://community.smartthings.com/t/release-nst-manager-v5-0/83228). It's not difficult to set up, but requires creating a Nest developer account and using the SmartThings developer portal to add a SmartApp. As an unofficial integration, it's quite impressive to have the thermostat and Nest cameras working in SmartThings. Kudos to the community for imp
-
-The **Home/Away Assist** feature on the Nest app is not timely, so the other option you have is to use voice control, say, in the car driving home, to warm up the house before you arrive. 
-
-Very rarely do I need to change the temperature, so home automation integration is not all that important to me. I find that using the app is the most convenient way to fiddle with the thermostat. But it is very easy to connect the Nest to Home Assistant. SmartThings requires the installation of a device handler, but that’s not too hard.
+Very rarely do I need to change the temperature, so home automation integration is not all that important to me. I find that using the app is the most convenient way to fiddle with the thermostat. 
 
 
 
@@ -218,5 +214,4 @@ Very rarely do I need to change the temperature, so home automation integration 
 	</div>
 </div>
 <p></p>
-
 
