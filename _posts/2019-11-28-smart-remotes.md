@@ -122,7 +122,7 @@ There are several ways to get the remote commands into Home Assistant: learn com
 	<!-- Break -->
 	<div class="6u 12u$(medium)">
 	  <figure class="fourthtest">
-        <img src="assets/images/integrations/ecobee-ha.png" />
+        <img src="assets/images/integrations/broadlink-ha.png" />
         <figcaption>
           <strong>Home Assistant: Good</strong><br>Requires an Ecobee developer account, then add the API key to the HA config. Has full functionality in HA.        </figcaption>
       </figure>
@@ -131,7 +131,7 @@ There are several ways to get the remote commands into Home Assistant: learn com
       <figure class="fourthtest">
        <img src="assets/images/integrations/google-home.png" />
        <figcaption>
-         <strong>Voice: Great</strong><br>Officially supports Google Assistant. I rarely used it though!
+         <strong>Voice: Average</strong><br>Officially supports Google Assistant. I rarely used it though!
        </figcaption>
       </figure>
 	</div>
@@ -141,15 +141,15 @@ There are several ways to get the remote commands into Home Assistant: learn com
 	<!-- Break -->
 	<div class="6u 12u$(medium)">
       <figure class="fourthtest">
-      <img src="assets/images/integrations/ecobee-st.png" />
+      <img src="assets/images/integrations/not-available.png" />
       <figcaption>
-      <strong>SmartThings: Great</strong><br> Officially supports SmartThings, easy to set up.
+      <strong>SmartThings: N/A</strong><br> Integration doesn't exist.
       </figcaption>
       </figure>
 	</div>
 	<div class="6u 12u$(medium)">
       <figure class="fourthtest">
-       <img src="assets/images/integrations/ecobee-app.png"  />
+       <img src="assets/images/integrations/broadlink-app.png"  />
        <figcaption>
          <strong>Ecobee App: Great</strong><br> It's simple and easy to use.
        </figcaption>
@@ -167,9 +167,11 @@ There are several ways to get the remote commands into Home Assistant: learn com
   </figcaption>
 </figure>
 
-## Nest Thermostats
+## Logitech Harmony
 
 **Nest thermostats were my original recommendation, but Google announced it is ending the Developers for Nest program by August 31, 2019, which will break SmartThings and Home Assistant integration.** Though I never used the integration in any meaningful way, it was still nice to have indoor temperature data reported in Home Assistant. With Google's current plans to close off its smart home ecosystem, I see no reason to continue recommending Nest when [Ecobee](#ecobee-thermostats) thermostats can do the same job. I just hope Ecobee doesn't follow the same path as Nest.
+
+<show pic of all supported devices
 
 **If you're fine controlling the thermostat through the app or voice control, then I recommend any smart thermostat currently on sale, which is usually the Nest E. It has all important features of the [Nest 3rd Gen](https://amzn.to/2IC72re), but regularly goes on sale for $130 or less.** Get the Nest 3rd Gen for $180 if you want a nicer looking, metal finish on your thermostat. Ecobees are just as good as Nest, so there is no wrong choice here.
 
