@@ -18,7 +18,7 @@ categories:
 
 I try not to over-prepare for my travels so I don't restrict myself to a set itinerary, but there are some necessary preparations to avoid ruining your trip (especially international ones).
 
-This is a guide I wrote for myself initially, but I thought it would useful to share with others. You'll find similar guidance on other websites, but it doesn't hurt to repeat!
+Initially, I wrote this guide for myself but thought it would useful to share with others. You'll find similar guidance on other websites but it doesn't hurt to repeat!
 
 ## Preparations 6 to 12 months in advance
 
@@ -26,7 +26,7 @@ This is a guide I wrote for myself initially, but I thought it would useful to s
 
 Make sure your passport is at least 9 months active before the date of your flight. If you are traveling for more than six months, you should have at least a year's worth of time before expiration. If at any time during your travels your passport is within six months of expiration, it's possible you will be denied boarding a flight. It happens, trust me.
 
-Renew your passport ASAP because you cannot apply for a visa without submitting your passport.  You're also supposed to sign your passport somewhere.
+Renew your passport **ASAP** because you cannot apply for a visa without submitting your passport.  You're also supposed to sign your passport.
 
 <div class="box">
 	<p>Tip: You don't have to pay the $15 for a passport photo at a FedEx Office. There are plenty of mobile apps that will help you take passport-compliant photos that you can print for 50 cents at a Wal-mart or drug store. You just need a white background and a friend to help take the photo.</p>
@@ -34,7 +34,7 @@ Renew your passport ASAP because you cannot apply for a visa without submitting 
 
 ### 2. Identify required travel visas and apply
 
-Russia, Vietnam, Bolivia require travel visas. Some countries require registration months in advance, and others allow for visa registrations when arriving in the country. You may also need to submit your passport with the application.  I would guess all visa applications require proof of residence, so book a hostel using [Hostelworld](https://www.hostelworld.com/) and include the e-mail confirmation as part of your application.
+Russia, Vietnam and Bolivia require travel visas. Some countries require registration months in advance, and others allow for visa registrations when arriving in the country. You may also need to submit your passport with the application.  I would guess all visa applications require proof of residence, so book a hostel using [Hostelworld](https://www.hostelworld.com/) and include the e-mail confirmation as part of your application.
 
 I watched a friend apply for a Bolivian visa at the border between Chile and Bolivia, and it was an unnecessarily chaotic experience. They wanted $160 US dollars, in crisp, unbent bills, and so my friend had to ask people in line to exchange bills with him. It didn't help that the armed guards were waving their rifles and yelling at him, an unarmed foreigner. 
 
@@ -62,7 +62,7 @@ And go get your flu vaccine now if you haven't already. Why do you want to get t
 
 ![image](assets\images\logo\schwab.png){:.image.dan-left}
 
-If you're in the U.S., there are several excellent and free debit and credit options to choose from. For debit card/ATM, I think the [Charles Schwab checking account](https://www.schwab.com/public/schwab/banking_lending/checking_account) is the best. It is completely free--no annual fee, no minimum balance, no ATM fees, and the exchange rates closely matches the rates listed on [XE](https://www.xe.com/currencyconverter/). The travelers I met were surprised I didn't have to worry about finding the ATMs with the lowest fees. The only downside is that you have to open a Schwab brokerage account (also free), and getting the debit card can take a few weeks, in my experience. 
+If you're in the U.S., there are several excellent and free debit and credit options to choose from. For debit card/ATM, I think the [Charles Schwab checking account](https://www.schwab.com/public/schwab/banking_lending/checking_account) is the best debit card. It is completely free--no annual fee, no minimum balance, no ATM fees, and the exchange rates closely matches the rates listed on [XE](https://www.xe.com/currencyconverter/). The travelers I met were surprised I didn't have to worry about finding the ATMs with the lowest fees. The only downside is that you have to open a Schwab brokerage account (also free), and getting the debit card can take a few weeks, in my experience. 
 
 ![image](assets\images\logo\chase-sapphire.png){:.image.dan-left}
 
@@ -100,7 +100,7 @@ If hiking in rainy conditions:
 > - Waterproof backpack covers (so many people I met had these!) 
 > - Energy chews
 > - Collapsible hiking stick.
-> - Pain medication(Tylenol, aspirin) for intense hikes
+> - Pain medication (Tylenol, aspirin) for intense hikes
 > - Water-proof or resistant shoes. Gore-Tex hiking shoes
 - swimming trunks (if you're visiting a country with hot springs, bring them)
 
@@ -115,7 +115,7 @@ Don't speak Japanese? No problem! Use American Express services to help book res
 
 ### 3. Learn the basics of the country's language
 
-If you're pressed for time, I've found that learning numbers and phrases involving greetings, getting directions, and ordering food have been the most useful for me. Words like **this**, **that**, **want**, **pronouns**, are helpful when combined with the technique of finger-pointing.  Basically, learn enough of the language so you can order food at a restaurant, buy goods at a store, and follow directions. You will feel like a pro when you start 
+If you're pressed for time, I've found that learning numbers and phrases involving greetings, getting directions, and ordering food have been the most useful for me. Words like **this**, **that**, **want**, **pronouns**, are helpful when combined with the technique of finger-pointing.  Basically, learn enough of the language so you can order food at a restaurant, buy goods at a store, and follow directions. You will feel like a pro when you start your trip.
 
 As a backup measure, download the [Google Translate](https://play.google.com/store/apps/details?id=com.google.android.apps.translate&hl=en_US) app on your phone and any offline languages. The app works great with an internet connection, but can still work offline.
 
@@ -125,7 +125,7 @@ I haven't had good experience learning with the [Duolingo](https://play.google.c
 
 If you're traveling for over a month, consider looking into travel insurance. I used [World Nomads](https://www.worldnomads.com/travel-insurance/), per recommendation I heard from others. I didn't have to use it, luckily, but I've heard from other travelers who have had good experiences using travel insurance.
 
-A friend had her iPad stolen on a bus, and travel insurance actually covered the replacement cost of it.
+A friend had her iPad stolen on a bus, and the travel insurance actually covered the replacement cost of it.
 
 ### 5. Look into international phone plans, preferably free or cheap
 
@@ -139,13 +139,13 @@ Google Fi offers high speed data in over 200+ countries for just $10/GB. They re
 
 If you refuse to pay for any data, then at least download map data from Google Maps or other offline maps so you're not completely lost when taking public transportation.
 
-In Japan and Korea, you can rent a portable Wi-Fi hotspot from the airport and share with your friends. Sometimes the Airbnb you stay at will provide a portable hotspot/router you can use, but the speed is usually slow.
+In Japan and Korea, you can rent a portable Wi-Fi hotspot from the airport and share with your friends. Sometimes the Airbnb you stay at will provide a portable hotspot/router you can use, but the speed is usually slow, like 3G slow..
 
 ### 6. Think about donating old clothing, toys, electronics
 
-Another way to donate and still travel lightly is to donate your clothing and electronics near the end of your trip. Tthe extra space saved in your luggage can be used for the souvenirs you will undoubtedly collect during your trip. 
+Another way to do some good and travel lightly is to donate your clothing and electronics near the end of your trip. The extra space saved in your luggage can be used for the souvenirs you will undoubtedly collect during your trip. 
 
-For those returning home, some international airports have stations to donate loose change--a smart idea considering you're not likely to use that change any time soon.
+For those returning home, some international airports have stations to donate loose change--it's a smart idea considering you're not likely to use that change any time soon.
 
 A friend I met travelling in Peru brought duffel bags of clothing, toys and games to donate to a nearby village in the rainforest. I wasn't able to do this as I was on a long-term journey, but I'll definitely remember to do it the next time I'm travelling for a short international trip.
 
@@ -158,7 +158,7 @@ In case of emergency, I usually bring $200 of brand new, unfolded U.S. currency.
 
 ### 2. Download offline maps to your phone
 
-Google Maps was useful for me, and if they don't cover the areas you're visiting, then Mapsme is another offline maps app I've seen travelers use.
+**Google Maps** was useful for me, and if they don't cover the areas you're visiting, then **Mapsme** is another offline maps app I've seen travelers use.
 
 ### 3. Take phone photos, photo copies and scans of your passport, ID, credit cards and store at home and in your luggage.
 

@@ -81,7 +81,7 @@ I have a confession to make: I only purchased the Ecobee4 instead of a Nest ther
 
 **And lo and behold, the [Ecobee](https://amzn.to/2IJpXAu) is just as good as the Nest but is better in a few ways.** Ecobee officially supports the SmartThings platform and is easy to set up with both SmartThings and Home Assistant. Nest is disallowing outside control of its thermostats after August 31, 2019, making Ecobee the most widely known Wi-Fi thermostat that still supports integrations. The Ecobee also includes room sensors, which can also act as really slow room occupancy sensors. In a large house where temperature varies greatly, I can see this being useful, but not a must-have. 
 
-Both the Ecobee 3 and Ecobee 4 are still available for sale. The only difference I noted was the inclusion of Amazon Alexa on the Ecobee 4, which I found to be a useless feature. The location of my thermostats are in low traffic areas (hallways, stairs), and there was rarely a time when I needed Alexa to do something while standing in the hallway. If I do, I end up yelling and the wrong Echo speaker picks up my request. So I'm still unsure why I paid extra money for this feature.
+Both the Ecobee 3 and Ecobee 4 are still available for sale. The only difference I noted was the inclusion of Amazon Alexa on the Ecobee 4, which I found to be a useless feature. The location of my thermostats are in low traffic areas (hallways, stairs), and there was rarely a time when I needed Alexa to answer a question while standing in the hallway. If I did use it, I ended up yelling while the wrong Echo speaker responded. I'm still unsure why I paid extra money for this feature.
 
 ### The problems
 
@@ -214,4 +214,3 @@ Very rarely do I need to change the temperature, so home automation integration 
 	</div>
 </div>
 <p></p>
-
