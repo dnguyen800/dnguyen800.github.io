@@ -27,7 +27,7 @@ categories:
 
 Devices like fans, air conditioners, and older media devices are operable only through physical buttons or remote. While somewhat elegant solutions exist to physical push buttons remotely (see [Switchbot](https://www.switch-bot.com/)), a better solution exists for remote-controlled devices: smart remotes. It functions like a universal remote hub but the addition of Wi-Fi allows for remote control of the hub and remotes using smartphone apps, voice control and Home Assistant, as well as the ability to access an online database of remote codes. The remote database is especially useful if you no longer have the original remote to learn commands from.
 
-It is unfortunate that a smart remote cannot compare against a real smart media device that can report its current state (on/off, input) to Home Assistant. A smart remote doesn't know if a TV is already powered on or what its current input is. That information is necessary for useful automations, though there are workarounds. The smart remote may just be a glorified universal remote, but it is still a useful an inexpensive way to add more control to your smart home.
+It is unfortunate that a smart remote cannot compare against a real smart media device that can report its current state (on/off, input) to Home Assistant. A smart remote doesn't know if a TV is already powered on or the current video input. That information is necessary for useful automations, though there are workarounds (explained later). The smart remote may be a glorified universal remote, but it is still a useful an inexpensive way to add more control to your smart home.
 
 If you're thinking about what items can be controlled with a smart remote, here are some examples:
 
@@ -42,9 +42,9 @@ If you're thinking about what items can be controlled with a smart remote, here 
 ### Considerations Before Buying A Smart Remote
 
 <ul class="alt">
-  <li><strong>Identify which your devices use infrared (IR), radio frequency (RF), Wi-Fi or bluetooth remotes.</strong> This matters if you are deciding between buying a Broadlink RM Mini3 (IR only), RM Pro (RF & IR) or Logitech Harmony Companion (supports all of the above).</li>
-  <li>While there are a slew of Logitech Harmony and Elite products, I think most people need only the <a href="https://amzn.to/2XuEk2h">Logitech Harmony Companion.</a></li>
-  <li>Check the <a href="https://support.myharmony.com/en-us/compatibility">Logitech Harmony compatibility list</a> or one of many incomplete crowd-sourced remote code databases like <a href="https://github.com/probonopd/irdb">IRDB</a> for compatibility with your remote.</li>
+  <li><strong>Identify which of your devices use infrared (IR), radio frequency (RF), Wi-Fi or bluetooth remotes.</strong> This matters if you are deciding between buying a Broadlink RM Mini3 (IR only), RM Pro (RF & IR) or Logitech Harmony Companion (supports all of the above).</li>
+  <li>While there are a slew of Logitech Harmony and Elite products, I think most people need only the <a href="https://amzn.to/2XuEk2h">Logitech Harmony Companion to connect to Home Assistant.</a></li>
+  <li>Check the <a href="https://support.myharmony.com/en-us/compatibility">Logitech Harmony compatibility list</a> or one of many incomplete crowd-sourced remote code databases, such as <a href="https://github.com/probonopd/irdb">IRDB</a>, for compatibility with your remote.</li>
 </ul>
 
 
@@ -68,15 +68,15 @@ If you're thinking about what items can be controlled with a smart remote, here 
 <!-- Product Review section -->
 <hr class="minor" />
 <figure class="align-left">
-  <img src="assets\images\product-photo\ecobee-thermostat.png" alt=""/>
+  <img src="assets\images\product-photo\broadlink-mini3.png" alt=""/>
   <figcaption>
-    The Ecobee4. <strong>| Ecobee</strong>
+    The Broadlink RM Mini3. <strong>| Broadlink</strong>
   </figcaption>
 </figure>
 
 ## Broadlink RM Mini3
 
-**I shouldn't highlight the Broadlink RM Mini3 as the first review, but everyone needs to know that the [Broadlink RM Mini3](https://amzn.to/2pxbima) is simply not good.** It is the most difficult product to install because the mobile app (the primary method of installation) fails to connect to the Mini3 and complete setup. If a company can't get the setup process right, that doesn't bode well for the rest of the product. Granted, there haven't been any issues after setup, but the frustration I experienced to get to the Mini3 to a working state is something I refuse to go through again. The only positive for the RM Mini3 is the cheap price ($15 on eBay), which is why I only recommend the Mini3 to tech enthusiasts who like to test their patience with the crappiest of products. 
+**I shouldn't highlight the Broadlink RM Mini3 as the first review, but everyone needs to know that the [Broadlink RM Mini3](https://amzn.to/2pxbima) is simply not good.** It is the most difficult product to install because the mobile app (the primary method of installation) fails to connect to the Mini3 and complete setup. If a company can't get the setup process right, that doesn't bode well for the rest of the product. Granted, I haven't had any issues after setup, but the frustration I experienced to get to the Mini3 to a working state is something I refuse to go through again. The only positive for the RM Mini3 is the cheap price ($15 on eBay), which is why I only recommend the Mini3 to tech enthusiasts who like to test their patience with the crappiest of products. 
 
 Of all the cheap, Chinese branded smart remotes, Broadlink is the most supported platform. I see Home Assistant forum users in Europe and South America regularly talking about Broadlink integration. The company also sells the more expensive RM Pro+, which supports RF remotes (older TVs and set-top boxes use it), but I went for the IR-only RM Mini3 because all of my remotes are infrared. I don't recommend buying the RM Pro+ because for a few more dollars more, you are better off purchasing the superior Logitech Harmony hub. 
 
@@ -98,7 +98,7 @@ If you want to avoid using a Chinese app that is potentially taking your persona
 
 After connecting the Mini3 to the Wi-Fi network, you can use the IHC app and search for your remotes in Broadlink's closed-source database, though finding a remote doesn't mean that all remote commands are included. Luckily, learning commands from a physical remote is easy with a few button presses on the app and remote.  
 
-Stopping here gets you a functional universal remote app with limited voice control. To get the most out of the Mini3, we need to integrate with Home Assistant.
+Stopping here gets you a functional universal remote app with limited voice control. But to get the most out of the Mini3, we need to integrate it with Home Assistant.
 
 A [Broadlink component](https://www.home-assistant.io/integrations/broadlink/) for Home Assistant exists, but is one of the more difficult integrations to set up. You need the IP and MAC address of the Mini3--which can be found in your network router's settings or an Android app like [Fing](https://play.google.com/store/apps/details?id=com.overlook.android.fing). A typical configuration for a Broadlink switch in Home Assistant looks something like this:
 
@@ -124,14 +124,14 @@ There are several ways to get the remote commands into Home Assistant: learn com
 	  <figure class="fourthtest">
         <img src="assets/images/integrations/broadlink-ha.png" />
         <figcaption>
-          <strong>Home Assistant: Good</strong><br>Requires an Ecobee developer account, then add the API key to the HA config. Has full functionality in HA.        </figcaption>
+          <strong>Home Assistant: Poor</strong><br>The existing component and add-on is difficult to configure.</figcaption>
       </figure>
 	</div>
 	<div class="6u 12u$(medium)">
       <figure class="fourthtest">
        <img src="assets/images/integrations/google-home.png" />
        <figcaption>
-         <strong>Voice: Average</strong><br>Officially supports Google Assistant. I rarely used it though!
+         <strong>Voice: Average</strong><br>More functionality available using HA >> Google Assistant integration
        </figcaption>
       </figure>
 	</div>
@@ -141,7 +141,7 @@ There are several ways to get the remote commands into Home Assistant: learn com
 	<!-- Break -->
 	<div class="6u 12u$(medium)">
       <figure class="fourthtest">
-      <img src="assets/images/integrations/not-available.png" />
+      <img src="assets/images/integrations/not_available.png" />
       <figcaption>
       <strong>SmartThings: N/A</strong><br> Integration doesn't exist.
       </figcaption>
@@ -151,7 +151,7 @@ There are several ways to get the remote commands into Home Assistant: learn com
       <figure class="fourthtest">
        <img src="assets/images/integrations/broadlink-app.png"  />
        <figcaption>
-         <strong>Ecobee App: Great</strong><br> It's simple and easy to use.
+         <strong>Broadlink iHC App: Poor</strong><br> Extremely difficult setup process. Works fine afterwards.
        </figcaption>
       </figure>
 	</div>
@@ -161,47 +161,65 @@ There are several ways to get the remote commands into Home Assistant: learn com
 <!-- Product Review section -->
 <hr class="minor" />
 <figure class="align-left">
-  <img src="assets\images\product-photo\nest-thermostat.png" alt=""/>
+  <img src="assets\images\product-photo\logitech-harmony.png" alt=""/>
   <figcaption>
-    The Nest 3rd Gen <strong>| Alphabet, Inc.</strong>
+    The Logitech Harmony Companion.<strong>| Logitech</strong>
   </figcaption>
 </figure>
 
 ## Logitech Harmony
 
-**Nest thermostats were my original recommendation, but Google announced it is ending the Developers for Nest program by August 31, 2019, which will break SmartThings and Home Assistant integration.** Though I never used the integration in any meaningful way, it was still nice to have indoor temperature data reported in Home Assistant. With Google's current plans to close off its smart home ecosystem, I see no reason to continue recommending Nest when [Ecobee](#ecobee-thermostats) thermostats can do the same job. I just hope Ecobee doesn't follow the same path as Nest.
+**If you need a smart remote in your setup, then I recommend the [Logitech Harmony Companion](https://amzn.to/2VqmcWs) and ONLY this model.** It includes a physical remote and the Harmony hub, which is all you need to connect to Home Assistant and gain much more functionality. I do not recommend the Harmony Ultimate, Elite, Express, or the Pro because you are paying for a remote with a fancy LCD screen and not much else. I recommend the Harmony because it is easy to set up and use with the mobile app, and the integration with Home Assistant is almost effortless. For a detailed review, see the [Wirecutters' recommendation](https://thewirecutter.com/reviews/the-best-universal-remote-control/) for the Logitech Harmony Companion.
 
-<show pic of all supported devices
+<figure class="align-center">
+ <a class="image-link" href="assets\images\other\harmony-support.png" ><img src="assets\images\other\harmony-support.png" alt=""/></a>
+ <figcaption>
+Logitech Harmony supports a surprising number of media devices.
+ </figcaption>
+</figure>
 
-**If you're fine controlling the thermostat through the app or voice control, then I recommend any smart thermostat currently on sale, which is usually the Nest E. It has all important features of the [Nest 3rd Gen](https://amzn.to/2IC72re), but regularly goes on sale for $130 or less.** Get the Nest 3rd Gen for $180 if you want a nicer looking, metal finish on your thermostat. Ecobees are just as good as Nest, so there is no wrong choice here.
 
-Honestly, there is not much to rave or complain about -- the Nest is what you expect out of a smart thermostat. The Nest app is straightforward to use, and according to [this security study](https://www.tomsguide.com/us/smart-home-leaky-apps,news-29319.html) of smart home apps, Nest is one of the few apps that encrypts communication between the thermostat and Nest app, even when on the same local network. 
+Even though the Logitech Harmony hub is approaching five years of age (a lifetime in the tech gadget world), it continues to support a surprising number of modern devices, like the Apple TV, Fire TV, and Roku devices. Part of this support can be attributed to (paid) contractual agreements with those companies, but the decision to include bluetooth and Wi-Fi device control in the first generation of Harmony devices is the reason why the Harmony is still useful today. As a bonus, the hub features IR extenders to reach devices hidden behind media consoles or TV stands. Logitech has thought of every use case for media centers and has a solution ready.
+
+If you need another reason why the Logitech Harmony hub is worth the extra $40, then look no further than the mobile app. Despite not explicitly supporting 5ghz and Wi-Fi mesh networks, I had no issues connecting the Harmony hub to my Google Wifi network. The mobile app is intuitive to use and Logitech's remote database is likely the most comprehensive, closed-source database in existence. I've searched the database and found remote codes that every media device I've used in the past five years.
 
 ### The Problems
 
-Google ended the **Developers for Nest** program, meaning it is not possible (through conventional ways) to control the thermostat to a home automation platform like Home Assistant or SmartThings. A workaround exists for Home Assistant using the [Badnest](https://github.com/USA-RedDragon/badnest) custom component, but it uses an unadvertised web API that could be shut down in the future.
+On December 2018, Logitech removed support for the local XMPP API from the Harmony hub, which broke integration with Home Assistant and other home automation platforms. After some [deserved backlash](https://www.home-assistant.io/blog/2018/12/17/logitech-harmony-removes-local-api/), Logitech partially reversed their decision by offering a firmware that re-enables XMPP API and promised to continue supporting XMPP API for local control only. This event serves as a reminder that companies may attempt to take away control from customers if it interferes with their business objectives (like Nest and Google).
 
-There aren't any major problems with Nest, but the **Home/Away Assist** feature can be very slow to detect changes in location. I've compared Nest times to actual times (tracked with Home Assistant) and have seen hour-long gaps in detection. I've also arrived home to see that the Nest cameras remained on (should be off when someone is home) and the thermostat not adjusted. If you want to come home to a warm house, the most reliable way is to use the Nest app before heading home.
+All smart remotes suffer from the inability to tell whether a device is already powered on. So unless you and your family commit to using only the Logitech remote, there will be issues where the Logitech physical remote is programmed for the wrong use. Think about it this way: if you turn on the Playstation 4 and TV using the controller and the Harmony was previously used to watch cable TV, then the Logitech physical remote is set to control the cable box, not the Playstation 4. This inconvenience can be fixed by running the Harmony activity again, but then makes the experience more manual than automated.
 
 ### Installation and Smart Home Integration
 
-Physical installation is not difficult, but you need to use the [Nest compatibility checker]("https://nest.com/works/) if your home’s existing wiring is compatible. I had to call tech support once because there were more wires in my existing installation than what was covered in the installation guide. Physical installation requires some basic do-it-yourself **DIY** skills like drilling holes and handling of electrical wires.
+Connecting the Harmony hub to the Wi-Fi network is easily handled through the Harmony mobile app. I've connected the hub to Wi-Fi mesh networks without issue. Setting up remote control of media devices in the Harmony app is just as easy, with the upside that all registered devices and Harmony activities are transferable to Home Assistant.
 
-Nest thermostats come with a wall plate to cover the gaping hole left by the previous thermostat. How nice!
+The [Harmony component](https://www.home-assistant.io/integrations/harmony/) in Home Assistant takes less than 30 minutes to set up and start sending remote commands. All that is required in the configuration is the static IP address of the Harmony hub, like so:
 
-**Nest integrations with SmartThings and Home Assistant will break after August 31, 2019, due to the end of the Developers for Nest program.** A workaround exists for Home Assistant with the [Badnest](https://github.com/USA-RedDragon/badnest) custom component, but it uses an unadvertised web API that could be shut down in the future.
+```
+remote:
+  - platform: harmony
+    name: Bedroom
+    host: 10.168.1.13
+```
 
-Very rarely do I need to change the temperature, so home automation integration is not all that important to me. I find that using the app is the most convenient way to fiddle with the thermostat. 
+Home Assistant connects to the Harmony hub and spits out an XML-formatted file (called harmony_hub_name.conf ) that lists every Harmony activity and command for every device configured on the hub. By using the Home Assistant remote.send_command or remote.turn_on service with the command or activity name listed in the .conf file, Home Assistant commands the Logitech Harmony hub to send a remote command to turn on the TV. I use button-card Lovelace card to create a clean-looking media center dashboard, where I can watch TV with the press of a button.
 
+<figure class="align-center">
+ <a class="image-link" href="assets\images\other\homeassistant-media02.jpg" ><img src="assets\images\other\homeassistant-media02.jpg" alt=""/></a>
+ <figcaption>
+My Home Assistant media dashboard, powered by Logitech Harmony. It's basically a fancy universal remote on a tablet.
+ </figcaption>
+</figure>
 
+I mentioned there are workarounds for smart remotes to detect the state of media devices. For network-connected TVs that aren't supported by Home Assistant, I connect the TV to the Wi-Fi network, set a static IP address and use the Home Assistant `[ping](https://www.home-assistant.io/integrations/ping/)` sensor. State detection is accurate within 30 seconds, which is the scan interval I set. 
 
 <div class="row">
 	<!-- Break -->
 	<div class="6u 12u$(medium)">
 	  <figure class="fourthtest">
-        <img src="assets/images/integrations/nest-thermostat-ha.png" />
+        <img src="assets/images/integrations/logitech-harmony-ha.png" />
         <figcaption>
-          <strong>Home Assistant: Bad</strong><br>It works now, but integration will stop working after August 31, 2019.
+          <strong>Home Assistant: Great</strong><br>Use a custom Lovelace Remote card to put a Harmony remote on your dashboard!
         </figcaption>
       </figure>
 	</div>
@@ -220,7 +238,7 @@ Very rarely do I need to change the temperature, so home automation integration 
 	<!-- Break -->
 	<div class="6u 12u$(medium)">
       <figure class="fourthtest">
-      <img src="assets/images/integrations/nest-thermostat-st.png" />
+      <img src="assets/images/integrations/logitech-harmony-st.png" />
       <figcaption>
       <strong>SmartThings: Bad</strong><br> Works now, but integration will stop working after August 31, 2019.
       </figcaption>
@@ -228,9 +246,9 @@ Very rarely do I need to change the temperature, so home automation integration 
 	</div>
 	<div class="6u 12u$(medium)">
       <figure class="fourthtest">
-       <img src="assets/images/integrations/nest-thermostat-app.png"  />
+       <img src="assets/images/integrations/logitech-harmony-app.png"  />
        <figcaption>
-         <strong>Nest App: Great</strong><br> Simple, easy-to-use.
+         <strong>Harmony App: Great</strong><br> Intuitive to use, but offers advanced configurations.
        </figcaption>
       </figure>
 	</div>
