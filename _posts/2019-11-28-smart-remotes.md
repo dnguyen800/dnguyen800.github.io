@@ -1,11 +1,11 @@
 ---
 layout: page
 title: Smart Remotes
-short_title: smart_remotes
+short_title: smart-remotes
 excerpt: A slightly smarter universal remote
 update: "<strong>Nov 28, 2019:</strong> I reviewed the best (Logitech Harmony) and worst (Broadlink) smart remotes!"
 competitors: "Logitech Harmony, Broadlink"
-permalink: /smart_remote
+permalink: /smart-remotes
 image: assets/images/overlay-ws/smart-remote.jpg
 image_credit: Dan Nguyen
 categories: 
@@ -124,7 +124,7 @@ There are several ways to get the remote commands into Home Assistant: learn com
 	  <figure class="fourthtest">
         <img src="assets/images/integrations/broadlink-ha.png" />
         <figcaption>
-          <strong>Home Assistant: Poor</strong><br>The existing component and add-on is difficult to configure.</figcaption>
+          <strong>Home Assistant: Poor</strong><br>The existing component and add-on is difficult to configure. Every command is treated as a switch.</figcaption>
       </figure>
 	</div>
 	<div class="6u 12u$(medium)">
@@ -171,14 +171,6 @@ There are several ways to get the remote commands into Home Assistant: learn com
 
 **If you need a smart remote in your setup, then I recommend the [Logitech Harmony Companion](https://amzn.to/2VqmcWs) and ONLY this model.** It includes a physical remote and the Harmony hub, which is all you need to connect to Home Assistant and gain much more functionality. I do not recommend the Harmony Ultimate, Elite, Express, or the Pro because you are paying for a remote with a fancy LCD screen and not much else. I recommend the Harmony because it is easy to set up and use with the mobile app, and the integration with Home Assistant is almost effortless. For a detailed review, see the [Wirecutters' recommendation](https://thewirecutter.com/reviews/the-best-universal-remote-control/) for the Logitech Harmony Companion.
 
-<figure class="align-center">
- <a class="image-link" href="assets\images\other\harmony-support.png" ><img src="assets\images\other\harmony-support.png" alt=""/></a>
- <figcaption>
-Logitech Harmony supports a surprising number of media devices.
- </figcaption>
-</figure>
-
-
 Even though the Logitech Harmony hub is approaching five years of age (a lifetime in the tech gadget world), it continues to support a surprising number of modern devices, like the Apple TV, Fire TV, and Roku devices. Part of this support can be attributed to (paid) contractual agreements with those companies, but the decision to include bluetooth and Wi-Fi device control in the first generation of Harmony devices is the reason why the Harmony is still useful today. As a bonus, the hub features IR extenders to reach devices hidden behind media consoles or TV stands. Logitech has thought of every use case for media centers and has a solution ready.
 
 If you need another reason why the Logitech Harmony hub is worth the extra $40, then look no further than the mobile app. Despite not explicitly supporting 5ghz and Wi-Fi mesh networks, I had no issues connecting the Harmony hub to my Google Wifi network. The mobile app is intuitive to use and Logitech's remote database is likely the most comprehensive, closed-source database in existence. I've searched the database and found remote codes that every media device I've used in the past five years.
@@ -211,7 +203,7 @@ My Home Assistant media dashboard, powered by Logitech Harmony. It's basically a
  </figcaption>
 </figure>
 
-I mentioned there are workarounds for smart remotes to detect the state of media devices. For network-connected TVs that aren't supported by Home Assistant, I connect the TV to the Wi-Fi network, set a static IP address and use the Home Assistant `[ping](https://www.home-assistant.io/integrations/ping/)` sensor. State detection is accurate within 30 seconds, which is the scan interval I set. 
+I mentioned there are workarounds for smart remotes to detect the state of media devices. For network-connected TVs that aren't supported by Home Assistant, I connect the TV to the Wi-Fi network, set a static IP address and use the Home Assistant [`ping`](https://www.home-assistant.io/integrations/ping/) sensor. State detection is accurate within 30 seconds, which is the scan interval I set. 
 
 <div class="row">
 	<!-- Break -->
@@ -240,7 +232,7 @@ I mentioned there are workarounds for smart remotes to detect the state of media
       <figure class="fourthtest">
       <img src="assets/images/integrations/logitech-harmony-st.png" />
       <figcaption>
-      <strong>SmartThings: Bad</strong><br> Works now, but integration will stop working after August 31, 2019.
+      <strong>SmartThings: Okay</strong><br> Only Harmony activities are supported in ST.
       </figcaption>
       </figure>
 	</div>
@@ -248,7 +240,7 @@ I mentioned there are workarounds for smart remotes to detect the state of media
       <figure class="fourthtest">
        <img src="assets/images/integrations/logitech-harmony-app.png"  />
        <figcaption>
-         <strong>Harmony App: Great</strong><br> Intuitive to use, but offers advanced configurations.
+         <strong>Harmony App: Great</strong><br> Intuitive to use, but also offers advanced configurations like input delay.
        </figcaption>
       </figure>
 	</div>
