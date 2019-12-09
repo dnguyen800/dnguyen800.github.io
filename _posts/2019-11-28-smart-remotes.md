@@ -240,7 +240,7 @@ I mentioned there are workarounds for smart remotes to detect the state of media
       <figure class="fourthtest">
        <img src="assets/images/integrations/logitech-harmony-app.png"  />
        <figcaption>
-         <strong>Harmony App: Great</strong><br> Intuitive to use, but also offers advanced configurations like input delay.
+         <strong>Harmony App: Great</strong><br> Intuitive to use, but fully customizable. Can add any button to the virtual remote screen.
        </figcaption>
       </figure>
 	</div>
