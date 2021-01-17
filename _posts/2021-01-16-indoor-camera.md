@@ -4,6 +4,7 @@ title: Indoor Cameras
 short_title: indoor-camera
 excerpt: With a security camera, you are one step closer to being a paranoid old man.
 competitors: "Nest, Ring, Wyze, Arlo, Blink, Laview, D-Link, Hikvision, Xiaomi, Simplisafe, Abode, Canary"
+update: "<strong>Jan 17, 2021:</strong>First update in two years!  I reviewed the Wyze Cam Pan, which is not worth it!!"
 permalink: /indoor-camera
 image: assets/images/overlay-ws/indoor-camera.jpg
 image_credit: Warner Bros.
@@ -65,7 +66,6 @@ There is a good selection of cameras at different price ranges. My recommendatio
 
 <!-- Product Review section -->
 <hr class="major" />
-
 <figure class="align-left">
  <img src="assets\images\product-photo\nest-indoor.jpg" alt=""/>
  <figcaption>
@@ -149,10 +149,8 @@ You're better off using the Nest app than trying to do something useful with the
 
 <p></p>
 
-
 <!-- Product Review section -->
 <hr class="major" />
-
 <figure class="align-left">
  <img src="assets\images\product-photo\wyze.jpg" alt=""/>
  <figcaption>
@@ -198,7 +196,6 @@ Google Assistant integration is coming to Wyze, but it's currently in beta. I su
 
 <!-- Product Review section -->
 <hr class="major" />
-
 <figure class="align-left">
  <img src="assets\images\product-photo\wyze-cam-pan.jpg" alt=""/>
  <figcaption>
