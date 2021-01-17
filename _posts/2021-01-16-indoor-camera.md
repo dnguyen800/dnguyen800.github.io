@@ -207,10 +207,10 @@ Google Assistant integration is coming to Wyze, but it's currently in beta. I su
 
 **The Wyze Cam Pan is essentially the same as the v2, including all of its faults, except with panning controls.** Here is my short review.
 
-The panning controls technically work only through the Wyze app. The camera is not ONVIF compatible so panning controls are not usable in any other app or Home Assistant.
+The panning controls technically work, but only through the Wyze app. The camera is not ONVIF-compatible so panning controls are not usable in any other app or Home Assistant.
 
-The automated tracking feature is garbage. The camera will contstantly spin left and right, failing to focus on the object in motion. In the end, you get some blurry camera footage.
+The automated tracking feature is garbage. The camera will contstantly spin left and right, failing to focus on the object in motion. In the end, you get some blurry camera footage. I tested this by watching a puppy in his play area, which the camera's field of view already covered the area, but it would still pan left and right constantly.
 
-THe camera feels really big. There are newer cameras from Amcrest and Eufy that are smaller and (hopefully) better.
+The camera feels really tall. There are newer cameras from Amcrest and Eufy that are 1" shorter and (hopefully) better.
 
 I paid an extra $10 for manual panning controls. Not worth it.
