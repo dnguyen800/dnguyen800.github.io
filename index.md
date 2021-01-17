@@ -41,7 +41,7 @@ layout: default
 		<h2>Latest Updates</h2>
 	</header>
 	<div class="posts">
-	{% for post in site.posts limit:3 %}
+	{% for post in site.posts limit:4 %}
 		<article>
 			<div class="article-image" style='background-image: url("{{ site.baseurl }}/assets/images/grid-ws2/{{ post.short_title }}.jpg");'>
 				<div class="overlay"><a href="{{ site.baseurl }}{{ post.url }}">
